@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Mar 06 21:12:49 2014
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Web Edition
+Revision Name : UnidadeDeControle
+Top-level Entity Name : UnidadeDeControle
+Family : Cyclone III
+Device : EP3C25F256I7
+Timing Models : Final
+Total logic elements : 37 / 24,624 ( < 1 % )
+    Total combinational functions : 26 / 24,624 ( < 1 % )
+    Dedicated logic registers : 33 / 24,624 ( < 1 % )
+Total registers : 33
+Total pins : 30 / 157 ( 19 % )
+Total virtual pins : 0
+Total memory bits : 0 / 608,256 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

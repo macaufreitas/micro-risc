@@ -1,0 +1,95 @@
+library ieee;
+library work;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+use ieee.numeric_std.all;
+
+--package
+use work.procmem_definitions.all;
+
+entity ALU is
+	port 
+	(
+		-- inputs
+		signal clock	           : in  std_logic;
+		signal ctrl			        : in  std_logic_vector(2 downto 0);
+		signal carryIn            : in  std_logic;
+		signal dataA			     : in  std_logic_vector((width-1) downto 0);
+		signal dataB			     : in  std_logic_vector((width-1) downto 0);
+		signal habALU			     : in  std_logic;
+		-- outputs
+		signal carryOut		     : out std_logic;
+		signal zero			        : out std_logic;
+		signal result             : out std_logic_vector((width-1) downto 0)
+	);
+end ALU;
+
+architecture behav of ALU is
+
+	type op_type is (op_add,op_a_or_b,op_addCarry,op_subCarry,
+						  op_sub,op_a_xor_b,op_nop);
+						  
+	signal enum_op : op_type;
+   signal reg       : std_logic_vector(16 downto 0);
+	signal regZero   : std_logic;
+	signal regA,regB : std_logic_vector(15 downto 0);
+
+begin
+
+	process(ctrl)
+   begin
+		if(habALU = '1') then
+			case ctrl is
+				when "000" => enum_op <= op_add;
+				when "001" => enum_op <= op_a_or_b;
+				when "010" => enum_op <= op_addCarry;
+				when "011" => enum_op <= op_subCarry;
+				when "100" => enum_op <= op_sub;
+				when "101" => enum_op <= op_a_xor_b;
+				when others => enum_op <= op_nop;
+			end case;
+		end if;
+   end process;
+
+   process(clock)
+   begin
+      if (rising_edge(clock) and (habALU = '1')) then
+			regA <= dataA;
+			regB <= dataB;
+         case enum_op is
+         when op_add          => reg <= ('0' & regA) + regB;
+         when op_a_or_b       => reg <= '0' & (regA or regB);
+         when op_addCarry     => reg <= ('0' & regA) + regB + carryIn;
+         when op_subCarry     => reg <= ('0' & regA) - regB - carryIn;
+         when op_sub          => reg <= ('0' & regA) - regB;
+         when op_a_xor_b      => reg <= '0' & (regA xor regB);
+         when op_nop          => reg(width) <= '0';
+			end case;
+      end if;
+   end process;
+	
+	process(reg)
+	begin
+		if (reg = "00000000000000000") then
+			regZero <= '1';
+		else
+			regZero <= '0';
+		end if;
+	end process;
+	
+--	process()
+--	begin
+--		regA <= dataA;
+--	end process;
+--	
+--	process(dataB)
+--	begin
+--		regB <= dataB;
+--	end process;
+
+   result   <= reg((width-1) downto 0);
+   carryOut <= reg(width);
+	zero     <= regZero;
+	
+end behav;

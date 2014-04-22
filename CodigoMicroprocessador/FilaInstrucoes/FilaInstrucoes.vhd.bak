@@ -1,0 +1,14 @@
+--------------------------------------------------------------------------------------
+----------- Codigo que implementa a Fila de Instrucoes do Microprocessador -----------
+--------------------------------------------------------------------------------------
+
+-------- Bibliotecas e Pacotes -------
+library ieee;
+use ieee.std_logic_1164.all;
+--------------------------------------
+
+entity FilaInstrucoes is
+	port (
+		
+	);
+end FilaInstrucoes;

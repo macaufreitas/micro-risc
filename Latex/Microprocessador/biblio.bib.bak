@@ -1,0 +1,107 @@
+@Book{Avtar,
+	author = {Walter A. Triebel e Avtar Singh},
+	title = {The 8088 and 8086 Microprocessors, Programming, Interfacing, Software, Hardware, and 	Applications},
+	publisher = {Pearson},
+	year = {1947},
+	address = {Upper Saddle River, New Jersey, Columbus, Ohio}
+}
+
+@Book{praticasMicro,
+	author = {Felício B. Monteiro e Ignácio Sérgio M. Ferreira},
+	title = {Práticas com Microprocessadores},
+	volume = {I}
+}
+
+@Unpublished{Microprocessadores,
+  author = 	 {Microprocessadores},
+  title = 	 {Microprocessadores},
+  note = 	 {http://pt.kioskea.net/contents/pc/processeur.php3},
+  Month =    {Agosto},
+  year = 	 {2013}
+}
+
+@Book{IntroductionMicro,
+ author = {Sydney B. Newell},
+ title = {Introduction to Microcomputing},
+ publisher = {John Wiley and Sons, Inc.},
+ year = {1989}
+}
+
+@Unpublished{MicroInternal,
+  author = 	 {Angeloleithold},
+  title = 	 {Internal Integrated Circuit},
+  note = 	 {http://pt.wikipedia.org/wiki/Ficheiro:InternalIntegratedCircuit2.JPG},
+  Month =    {Dezembro},
+  year = 	 {2004}
+}
+
+@Unpublished{ielm,
+  author = 	 {IELM - Department of Industrial Engineering and Logistics Management},
+  title = 	 {Lecture 7: Microprocessor Structure, Assembly Programming},
+  note = 	 {http://www.ielm.ust.hk/dfaculty/ajay/courses/alp/ieem110/lecs/mup/mup.html},
+  Month =    {Agosto},
+  year = 	 {2013}
+}
+
+@Unpublished{techopediaProc,
+  author = 	 {Techopedia},
+  title = 	 {Processor Register},
+  note = 	 {http://www.techopedia.com/definition/27596/processor-register},
+  Month =    {Agosto},
+  year = 	 {2013}
+}
+
+@Unpublished{techopediaALU,
+  author = 	 {Techopedia},
+  title = 	 {Arithmetic Logic Unit (ALU)},
+  note = 	 {http://www.techopedia.com/definition/2849/arithmetic-logic-unit-alu},
+  Month =    {Agosto},
+  year = 	 {2013}
+}
+
+@Unpublished{ufpbHardware,
+  author = 	 {Prof. Msc. Raimundo de Gouveia Nóbrega Filho},
+  title = 	 {Fundamentos de hardware},
+  note = 	 {http://www.di.ufpb.br/raimundo/ArqDI/Arq5.htm},
+  Month =    {Agosto},
+  year = 	 {2013}
+}
+
+@Book{ComputerOrg,
+ author = {David A. Patterson, John L. Hennessy},
+ title = {Computer Organization and Design, The Hardware/Software Interface},
+ publisher = {Elsevier},
+ year = {2005},
+ address = {Oxford, Reino Unido}
+}
+
+@Unpublished{CISC,
+  author = 	 {CISC},
+  title = 	 {CISC},
+  note = 	 {http://www.laynetworks.com/CISC.htm},
+  Month =    {Agosto},
+  year = 	 {2013}
+}
+
+@Unpublished{pucMicro,
+  author = 	 {PUC-Rio},
+  title = 	 {PUC-Rio},
+  note = 	 {http://tcs.eng.br/PUC/plog/sd11-Microprogramacao.pdf},
+  Month =    {Agosto},
+  year = 	 {2013}
+}
+
+@Book{memoriacache,
+ author = {David Tarnoff},
+ title = {Computer Organization and Design Fundamentals},
+ publisher = {Lulu.com},
+ year = {2007}
+}
+
+@Unpublished{intelMulticore,
+  author = 	 {Andrew Binstock},
+  title = 	 {Multi-Core Processor Architecture Explained},
+  note = 	 {http://software.intel.com/en-us/articles/multi-core-processor-architecture-explained},
+  Month =    {Setembro},
+  year = 	 {2013}
+}

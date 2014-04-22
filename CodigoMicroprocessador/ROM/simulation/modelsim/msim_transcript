@@ -1,0 +1,48 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do memoriaROM_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROM.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity memoriaROM
+# -- Compiling architecture arch of memoriaROM
+# 
+# vcom -93 -work work {C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROMTB.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity memoriaROMTB
+# -- Compiling architecture Arquitetura of memoriaROMTB
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs="+acc"  memoriaROMTB
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps memoriaROMTB 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.memoriaromtb(arquitetura)
+# Loading work.memoriarom(arch)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Failure: NONE. End of simulation.
+#    Time: 600 us  Iteration: 0  Process: /memoriaromtb/line__45 File: C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROMTB.vhd
+# Break in Process line__45 at C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROMTB.vhd line 74
+# Simulation Breakpoint: Break in Process line__45 at C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROMTB.vhd line 74
+# MACRO ./memoriaROM_run_msim_rtl_vhdl.do PAUSED at line 17

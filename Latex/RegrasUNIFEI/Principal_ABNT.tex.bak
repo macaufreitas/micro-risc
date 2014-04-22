@@ -1,0 +1,57 @@
+%% Monografia de PCC - Desempenho das Wireless LAN
+%%
+\documentclass{abnt}
+% Incluir Pacotes ------------------------------------------------
+\usepackage [brazil] {babel}
+\usepackage [latin1] {inputenc}
+\usepackage{ae}                         %% Font Encoding T1 (PDF)
+\usepackage[dvips]{graphicx}            %% Inclusão de gráficos (DVI/PS)
+\usepackage[dvips]{geometry}            %% Dimensões do documento (DVI/PS)
+\usepackage{lscape}                     %% Utilizar página em landscape
+\usepackage{url}                        %% Trata URLs, e-mails e paths
+\usepackage[alf]{abntcite}
+
+\renewcommand{\ABNTchapterfont}{\fontfamily{cmr}\fontseries{b}\selectfont}
+\renewcommand{\ABNTsectionfont}{\fontfamily{cmr}\fontseries{b}}
+\renewcommand{\tituloformat}{\large\bfseries}
+
+\begin{document}
+% ----------------------------------------------------------------
+% Páginas iniciais
+% ----------------------------------------------------------------
+\include{capa}                    %% Capa e Folha de rosto
+\tableofcontents                  %% Sumário
+%\listoffigures                    %% Lista de figuras
+%\listoftables                     %% Lista de tabelas
+%\include{ListaAbrev}             %% Lista de abreviaturas
+%\include{Agrade}                 %% Agradecimentos
+%\include{Resumo}                 %% Resumo
+%-----------------------------------------------------------------
+% Corpo da Monografia
+% ----------------------------------------------------------------
+%\include{Cap01}                   %% INTRODUÇÃO
+\include{Cap02}                   %% Como escrever um projeto de pesquisa
+% ----------------------------------------------------------------
+%\bibliographystyle{abnt-alf}
+
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{} \abntbstabout{1.45.2.1 }
+
+\bibitem[Gil]{Gil}
+\abntrefinfo{Gil}{GIL}{} {GIL, A.~M. \emph{Como Elaborar Projetos de
+Pesquisa}.}
+
+\bibitem[Maroni e Lakatos 1996]{Marconi}
+\abntrefinfo{Maroni e Lakatos}{MARONI; LAKATOS}{1996} {MARONI,
+M.~A.; LAKATOS, E.~M. \emph{Metodologia do Trabalho Científico}. São
+  Paulo: Editora Atlas S.A., 1996.}
+
+%\end{thebibliography}
+
+\bibliography{biblio}             %% REFERÊNCIAS (deve-se possuir o arquivo do tipo bibitex)
+% ----------------------------------------------------------------
+\end{document}
+% ----------------------------------------------------------------

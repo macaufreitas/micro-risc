@@ -1,0 +1,46 @@
+|RegistroFlags
+reset => Flags[0]~reg0.ACLR
+reset => Flags[2]~reg0.ACLR
+reset => Flags[4]~reg0.ACLR
+reset => Flags[6]~reg0.ACLR
+reset => Flags[7]~reg0.ACLR
+reset => Flags[8]~reg0.ACLR
+reset => Flags[9]~reg0.ACLR
+reset => Flags[10]~reg0.ACLR
+reset => Flags[11]~reg0.ACLR
+clock => Flags[0]~reg0.CLK
+clock => Flags[2]~reg0.CLK
+clock => Flags[4]~reg0.CLK
+clock => Flags[6]~reg0.CLK
+clock => Flags[7]~reg0.CLK
+clock => Flags[8]~reg0.CLK
+clock => Flags[9]~reg0.CLK
+clock => Flags[10]~reg0.CLK
+clock => Flags[11]~reg0.CLK
+Overflow => Flags[11]~reg0.DATAIN
+Direction => Flags[10]~reg0.DATAIN
+Interrupt => Flags[9]~reg0.DATAIN
+Trap => Flags[8]~reg0.DATAIN
+Sign => Flags[7]~reg0.DATAIN
+Zero => Flags[6]~reg0.DATAIN
+Adjust => Flags[4]~reg0.DATAIN
+Parity => Flags[2]~reg0.DATAIN
+Carry => Flags[0]~reg0.DATAIN
+Flags[0] << Flags[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Flags[1] << <GND>
+Flags[2] << Flags[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Flags[3] << <GND>
+Flags[4] << Flags[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Flags[5] << <GND>
+Flags[6] << Flags[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Flags[7] << Flags[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Flags[8] << Flags[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Flags[9] << Flags[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Flags[10] << Flags[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Flags[11] << Flags[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Flags[12] << <GND>
+Flags[13] << <GND>
+Flags[14] << <GND>
+Flags[15] << <GND>
+
+

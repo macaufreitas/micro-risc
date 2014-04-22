@@ -1,0 +1,930 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.7.2)  10 SEP 2013 20:46
+entering extended mode
+**microprocessador.tex
+
+("C:\Users\Denis\Desktop\Engenharia\Trabalho de Diploma\Latex\MinhaParte\microp
+rocessador.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+(C:\Users\Denis\AppData\Roaming\MiKTeX\2.9\tex\latex\abntex2\abntex2.cls
+Document Class: abntex2 2013/09/01 v1.8 abnTeX2
+("C:\Program Files\latex\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\Denis\AppData\Roaming\MiKTeX\2.9\tex\latex\memoir\memoir.cls
+Document Class: memoir 2013/05/30 v3.7b configurable book, report, article docu
+ment class
+\onelineskip=\skip41
+\lxvchars=\skip42
+\xlvchars=\skip43
+\@memcnta=\count79
+\c@@memmarkcntra=\count80
+\l@nohyphenation=\language69
+("C:\Program Files\latex\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(C:\Users\Denis\AppData\Roaming\MiKTeX\2.9\tex\latex\ifetex\ifetex.sty
+Package: ifetex 2011/12/15 v1.2 ifetex
+
+(C:\Users\Denis\AppData\Roaming\MiKTeX\2.9\tex\plain\ifetex\ifetex.tex))
+("C:\Program Files\latex\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files\latex\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+\stockheight=\skip44
+\stockwidth=\skip45
+\trimtop=\skip46
+\trimedge=\skip47
+
+("C:\Program Files\latex\tex\latex\misc\etex.sty"
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count81
+)
+(C:\Users\Denis\AppData\Roaming\MiKTeX\2.9\tex\latex\memoir\mem12.clo
+File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
+)
+\binding=\skip48
+\spinemargin=\skip49
+\foremargin=\skip50
+\uppermargin=\skip51
+\lowermargin=\skip52
+\headdrop=\skip53
+\normalrulethickness=\skip54
+\mem@maxheadheight=\skip55
+\mem@maxfootheight=\skip56
+\headwidth=\skip57
+\c@storedpagenumber=\count82
+\memPD=\dimen102
+\m@mabparskip=\skip58
+\thanksmarkwidth=\skip59
+\thanksmarksep=\skip60
+\droptitle=\skip61
+\c@book=\count83
+\c@part=\count84
+\c@chapter=\count85
+\c@section=\count86
+\c@subsection=\count87
+\c@subsubsection=\count88
+\c@paragraph=\count89
+\c@subparagraph=\count90
+\beforechapskip=\skip62
+\midchapskip=\skip63
+\afterchapskip=\skip64
+\chapindent=\skip65
+\bottomsectionskip=\skip66
+\secindent=\skip67
+\beforesecskip=\skip68
+\aftersecskip=\skip69
+\subsecindent=\skip70
+\beforesubsecskip=\skip71
+\aftersubsecskip=\skip72
+\subsubsecindent=\skip73
+\beforesubsubsecskip=\skip74
+\aftersubsubsecskip=\skip75
+\paraindent=\skip76
+\beforeparaskip=\skip77
+\afterparaskip=\skip78
+\subparaindent=\skip79
+\beforesubparaskip=\skip80
+\aftersubparaskip=\skip81
+\pfbreakskip=\skip82
+\c@@ppsavesec=\count91
+\c@@ppsaveapp=\count92
+\ragrparindent=\dimen103
+\everylistparindent=\dimen104
+\parsepi=\skip83
+\topsepi=\skip84
+\itemsepi=\skip85
+\parsepii=\skip86
+\topsepii=\skip87
+\topsepiii=\skip88
+\itemsepii=\skip89
+\itemsepiii=\skip90
+\partopsepii=\skip91
+\partopsepiii=\skip92
+\m@msavetopsep=\skip93
+\m@msavepartopsep=\skip94
+\@enLab=\toks14
+\abstitleskip=\skip95
+\absleftindent=\skip96
+\abs@leftindent=\dimen105
+\absrightindent=\skip97
+\absparindent=\skip98
+\absparsep=\skip99
+\c@vslineno=\count93
+\c@poemline=\count94
+\c@modulo@vs=\count95
+\c@memfvsline=\count96
+\vleftskip=\skip100
+\vrightskip=\skip101
+\stanzaskip=\skip102
+\versewidth=\skip103
+\vgap=\skip104
+\vindent=\skip105
+\vleftmargin=\dimen106
+\c@verse=\count97
+\c@chrsinstr=\count98
+\beforepoemtitleskip=\skip106
+\afterpoemtitleskip=\skip107
+\c@poem=\count99
+\beforePoemTitleskip=\skip108
+\midPoemTitleskip=\skip109
+\afterPoemTitleskip=\skip110
+\col@sep=\dimen107
+\extrarowheight=\dimen108
+\NC@list=\toks15
+\extratabsurround=\skip111
+\backup@length=\skip112
+\TX@col@width=\dimen109
+\TX@old@table=\dimen110
+\TX@old@col=\dimen111
+\TX@target=\dimen112
+\TX@delta=\dimen113
+\TX@cols=\count100
+\TX@ftn=\toks16
+\heavyrulewidth=\dimen114
+\lightrulewidth=\dimen115
+\cmidrulewidth=\dimen116
+\belowrulesep=\dimen117
+\belowbottomsep=\dimen118
+\aboverulesep=\dimen119
+\abovetopsep=\dimen120
+\cmidrulesep=\dimen121
+\cmidrulekern=\dimen122
+\defaultaddspace=\dimen123
+\@cmidla=\count101
+\@cmidlb=\count102
+\@aboverulesep=\dimen124
+\@belowrulesep=\dimen125
+\@thisruleclass=\count103
+\@lastruleclass=\count104
+\@thisrulewidth=\dimen126
+\ctableftskip=\skip113
+\ctabrightskip=\skip114
+\abovecolumnspenalty=\count105
+\@linestogo=\count106
+\@cellstogo=\count107
+\@cellsincolumn=\count108
+\crtok=\toks17
+\@mincolumnwidth=\dimen127
+\c@newflo@tctr=\count109
+\mem@margin@floatbox=\box26
+\@contcwidth=\skip115
+\@contindw=\skip116
+\abovecaptionskip=\skip117
+\belowcaptionskip=\skip118
+\subfloattopskip=\skip119
+\subfloatcapskip=\skip120
+\subfloatcaptopadj=\skip121
+\subfloatbottomskip=\skip122
+\subfloatlabelskip=\skip123
+\subfloatcapmargin=\dimen128
+\c@@contsubnum=\count110
+\m@mscap@capbox=\box27
+\m@mscap@fbox=\box28
+\sidecapsep=\dimen129
+\sidecapwidth=\dimen130
+\m@m@tempdima=\dimen131
+\m@mscapraise=\dimen132
+\sidecapraise=\dimen133
+\m@mscapmainwidth=\dimen134
+\m@mscaplkern=\dimen135
+\beforeepigraphskip=\skip124
+\afterepigraphskip=\skip125
+\epigraphwidth=\skip126
+\epigraphrule=\skip127
+LaTeX Info: Redefining \em on input line 7492.
+LaTeX Info: Redefining \emph on input line 7500.
+\tocentryskip=\skip128
+\tocbaseline=\skip129
+\cftparskip=\skip130
+\cftbeforebookskip=\skip131
+\cftbookindent=\dimen136
+\cftbooknumwidth=\dimen137
+\cftbeforepartskip=\skip132
+\cftpartindent=\skip133
+\cftpartnumwidth=\skip134
+\cftbeforechapterskip=\skip135
+\cftchapterindent=\skip136
+\cftchapternumwidth=\skip137
+\cftbeforesectionskip=\skip138
+\cftsectionindent=\skip139
+\cftsectionnumwidth=\skip140
+\cftbeforesubsectionskip=\skip141
+\cftsubsectionindent=\skip142
+\cftsubsectionnumwidth=\skip143
+\cftbeforesubsubsectionskip=\skip144
+\cftsubsubsectionindent=\skip145
+\cftsubsubsectionnumwidth=\skip146
+\cftbeforeparagraphskip=\skip147
+\cftparagraphindent=\skip148
+\cftparagraphnumwidth=\skip149
+\cftbeforesubparagraphskip=\skip150
+\cftsubparagraphindent=\skip151
+\cftsubparagraphnumwidth=\skip152
+\prechapterprecisshift=\dimen138
+\c@maxsecnumdepth=\count111
+\bibindent=\dimen139
+\bibitemsep=\skip153
+\indexcolsep=\skip154
+\indexrule=\skip155
+\indexmarkstyle=\toks18
+\@indexbox=\insert233
+\glossarycolsep=\dimen140
+\glossaryrule=\dimen141
+\sideparvshift=\skip156
+\sideins=\insert232
+\sidebartopsep=\skip157
+\sidebarhsep=\skip158
+\sidebarvsep=\skip159
+\sidebarwidth=\skip160
+\footmarkwidth=\skip161
+\footmarksep=\skip162
+\footparindent=\skip163
+\footinsdim=\skip164
+\footinsv@r=\insert231
+\@mpfootinsv@r=\insert230
+\m@m@k=\count112
+\m@m@h=\dimen142
+\m@mipn@skip=\skip165
+\sidefootins=\insert229
+\sidefootadjust=\skip166
+\sidefootheight=\skip167
+\sidefoothsep=\skip168
+\sidefootvsep=\skip169
+\sidefootwidth=\skip170
+\m@mdownsf=\skip171
+\c@sidefootnote=\count113
+\sidefootmarkwidth=\skip172
+\sidefootmarksep=\skip173
+\sidefootparindent=\skip174
+\c@pagenote=\count114
+\c@pagenoteshadow=\count115
+\mem@pn@lastkern=\skip175
+\every@verbatim=\toks19
+\afterevery@verbatim=\toks20
+\verbatim@line=\toks21
+\tab@position=\count116
+\verbatim@in@stream=\read1
+\verbatimindent=\skip176
+\verbatim@out=\write3
+\bvboxsep=\skip177
+\c@memfbvline=\count117
+\c@bvlinectr=\count118
+\bvnumlength=\skip178
+\fb@frw=\dimen143
+\fb@frh=\dimen144
+\FrameRule=\dimen145
+\FrameSep=\dimen146
+\c@cp@cntr=\count119
+LaTeX Info: Redefining \: on input line 11958.
+LaTeX Info: Redefining \! on input line 11960.
+\c@ism@mctr=\count120
+\c@xsm@mctr=\count121
+\c@csm@mctr=\count122
+\c@ksm@mctr=\count123
+\c@xksm@mctr=\count124
+\c@cksm@mctr=\count125
+\c@msm@mctr=\count126
+\c@xmsm@mctr=\count127
+\c@cmsm@mctr=\count128
+\c@bsm@mctr=\count129
+\c@workm@mctr=\count130
+\c@sheetsequence=\count131
+\c@lastsheet=\count132
+\c@lastpage=\count133
+\c@figure=\count134
+\c@lofdepth=\count135
+\cftbeforefigureskip=\skip179
+\cftfigureindent=\skip180
+\cftfigurenumwidth=\skip181
+\c@table=\count136
+\c@lotdepth=\count137
+\cftbeforetableskip=\skip182
+\cfttableindent=\skip183
+\cfttablenumwidth=\skip184
+Package abstract [2008/07/23] emulated by memoir.
+Package appendix [2008/07/23] emulated by memoir.
+Package array [2008/09/09] emulated by memoir.
+Package booktabs [2008/07/23] emulated by memoir.
+Package ccaption [2008/07/23] emulated by memoir.
+Package changepage [2008/07/23] emulated by memoir.
+Package chngcntr [2008/07/23] emulated by memoir.
+Package chngpage [2008/07/23] emulated by memoir.
+Package crop emulated by memoir.
+Package dcolumn [2008/07/23] emulated by memoir.
+Package delarray [2008/07/23] emulated by memoir.
+Package enumerate [2008/07/23] emulated by memoir.
+Package epigraph [2008/07/23] emulated by memoir.
+Package ifmtarg [2008/07/23] emulated by memoir.
+Package index [2008/07/23] emulated by memoir.
+Package makeidx [2008/07/23] emulated by memoir.
+Package moreverb [2008/07/23] emulated by memoir.
+Package mparhack [2008/07/23] emulated by memoir.
+Package needspace [2008/07/23] emulated by memoir.
+Package newfile [2008/07/23] emulated by memoir.
+Package nextpage [2008/07/23] emulated by memoir.
+Package pagenote [2008/07/23] emulated by memoir.
+Package parskip [2008/07/23] emulated by memoir.
+Package patchcmd [2008/07/23] emulated by memoir.
+Package setspace [2008/07/23] emulated by memoir.
+Package shortvrb [2008/07/23] emulated by memoir.
+Package showidx [2008/07/23] emulated by memoir.
+Package tabularx [2008/07/23] emulated by memoir.
+Package titleref [2008/07/23] emulated by memoir.
+Package titling [2008/07/23] emulated by memoir.
+Package tocbibind [2008/07/23] emulated by memoir.
+Package tocloft [2008/07/23] emulated by memoir.
+Package tocvsec2 [2008/07/23] emulated by memoir.
+Package verbatim [2008/07/23] emulated by memoir.
+Package verse [2008/07/23] emulated by memoir.
+
+(C:\Users\Denis\AppData\Roaming\MiKTeX\2.9\tex\latex\memoir\mempatch.sty
+Package: mempatch 2009/07/24 v6.0f Patches for memoir class v1.6180339
+))
+(C:\Users\Denis\AppData\Roaming\MiKTeX\2.9\tex\latex\textcase\textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+LaTeX Info: Redefining \MakeTextUppercase on input line 47.
+LaTeX Info: Redefining \MakeTextLowercase on input line 50.
+)
+("C:\Program Files\latex\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+("C:\Program Files\latex\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files\latex\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\latex\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+("C:\Program Files\latex\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+("C:\Program Files\latex\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen147
+\Hy@linkcounter=\count138
+\Hy@pagecounter=\count139
+
+("C:\Program Files\latex\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count140
+
+("C:\Program Files\latex\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count141
+
+("C:\Program Files\latex\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen148
+\Fld@menulength=\count142
+\Field@Width=\dimen149
+\Fld@charsize=\dimen150
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count143
+\c@Item=\count144
+\c@Hfootnote=\count145
+)
+(C:\Users\Denis\AppData\Roaming\MiKTeX\2.9\tex\latex\memoir\memhfixc.sty
+Package: memhfixc 2013/05/30 v1.17 nameref/hyperref package fixes for memoir cl
+ass
+\c@memhycontfloat=\count146
+\c@Hpagenote=\count147
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files\latex\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count148
+\c@bookmark@seq@number=\count149
+
+("C:\Program Files\latex\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip185
+)
+("C:\Program Files\latex\tex\latex\oberdiek\bookmark.sty"
+Package: bookmark 2011/12/02 v1.24 PDF bookmarks (HO)
+
+("C:\Program Files\latex\tex\latex\oberdiek\bkm-pdftex.def"
+File: bkm-pdftex.def 2011/12/02 v1.24 bookmark driver for pdfTeX (HO)
+\BKM@id=\count150
+))
+("C:\Program Files\latex\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\latex\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files\latex\tex\generic\babel\english.ldf"
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+("C:\Program Files\latex\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count151
+\U@D=\dimen151
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+("C:\Program Files\latex\tex\generic\babel\frenchb.ldf"
+Language: frenchb 2009/03/16 v2.3d French support from the babel system
+Package babel Info: Making : an active character on input line 120.
+Package babel Info: Making ; an active character on input line 121.
+Package babel Info: Making ! an active character on input line 122.
+Package babel Info: Making ? an active character on input line 123.
+\FB@Mht=\dimen152
+\std@mcc=\count152
+\dec@mcc=\count153
+\parindentFFN=\dimen153
+
+*************************************
+* Local config file frenchb.cfg used
+*
+("C:\Program Files\latex\tex\generic\babel\frenchb.cfg"))
+("C:\Program Files\latex\tex\generic\babel\spanish.ldf"
+Language: spanish.ldf 2009/01/02 v5.0h Spanish support from the babel system
+\es@datefmt=\count154
+\es@quottoks=\toks23
+\es@quotdepth=\count155
+Package babel Info: Making " an active character on input line 492.
+Package babel Info: Making . an active character on input line 585.
+Package babel Info: Making < an active character on input line 630.
+Package babel Info: Making > an active character on input line 630.
+)
+("C:\Program Files\latex\tex\generic\babel\portuges.ldf"
+Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
+\l@brazil = a dialect from \language\l@portuges 
+Package babel Info: Making " an active character on input line 145.
+))
+("C:\Program Files\latex\tex\latex\carlisle\scalefnt.sty")
+(C:\Users\Denis\AppData\Roaming\MiKTeX\2.9\tex\latex\enumitem\enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip186
+\enit@outerparindent=\dimen154
+\enit@toks=\toks24
+\enit@inbox=\box29
+\enitdp@description=\count156
+)
+("C:\Program Files\latex\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count157
+\calc@Bcount=\count158
+\calc@Adimen=\dimen155
+\calc@Bdimen=\dimen156
+\calc@Askip=\skip187
+\calc@Bskip=\skip188
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count159
+\calc@Cskip=\skip189
+)
+
+******************************************************
+Stock height and width: 845.04684pt by 597.50787pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 845.04684pt by 597.50787pt
+Text height and width: 708pt by 455pt
+Spine and edge margins: 85.35826pt and 56.9055pt
+Upper and lower margins: 85.35826pt and 51.68858pt
+Headheight and headsep: 14.5pt and 19.8738pt
+Footskip: 30pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7pt and 42.9055pt
+Sidecapsep and sidecapwidth: 7pt and 92pt
+Sidebarhsep and sidebarwidth: 7pt and 92pt
+Sidebarvsep and sidebartopsep: 14.5pt and 0pt
+Sidebarheight: 590.14995pt
+Sidefoothsep and sidefootwidth: 7pt and 92pt
+Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
+******************************************************
+
+\c@abntex@bookmarkcounter=\count160
+\chapternamenumlength=\skip190
+\ABNTEXcitacaorecuo=\skip191
+\c@alineasi=\count161
+\c@alineasii=\count162
+\enitdp@alineas=\count163
+\c@subalineasi=\count164
+\enitdp@subalineas=\count165
+\c@incisosi=\count166
+\enitdp@incisos=\count167
+\ABNTEXsignwidth=\skip192
+\ABNTEXsignthickness=\skip193
+\ABNTEXsignskip=\skip194
+) ("C:\Program Files\latex\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks25
+\inpenc@posthook=\toks26
+
+("C:\Program Files\latex\tex\latex\base\latin1.def"
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+("C:\Program Files\latex\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\latex\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\latex\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\latex\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\latex\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count168
+))
+\Gin@req@height=\dimen157
+\Gin@req@width=\dimen158
+)
+("C:\Program Files\latex\tex\latex\tools\indentfirst.sty"
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+("C:\Users\Denis\Desktop\Engenharia\Trabalho de Diploma\Latex\MinhaParte\microp
+rocessador.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+\AtBeginShipoutBox=\box30
+Package hyperref Info: Link coloring OFF on input line 37.
+ ("C:\Program Files\latex\tex\latex\hyperref\nameref.sty"
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+("C:\Program Files\latex\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count169
+)
+Redoing nameref's sectioning
+Redoing nameref's label
+LaTeX Info: Redefining \nameref on input line 37.
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
+LaTeX Info: Redefining \degres on input line 37.
+
+Package frenchb.ldf Warning: The definition of \@makecaption has been changed,
+(frenchb.ldf)                frenchb will NOT customise it;
+(frenchb.ldf)                reported on input line 37.
+
+LaTeX Info: Redefining \dots on input line 37.
+LaTeX Info: Redefining \up on input line 37.
+
+Package frenchb.ldf Warning: OT1 encoding should not be used for French. 
+(frenchb.ldf)                Add \usepackage[T1]{fontenc} to the preamble
+(frenchb.ldf)                of your document, on input line 37.
+
+\myptabbox=\box31
+\myptabboxwidth=\skip195
+(C:\Users\Denis\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count170
+\scratchdimen=\dimen159
+\scratchbox=\box32
+\nofMPsegments=\count171
+\nofMParguments=\count172
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count173
+\MPscratchDim=\dimen160
+\MPnumerator=\count174
+\makeMPintoPDFobject=\count175
+\everyMPtoPDFconversion=\toks28
+) <681px-InternalIntegratedCircuit2.jpg, id=5, 512.66531pt x 450.9347pt>
+File: 681px-InternalIntegratedCircuit2.jpg Graphic file (type jpg)
+
+<use 681px-InternalIntegratedCircuit2.jpg>
+Package pdftex.def Info: 681px-InternalIntegratedCircuit2.jpg used on input lin
+e 48.
+(pdftex.def)             Requested size: 307.60155pt x 270.5629pt.
+
+<sistemaMicro.png, id=10, 538.26094pt x 319.1925pt>
+File: sistemaMicro.png Graphic file (type png)
+ <use sistemaMicro.png>
+Package pdftex.def Info: sistemaMicro.png used on input line 56.
+(pdftex.def)             Requested size: 322.95906pt x 191.51697pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 1087) has occurred while \output is active []
+
+ [1
+
+{C:/Users/Denis/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/De
+nis/Desktop/Engenharia/Trabalho de Diploma/Latex/MinhaParte/681px-InternalInteg
+ratedCircuit2.jpg>] <programa.png, id=34, 344.78813pt x 341.02406pt>
+File: programa.png Graphic file (type png)
+ <use programa.png>
+Package pdftex.def Info: programa.png used on input line 72.
+(pdftex.def)             Requested size: 206.87447pt x 204.61601pt.
+
+[2 <C:/Users/Denis/Desktop/Engenharia/Trabalho de Diploma/Latex/MinhaParte/sist
+emaMicro.png>] <internalOrg.png, id=49, 460.72125pt x 332.74312pt>
+File: internalOrg.png Graphic file (type png)
+
+<use internalOrg.png>
+Package pdftex.def Info: internalOrg.png used on input line 99.
+(pdftex.def)             Requested size: 276.43488pt x 199.6474pt.
+ [3 <C:/Users/Denis/Desktop/Engenharia/Trabalho de Diploma/Latex/MinhaParte/pro
+grama.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 111.
+
+
+("C:\Program Files\latex\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 111.
+ [4 <C:/Users/Denis/Desktop/Engenharia/Trabalho de Diploma/Latex/MinhaParte/int
+ernalOrg.png>] [5]
+<arqBarramento.jpg, id=84, 148.6353pt x 71.7882pt>
+File: arqBarramento.jpg Graphic file (type jpg)
+ <use arqBarramento.jpg>
+Package pdftex.def Info: arqBarramento.jpg used on input line 137.
+(pdftex.def)             Requested size: 371.58733pt x 179.46999pt.
+
+[6 <C:/Users/Denis/Desktop/Engenharia/Trabalho de Diploma/Latex/MinhaParte/arqB
+arramento.jpg>] <microcodigo.png, id=100, 354.57469pt x 265.74281pt>
+File: microcodigo.png Graphic file (type png)
+
+<use microcodigo.png>
+Package pdftex.def Info: microcodigo.png used on input line 158.
+(pdftex.def)             Requested size: 354.57382pt x 265.74216pt.
+
+Underfull \vbox (badness 3861) has occurred while \output is active []
+
+ [7 <C:/Users/Denis/Desktop/Engenharia/Trabalho de Diploma/Latex/MinhaParte/mic
+rocodigo.png>] <memoriacache.png, id=115, 472.01344pt x 275.52937pt>
+File: memoriacache.png Graphic file (type png)
+
+<use memoriacache.png>
+Package pdftex.def Info: memoriacache.png used on input line 179.
+(pdftex.def)             Requested size: 283.21025pt x 165.3189pt.
+ [8] <cacheniveis.png, id=131, 271.0125pt x 66.2475pt>
+File: cacheniveis.png Graphic file (type png)
+
+<use cacheniveis.png>
+Package pdftex.def Info: cacheniveis.png used on input line 189.
+(pdftex.def)             Requested size: 271.01183pt x 66.24733pt.
+ <pipeline.png, id=137, 409.53pt x 331.99031pt>
+File: pipeline.png Graphic file (type png)
+
+<use pipeline.png>
+Package pdftex.def Info: pipeline.png used on input line 199.
+(pdftex.def)             Requested size: 245.7199pt x 199.19571pt.
+ <calculoPipeline.png, id=141, 432.11438pt x 299.61937pt>
+File: calculoPipeline.png Graphic file (type png)
+
+<use calculoPipeline.png>
+Package pdftex.def Info: calculoPipeline.png used on input line 207.
+(pdftex.def)             Requested size: 259.27061pt x 179.77301pt.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <12> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 212.
+
+
+[9 <C:/Users/Denis/Desktop/Engenharia/Trabalho de Diploma/Latex/MinhaParte/memo
+riacache.png> <C:/Users/Denis/Desktop/Engenharia/Trabalho de Diploma/Latex/Minh
+aParte/cacheniveis.png>] [10 <C:/Users/Denis/Desktop/Engenharia/Trabalho de Dip
+loma/Latex/MinhaParte/pipeline.png> <C:/Users/Denis/Desktop/Engenharia/Trabalho
+ de Diploma/Latex/MinhaParte/calculoPipeline.png>]
+<codigo.png, id=163, 147.55125pt x 33.12375pt>
+File: codigo.png Graphic file (type png)
+ <use codigo.png>
+Package pdftex.def Info: codigo.png used on input line 220.
+(pdftex.def)             Requested size: 118.04114pt x 26.49902pt.
+
+<bubble.png, id=167, 437.38406pt x 169.38281pt>
+File: bubble.png Graphic file (type png)
+ <use bubble.png>
+Package pdftex.def Info: bubble.png used on input line 228.
+(pdftex.def)             Requested size: 262.43245pt x 101.63046pt.
+
+<branchproblema.png, id=174, 395.97937pt x 160.34906pt>
+File: branchproblema.png Graphic file (type png)
+
+<use branchproblema.png>
+Package pdftex.def Info: branchproblema.png used on input line 240.
+(pdftex.def)             Requested size: 237.58945pt x 96.21017pt.
+ [11 <C:/Users/Denis/Desktop/Engenharia/Trabalho de Diploma/Latex/MinhaParte/co
+digo.png> <C:/Users/Denis/Desktop/Engenharia/Trabalho de Diploma/Latex/MinhaPar
+te/bubble.png> <C:/Users/Denis/Desktop/Engenharia/Trabalho de Diploma/Latex/Min
+haParte/branchproblema.png>]
+<multicore.png, id=186, 225.84375pt x 222.8325pt>
+File: multicore.png Graphic file (type png)
+ <use multicore.png>
+Package pdftex.def Info: multicore.png used on input line 252.
+(pdftex.def)             Requested size: 225.84319pt x 222.83195pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 260.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 260.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 260.
+LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 260.
+ [12 <C:/Users/Denis/Desktop/Engenharia/Trabalho de Diploma/Latex/MinhaParte/mu
+lticore.png>] <Hyperthreading.png, id=197, 319.1925pt x 229.60782pt>
+File: Hyperthreading.png Graphic file (type png)
+
+<use Hyperthreading.png>
+Package pdftex.def Info: Hyperthreading.png used on input line 263.
+(pdftex.def)             Requested size: 319.19171pt x 229.60725pt.
+
+("C:\Users\Denis\Desktop\Engenharia\Trabalho de Diploma\Latex\MinhaParte\microp
+rocessador.bbl" [13 <C:/Users/Denis/Desktop/Engenharia/Trabalho de Diploma/Late
+x/MinhaParte/Hyperthreading.png>] [14
+
+]
+bibitemlist
+
+Overfull \hbox (148.34193pt too wide) in paragraph at lines 4--8
+[]\OT1/cmr/m/n/12 Angeloleithold.  In-ter-nal in-te-gra-ted cir-cuit.  http://p
+t.wikipedia.org/wiki/Ficheiro:InternalIntegratedCircuit2.JPG,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--15
+[]\OT1/cmr/m/n/12 A. Bins-tock.  Multi-core pro-ces-sor ar-chi-tec-ture ex-plai
+-ned.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--15
+\OT1/cmr/m/n/12 http://software.intel.com/en-us/articles/multi-core-processor-a
+rchitecture-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--31
+[]\OT1/cmr/m/n/12 P. M. R. de Gou-veia Nobrega Fi-lho.  Fun-da-men-tos de hard
+-ware.
+ []
+
+
+Overfull \hbox (45.95407pt too wide) in paragraph at lines 43--46
+[]\OT1/cmr/m/n/12 Microprocessadores.  Mi-cro-pro-ces-sa-do-res.  http://pt.kio
+skea.net/contents/pc/processeur.php3,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--58
+[]\OT1/cmr/m/n/12 I. D. of In-dus-trial En-gi-ne-e-ring and L. Ma-na-ge-ment.  
+Lec-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--58
+\OT1/cmr/m/n/12 ture 7: Mi-cro-pro-ces-sor struc-ture, as-sem-bly pro-gram-ming
+.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--58
+\OT1/cmr/m/n/12 http://www.ielm.ust.hk/dfaculty/ajay/courses/alp/ieem110/lecs/m
+up/mup.html,
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 60--63
+[]\OT1/cmr/m/n/12 PUC-Rio.  Puc-rio.  http://tcs.eng.br/PUC/plog/sd11-Microprog
+ramacao.pdf,
+ []
+
+
+Overfull \hbox (63.25667pt too wide) in paragraph at lines 70--74
+[]\OT1/cmr/m/n/12 Techopedia.  Arith-me-tic lo-gic unit (alu).  http://www.tech
+opedia.com/definition/2849/arithmetic-
+ []
+
+) [15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 269.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 269.
+
+("C:\Users\Denis\Desktop\Engenharia\Trabalho de Diploma\Latex\MinhaParte\microp
+rocessador.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 269.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 269.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 269.
+ ) 
+Here is how much of TeX's memory you used:
+ 10528 strings out of 493921
+ 152785 string characters out of 3149288
+ 274729 words of memory out of 3000000
+ 13651 multiletter control sequences out of 15000+200000
+ 9479 words of font info for 33 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 39i,9n,33p,1132b,503s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/latex/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Progra
+m Files/latex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/latex
+/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/latex/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><C:/Program Files/latex/fonts/type1/public/amsfonts
+/cm/cmr8.pfb><C:/Program Files/latex/fonts/type1/public/amsfonts/cm/cmss12.pfb>
+<C:/Program Files/latex/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program F
+iles/latex/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Program Files/latex/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/latex/fonts/type1/pu
+blic/amsfonts/cm/cmti12.pfb>
+Output written on microprocessador.pdf (15 pages, 745025 bytes).
+PDF statistics:
+ 331 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
+ 244 words of extra memory for PDF output out of 10000 (max. 10000000)
+

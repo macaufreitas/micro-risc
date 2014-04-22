@@ -1,0 +1,26 @@
+\select@language {brazil}
+\contentsline {figure}{\numberline {1}{\ignorespaces Microcircuito produzido pelo processo fotogr\'afico de multicamadas. Microprocessador com frequ\^encia de 4.8GHz, utilizado para o processamento de imagens do Gyroscan 6,2 Tesla. \cite {MicroInternal}}}{12}
+\contentsline {figure}{\numberline {2}{\ignorespaces Diagrama de blocos de um sistema microprocessado. \cite {IntroductionMicro}}}{13}
+\contentsline {figure}{\numberline {3}{\ignorespaces Organiza\c c\~ao de um programa de computador \cite {IntroductionMicro}}}{14}
+\contentsline {figure}{\numberline {4}{\ignorespaces Organiza\c c\~ao interna de um microprocessador hipot\'etico \cite {ielm}}}{15}
+\contentsline {figure}{\numberline {5}{\ignorespaces Diagrama simplificado de um Microcomputador \cite {ufpbHardware}}}{18}
+\contentsline {figure}{\numberline {6}{\ignorespaces Entidades do Controle Microprogramado \cite {pucMicro}}}{20}
+\contentsline {figure}{\numberline {7}{\ignorespaces Hierarquia de Mem\'orias \cite {memoriacache}}}{22}
+\contentsline {figure}{\numberline {8}{\ignorespaces Dois n\IeC {\'\i }veis de mem\'oria cache L1 e L2 \cite {memoriacache}}}{22}
+\contentsline {figure}{\numberline {9}{\ignorespaces A analogia de uma lavanderia com o pipeline \cite {ComputerOrg}}}{23}
+\contentsline {figure}{\numberline {10}{\ignorespaces Compara\c c\~ao quantitativa da utiliza\c c\~ao de \textit {Pipeline} utilizando a instru\c c\~ao \textit {Load Word} do microprocessador MIPS. \cite {ComputerOrg}}}{24}
+\contentsline {figure}{\numberline {11}{\ignorespaces Trecho de c\'odigo que exemplifica um problema do \textit {pipeline} \cite {ComputerOrg}.}}{24}
+\contentsline {figure}{\numberline {12}{\ignorespaces Fen\^omeno do tipo \textit {bubble} no \textit {pipeline} semelhante ao problema da figura \ref {codigoPipeline} \cite {ComputerOrg}.}}{25}
+\contentsline {figure}{\numberline {13}{\ignorespaces Fen\^omeno do tipo \textit {bubble} no \textit {pipeline} quando ocorre o problema de \textit {branch} \cite {ComputerOrg}.}}{25}
+\contentsline {figure}{\numberline {14}{\ignorespaces Processador com dois n\'ucleos dentro de um \'unico processador \cite {intelMulticore}.}}{26}
+\contentsline {figure}{\numberline {15}{\ignorespaces Exemplo de um processador com a tecnologia \textit {Hyper-Threading} \cite {intelMulticore}.}}{27}
+\contentsline {figure}{\numberline {16}{\ignorespaces Pinagem do IA-PX 86}}{30}
+\contentsline {figure}{\numberline {17}{\ignorespaces Arquitetura do 8086/8088}}{31}
+\contentsline {figure}{\numberline {18}{\ignorespaces Etapas de Projeto Usando VHDL}}{42}
+\contentsline {figure}{\numberline {19}{\ignorespaces Estrutura de uma Library \cite {Pedroni}}}{43}
+\contentsline {figure}{\numberline {20}{\ignorespaces Tipos de Entrada e Sa\IeC {\'\i }da \cite {Pedroni}}}{44}
+\contentsline {figure}{\numberline {21}{\ignorespaces Sintaxe de uma Architeture}}{45}
+\contentsline {figure}{\numberline {22}{\ignorespaces Estrutura de uma FPGA \cite {Guntzel}}}{46}
+\contentsline {figure}{\numberline {23}{\ignorespaces Kit de desenvolvimento DE1}}{47}
+\contentsline {figure}{\numberline {24}{\ignorespaces Caracter\IeC {\'\i }sticas Dispositivos Fam\IeC {\'\i }lia Ciclone II \cite {Altera}}}{48}
+\contentsline {figure}{\numberline {25}{\ignorespaces Arquitetura Ciclone II}}{49}

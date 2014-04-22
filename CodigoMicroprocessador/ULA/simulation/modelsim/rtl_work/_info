@@ -1,0 +1,264 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Marcos Aurelio\Desktop\micro-8086-risc\CodigoMicroprocessador\ULA\simulation\modelsim
+Edetectorauxiliarflag
+Z1 w1397095620
+Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\Marcos Aurelio\Desktop\micro-8086-risc\CodigoMicroprocessador\ULA\simulation\modelsim
+Z6 8C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd
+Z7 FC:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd
+l0
+L17
+VUT`iQIOGQ6E@gioLQDc<b3
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1397850730.332000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd|
+Z11 !s107 C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 cU[iJ;^;U9Jd3Mk@THJ@j3
+!i10b 1
+Aarquiteturadaf
+R2
+R3
+R4
+DEx4 work 20 detectorauxiliarflag 0 22 UT`iQIOGQ6E@gioLQDc<b3
+l57
+L27
+Vz0Wg9;SRP`=YhmE7Y=YPM1
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 QjVAicY>figVXVYRSXogR1
+!i10b 1
+Edetectorparidade
+Z14 w1397092294
+R3
+R4
+R5
+Z15 8C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd
+Z16 FC:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd
+l0
+L10
+VU?ni0TQl79497lH]>S=dn0
+R8
+31
+Z17 !s108 1397850730.700000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd|
+Z19 !s107 C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd|
+R12
+R13
+!s100 CQKazSTAd9l;0j8h88Oeh3
+!i10b 1
+Aarquiteturadp
+R3
+R4
+DEx4 work 16 detectorparidade 0 22 U?ni0TQl79497lH]>S=dn0
+l18
+L17
+V;6[WVXEo3`YFbZbeo[7713
+R8
+31
+R17
+R18
+R19
+R12
+R13
+!s100 m2n=>5]``oKhK5O6B>cBc0
+!i10b 1
+Edetectorzeroflag
+Z20 w1397092295
+R3
+R4
+R5
+Z21 8C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlag.vhd
+Z22 FC:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlag.vhd
+l0
+L10
+V^hdNW<HCiI>jP>@j`=D5`0
+R8
+31
+Z23 !s108 1397850728.132000
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlag.vhd|
+Z25 !s107 C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlag.vhd|
+R12
+R13
+!s100 J:T>EfzJl>]8Qzlhi75=_0
+!i10b 1
+Aarquiteturadzf
+R3
+R4
+DEx4 work 16 detectorzeroflag 0 22 ^hdNW<HCiI>jP>@j`=D5`0
+l18
+L17
+VHm9@T^;ZGo1oa]KJ9B9k^1
+R8
+31
+R23
+R24
+R25
+R12
+R13
+!s100 9W;eRaW1>613CM?[YE0@H1
+!i10b 1
+Esomador
+Z26 w1397092292
+R3
+R4
+R5
+Z27 8C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Somador.vhd
+Z28 FC:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Somador.vhd
+l0
+L10
+Voh?Qa69GCBFEf`A6mnLk>2
+R8
+31
+Z29 !s108 1397850729.164000
+Z30 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Somador.vhd|
+Z31 !s107 C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Somador.vhd|
+R12
+R13
+!s100 Bdnc1`m?G9;MQJnjWG?fk2
+!i10b 1
+Aarquiteturasomador
+R3
+R4
+DEx4 work 7 somador 0 22 oh?Qa69GCBFEf`A6mnLk>2
+l21
+L20
+VE5jIDoR^B?QN_jJGz^P3J1
+R8
+31
+R29
+R30
+R31
+R12
+R13
+!s100 f3`loaaj<4R0hc_aA>b8]2
+!i10b 1
+Esubtrator
+R26
+R3
+R4
+R5
+Z32 8C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Subtrator.vhd
+Z33 FC:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Subtrator.vhd
+l0
+L10
+V4QZ[71`WhfAK_Vo>MaGHO1
+R8
+31
+Z34 !s108 1397850728.487000
+Z35 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Subtrator.vhd|
+Z36 !s107 C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Subtrator.vhd|
+R12
+R13
+!s100 Zn@S?PA5RML08Nf5@<6Ad2
+!i10b 1
+Aarquiteturasubtrator
+R3
+R4
+DEx4 work 9 subtrator 0 22 4QZ[71`WhfAK_Vo>MaGHO1
+l21
+L20
+VN^]dSZQdkVcH=eQ6hJnY82
+R8
+31
+R34
+R35
+R36
+R12
+R13
+!s100 @N=:4jWDBnII1l@Jgk@TQ1
+!i10b 1
+Eula
+Z37 w1397092325
+Z38 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z39 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R2
+R3
+R4
+R5
+Z40 8C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ULA/ULA.vhd
+Z41 FC:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ULA/ULA.vhd
+l0
+L14
+VZ@1?^R??mCDE2czzC=mWA3
+R8
+31
+Z42 !s108 1397850731.009000
+Z43 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ULA/ULA.vhd|
+Z44 !s107 C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ULA/ULA.vhd|
+R12
+R13
+!s100 ?_155e[WRc9dW4WzEBQPI1
+!i10b 1
+Aarquiteturaula
+R38
+R39
+R2
+R3
+R4
+DEx4 work 3 ula 0 22 Z@1?^R??mCDE2czzC=mWA3
+l69
+L32
+V<hfdnEaGSPJY5Oj7_ImkK2
+R8
+31
+R42
+R43
+R44
+R12
+R13
+!s100 CmZcd19hXHE8g@gg<L>mN3
+!i10b 1
+Eulatb
+Z45 w1397850685
+R38
+R39
+R2
+R3
+R4
+R5
+Z46 8C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ULA/ULATB.vhd
+Z47 FC:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ULA/ULATB.vhd
+l0
+L14
+V@Pc]:44o4faWS`D:XFI]c2
+!s100 `LCQQdJ1J@Y`ZPUn2]CcV0
+R8
+31
+!i10b 1
+Z48 !s108 1397850731.223000
+Z49 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ULA/ULATB.vhd|
+Z50 !s107 C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ULA/ULATB.vhd|
+R12
+R13
+Aarquiteturaulatb
+R38
+R39
+R2
+R3
+R4
+DEx4 work 5 ulatb 0 22 @Pc]:44o4faWS`D:XFI]c2
+l49
+L17
+Vn8blUlYb8RMEhRdlE`<QE0
+!s100 h5f[Ne799e8kHa@KCMoH92
+R8
+31
+!i10b 1
+R48
+R49
+R50
+R12
+R13

@@ -1,0 +1,281 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\silvadenisaraujo\Dropbox\TFG\CodigoMicroprocessador\Microprocessador\simulation\modelsim
+Edemultiplexador
+Z1 w1392820313
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\silvadenisaraujo\Dropbox\TFG\CodigoMicroprocessador\Microprocessador\simulation\modelsim
+Z5 8C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd
+Z6 FC:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd
+l0
+L10
+VB0jD`fB[bLIm>@?lCHT[i2
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1395273718.752000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd|
+Z10 !s107 C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 M@FTmWcTj6HF2ZbT_ZanI0
+!i10b 1
+Aarquiteturademux
+R2
+R3
+DEx4 work 15 demultiplexador 0 22 B0jD`fB[bLIm>@?lCHT[i2
+l20
+L19
+VC57L;Fo[^PC;?6C]1cZIE1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 ?_R@hh7YWb3YMXJ>0XMSS0
+!i10b 1
+Emicroprocessador
+Z13 w1395271780
+Z14 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R2
+R3
+R4
+Z15 8C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/Microprocessador/Microprocessador.vhd
+Z16 FC:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/Microprocessador/Microprocessador.vhd
+l0
+L11
+VJQ6^[H@i:LoFzhjE_a21j0
+R7
+31
+Z17 !s108 1395273717.132000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/Microprocessador/Microprocessador.vhd|
+Z19 !s107 C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/Microprocessador/Microprocessador.vhd|
+R11
+R12
+!s100 ESAfO_[6Pd2A?G=1I@H;^1
+!i10b 1
+Aarquiteturamicro
+R14
+R2
+R3
+DEx4 work 16 microprocessador 0 22 JQ6^[H@i:LoFzhjE_a21j0
+l132
+L20
+V7cUN3Wn>2nPEU58T:c97V0
+R7
+31
+R17
+R18
+R19
+R11
+R12
+!s100 VUGE<Zn4ZhAXLYi]^UZB00
+!i10b 1
+Emicroprocessadortb
+Z20 w1395273597
+R14
+R2
+R3
+R4
+Z21 8C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/Microprocessador/MicroprocessadorTB.vhd
+Z22 FC:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/Microprocessador/MicroprocessadorTB.vhd
+l0
+L11
+V0kDFF01bb0`UU6`_ZOcf20
+!s100 QBKKX3h1CPb>E7HFU@<n^2
+R7
+31
+!i10b 1
+Z23 !s108 1395273720.013000
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/Microprocessador/MicroprocessadorTB.vhd|
+Z25 !s107 C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/Microprocessador/MicroprocessadorTB.vhd|
+R11
+R12
+Aarquiteturamicrotb
+R14
+R2
+R3
+DEx4 work 18 microprocessadortb 0 22 0kDFF01bb0`UU6`_ZOcf20
+l34
+L14
+VBLHAUUTj81f_?4PnGh47V3
+!s100 R8J:BVVTmec_24ef>g_630
+R7
+31
+!i10b 1
+R23
+R24
+R25
+R11
+R12
+Eregistroflags
+Z26 w1395271123
+R2
+R3
+R4
+Z27 8C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd
+Z28 FC:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd
+l0
+L10
+VCHDoKS5I60Ab@D0mIY>6e3
+R7
+31
+Z29 !s108 1395273716.408000
+Z30 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd|
+Z31 !s107 C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd|
+R11
+R12
+!s100 W4Za2KWY1P`IShJnm7ceL0
+!i10b 1
+Aarquiteturarf
+R2
+R3
+DEx4 work 13 registroflags 0 22 CHDoKS5I60Ab@D0mIY>6e3
+l28
+L27
+VLNZgWCT6magbM=Y6:j`XT0
+R7
+31
+R29
+R30
+R31
+R11
+R12
+!s100 E[U;l`Ma`eM:3chDJO]=N2
+!i10b 1
+Eregistropropositogeral
+Z32 w1394412582
+R2
+R3
+R4
+Z33 8C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd
+Z34 FC:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd
+l0
+L10
+VUd887ee4RFajP54716i?C2
+R7
+31
+Z35 !s108 1395273718.124000
+Z36 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd|
+Z37 !s107 C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd|
+R11
+R12
+!s100 _K_U0O2`nJUTlfCTljz_D1
+!i10b 1
+Aarquiteturarpg
+R2
+R3
+DEx4 work 22 registropropositogeral 0 22 Ud887ee4RFajP54716i?C2
+l27
+L22
+V<W:MGIzZCCMbfn_8OdH^P0
+R7
+31
+R35
+R36
+R37
+R11
+R12
+!s100 97EJD@gZ_oRLQ[O`nziVU1
+!i10b 1
+Puc_aux
+R2
+R3
+w1395271133
+R4
+8C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd
+FC:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd
+l0
+L6
+VCL8PLDa<o?dEz1gY0PO3Z0
+R7
+31
+R11
+R12
+!s100 hIb;H>EV?1c<8>bdBa[`j2
+!i10b 1
+!s108 1395273716.841000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd|
+!s107 C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd|
+Eula
+Z38 w1395271130
+R14
+Z39 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z40 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+R2
+R3
+R4
+Z41 8C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/ULA/ULA.vhd
+Z42 FC:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/ULA/ULA.vhd
+l0
+L14
+VNH4WSP759MUDB<MQO;NZB2
+R7
+31
+Z43 !s108 1395273717.641000
+Z44 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/ULA/ULA.vhd|
+Z45 !s107 C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/ULA/ULA.vhd|
+R11
+R12
+!s100 ]e9_K>;VMV_8BzO6VS_n_0
+!i10b 1
+Aarquiteturaula
+R14
+R39
+R40
+R2
+R3
+DEx4 work 3 ula 0 22 NH4WSP759MUDB<MQO;NZB2
+l40
+L28
+VzB7GznceeRGeJFAiWQdhd0
+R7
+31
+R43
+R44
+R45
+R11
+R12
+!s100 C^D9KVX16hDYzU=ITKNlf0
+!i10b 1
+Eunidadedecontrole
+Z46 w1395271132
+Z47 DPx4 work 6 uc_aux 0 22 CL8PLDa<o?dEz1gY0PO3Z0
+R2
+R3
+R4
+Z48 8C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd
+Z49 FC:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd
+l0
+L11
+VdgXOJ]DSBQKo0>`2:GJka1
+R7
+31
+Z50 !s108 1395273719.430000
+Z51 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd|
+Z52 !s107 C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd|
+R11
+R12
+!s100 P^P:dPJK9n[cizJX4ASJ=2
+!i10b 1
+Aarquitetura
+R47
+R2
+R3
+DEx4 work 17 unidadedecontrole 0 22 dgXOJ]DSBQKo0>`2:GJka1
+l31
+L27
+VBe[dXg;cES3z:?^nViNPB1
+R7
+31
+R50
+R51
+R52
+R11
+R12
+!s100 JWAm=PfUDkLgVzDzFi7<K1
+!i10b 1

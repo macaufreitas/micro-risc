@@ -1,0 +1,466 @@
+Analysis & Synthesis report for Microprocessador
+Wed Mar 19 23:42:38 2014
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. State Machine - |Microprocessador|UnidadeDeControle:UC|Estado
+  9. Registers Removed During Synthesis
+ 10. Removed Registers Triggering Further Register Optimizations
+ 11. General Register Statistics
+ 12. Port Connectivity Checks: "RegistroFlags:RegFlags"
+ 13. Port Connectivity Checks: "UnidadeDeControle:UC"
+ 14. Elapsed Time Per Partition
+ 15. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                    ;
++------------------------------------+--------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Wed Mar 19 23:42:37 2014      ;
+; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
+; Revision Name                      ; Microprocessador                           ;
+; Top-level Entity Name              ; Microprocessador                           ;
+; Family                             ; Cyclone IV GX                              ;
+; Total logic elements               ; 0                                          ;
+;     Total combinational functions  ; 0                                          ;
+;     Dedicated logic registers      ; 0                                          ;
+; Total registers                    ; 0                                          ;
+; Total pins                         ; 38                                         ;
+; Total virtual pins                 ; 0                                          ;
+; Total memory bits                  ; 0                                          ;
+; Embedded Multiplier 9-bit elements ; 0                                          ;
+; Total GXB Receiver Channel PCS     ; 0                                          ;
+; Total GXB Receiver Channel PMA     ; 0                                          ;
+; Total GXB Transmitter Channel PCS  ; 0                                          ;
+; Total GXB Transmitter Channel PMA  ; 0                                          ;
+; Total PLLs                         ; 0                                          ;
++------------------------------------+--------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Top-level entity name                                                      ; Microprocessador   ; Microprocessador   ;
+; Family name                                                                ; Cyclone IV GX      ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                            ;
++------------------------------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                     ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                 ; Library ;
++------------------------------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------+---------+
+; ../RegistroFlags/RegistroFlags.vhd                   ; yes             ; User VHDL File  ; C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd                   ;         ;
+; ../UnidadeDeControle/uc_aux.vhd                      ; yes             ; User VHDL File  ; C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd                      ;         ;
+; ../UnidadeDeControle/UnidadeDeControle.vhd           ; yes             ; User VHDL File  ; C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd           ;         ;
+; Microprocessador.vhd                                 ; yes             ; User VHDL File  ; C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Microprocessador/Microprocessador.vhd             ;         ;
+; ../ULA/ULA.vhd                                       ; yes             ; User VHDL File  ; C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/ULA/ULA.vhd                                       ;         ;
+; ../RegistroPropositoGeral/RegistroPropositoGeral.vhd ; yes             ; User VHDL File  ; C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd ;         ;
+; ../Demultiplexador/Demultiplexador.vhd               ; yes             ; User VHDL File  ; C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd               ;         ;
++------------------------------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------+---------+
+
+
++---------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary ;
++--------------------------+------------------+
+; Resource                 ; Usage            ;
++--------------------------+------------------+
+; I/O pins                 ; 38               ;
+; DSP block 9-bit elements ; 0                ;
+; Maximum fan-out node     ; data[0]          ;
+; Maximum fan-out          ; 1                ;
+; Total fan-out            ; 38               ;
+; Average fan-out          ; 0.50             ;
++--------------------------+------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                     ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------+--------------+
+; |Microprocessador          ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 38   ; 0            ; |Microprocessador   ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
+Encoding Type:  One-Hot
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |Microprocessador|UnidadeDeControle:UC|Estado                                                                                                                                                                                                                                              ;
++-----------------------+----------------------+---------------------+-----------------------+-----------------------+-----------------------+-----------------------+----------------------+-------------+-----------------------+-----------------------+--------------------+--------------+--------------+
+; Name                  ; Estado.ResultRegImed ; Estado.FimInstrucao ; Estado.Xor_regImed_16 ; Estado.And_regImed_16 ; Estado.Sbb_regImed_16 ; Estado.Adc_regImed_16 ; Estado.Or_regImed_16 ; Estado.Erro ; Estado.Sub_regImed_16 ; Estado.Add_regImed_16 ; Estado.OpRegImed16 ; Estado.Fetch ; Estado.Busca ;
++-----------------------+----------------------+---------------------+-----------------------+-----------------------+-----------------------+-----------------------+----------------------+-------------+-----------------------+-----------------------+--------------------+--------------+--------------+
+; Estado.Busca          ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 0            ;
+; Estado.Fetch          ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 1            ; 1            ;
+; Estado.OpRegImed16    ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 1                  ; 0            ; 1            ;
+; Estado.Add_regImed_16 ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 1                     ; 0                  ; 0            ; 1            ;
+; Estado.Sub_regImed_16 ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 1                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.Erro           ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 1           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.Or_regImed_16  ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 1                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.Adc_regImed_16 ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 1                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.Sbb_regImed_16 ; 0                    ; 0                   ; 0                     ; 0                     ; 1                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.And_regImed_16 ; 0                    ; 0                   ; 0                     ; 1                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.Xor_regImed_16 ; 0                    ; 0                   ; 1                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.FimInstrucao   ; 0                    ; 1                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.ResultRegImed  ; 1                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
++-----------------------+----------------------+---------------------+-----------------------+-----------------------+-----------------------+-----------------------+----------------------+-------------+-----------------------+-----------------------+--------------------+--------------+--------------+
+
+
++-----------------------------------------------------------------+
+; Registers Removed During Synthesis                              ;
++--------------------------------------------+--------------------+
+; Register name                              ; Reason for Removal ;
++--------------------------------------------+--------------------+
+; UnidadeDeControle:UC|Estado.Add_regImed_16 ; Lost fanout        ;
+; UnidadeDeControle:UC|Estado.Sub_regImed_16 ; Lost fanout        ;
+; UnidadeDeControle:UC|Estado.Or_regImed_16  ; Lost fanout        ;
+; UnidadeDeControle:UC|Estado.Adc_regImed_16 ; Lost fanout        ;
+; UnidadeDeControle:UC|Estado.Sbb_regImed_16 ; Lost fanout        ;
+; UnidadeDeControle:UC|Estado.And_regImed_16 ; Lost fanout        ;
+; UnidadeDeControle:UC|Estado.Xor_regImed_16 ; Lost fanout        ;
+; UnidadeDeControle:UC|opcodeFetch[3..15]    ; Lost fanout        ;
+; UnidadeDeControle:UC|ctrlDemuxData         ; Lost fanout        ;
+; UnidadeDeControle:UC|Estado.Busca          ; Lost fanout        ;
+; UnidadeDeControle:UC|Estado.Fetch          ; Lost fanout        ;
+; UnidadeDeControle:UC|Estado.OpRegImed16    ; Lost fanout        ;
+; UnidadeDeControle:UC|Estado.Erro           ; Lost fanout        ;
+; UnidadeDeControle:UC|Estado.FimInstrucao   ; Lost fanout        ;
+; UnidadeDeControle:UC|Estado.ResultRegImed  ; Lost fanout        ;
+; Total Number of Removed Registers = 27     ;                    ;
++--------------------------------------------+--------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                                    ;
++--------------------------------------------+--------------------+------------------------------------------------------------------------------+
+; Register name                              ; Reason for Removal ; Registers Removed due to This Register                                       ;
++--------------------------------------------+--------------------+------------------------------------------------------------------------------+
+; UnidadeDeControle:UC|Estado.Add_regImed_16 ; Lost Fanouts       ; UnidadeDeControle:UC|opcodeFetch[7], UnidadeDeControle:UC|opcodeFetch[6],    ;
+;                                            ;                    ; UnidadeDeControle:UC|opcodeFetch[5], UnidadeDeControle:UC|opcodeFetch[4],    ;
+;                                            ;                    ; UnidadeDeControle:UC|opcodeFetch[3], UnidadeDeControle:UC|Estado.OpRegImed16 ;
+; UnidadeDeControle:UC|opcodeFetch[15]       ; Lost Fanouts       ; UnidadeDeControle:UC|ctrlDemuxData, UnidadeDeControle:UC|Estado.Busca,       ;
+;                                            ;                    ; UnidadeDeControle:UC|Estado.Fetch, UnidadeDeControle:UC|Estado.Erro,         ;
+;                                            ;                    ; UnidadeDeControle:UC|Estado.FimInstrucao,                                    ;
+;                                            ;                    ; UnidadeDeControle:UC|Estado.ResultRegImed                                    ;
++--------------------------------------------+--------------------+------------------------------------------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "RegistroFlags:RegFlags"                                                                     ;
++--------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port         ; Type   ; Severity ; Details                                                                             ;
++--------------+--------+----------+-------------------------------------------------------------------------------------+
+; overflow     ; Input  ; Info     ; Stuck at GND                                                                        ;
+; direction    ; Input  ; Info     ; Stuck at GND                                                                        ;
+; interrupt    ; Input  ; Info     ; Stuck at GND                                                                        ;
+; trap         ; Input  ; Info     ; Stuck at GND                                                                        ;
+; sign         ; Input  ; Info     ; Stuck at GND                                                                        ;
+; adjust       ; Input  ; Info     ; Stuck at GND                                                                        ;
+; parity       ; Input  ; Info     ; Stuck at GND                                                                        ;
+; flags[15..1] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "UnidadeDeControle:UC"                                                                  ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; sitfila ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; lefila  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:10     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+    Info: Processing started: Wed Mar 19 23:42:06 2014
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Microprocessador -c Microprocessador
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 2 design units, including 1 entities, in source file /users/marcos aurelio/dropbox/tfg/codigomicroprocessador/registroflags/registroflags.vhd
+    Info (12022): Found design unit 1: RegistroFlags-ArquiteturaRF
+    Info (12023): Found entity 1: RegistroFlags
+Info (12021): Found 1 design units, including 0 entities, in source file /users/marcos aurelio/dropbox/tfg/codigomicroprocessador/unidadedecontrole/uc_aux.vhd
+    Info (12022): Found design unit 1: uc_aux
+Info (12021): Found 2 design units, including 1 entities, in source file /users/marcos aurelio/dropbox/tfg/codigomicroprocessador/unidadedecontrole/unidadedecontrole.vhd
+    Info (12022): Found design unit 1: UnidadeDeControle-Arquitetura
+    Info (12023): Found entity 1: UnidadeDeControle
+Info (12021): Found 2 design units, including 1 entities, in source file microprocessador.vhd
+    Info (12022): Found design unit 1: Microprocessador-ArquiteturaMicro
+    Info (12023): Found entity 1: Microprocessador
+Info (12021): Found 2 design units, including 1 entities, in source file /users/marcos aurelio/dropbox/tfg/codigomicroprocessador/ula/ula.vhd
+    Info (12022): Found design unit 1: ULA-arquiteturaULA
+    Info (12023): Found entity 1: ULA
+Info (12021): Found 2 design units, including 1 entities, in source file /users/marcos aurelio/dropbox/tfg/codigomicroprocessador/registropropositogeral/registropropositogeral.vhd
+    Info (12022): Found design unit 1: RegistroPropositoGeral-ArquiteturaRPG
+    Info (12023): Found entity 1: RegistroPropositoGeral
+Info (12021): Found 2 design units, including 1 entities, in source file /users/marcos aurelio/dropbox/tfg/codigomicroprocessador/demultiplexador/demultiplexador.vhd
+    Info (12022): Found design unit 1: Demultiplexador-ArquiteturaDemux
+    Info (12023): Found entity 1: Demultiplexador
+Info (12021): Found 2 design units, including 1 entities, in source file microprocessadortb.vhd
+    Info (12022): Found design unit 1: MicroprocessadorTB-ArquiteturaMicroTB
+    Info (12023): Found entity 1: MicroprocessadorTB
+Info (12127): Elaborating entity "Microprocessador" for the top level hierarchy
+Warning (10541): VHDL Signal Declaration warning at Microprocessador.vhd(16): used implicit default value for signal "addr" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10036): Verilog HDL or VHDL warning at Microprocessador.vhd(25): object "leFilaSig" assigned a value but never read
+Info (12128): Elaborating entity "Demultiplexador" for hierarchy "Demultiplexador:D1"
+Warning (10492): VHDL Process Statement warning at Demultiplexador.vhd(25): signal "entrada" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at Demultiplexador.vhd(27): signal "entrada" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10631): VHDL Process Statement warning at Demultiplexador.vhd(22): inferring latch(es) for signal or variable "saida_01", which holds its previous value in one or more paths through the process
+Warning (10631): VHDL Process Statement warning at Demultiplexador.vhd(22): inferring latch(es) for signal or variable "saida_02", which holds its previous value in one or more paths through the process
+Info (10041): Inferred latch for "saida_02[0]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_02[1]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_02[2]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_02[3]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_02[4]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_02[5]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_02[6]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_02[7]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_02[8]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_02[9]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_02[10]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_02[11]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_02[12]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_02[13]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_02[14]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_02[15]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_01[0]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_01[1]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_01[2]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_01[3]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_01[4]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_01[5]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_01[6]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_01[7]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_01[8]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_01[9]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_01[10]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_01[11]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_01[12]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_01[13]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_01[14]" at Demultiplexador.vhd(22)
+Info (10041): Inferred latch for "saida_01[15]" at Demultiplexador.vhd(22)
+Info (12128): Elaborating entity "UnidadeDeControle" for hierarchy "UnidadeDeControle:UC"
+Info (12128): Elaborating entity "ULA" for hierarchy "ULA:UnidadeLogicaArit"
+Warning (10492): VHDL Process Statement warning at ULA.vhd(45): signal "habilitaULA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10631): VHDL Process Statement warning at ULA.vhd(43): inferring latch(es) for signal or variable "enum_op", which holds its previous value in one or more paths through the process
+Warning (10492): VHDL Process Statement warning at ULA.vhd(61): signal "habilitaULA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Info (10041): Inferred latch for "enum_op.op_nop" at ULA.vhd(43)
+Info (10041): Inferred latch for "enum_op.op_a_xor_b" at ULA.vhd(43)
+Info (10041): Inferred latch for "enum_op.op_sub" at ULA.vhd(43)
+Info (10041): Inferred latch for "enum_op.op_subCarry" at ULA.vhd(43)
+Info (10041): Inferred latch for "enum_op.op_addCarry" at ULA.vhd(43)
+Info (10041): Inferred latch for "enum_op.op_a_or_b" at ULA.vhd(43)
+Info (10041): Inferred latch for "enum_op.op_add" at ULA.vhd(43)
+Info (12128): Elaborating entity "RegistroPropositoGeral" for hierarchy "RegistroPropositoGeral:RegistroDados"
+Warning (10492): VHDL Process Statement warning at RegistroPropositoGeral.vhd(41): signal "leitura_Escrita" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at RegistroPropositoGeral.vhd(41): signal "habilita" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at RegistroPropositoGeral.vhd(67): signal "habilita" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Info (12128): Elaborating entity "RegistroFlags" for hierarchy "RegistroFlags:RegFlags"
+Warning (10631): VHDL Process Statement warning at RegistroFlags.vhd(30): inferring latch(es) for signal or variable "Flags", which holds its previous value in one or more paths through the process
+Info (10041): Inferred latch for "Flags[1]" at RegistroFlags.vhd(30)
+Info (10041): Inferred latch for "Flags[3]" at RegistroFlags.vhd(30)
+Info (10041): Inferred latch for "Flags[5]" at RegistroFlags.vhd(30)
+Info (10041): Inferred latch for "Flags[12]" at RegistroFlags.vhd(30)
+Info (10041): Inferred latch for "Flags[13]" at RegistroFlags.vhd(30)
+Info (10041): Inferred latch for "Flags[14]" at RegistroFlags.vhd(30)
+Info (10041): Inferred latch for "Flags[15]" at RegistroFlags.vhd(30)
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "addr[0]" is stuck at GND
+    Warning (13410): Pin "addr[1]" is stuck at GND
+    Warning (13410): Pin "addr[2]" is stuck at GND
+    Warning (13410): Pin "addr[3]" is stuck at GND
+    Warning (13410): Pin "addr[4]" is stuck at GND
+    Warning (13410): Pin "addr[5]" is stuck at GND
+    Warning (13410): Pin "addr[6]" is stuck at GND
+    Warning (13410): Pin "addr[7]" is stuck at GND
+    Warning (13410): Pin "addr[8]" is stuck at GND
+    Warning (13410): Pin "addr[9]" is stuck at GND
+    Warning (13410): Pin "addr[10]" is stuck at GND
+    Warning (13410): Pin "addr[11]" is stuck at GND
+    Warning (13410): Pin "addr[12]" is stuck at GND
+    Warning (13410): Pin "addr[13]" is stuck at GND
+    Warning (13410): Pin "addr[14]" is stuck at GND
+    Warning (13410): Pin "addr[15]" is stuck at GND
+    Warning (13410): Pin "addr[16]" is stuck at GND
+    Warning (13410): Pin "addr[17]" is stuck at GND
+    Warning (13410): Pin "addr[18]" is stuck at GND
+    Warning (13410): Pin "addr[19]" is stuck at GND
+Info (17049): 27 registers lost all their fanouts during netlist optimizations.
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 18 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "data[0]"
+    Warning (15610): No output dependent on input pin "data[1]"
+    Warning (15610): No output dependent on input pin "data[2]"
+    Warning (15610): No output dependent on input pin "clk"
+    Warning (15610): No output dependent on input pin "reset"
+    Warning (15610): No output dependent on input pin "data[15]"
+    Warning (15610): No output dependent on input pin "data[14]"
+    Warning (15610): No output dependent on input pin "data[13]"
+    Warning (15610): No output dependent on input pin "data[12]"
+    Warning (15610): No output dependent on input pin "data[11]"
+    Warning (15610): No output dependent on input pin "data[10]"
+    Warning (15610): No output dependent on input pin "data[9]"
+    Warning (15610): No output dependent on input pin "data[8]"
+    Warning (15610): No output dependent on input pin "data[7]"
+    Warning (15610): No output dependent on input pin "data[6]"
+    Warning (15610): No output dependent on input pin "data[5]"
+    Warning (15610): No output dependent on input pin "data[4]"
+    Warning (15610): No output dependent on input pin "data[3]"
+Info (21057): Implemented 38 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 18 input pins
+    Info (21059): Implemented 20 output pins
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 54 warnings
+    Info: Peak virtual memory: 598 megabytes
+    Info: Processing ended: Wed Mar 19 23:42:38 2014
+    Info: Elapsed time: 00:00:32
+    Info: Total CPU time (on all processors): 00:00:03
+
+

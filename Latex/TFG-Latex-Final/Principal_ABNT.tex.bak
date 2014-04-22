@@ -1,0 +1,45 @@
+%% Monografia de TCC - Desenvolvimento de Microprocessador 8086 RISC em FPGA
+%%
+\documentclass{abnt}
+% Incluir Pacotes ------------------------------------------------
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{ae}                         %% Font Encoding T1 (PDF)
+\usepackage[dvips,pdftex]{graphicx}
+\usepackage[dvips]{geometry}            %% Dimensões do documento (DVI/PS)
+\usepackage{lscape}                     %% Utilizar página em landscape
+\usepackage{url}                        %% Trata URLs, e-mails e paths
+\usepackage[alf]{abntex2cite}
+
+\renewcommand{\ABNTchapterfont}{\fontfamily{cmr}\fontseries{b}\selectfont}
+\renewcommand{\ABNTsectionfont}{\fontfamily{cmr}\fontseries{b}}
+\renewcommand{\tituloformat}{\large\bfseries}
+
+\begin{document}
+% ----------------------------------------------------------------
+% Páginas iniciais
+% ----------------------------------------------------------------
+\include{capa}                    %% Capa e Folha de rosto
+\tableofcontents                  %% Sumário
+\listoffigures                    %% Lista de figuras
+\listoftables                     %% Lista de tabelas
+%\include{ListaAbrev}             %% Lista de abreviaturas
+%\include{Agrade}                 %% Agradecimentos
+\include{Resumo}                 %% Resumo
+%-----------------------------------------------------------------
+% Corpo da Monografia
+% ----------------------------------------------------------------
+\include{Introducao}              %% INTRODUÇÃO
+\include{Objetivo}		          %% Objetivo
+\include{Fundamentacao}     	  %% Revisao Bibliográfica
+%\include{Desenvolvimento}
+%\include{Resultados}
+%\include{ConsideracoesFinais}
+%\include{TrabalhosFuturos}
+% ----------------------------------------------------------------
+\bibliographystyle{abntex2-alf}
+
+\bibliography{biblio}             %% REFERÊNCIAS (deve-se possuir o arquivo do tipo bibtex)
+% ----------------------------------------------------------------
+\end{document}
+% ----------------------------------------------------------------

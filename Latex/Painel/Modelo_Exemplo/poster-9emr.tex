@@ -1,0 +1,266 @@
+% Template file for an a0 portrait poster.
+% Written by Graeme, 2001-03 based on his SOC poster.
+%
+% See discussion and documentation at
+% <http://www.astro.gla.ac.uk/users/norman/docs/posters/> 
+%
+% $Id: poster-template-portrait.tex,v 1.2 2002/12/03 11:25:55 norman Exp $
+
+
+
+% We switch to portrait mode. This works as advertised.
+\documentclass[a0,portrait]{a0poster}
+%\documentclass[draft]{a0poster}
+
+% You might find the 'draft' option to a0 poster useful if you have
+% lots of graphics, because they can take some time to process and
+% display. (\documentclass[a0,draft]{a0poster})
+
+% Switch off page numbers on a poster, obviously, and section numbers too.
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+
+% The textpos package is necessary to position textblocks at arbitary 
+% places on the page.
+\usepackage[absolute]{textpos}
+
+% Graphics to include graphics. Times is nice on posters, but you
+% might want to switch it off and go for CMR fonts.
+\usepackage[final]{graphics}
+\usepackage{wrapfig,times}
+\usepackage[ansinew]{inputenc}
+%\usepackage[brazilian]{babel}
+
+% These colours are tried and tested for titles and headers. Don't
+% over use color!
+\usepackage{color}
+\definecolor{DarkBlue}{rgb}{0.1,0.1,0.5}
+\definecolor{Red}{rgb}{0.9,0.0,0.1}
+\definecolor{DarkGreen}{rgb}{0.10,0.50,0.10}
+
+% see documentation for a0poster class for the size options here
+\let\Textsize\normalsize
+\def\Head#1{\noindent\hbox to \hsize{\hfil{\LARGE\color{DarkBlue} #1}}\bigskip}
+\def\LHead#1{\noindent{\LARGE\color{DarkBlue} #1}\smallskip}
+\def\Subhead#1{\noindent{\large\color{DarkBlue} #1}}
+\newcommand{\quiteHuge}{\fontsize{70.3}{93}\selectfont}
+\def\Title#1{\begin{center}\noindent{\quiteHuge\color{DarkGreen}#1}\end{center}}
+
+
+\newcommand{\labincor}{Laboratory of Genetics and Molecular Cardiology, Heart Institute, University of São Paulo Medical School (InCor-USP)}
+
+
+% Set up the grid
+%
+% Note that [40mm,40mm] is the margin round the edge of the page --
+% it is _not_ the grid size. That is always defined as 
+% PAGE_WIDTH/HGRID and PAGE_HEIGHT/VGRID. In this case we use
+% 15 x 25. This gives us a wide central column for text (7 grid
+% spacings) and two narrow columns (3 each) at each side for 
+% pictures, separated by 1 grid spacing.
+%
+% Note however that texblocks can be positioned fractionally as well,
+% so really any convenient grid size can be used.
+%
+\TPGrid[20mm,20mm]{17}{25}  % 3 - 1 - 7 - 1 - 3 Columns
+
+% Mess with these as you like
+\parindent=0pt
+%\parindent=1cm
+\parskip=0.5\baselineskip
+
+% abbreviations
+\newcommand{\ddd}{\,\mathrm{d}}
+
+\begin{document}
+
+% Understanding textblocks is the key to being able to do a poster in
+% LaTeX. In
+%
+%    \begin{textblock}{wid}(x,y)
+%    ...
+%    \end{textblock}
+%
+% the first argument gives the block width in units of the grid
+% cells specified above in \TPGrid; the second gives the (x,y)
+% position on the grid, with the y axis pointing down.
+
+% You will have to do a lot of previewing to get everything in the 
+% right place.
+
+% This gives good title positioning for a portrait poster.
+% Watch out for hyphenation in titles - LaTeX will do it
+% but it looks awful.
+\begin{textblock}{15}(0,0)
+\Title{{\textsc {\textsc A survey of regression modelling techniques for analysing microarray data}}}
+\end{textblock}
+
+\begin{textblock}{2}(15,0)
+\resizebox{1.6\TPHorizModule}{!}{\includegraphics{ime-arquimedes}}
+\end{textblock}
+
+\begin{textblock}{17}(0,1.1)
+\begin{center}
+\parbox{0.45\textwidth}{
+    \begin{center}
+    \LHead{Fernando Henrique Ferraz Pereira da Rosa}  \\
+    \LHead{Department of Statistics} \\
+    \LHead{University of São Paulo} \\
+    \LHead{\texttt{feferraz@ime.usp.br}} 
+    \end{center}
+}
+\parbox{0.45\textwidth}{
+    \begin{center}
+    \LHead{Júlia Maria Pavan Soler} \\
+    \LHead{Department of Statistics} \\
+    \LHead{University of São Paulo} \\
+    \LHead{\texttt{pavan@ime.usp.br}} 
+    \end{center}
+}
+\end{center}
+\end{textblock}
+
+
+% Put the GU logo in the top right.
+%\begin{textblock}{2}(13,0)
+%Your logo here.
+%\resizebox{1.5\TPHorizModule}{!}{\includegraphics{ime-arquimedes}}
+%\end{textblock}
+
+
+% Abstract
+
+\begin{textblock}{17}(0,2.9)
+\begin{center}
+\begin{minipage}{0.9\textwidth}
+\begin{abstract}
+        Studies in genetics involving microarray experiments allow simultaneous comparison and quantification of gene expression on a large scale. Many sources of variation play an important role on the analysis of data coming from such experiments. 
+        A proper experimental design and subsequent development of suitable models for analysis are essential steps in order to assure the identification of significant genes, helping researchers distinguish between variations which are due to actual biological changes from random noise.
+        In this work, we evaluate some of the various regression modelling strategies proposed in the literature, such as the use of mixed-effects models \cite{wolfinger-mixed}, \cite{kerr-anova} and the issue of variable selection  in microarray gene expression profiling.
+        We apply the models studied to data from a study of the \labincor{} based on strains of rat, which aims to identify genes that have a regulatory role on the mechanism of hypertension.
+\end{abstract}
+
+\end{minipage}
+\end{center}
+\end{textblock}
+
+\begin{textblock}{5}(0,4.6)
+  \LHead{Introduction}
+	
+	Microarrays are a widely used tool in genomic studies to assess, through the levels of mRNA in a certain tissue, how a set of thousands of genes are being expressed under different conditions. Many different strategies have been proposed to analyse data coming from such experiments, ranging from linear models to cluster analysis. In this work, we survey those methods pertaining closely to regression analysis, though a complete distinction is debatable.
+
+        In a microarray experiment, pools of differentially labelled cDNA sequences are combined and applied to a glass slide or other substrate \cite{expr_desg}, containing thousands of known complementary sequences of cDNA. Each region of the slide, containing a certain immobilised sequence is called a \emph{spot}. For each spot, the intensity of hybridisation of the two labelled samples are measured, and through this measure we can assess the levels of expression for the gene represented by that spot. For each slide in an experiment, we have a set of $2s$ measurements, where $s$ is the total number of spots in the slide. This number ranges usually from $20000$ to $50000$. We denote the measures from the sample marked with the green dye by $G$ and those from the sample marked with the red dye by $R$. A generic spot $i$ will be denoted by $(r,g)_i$.
+
+        Often these data are subject to various source of variation and a direct analysis of the raw $(r,g)_i$ values may be misleading. The first methods we address are the normalization ones, which try to control some of this variation, using nonparametric smoothing. These were the first models proposed in the literature. We then consider the approach of ANOVA and linear mixed models, and finally the use of logistic regression to identify differentially expressed genes.
+
+\vspace{0.2cm}
+ \LHead{Nonparametric smoothing}
+  
+	Nonparametric smoothing comes in the context of normalization of microarray data. Normalization techniques were devised to reduce the technical variation and to obtain comparable intensity values across different slides. These techniques are usually applied on a transformation of the original data. The pairs $(R,G)$ are transformed into the $(M,A)$ coordinate system, where $M = \log_2 R/G$ and $A = \log_2 \sqrt{RG}$. This new axis system, $(M,A)$, corresponds to a rescaling and a clockwise coordinate system rotation by $45^o$.
+
+	A scatter plot of these values for the spots in an array is usually called an MAPlot. This type of plot is used to display the gene expression intensities aiming a spatial identification of points. Here, the horizontal coordinate A is a measure of the average transcription level, while M is a measure of differential transcription. This graphic is akin to the variance by average scatter plots, traditionally used in exploratory data analysis for identifying heterocedasticity and dependence structures. Figure 1 displays an MAPlot for a given microarray slide. 
+
+  \begin{center}
+\resizebox{2.5\TPHorizModule}{!}{
+\includegraphics{rat85raw}}
+\\Figure 1: MAPlot for a given slide.
+  \end{center}
+
+	Normalization techniques work by transforming the $M$ values, attempting to control systematic and random variations. We usually seek a transformation of the type:
+
+\begin{displaymath}
+M_k \rightarrow M_k - c_i(A) , \quad i=1,\ldots,s , 
+\end{displaymath}
+
+\noindent where $c_i(A)$ is obtained through a smoothing function of the MAPlot for the given slide.  A good choice of $c(.)$ will assure that much of the variation due to technical issues is controlled, so that further analysis of the data is carried on the normalized values. The first proposed and most used smoother is the lowess \cite{yang-norm} robust scatter plot smoother. Another possibility is the use of smoothing splines \cite{splinesnorm}, as a more adaptive technique. 
+
+	Other variations of these procedures, consider the physical arrangement of the spots in the slides, which is generally done by blocks or subarrays. As there is indication that subarrays have influence on the intensity values, it is common to adjust a different smoother $c_j(.)$, for every subarray $j$, originating the normalization per subarray \cite{yang-norm} technique. Figure 2 displays MAPlots for a set of 2 different slides, comparing two different smoothing functions, from a study on congenic rats from the \labincor{}. 
+
+\end{textblock}
+
+\begin{textblock}{5}(6,4.6)
+ \vspace{1cm}
+\Subhead{Lowess and splines normalization}
+
+ \begin{center}
+\resizebox{5\TPHorizModule}{!}{
+\includegraphics{all_4_mixed}}
+\\Figure 2: Lowess and splines per subarray normalization compared over a set of 2 arrays.
+  \end{center}
+
+	In general, these nonparametric smoothing techniques provide a good fit to the data, resulting in good normalization procedures. On the other hand, we know little about the structure of the model being considered, such as what effects are being accounted and what are being discarded.
+
+ \vspace{0.5cm}
+ \LHead{ANOVA and mixed models}
+
+	Another approach to analyse this type data, sometimes complementary to normalization, is the use of ANOVA techniques and linear models. This was first proposed by \cite{kerr-anova}, whose model is given by:
+
+\begin{displaymath}
+        \log{(Y_{ijkg})} = \mu + A_i + D_j + V_k + G_g + (AG)_{ig} + (VG)_{kg} + \epsilon_{ijkg}, 
+\end{displaymath}
+
+\noindent where $\mu$ is an overall average of the signal intensities, $A_i$ represents the effect of the $i^{th}$ array, $D_j$ represents the effect of the $j^{th}$ dye, $V_k$ the effect of the $k^{th}$ variety, $G_g$ the effect of the $g^{th}$ gene and $\epsilon_{ijkg}$ is an stochastic error. The interaction effect $(AG)_{ig}$ accounts for a \emph{spot} effect, and is included in the model mainly to reduce the variability due to technical issues, not being of interest in itself. The effects of interest in this model are the interaction effects between variety and gene, given by $(VG)_{kg}$. All effects are considered fixed, and the normalization of the data is carried through the  $A$, $D$ and $V$ terms, without the need to introduce preliminary manipulations.
+
+A related method was later proposed by \cite{wolfinger-mixed}, which uses two interconnected ANOVA models, a ``normalization'' model and a ``gene'' model. The normalization model aims to control experiment-wide systematic effects while the gene model aims to identify differently expressed genes. The residuals of the normalization model are used as inputs to the gene model. Both models are mixed (with random and fixed effects), the normalization one being:
+
+\begin{displaymath}
+\log_2(Y_{gij}) = \mu + T_i + A_j + (TA)_{ij} + \epsilon_{gij},
+\end{displaymath}
+
+\noindent where  $\mu$ is an overall average, $T$ is a variety effect, $A$ is an array effect and $TA$ is the interaction effect of array and variety. Effects $A$ and $TA$ are random, while $T$ is fixed. Due to their experimental design, the $T$ effect is accounting for the dyes effect, and the interaction $TA$ is modelling the channels. This is possible as in their design the treatment was always labelled with $Cy5$, but for more general situations, a $D$ effect for dye is usually considered. The gene model is given by:
+
+\begin{displaymath}
+        r_{gij} = G_g + (GT)_{gi} + (GA)_{gj} + \gamma_{gij}
+\end{displaymath}
+
+\noindent, where $r_{gij}$ are the residuals from the normalization model, $G$ is a gene effect, $GT$ is an interaction between gene and variety and $GA$ an interaction between gene and array. $GA$ is a random effect, while $G$ and $GT$ are fixed. The $GA$ effect is essential to this model, serving to account for spot-to-spot variability and allowing us to not form ratios. 
+
+	The use of a mixed model grants us more flexibility to model the correlation structure of the data. Particularly, the use of a random effect for the array ($A$) allows us to model the correlations between the expression levels in a given array. Also, we may consider using a random gene effect, which would permit us to extend the inferences made to the whole population of genes, even those not present on the arrays under study.
+
+%	The use of ANOVA and mixed linear models combines the normalization process with the data analysis, based on a clear set of assumptions and an explicit model, where we know exactly how each effect is accounting for the variation in the data, providing the researcher with means to estimate each effect individually. On the other hand, we cannot always be sure whether the certain correlation, error and distributional structure assumed is valid.
+
+\end{textblock}
+
+\begin{textblock}{5}(12,4.6)
+  \LHead{Logistic regression}
+
+	We can consider the problem of identifying genes which have a regulatory role on a certain characteristic of interest, as a problem of discriminant analysis. The characteristic of interest can be considered as a grouping factor, or binary response variable (in the case of two different groups of interest, for example normotense and hypertensive rats) and the expression levels of the genes spotted on the microarray as explanatory variables. This structure naturally leads one to a logistic regression model. 
+
+	Let us consider a phenotype of interest taking two possible values: SHR (spontaneously hypertensive rat) and non SHR (normotense rat). Suppose that samples of mRNA of these two groups are obtained and cohybridized into a microarray slide, and the $x_j$ intensities levels are measure for each channel (Cy3 and Cy5). We can then model the probability of pertaining to a certain phenotype using a logistic regression:
+
+\begin{equation}\label{logit}
+	P(SHR) = \frac{1}{1 + \exp{(-\beta_0 - \sum_{i=1}^s \beta_jx_j} )} ,
+\end{equation} 
+
+\noindent where $x_j$ are the log-normalized gene expression levels, and $\beta_j$ is a gene specific parameter. The immediate problem with directly using this approach is that $s+1$ parameters are required to fit a model considering all genes. As the number of slides is always far smaller than that, the proposed solution \cite{discanal-ma} is to consider only a subset of best performing genes, according to an ancillary analysis, and use the logistic model to select the genes with most effect in the phenotype of interest among this subset. 
+	
+
+ \Subhead{Variable selection}
+
+In this context, the problem of identifying differentially expressed genes comes down to the selection of variables in the logistic model (\ref{logit}). A best subset of explanatory variables in this context, will be a best subset of genes which have a regulatory role on the studied treatments/phenotypes. 
+
+The procedures for carrying out the selection of the variables are well established on the literature, and are based generally on restricted likelihood criteria, like the Akaike information criterion (AIC) and the Bayesian information criterion (BIC). 
+
+These procedures should be used with caution, though. Some algorithms tend to avoid the problem of multicollinearity by dropping one or more of the correlated variables, and this is generally not desired during the identification of genes: as much as the levels of expressions of two different genes might convey the same information regarding the classification of the experimental units in the control or treatment group, the researcher will generally be interested in all of those genes. 
+
+Another issue to be considered is that these procedures will find a subset of genes which best perform in predicting a certain phenotype when combined on a logistic regression model. The identification of individual genes, or how many genes should be stated as relevant, might be a more delicate question \cite{discanal-ma}, and will depend on the significance levels adopted and assumptions the researcher will be willing to make.
+
+It should be also observed that the approach of variable selection may also be used in the context of the ANOVA and mixed linear models, by considering a model where the predictors are genes, and selecting a subset of best performing predictors.
+
+\bibliography{ref}
+\bibliographystyle{abbrv}
+
+\end{textblock}
+
+\begin{textblock}{5}(12,24.4)
+  \begin{center}
+	This work was supported by:\\
+	\includegraphics{fapesp}
+  \end{center}
+\end{textblock}
+
+
+
+\end{document}
+
+

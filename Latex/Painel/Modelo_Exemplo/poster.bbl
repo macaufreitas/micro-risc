@@ -1,0 +1,19 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{1.45.2.1 }
+
+\bibitem[Carita 2006]{seraphim}
+\abntrefinfo{Carita}{CARITA}{2006}
+{CARITA, E. et~al. Implantação de pacs com suporte à recuperação de imagens
+  baseada em conteúdo em hospital universitário.
+\emph{X Congresso Brasileiro de Informática em Saúde}, 2006.}
+
+\bibitem[Josuttis 2007]{soainpractice}
+\abntrefinfo{Josuttis}{JOSUTTIS}{2007}
+{JOSUTTIS, N.~M. \emph{SOA in Practice -- The Art of Distributed Systems
+  Design}. 1. ed. Sebastopol, CA, USA: O'Reilly, 2007. 342~p.}
+
+\end{thebibliography}

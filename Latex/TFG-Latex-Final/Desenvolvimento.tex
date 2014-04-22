@@ -1,0 +1,273 @@
+% ----------------------------------------------------------------
+% Desenvolvimento
+% ----------------------------------------------------------------
+\chapter{Desenvolvimento}
+
+\section{Requisitos de Funcionamento}
+
+% Descreve os sofwares necessarios para o projeto
+\subsection{Software}
+	
+	\begin{itemize}
+		\item Altera Quartus II Version 13.1 Build 162 09/02/2014 SJ Web Edition
+		\item ModelSim Altera Starter Edition 13.1
+		\item Sistema Operacional Windows 7/8/8.1
+	\end{itemize}
+
+% Descreve o hardware necessario para o projeto
+\subsection{Hardware}
+
+	\begin{itemize}
+		\item Microcomputador de 1GHz ou superior
+		\item 256 MB de Memória RAM
+		\item 4GB de espaço disponível em disco
+	\end{itemize}
+	
+% Descreve as maquinas utilizadas no projeto
+\subsection{Ferramentas Utilizadas no Projeto}
+
+	\begin{itemize}
+		\item Software Quartus II 13.1 Web Edition
+		\item ModelSim Altera Starter Edition 13.1
+		\item Notebook Dell Inspiron 14R: Intel Core i7, 8GB de Memória RAM, 1TB de espaço em disco.
+		\item Notebook Samsung RF511-SD3BR: Intel Core i7, 8GB de Memória RAM, 1TB de espaço em disco.
+	\end{itemize}
+	
+\section{Definição do Conjunto de Instruções}
+
+\subsection{Conjunto de Instruções CISC}
+	Em uma máquina CISC, como o iAPX8086, há centenas de instruções de diversos tamanhos. Isso se justificava no passado pela velocidade lenta da memória, uma vez que após acessá-la para buscar uma instrução a execução das demais instruções normalmente não precisava de outro acesso.
+	
+	No entanto, as memórias de hoje são de alto desempenho, e dispensam a precaução de evitar acessá-las. Diante disso, um programa CISC se torna complexo e demanda tempo para ser executado, uma vez que possui instruções complexas que requerem vários ciclos de relógio e raramente são utilizadas.
+	
+	Um programa escrito para uma máquina CISC, possui instruções escritas de um modo menor, ou seja, estão mais simples, porém mais codificadas. Quando o processador recebe tais instruções ele tem de decodificá-las em código de máquina para que seus circuitos possam executá-las.
+	
+	Os processadores de arquitetura CISC contêm uma micro-programação, ou seja, um conjunto de códigos de instruções que são gravados no processador. Desta forma, este recebe as instruções dos programas e as executa utilizando as instruções contidas em sua micro-programação. 
+	
+	A imagem \ref{FigFluxogramaCISC} a seguir ilustra o processo de quebra do código que chega ao microprocessador, já em baixo nível, em diversas instruções mais próximas do hardware, estas por sua vez estão contidas no microcódigo do processador.
+	
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=0.7]{fluxograma-maquina-cisc.jpg}
+		\caption{Sequência para Execução de Instruções CISC}
+		\label{FigFluxogramaCISC}
+	\end{figure}
+	
+\subsection{Conjunto de Instruções RISC}
+	Em uma máquina RISC, como a desenvolvida neste trabalho, o conjunto de instruções é reduzido. O hardware suporta um conjunto mínimo de funções, sendo estas operações aritméticas e lógicas, transferência de dados entre CPU, memória e periféricos, além de operações de controle da máquina.
+	
+	Uma das principais características das instruções é que cada uma executa uma ação muito simples. Assim, uma máquina RISC tem suas instruções compiladas diretamente para código de máquina, não sendo necessária uma posterior quebra em microcódigo (como ocorre em máquinas CISC).
+	
+	A imagem \ref{FigFluxogramaRISC} a seguir ilustra o processo de compilação dos programas de um microprocessador de arquitetura RISC.
+	
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=0.7]{fluxograma-maquina-risc.jpg}
+		\caption{Sequência para Execução de Instruções RISC}
+		\label{FigFluxogramaRISC}
+	\end{figure}
+	
+	A definição de um conjunto de instruções para uma máquina RISC segue as seguintes regras:	
+	\begin{itemize}
+		\item Analisar aplicações para identificar operações-chave
+		\item Projetar um processador que seja eficiente para executar essas operações.
+		\item Projetar instruções que realizam as operações-chave.
+		\item Acrescentar mais instruções necessárias, cuidando para não afetar a velocidade da máquina.
+	\end{itemize}
+	
+\subsection{Instruções Escolhidas}
+	Para a implementação de um microprocessador o primeiro item que necessita ser pensado e desenvolvido com muita atenção é o conjunto de instruções, portanto dentre 255 instruções do microprocessador 8086 foram escolhidas somente as instruções que são de funcionamento básico de um programa de computador.
+
+	Realizando um pararelo entre os dois tipos possíveis de conjunto de instruções, o microprocessador em desenvolvimento implementará instruções semelhantes ao conjunto do Microprocessador MIPS, que possui um conjunto de instruções bem reduzido, somente com 50 instruções e todos opcodes com o tamanho fixo de 6 bits, além que dentro dessas instruções elas são subdividas em somente 3 tipos, que são: I,J e R. Sendo o tipo I, as operações de registro - imediato, as instruções J, que são os jumps e as instruções R, que são as instruções registro-registro.
+
+	"O design do conjunto de instruções deve ter vários objetivos, sendo o mais óbvio e útil a performance do microprocessador."\cite{ArtigoVLSI}.
+
+	Neste momento a preocupação é desenvolver um microprocessador que tenha um funcionamento básico e muito explí­cito, pois o foco deste trabalho não é desenvolver uma tecnologia nova, porém compreender profundamente o desenvolvimento da arquitetura e dos componentes de um microprocessador e lembrando que, as máquinas RISC só se tornaram viáveis devido aos avanços de software no aparecimento de compiladores otimizados.\cite{riscArtigo}.
+
+	Para adequar o 8086 a filosofia RISC, somente um modo de endereçamento é possí­vel, somente o modo NNNNN, pois torna o microprocessador uma máquina Load/Store, nenhuma operação memória-memória se adequa a filosofia. Além do conjunto de instruções caracterí­stico, os microprocessadores RISC possuem normalmente uma grande quantidade de registradores, devidamente pela impossibilidade de realizar operações memória-memória, porém o microprocessador a ser desenvolvido por seguir as caracterí­sticas de um 8086, possuirá somente os mesmos registradores existentes no microprocessador 8086 CISC, em busca de facilitar o desenvolvimento, além disso, com o foco de que o mesmo código gerado para um microprocessador 8086 CISC possa ser utilizado, claro sendo que sejam as mesmas instruções, em sua versão RISC.
+
+	Para o devido gerenciamento de memória, o microprocessador a ser desenvolvido não irá ter em seu conjunto os modos que fazem uso de segmentação, portanto a memória será enxergada como uma memória linear. Como se tivessemos somente um segmento sendo utilizado, tal definição será explicitada mais a diante. Semelhante ao funcionamento do micrprocessador 386 que possui além de um modo de memória segmentada, um modo protegido o qual a memória é vista linearmente.
+
+	Portanto, após todas as considerações tomadas para o desenvolvimento do conjunto de instruções, temos na tabela \ref{tabelaInstrucoes} o conjunto de instruções escolhido para o desenvolvimento deste microprocessador.
+
+	\begin{table}[htbp]
+		\centering
+  		\caption{Instruções Escolhidas e seus devidos Opcodes}
+  		\begin{tabular}{|c|c|}
+			\hline
+			Instrução & Opcode \\
+			\hline
+			\textbf{ADD  Reg16,Imed 16} & 10000001 11000 R/M I16L I16H \\
+			\hline
+			\textbf{OR     Reg16,Imed16} & 10000001 11001 R/M I16L I16H \\
+			\hline
+		    \textbf{ADC  Reg16,Imed16} & 10000001 11010 R/M I16L I16H \\
+		    \hline
+		    \textbf{SBB   Reg16,Imed16} & 10000001 11011 R/M I16L I16H \\
+		    \hline
+		    \textbf{AND  Reg16,Imed16} & 10000001 11100 R/M I16L I16H \\
+		    \hline
+		    \textbf{SUB   Reg16,Imed16} & 10000001 11101 R/M I16L I16H \\
+		    \hline
+		    \textbf{XOR   Reg16,Imed16} & 10000001 11110 R/M I16L I16H \\
+		    \hline
+		    \textbf{CMP  Reg16,Imed16} & 10000001 11111 R/M I16L I16H \\
+		    \hline
+		    \textbf{MOV Reg16,Imed16} & 00000000 10111 R/M I16L I16H \\
+		    \hline
+		\end{tabular}
+		\label{tabelaInstrucoes}%
+\end{table}%
+
+	Para realizar uma verificação das instruções escolhidas e determinar a sua finalidade, aproveitamos da liberação que a Microsoft realizou nos últimos dias, que foi, abrir o código fonte do sistema MS-DOS para o Museu da História da Computação, o qual foi disponibilizado pela internet \cite{MSDOSLink}, neste arquivo que pode ser feito realizado o download livremente, existem duas versões do MS-DOS, como base utilizamos a versão 1.1 do MS-DOS, com os arquivos fontes escritos em Asembly. Baseado históricamente, este sistema  era executado em um processador Intel®. Portanto, desenvolveu-se um código na linguagem Python, que encontra-se em anexo, para realizar uma varredura em todos os arquivos .asm para checar a quantidade de instruções semelhantes as que foram definidas como instruções do microprocessador a ser implementado, com os resultados, obtivemos a figura \ref{FigInstrucoes}.
+
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=0.8]{instrucoesMSDOS.png}
+		\caption{Análise quantitativa das instruções do código do MS-DOS\cite{MSDOSLink}}
+		\label{FigInstrucoes}
+	\end{figure}
+
+	Assim como em um projeto de pesquisa da IBM identificou que a maioria das instruções eram usadas com pouca freqüência. Cerca de 20\% delas eram usadas 80\% das vezes. Os próprios desenvolvedores de sistemas operacionais habituaram-se a determinados subconjuntos de instruções, tendendo a ignorar as demais, principalmente as mais complexas\cite{riscArtigo}, no gráfico podemos ver claramente a alta utilização de instruções MOV, independente do seu tipo de endereçamento, o que o torna 
+
+\subsection{Definição do Tamanho das Instruções}
+	Na arquitetura CISC há instruções de diversos tamanhos. Um exemplo é o iAPX8086, que contém instruções que variam de 1 até 6 bytes. Desta forma, cada uma destas instruções requer uma quantidade diferente de ciclos de máquina para serem executadas.
+	
+	Na arquitetura RISC todas as instruções possuem o mesmo tamanho. E, segundo a regra de ouro, todas as instruções devem ser executadas em apenas um ciclo de máquina. O problema quanto à regra de ouro são as instruções LOAD e STORE que requerem mais ciclos de relógio, uma vez que estas fazem acesso à memória.
+	
+	Neste ponto, a regra de ouro tem de ser adaptada. A solução proposta é que a cada ciclo de relógio a execução de uma nova instrução seja iniciada. E nessa característica é que entra o uso da técnica de pipelining.
+	
+	Para o microprocessador desenvolvido neste trabalho as instruções possuem 4 bytes. Este tamanho de instrução foi definido visando uma melhor administração da memória disponível e respeitando a regra de ouro, onde todas as instruções tem o mesmo tamanho. Na figura \ref{FigEstruturaInstrucao} a seguir tem-se a estrutura das instruções aritméticas e lógicas.
+	
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=0.15]{estrutura_instrucao.jpg}
+		\caption{Bytes das Instruções Aritméticas e Lógicas}
+		\label{FigEstruturaInstrucao}
+	\end{figure}
+	
+	Na figura \ref{FigEstruturaInstrucaoMOV} a seguir tem-se a estrutura da instrução MOV.
+	
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=0.15]{estrutura_instrucao_mov.jpg}
+		\caption{Bytes da Instrução MOV}
+		\label{FigEstruturaInstrucaoMOV}
+	\end{figure}
+
+\section{Implementação em VHDL}
+	Á seguir, será descrito todos os componentes em VHDL que foram desenvolvidos passo a passo, cada um com a sua devida validação com um testbench executado pelo Modelsim, todos os códigos desenvolvidos esão localizados em anexos.
+	
+\subsection{Registro de Propósito Geral}
+	O registrador de próposito geral tem como objetivo encapsular os registradores AX, BX, CX, DX, SP, BP, SI e DI. Como definido anteriormente, todos os registro são de 16bits, portanto além de possuir entrada e saída de 16 bits, possui uma entrada de controle, para a seleção correta do registrador desejado, que é determinado no opcode pelo item R/M, que segue por padrão assim como no 8086 a tabela \ref{tabelaRegPropGeral}. Além de entradas para o \textit{clock} e \textit{reset} do sistema e uma entrada de controle de leitura/escrita, sendo leitura em nível baixo e escrita em nível alto, além da entrada de habilitação do componente para o devido controle da máquina de estados do microprocessador.
+	
+\begin{table}[htbp]
+  \centering
+  \caption{Códigos de controle do Registro de Propósito Geral}
+    \begin{tabular}{|c|c|}
+    	\hline
+		\textbf{Registrador} & \textbf{Código R/M} \\
+		\hline
+	    \textbf{AX} & 000 \\
+	    \hline
+	    \textbf{BX} & 011 \\
+	    \hline
+	    \textbf{CX} & 001 \\
+	    \hline
+	    \textbf{DX} & 010 \\
+    	\hline
+	    \textbf{SP} & 100 \\
+	    \hline
+	    \textbf{BP} & 101 \\
+	    \hline
+    	\textbf{SI} & 110 \\
+	    \hline
+    	\textbf{DI} & 111 \\
+	    \hline
+	\end{tabular}%
+	\label{tabelaRegPropGeral}%
+\end{table}%
+
+	Temos abaixo o resultado produzido pela execução do \textit{testbench}, que também se encontra em anexos.
+	
+	COLOCAR PRINT DO TESTBENCH 
+	
+	
+\subsection{Registro de Segmento}
+	Com funcionamento semelhante do Registro de Propósito Geral, possui o objetivo de encaplusar os registradores que possuem o funcionamento de manipulação de memória que são, CS, ES, DS, SS, além do contador de índice IP. Diferentemente, do Registro de Popósito Geral, o registro de Segmento, possui uma linha de entrada denominada incrementa\_IP, tal linha foi implementada a fim de facilitar o comando de incremento de IP para se caminhar continuamente na memória, sendo que o registro possui acesso direto ao registrador IP, em vez de se desenvolver uma estrutura própria para este cálculo. Tal registro também possui seu devido barramento de controle de 3 bits, que está descrito na tabela \ref{tabelaRegSeg}, porém como descrito anteriormente este barramento será fixado em "001" para que somente seja utilizado o segmento de código para o funcionamento deste microprocessador.
+	
+\begin{table}[htbp]
+  \centering
+  \caption{Códigos de controle do Registro de Segmento}
+    \begin{tabular}{|c|c|}
+    	\hline
+		\textbf{Registrador} & \textbf{Código R/M} \\
+		\hline
+	    \textbf{ES} & 000 \\
+	    \hline
+	    \textbf{CS} & 001 \\
+	    \hline
+	    \textbf{SS} & 010 \\
+	    \hline
+	    \textbf{DS} & 010 \\
+	    \hline
+	    \textbf{IP} & 100 \\
+	    \hline
+    	\textbf{Todos em Alta Impedância} & outros \\
+    	\hline
+    \end{tabular}%
+  \label{tabelaRegSeg}%
+\end{table}%
+
+	Temos abaixo o resultado produzido pela execução do \textit{testbench}, que também se encontra em anexos.
+	
+	COLOCAR PRINT DO TESTBENCH 
+
+\subsection{Calculadora de Endereço}
+	Foi desenvolvido uma calculadora de endereço que tem o papel de realizar o cálculo do endereço relativo para o endereço físico. Portanto, realizando o papel de deslocar o valor do registro de Segmento
+
+\subsection{Demultiplexador}
+	O Demultiplexador seleciona um dos diversos dados de entrada e o transfere para a saída. Foi implementado para possuir duas saídas de 16 bits, devido requisitos básicos do sistema.
+
+\subsection{Multiplexador}
+	O Multiplexador seleciona um dos diversos dados de entrada e o transfere para a saída. Assim como o Demultiplexador, foi implementado com duas entradas de 16 bits.
+\subsection{Detector do Flag Auxiliar}
+	O Detector do Flag Auxiliar é uma estrutura criada para ser utilizada na Unidade Aritmética e Lógica. Esta estrutura detecta a ocorrência de um "vai um" do bit 3 para o bit 4 ou quando há "vem um" do bit 4 para o bit 3, durante a execução de alguma instrução aritmética.
+	A validação da funcionalidade da estrutura através de um \textit{testbench} é apresentada na figura \ref{saidaAuxiliarFlag} a seguir:
+	
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=0.3]{printsImplementacaoVHDL/print_detector_auxiliar_flag.jpg}
+		\caption{Saída Estrutura Detector Auxiliar Flag}
+		\label{saidaAuxiliarFlag}
+	\end{figure}
+	
+\subsection{Detector do Flag de Paridade}
+	O Detector do Flag de Paridade é uma estrutura que detecta a paridade do resultado obtido em uma instrução aritmética ou lógica. É utilizado na Unidade Aritmética e Lógica. Caso haja um número par de bits 1 no resultado da operação, o flag de paridade recebe valor 1, caso contrário, recebe valor 0.
+	Na figura \ref{saidaFlagParidade} a seguir, tem-se a validação da funcionalidade da estrutura:
+	
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=0.3]{printsImplementacaoVHDL/print_detector_paridade.jpg}
+		\caption{Saída Estrutura Detector Flag de Paridade}
+		\label{saidaFlagParidade}
+	\end{figure}
+	
+\subsection{Detector do Zero Flag}
+	Esta estrutura verifica o resultado obtido em uma operação aritmética ou lógica. Caso o valor final seja 0, o zero flag recebe valor 1, caso contrário, recebe valor 0.
+	Na figura \ref{saidaZeroParidade} a seguir se tem a validação da funcionalidade da estrutura:
+	
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=0.3]{printsImplementacaoVHDL/print_detector_zero_flag.jpg}
+		\caption{Saída Estrutura Detector Zero Flag}
+		\label{saidaZeroParidade}
+	\end{figure}
+	
+\subsection{Memória ROM}
+	A memória ROM é utilizada para armazenar os opcodes das instruções. Os valores armazenados na estrutura representam o que seria o resultado da compilação de um software. Desta forma, esta é utilizada para simulação da funcionalidade do microprocessador diante de um código assembly resultante do processo de compilação.
+	
+	Na figura \ref{saidaMemoriaROM} abaixo tem-se a simulação da funcionalidade desta estrutura:
+	
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=0.3]{printsImplementacaoVHDL/print_memoria_rom.jpg}
+		\caption{Saída Memória ROM}
+		\label{saidaMemoriaROM}
+	\end{figure}
+	
+\subsection{Unidade Aritmética e Lógica - ULA}
+	É a estrutura responsável por executar todas as operações aritméticas e lógicas do microprocessador. É composta por algumas estruturas auxiliares, já descritas neste documento, que implementam funcionalidades necessárias na execução bit a bit de cada instrução. Os dados chegam na ULA através do, a respectiva operação é executada e então o resultado é colocado
+\subsection{Unidade de Controle}
+	A Unidade de Controle é uma das principais estruturas do microprocessador. Ela é responsável por 3 funções básicas: busca (fetch), decodificação e execução. Além disso, gera os sinais que controlam as operações no exterior da CPU. É a Unidade de Controle que contém o endereço de memória da instrução que está sendo executada, é ela também que busca na memória o operando e entrega para a ULA para que a instrução seja executada.

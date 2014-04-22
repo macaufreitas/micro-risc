@@ -1,0 +1,14 @@
+--------------------------------------------------------------------------------------
+-------- Codigo que testa os Registros de Proposito Geral do Microprocessador --------
+--------------------------------------------------------------------------------------
+
+-------- Bibliotecas e Pacotes -------
+library ieee;
+use ieee.std_logic_1164.all;
+--------------------------------------
+
+entity RegistroPropositoGeralTB is
+end RegistroPropositoGeralTB;
+
+architecture ArquiteturaRPGTB of RegistroPropositoGeralTB is
+end ArquiteturaRPGTB;

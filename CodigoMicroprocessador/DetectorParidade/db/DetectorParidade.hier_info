@@ -1,0 +1,20 @@
+|DetectorParidade
+entrada[0] => saida.IN1
+entrada[1] => saida.IN1
+entrada[2] => saida.IN1
+entrada[3] => saida.IN1
+entrada[4] => saida.IN1
+entrada[5] => saida.IN1
+entrada[6] => saida.IN1
+entrada[7] => saida.IN1
+entrada[8] => saida.IN1
+entrada[9] => saida.IN1
+entrada[10] => saida.IN1
+entrada[11] => saida.IN1
+entrada[12] => saida.IN1
+entrada[13] => saida.IN1
+entrada[14] => saida.IN0
+entrada[15] => saida.IN1
+saida << saida.DB_MAX_OUTPUT_PORT_TYPE
+
+

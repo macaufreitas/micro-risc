@@ -1,0 +1,83 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Marcos Aurelio\Dropbox\TFG\FilaInstrucoes\simulation\modelsim
+Efilainstrucoes
+Z1 w1393379740
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dC:\Users\Marcos Aurelio\Dropbox\TFG\FilaInstrucoes\simulation\modelsim
+Z7 8C:/Users/Marcos Aurelio/Dropbox/TFG/FilaInstrucoes/FilaInstrucoes.vhd
+Z8 FC:/Users/Marcos Aurelio/Dropbox/TFG/FilaInstrucoes/FilaInstrucoes.vhd
+l0
+L18
+Vf`@b[UMTkfFU>fR0JAbRK1
+Z9 OV;C;10.1d;51
+31
+Z10 !s108 1393381178.396000
+Z11 !s90 -reportprogress|300|-93|-work|work|-O0|C:/Users/Marcos Aurelio/Dropbox/TFG/FilaInstrucoes/FilaInstrucoes.vhd|
+Z12 !s107 C:/Users/Marcos Aurelio/Dropbox/TFG/FilaInstrucoes/FilaInstrucoes.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+!s100 _3j6^1PBdD;8M4mBIYMfL2
+!i10b 1
+Aarquiteturafi
+R2
+R3
+R4
+R5
+DEx4 work 14 filainstrucoes 0 22 f`@b[UMTkfFU>fR0JAbRK1
+l48
+L30
+VahMWme30;WfP5JGARJ4XJ1
+!s100 79GiA1EXc_5L1zM5cYfoQ1
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!i10b 1
+Efilainstrucoestb
+Z15 w1393381119
+R2
+R3
+R4
+R5
+R6
+Z16 8C:/Users/Marcos Aurelio/Dropbox/TFG/FilaInstrucoes/FilaInstrucoesTB.vhd
+Z17 FC:/Users/Marcos Aurelio/Dropbox/TFG/FilaInstrucoes/FilaInstrucoesTB.vhd
+l0
+L12
+Vl2l7V>hI6_>G6_8A^V3K13
+!s100 0G;^Q__e]XWRSmGfQF@@h2
+R9
+31
+!i10b 1
+Z18 !s108 1393381178.818000
+Z19 !s90 -reportprogress|300|-93|-work|work|-O0|C:/Users/Marcos Aurelio/Dropbox/TFG/FilaInstrucoes/FilaInstrucoesTB.vhd|
+Z20 !s107 C:/Users/Marcos Aurelio/Dropbox/TFG/FilaInstrucoes/FilaInstrucoesTB.vhd|
+R13
+R14
+Aarquiteturafitb
+R2
+R3
+R4
+R5
+Z21 DEx4 work 16 filainstrucoestb 0 22 l2l7V>hI6_>G6_8A^V3K13
+l38
+L15
+Z22 VZH2VXQhCG;mlbe^fjB`l]0
+Z23 !s100 UoU>J4`bRaKG5ED04P3Bb3
+R9
+31
+!i10b 1
+R18
+R19
+R20
+R13
+R14

@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\silvadenisaraujo\Dropbox\TFG\CodigoMicroprocessador\RegistroPropositoGeral\simulation\modelsim
+Eregistropropositogeral
+Z1 w1394412582
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\silvadenisaraujo\Dropbox\TFG\CodigoMicroprocessador\RegistroPropositoGeral\simulation\modelsim
+Z5 8C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd
+Z6 FC:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd
+l0
+L10
+VUd887ee4RFajP54716i?C2
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1394487195.254000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd|
+Z10 !s107 C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 _K_U0O2`nJUTlfCTljz_D1
+!i10b 1
+Aarquiteturarpg
+R2
+R3
+DEx4 work 22 registropropositogeral 0 22 Ud887ee4RFajP54716i?C2
+l27
+L22
+V<W:MGIzZCCMbfn_8OdH^P0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 97EJD@gZ_oRLQ[O`nziVU1
+!i10b 1
+Eregistropropositogeraltb
+Z13 w1394413960
+R2
+R3
+R4
+Z14 8C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeralTB.vhd
+Z15 FC:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeralTB.vhd
+l0
+L10
+Vg=BSNkdMJgW:=lZh[3KHF1
+!s100 Sl4`N]FSWaHU8J881>44A1
+R7
+31
+!i10b 1
+Z16 !s108 1394487195.543000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeralTB.vhd|
+Z18 !s107 C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeralTB.vhd|
+R11
+R12
+Aarquiteturarpgtb
+R2
+R3
+DEx4 work 24 registropropositogeraltb 0 22 g=BSNkdMJgW:=lZh[3KHF1
+l37
+L13
+VmS`5<7C@R]Z58obZD17W22
+!s100 LOB[FEQ36VaafSC@m@[092
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+R12

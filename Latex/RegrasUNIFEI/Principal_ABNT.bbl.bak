@@ -1,0 +1,17 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{1.45.2.1 }
+
+\bibitem[Gil]{Gil}
+\abntrefinfo{Gil}{GIL}{}
+{GIL, A.~M. \emph{Como Elaborar Projetos de Pesquisa}. [S.l.: s.n.].}
+
+\bibitem[Maroni e Lakatos 1996]{Marconi}
+\abntrefinfo{Maroni e Lakatos}{MARONI; LAKATOS}{1996}
+{MARONI, M.~A.; LAKATOS, E.~M. \emph{Metodologia do Trabalho Científico}. São
+  Paulo: Editora Atlas S.A., 1996.}
+
+\end{thebibliography}

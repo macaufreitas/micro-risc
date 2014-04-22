@@ -1,0 +1,83 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Marcos Aurelio\Dropbox\TFG\CodigoMicroprocessador\RegistroSegmento\simulation\modelsim
+Eregistrosegmento
+Z1 w1393533692
+Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dC:\Users\Marcos Aurelio\Dropbox\TFG\CodigoMicroprocessador\RegistroSegmento\simulation\modelsim
+Z7 8C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/RegistroSegmento/RegistroSegmento.vhd
+Z8 FC:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/RegistroSegmento/RegistroSegmento.vhd
+l0
+L11
+V@AGoJBX_JZ4l`d@;E6Njk0
+Z9 OV;C;10.1d;51
+31
+Z10 !s108 1393534149.265000
+Z11 !s90 -reportprogress|300|-93|-work|work|-O0|C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/RegistroSegmento/RegistroSegmento.vhd|
+Z12 !s107 C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/RegistroSegmento/RegistroSegmento.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+!s100 `Tmn3o1O?TGHczDHeLYdo0
+!i10b 1
+Aarquiteturars
+R2
+R3
+R4
+R5
+DEx4 work 16 registrosegmento 0 22 @AGoJBX_JZ4l`d@;E6Njk0
+l29
+L24
+VZGXOY<`[4V6:[jVY1H]P<0
+!s100 @Q17ma>P^P=@2ZzWbjD`Q1
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!i10b 1
+Eregistrosegmentotb
+Z15 w1393533997
+R3
+R2
+R4
+R5
+R6
+Z16 8C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/RegistroSegmento/RegistroSegmentoTB.vhd
+Z17 FC:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/RegistroSegmento/RegistroSegmentoTB.vhd
+l0
+L12
+Vzd:3>dZHPRj;PCh^89;Q;0
+!s100 H80;XbKk2`=[3`ZHS[8am1
+R9
+31
+!i10b 1
+Z18 !s108 1393534149.632000
+Z19 !s90 -reportprogress|300|-93|-work|work|-O0|C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/RegistroSegmento/RegistroSegmentoTB.vhd|
+Z20 !s107 C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/RegistroSegmento/RegistroSegmentoTB.vhd|
+R13
+R14
+Aarquiteturarstb
+R3
+R2
+R4
+R5
+Z21 DEx4 work 18 registrosegmentotb 0 22 zd:3>dZHPRj;PCh^89;Q;0
+l40
+L15
+Z22 VE;I7z1aC;W77f=<M0LLi23
+Z23 !s100 LdLB;YPG^G`SBD^I<[_z03
+R9
+31
+!i10b 1
+R18
+R19
+R20
+R13
+R14

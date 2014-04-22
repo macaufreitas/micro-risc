@@ -1,0 +1,197 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do Microprocessador_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package uc_aux
+# vcom -93 -work work {C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Microprocessador/Microprocessador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Microprocessador
+# -- Compiling architecture ArquiteturaMicro of Microprocessador
+# vcom -93 -work work {C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/ULA/ULA.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ULA
+# -- Compiling architecture arquiteturaULA of ULA
+# vcom -93 -work work {C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RegistroPropositoGeral
+# -- Compiling architecture ArquiteturaRPG of RegistroPropositoGeral
+# vcom -93 -work work {C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Demultiplexador
+# -- Compiling architecture ArquiteturaDemux of Demultiplexador
+# vcom -93 -work work {C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package uc_aux
+# -- Compiling entity UnidadeDeControle
+# -- Compiling architecture Arquitetura of UnidadeDeControle
+# 
+# vcom -93 -work work {C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Microprocessador/MicroprocessadorTB.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity MicroprocessadorTB
+# -- Compiling architecture ArquiteturaMicroTB of MicroprocessadorTB
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  MicroprocessadorTB
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=\"+acc\" -t 1ps MicroprocessadorTB 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.microprocessadortb(arquiteturamicrotb)
+# Loading work.microprocessador(arquiteturamicro)
+# Loading work.demultiplexador(arquiteturademux)
+# Loading work.uc_aux
+# Loading work.unidadedecontrole(arquitetura)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.ula(arquiteturaula)
+# Loading work.registropropositogeral(arquiteturarpg)
+# ** Warning: (vsim-8683) Uninitialized out port /microprocessadortb/Micro/addr(19 downto 0) has no driver.
+# 
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUU) to the signal network.
+# 
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 1  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 1  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 2  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 275 ns  Iteration: 1  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 325 ns  Iteration: 1  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 825 ns  Iteration: 1  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 825 ns  Iteration: 2  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 875 ns  Iteration: 1  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 925 ns  Iteration: 1  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1425 ns  Iteration: 1  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1425 ns  Iteration: 2  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1475 ns  Iteration: 1  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1525 ns  Iteration: 1  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+vcom -93 -work work -O0 {C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Microprocessador/Microprocessador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Microprocessador
+# -- Compiling architecture ArquiteturaMicro of Microprocessador
+vcom -93 -work work -O0 {C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Microprocessador/MicroprocessadorTB.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity MicroprocessadorTB
+# -- Compiling architecture ArquiteturaMicroTB of MicroprocessadorTB
+add wave -position insertpoint  \
+sim:/microprocessadortb/Micro/clk \
+sim:/microprocessadortb/Micro/reset \
+sim:/microprocessadortb/Micro/data \
+sim:/microprocessadortb/Micro/addr \
+sim:/microprocessadortb/Micro/sitFilaSig \
+sim:/microprocessadortb/Micro/leFilaSig \
+sim:/microprocessadortb/Micro/habFilaSig \
+sim:/microprocessadortb/Micro/ctrlULASig \
+sim:/microprocessadortb/Micro/habULASig \
+sim:/microprocessadortb/Micro/regDataLeSig \
+sim:/microprocessadortb/Micro/ctrlRegDataSig \
+sim:/microprocessadortb/Micro/habRegDataSig \
+sim:/microprocessadortb/Micro/regDataOutSig \
+sim:/microprocessadortb/Micro/saidaDemuxULA \
+sim:/microprocessadortb/Micro/saidaDemuxUC \
+sim:/microprocessadortb/Micro/ctrlDemux \
+sim:/microprocessadortb/Micro/carryInSig \
+sim:/microprocessadortb/Micro/carryOutSig \
+sim:/microprocessadortb/Micro/zeroSig \
+sim:/microprocessadortb/Micro/resultSig
+restart
+# Loading work.microprocessadortb(arquiteturamicrotb)
+# Loading work.microprocessador(arquiteturamicro)
+# Loading work.demultiplexador(arquiteturademux)
+# ** Warning: (vsim-8683) Uninitialized out port /microprocessadortb/Micro/addr(19 downto 0) has no driver.
+# 
+# This port will contribute value (UUUUUUUUUUUUUUUUUUUU) to the signal network.
+# 
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 1  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 1  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 2  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 275 ns  Iteration: 1  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 325 ns  Iteration: 1  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 825 ns  Iteration: 1  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 825 ns  Iteration: 2  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 875 ns  Iteration: 1  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 925 ns  Iteration: 1  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1425 ns  Iteration: 1  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1425 ns  Iteration: 2  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1475 ns  Iteration: 1  Instance: /microprocessadortb/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1525 ns  Iteration: 1  Instance: /microprocessadortb/Micro/UnidadeLogicaArit

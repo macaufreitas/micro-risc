@@ -1,0 +1,164 @@
+|DetectorAuxiliarFlag
+entrada_01[0] => Somador:Add0.entradaA
+entrada_01[0] => Subtrator:Sub0.entradaA
+entrada_01[1] => Somador:Add1.entradaA
+entrada_01[1] => Subtrator:Sub1.entradaA
+entrada_01[2] => Somador:Add2.entradaA
+entrada_01[2] => Subtrator:Sub2.entradaA
+entrada_01[3] => Somador:Add3.entradaA
+entrada_01[3] => Subtrator:Sub3.entradaA
+entrada_01[4] => Somador:Add4.entradaA
+entrada_01[4] => Subtrator:Sub4.entradaA
+entrada_01[5] => ~NO_FANOUT~
+entrada_01[6] => ~NO_FANOUT~
+entrada_01[7] => ~NO_FANOUT~
+entrada_01[8] => ~NO_FANOUT~
+entrada_01[9] => ~NO_FANOUT~
+entrada_01[10] => ~NO_FANOUT~
+entrada_01[11] => ~NO_FANOUT~
+entrada_01[12] => ~NO_FANOUT~
+entrada_01[13] => ~NO_FANOUT~
+entrada_01[14] => ~NO_FANOUT~
+entrada_01[15] => ~NO_FANOUT~
+entrada_02[0] => Somador:Add0.entradaB
+entrada_02[0] => Subtrator:Sub0.entradaB
+entrada_02[1] => Somador:Add1.entradaB
+entrada_02[1] => Subtrator:Sub1.entradaB
+entrada_02[2] => Somador:Add2.entradaB
+entrada_02[2] => Subtrator:Sub2.entradaB
+entrada_02[3] => Somador:Add3.entradaB
+entrada_02[3] => Subtrator:Sub3.entradaB
+entrada_02[4] => Somador:Add4.entradaB
+entrada_02[4] => Subtrator:Sub4.entradaB
+entrada_02[5] => ~NO_FANOUT~
+entrada_02[6] => ~NO_FANOUT~
+entrada_02[7] => ~NO_FANOUT~
+entrada_02[8] => ~NO_FANOUT~
+entrada_02[9] => ~NO_FANOUT~
+entrada_02[10] => ~NO_FANOUT~
+entrada_02[11] => ~NO_FANOUT~
+entrada_02[12] => ~NO_FANOUT~
+entrada_02[13] => ~NO_FANOUT~
+entrada_02[14] => ~NO_FANOUT~
+entrada_02[15] => ~NO_FANOUT~
+carry => Somador:Add0.carryIn
+carry => Subtrator:Sub0.borrowIn
+seletorOperacao[0] => Mux1.IN8
+seletorOperacao[0] => Mux0.IN10
+seletorOperacao[1] => Mux1.IN7
+seletorOperacao[1] => Mux0.IN9
+seletorOperacao[2] => Mux1.IN6
+seletorOperacao[2] => Mux0.IN8
+estadoFlagAuxiliar << estadoFlagAuxiliar.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DetectorAuxiliarFlag|Somador:Add0
+entradaA => carryOut.IN0
+entradaA => carryOut.IN0
+entradaB => carryOut.IN1
+entradaB => carryOut.IN1
+carryIn => saida.IN1
+carryIn => carryOut.IN1
+carryOut <= carryOut.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DetectorAuxiliarFlag|Somador:Add1
+entradaA => carryOut.IN0
+entradaA => carryOut.IN0
+entradaB => carryOut.IN1
+entradaB => carryOut.IN1
+carryIn => saida.IN1
+carryIn => carryOut.IN1
+carryOut <= carryOut.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DetectorAuxiliarFlag|Somador:Add2
+entradaA => carryOut.IN0
+entradaA => carryOut.IN0
+entradaB => carryOut.IN1
+entradaB => carryOut.IN1
+carryIn => saida.IN1
+carryIn => carryOut.IN1
+carryOut <= carryOut.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DetectorAuxiliarFlag|Somador:Add3
+entradaA => carryOut.IN0
+entradaA => carryOut.IN0
+entradaB => carryOut.IN1
+entradaB => carryOut.IN1
+carryIn => saida.IN1
+carryIn => carryOut.IN1
+carryOut <= carryOut.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DetectorAuxiliarFlag|Somador:Add4
+entradaA => carryOut.IN0
+entradaA => carryOut.IN0
+entradaB => carryOut.IN1
+entradaB => carryOut.IN1
+carryIn => saida.IN1
+carryIn => carryOut.IN1
+carryOut <= carryOut.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DetectorAuxiliarFlag|Subtrator:Sub0
+entradaA => borrowOut.IN0
+entradaA => borrowOut.IN0
+entradaB => borrowOut.IN1
+entradaB => borrowOut.IN1
+borrowIn => saida.IN1
+borrowIn => borrowOut.IN1
+borrowOut <= borrowOut.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DetectorAuxiliarFlag|Subtrator:Sub1
+entradaA => borrowOut.IN0
+entradaA => borrowOut.IN0
+entradaB => borrowOut.IN1
+entradaB => borrowOut.IN1
+borrowIn => saida.IN1
+borrowIn => borrowOut.IN1
+borrowOut <= borrowOut.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DetectorAuxiliarFlag|Subtrator:Sub2
+entradaA => borrowOut.IN0
+entradaA => borrowOut.IN0
+entradaB => borrowOut.IN1
+entradaB => borrowOut.IN1
+borrowIn => saida.IN1
+borrowIn => borrowOut.IN1
+borrowOut <= borrowOut.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DetectorAuxiliarFlag|Subtrator:Sub3
+entradaA => borrowOut.IN0
+entradaA => borrowOut.IN0
+entradaB => borrowOut.IN1
+entradaB => borrowOut.IN1
+borrowIn => saida.IN1
+borrowIn => borrowOut.IN1
+borrowOut <= borrowOut.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DetectorAuxiliarFlag|Subtrator:Sub4
+entradaA => borrowOut.IN0
+entradaA => borrowOut.IN0
+entradaB => borrowOut.IN1
+entradaB => borrowOut.IN1
+borrowIn => saida.IN1
+borrowIn => borrowOut.IN1
+borrowOut <= borrowOut.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+

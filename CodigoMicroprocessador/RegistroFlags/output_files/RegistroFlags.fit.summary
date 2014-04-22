@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Mar 17 23:34:49 2014
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Web Edition
+Revision Name : RegistroFlags
+Top-level Entity Name : RegistroFlags
+Family : Cyclone III
+Device : EP3C25F324C8
+Timing Models : Final
+Total logic elements : 9 / 24,624 ( < 1 % )
+    Total combinational functions : 0 / 24,624 ( 0 % )
+    Dedicated logic registers : 9 / 24,624 ( < 1 % )
+Total registers : 9
+Total pins : 27 / 216 ( 13 % )
+Total virtual pins : 0
+Total memory bits : 0 / 608,256 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

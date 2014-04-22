@@ -1,0 +1,253 @@
+% Template file for an a0 portrait poster.
+% Written by Graeme, 2001-03 based on his SOC poster.
+%
+% See discussion and documentation at
+% <http://www.astro.gla.ac.uk/users/norman/docs/posters/> 
+%
+% $Id: poster-template-portrait.tex,v 1.2 2002/12/03 11:25:55 norman Exp $
+
+
+
+% We switch to portrait mode. This works as advertised.
+\documentclass[a0,portrait]{a0poster}
+%\documentclass[draft]{a0poster}
+
+% You might find the 'draft' option to a0 poster useful if you have
+% lots of graphics, because they can take some time to process and
+% display. (\documentclass[a0,draft]{a0poster})
+
+% Switch off page numbers on a poster, obviously, and section numbers too.
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+
+% The textpos package is necessary to position textblocks at arbitary 
+% places on the page.
+\usepackage[absolute]{textpos}
+
+% Graphics to include graphics. Times is nice on posters, but you
+% might want to switch it off and go for CMR fonts.
+\usepackage[final]{graphics}
+\usepackage{wrapfig,times}
+%\usepackage[ansinew]{inputenc}
+%\usepackage[brazilian]{babel}
+
+% These colours are tried and tested for titles and headers. Don't
+% over use color!
+\usepackage{color}
+\definecolor{DarkBlue}{rgb}{0.1,0.1,0.5}
+\definecolor{Red}{rgb}{0.9,0.0,0.1}
+\definecolor{DarkGreen}{rgb}{0.10,0.50,0.10}
+
+% see documentation for a0poster class for the size options here
+\let\Textsize\normalsize
+\def\Head#1{\noindent\hbox to \hsize{\hfil{\LARGE\color{DarkBlue} #1}}\bigskip}
+\def\LHead#1{\noindent{\LARGE\color{DarkBlue} #1}\smallskip}
+\def\Subhead#1{\noindent{\large\color{DarkBlue} #1}}
+\newcommand{\quiteHuge}{\fontsize{70.3}{93}\selectfont}
+\def\Title#1{\begin{center}\noindent{\quiteHuge\color{DarkGreen}#1}\end{center}}
+
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{abnt-alf}
+\usepackage{graphicx}
+\usepackage{float}														%Package para figuras
+
+
+
+% Set up the grid
+%
+% Note that [40mm,40mm] is the margin round the edge of the page --
+% it is _not_ the grid size. That is always defined as 
+% PAGE_WIDTH/HGRID and PAGE_HEIGHT/VGRID. In this case we use
+% 15 x 25. This gives us a wide central column for text (7 grid
+% spacings) and two narrow columns (3 each) at each side for 
+% pictures, separated by 1 grid spacing.
+%
+% Note however that texblocks can be positioned fractionally as well,
+% so really any convenient grid size can be used.
+%
+\TPGrid[20mm,20mm]{17}{25}  % 3 - 1 - 7 - 1 - 3 Columns
+
+% Mess with these as you like
+\parindent=0pt
+%\parindent=1cm
+\parskip=0.5\baselineskip
+
+% abbreviations
+\newcommand{\ddd}{\,\mathrm{d}}
+
+\begin{document}
+
+% Understanding textblocks is the key to being able to do a poster in
+% LaTeX. In
+%
+%    \begin{textblock}{wid}(x,y)
+%    ...
+%    \end{textblock}
+%
+% the first argument gives the block width in units of the grid
+% cells specified above in \TPGrid; the second gives the (x,y)
+% position on the grid, with the y axis pointing down.
+
+% You will have to do a lot of previewing to get everything in the 
+% right place.
+
+% This gives good title positioning for a portrait poster.
+% Watch out for hyphenation in titles - LaTeX will do it
+% but it looks awful.
+\begin{textblock}{17}(0.3,0)
+\Title{{\textsc {\textsc Suporte da Arquitetura Orientada a Serviços\\ na integração de sistemas médicos}}}
+\end{textblock}
+
+%\begin{textblock}{2}(15,0)
+%\resizebox{1.6\TPHorizModule}{!}{\includegraphics{ime-arquimedes}}
+%\end{textblock}
+
+\begin{textblock}{17}(0.3,1.5)
+\begin{center}
+\parbox{0.30\textwidth}{
+    \begin{center}
+    \LHead{Tiago Romero Garcia}  \\
+    \LHead{Ciência da Computação} \\
+    \LHead{Universidade Federal de Itajubá} \\
+    \LHead{\texttt{tiagorga@gmail.com}} 
+    \end{center}
+}
+\parbox{0.30\textwidth}{
+    \begin{center}
+    \LHead{Leonardo Alvarenga Garcia} \\
+    \LHead{Ciência da Computação} \\
+    \LHead{Universidade Federal de Itajubá} \\
+    \LHead{\texttt{leonardoagarcia@gmail.com}} 
+    \end{center}
+}
+\parbox{0.30\textwidth}{
+    \begin{center}
+    \LHead{Enzo Seraphim} \\
+    \LHead{Orientador} \\
+    \LHead{Universidade Federal de Itajubá} \\
+    \LHead{\texttt{tfmatias@gmail.com}} 
+    \end{center}
+}
+\end{center}
+\end{textblock}
+
+
+% Put the GU logo in the top right.
+%\begin{textblock}{2}(13,0)
+%Your logo here.
+%\resizebox{1.5\TPHorizModule}{!}{\includegraphics{ime-arquimedes}}
+%\end{textblock}
+
+
+% Abstract
+
+\begin{textblock}{5}(0.3,3.6)
+  \LHead{Abstract}
+
+  Service Oriented Architecture (SOA) proposes organization of assets of software in order to enable them to represent processes, activities or tasks of business so directly. Such representations are called Services, which must be based on standards and should be easily combined and reused aiming at satisfying business requirements. This paper aims to show a SOA implementation which contemplates the deployment of a simplified PACS of a hospital, with textual information recovery services implementation for the Radiology Department.
+  
+\vspace{0.3cm}
+ \LHead{Introdução}
+
+  \par Com a evolução muito rápida das tecnologias utilizadas no desenvolvimento de software, muitos dos softwares existentes hoje em dia foram criados sem utilização de padrões e metodologias bem definidas, e com o passar do tempo e o grande crescimento das empresas que utilizam tais softwares, começou a surgir uma necessidade de integração da grande massa de software existente. Entretanto, pela grande falta de padrões, tais softwares não conseguiam comunicar-se entre si. Baseando-se nesse problema, começaram a ser propostas ferramentas que pudessem integrar tais sistemas.
+  \par Esse problema também existe entre sistemas médicos, que apresentam grande dificuldade para que ocorram integrações adequadas, dificultando o diagnóstico de doenças que já poderiam ter sido verificadas em outros hospitais ou o relacionamento entre laudos textuais e imagens obtidas através de exames radiológicos, tomografias e ressonância magnética. Baseado nessa falha já conhecida da integra-ção entre sistemas médicos, é proposto neste trabalho uma solução para essa integração, utilizando para isso uma Arquitetura Orientada a Serviços.
+
+\vspace{0.3cm}
+ \LHead{Desenvolvimento}
+ 
+ \citeonline{seraphim} apresenta uma implementação de um sistema médico para gerenciamento de imagens digitais denominado PACS (Picture Archiving and Communication System). O PACS, em conjunto com os Sistemas de Informação em Radiologia (RIS) e de Informação Hospitalar (HIS), formam a base para um serviço de Radiologia \textit{Filmless}. 
+ 
+  As imagens são obtidas de modalidades de imagens médicas digitais, como Ressonância Magnética Nuclear (RMN) e Tomografia Computadorizada (TC), em formato DICOM (Digital Imaging and Communication in Medicine) 3.0, indexadas, armazenadas e vinculadas ao RIS do Hospital para posterior visualização.
+
+  \begin{center}
+\resizebox{2.5\TPHorizModule}{!}{
+\includegraphics{figuras/pacs}}
+\\\textit{Figura 1: Arquitetura do sistema PACS proposto.}
+  \end{center}
+ 
+  Este sistema foi concebido e desenvolvido dentre um escopo bem-definido. No entanto, há diversos requisitos de negócio em ambientes médicos que necessitam de manipular as informações obtidas pelo sistema apresentado. De forma a realizar integrações com tal sistema de forma escalável e padronizável, é proposta a utilização de SOA.
+
+ Segundo \citeonline{soainpractice}, Arquitetura Orientada a Serviços (SOA - Service-Oriented Architecture) é um paradigma para a compreensão e manutenção de processos de negócio que abrangem sistemas gran-des. É baseado em três conceitos principais: serviço, interoperabilidade e baixo acoplamento. 
+\begin{itemize}
+	\item \textbf{Serviço}: pedaço auto-contido de uma funcionalidade de negócio, seja esta funcionalidade simples ou complexa. Serviços desempenham o papel de estruturar sistemas distribuídos baseados em abstrações de regras e processos de negócios.
+	\item \textbf{Interoperabilidade}: capacidade de interação entre sistemas diferentes, baseada em infra-estruturas que distribuem e oferecem ser-viços a tais sistemas, utilizando diferentes plataformas e tecnologias.
+	\item \textbf{Baixo acoplamento}:  minimização de dependências entre sistemas, de tal forma que modificações e falhas não sejam muito impactantes. Com isso, ganha-se em flexibilidade, escalabilidade e tolerância a falhas.
+\end{itemize}
+
+\end{textblock}
+
+\begin{textblock}{5}(6,3.6)
+ \citeonline{soainpractice} apresenta o conceito de serviço como (idealmente) uma funcionalidade de negócio auto-contida que não mantém estado, que aceita uma ou mais requisições e retorna uma ou mais respostas através de uma interface bem definida e padronizada. Servi-ços podem também realizar unidades de trabalho discretas como editar e processar uma transação. Serviços não devem depender do estado de outras funções ou processos. A tecnologia utilizada para prover o serviço, como linguagens de programação, não faz parte desta definição.
+  
+  Um conceito-chave em SOA é BPM, acrônimo que diz respeito a dois conceitos distintos:
+\begin{enumerate}
+	\item \textbf{Business Process Management (BPM)}: termo geral que diz respeito a todas as atividades relacionadas ao gerenciamento e melhoria de processos de negócio.
+	\item \textbf{Business Process Modeling (BPM)}: termo que diz respeito à modelagem de processos de negócio e partes destes.
+\end{enumerate}
+
+  Para implementar BPM, é fundamental a utilização de uma linguagem padronizada para a modelagem e execução de processos de negócio em ferramentas e \textit{engines}. Uma linguagem referência para isto é BPEL (Business Process Execution Language), que está rapidamente tornando-se o padrão para projeto e execução de processos de negócio.
+
+  Conceitualmente, uma linguagem como BPEL é uma linguagem XML (Extensible Markup Language) para descrever fluxos de negó-cio e seqüências, que dizem respeito a serviços. Há elementos de linguagem para a chamada de serviços, respostas de processos, e manipulação de variáveis de processo, estruturas de controle e erros.
+
+ O domínio do problema em questão remete à necessidade da obten-ção de diagnóstico de mamografia de um paciente, dado que as informações sobre o paciente em questão estão armazenadas em um sistema HIS, e as imagens obtidas em exames estão em um sistema RIS. Neste contexto, propõe-se uma solução baseada em BPM, onde um processo realizará buscas em ambos sistemas HIS e RIS, coletará os resultados desta busca e realizará a junção destes, obtendo um diagnóstico adequado. 
+
+  \begin{center}
+  \resizebox{5\TPHorizModule}{!}{
+  \includegraphics{figuras/jpdl.jpg}}
+  \textit{Figura 2: Modelo BPM de diagnóstico de mamografia usando jPDL, uma linguagem para BPM.}
+  \end{center}
+
+  \par Como já foi apresentado, SOA é um conceito amplo e abstrato, já um Web Service é uma das implementações possíveis deste conceito. De acordo com a W3C, um Web Service é uma aplicação de software identificada por uma URI (Uniform Resource Identifier), cujas interfaces públicas e contratos são capazes de serem definidos, descritos e descobertos por artefatos XML; e ainda suporta diretamente interações com outras aplicações utilizando mensagens baseadas em XML, via protocolos baseados na internet. Entre as principais vantagens de um Web Service estão:
+
+	\begin{itemize}
+		\item \textbf{Interface abstrata}: os Web Services fornecem uma interface abstrata para acesso aos métodos disponibilizados, ocultando detalhes de implementação do usuário do serviço;
+		\item \textbf{Semântica acompanha dados}: Ao invés de trafegarem somente os dados, a comunicação entre o servidor e o cliente carrega consigo metadados;
+		\item \textbf{Portabilidade}: Por se tratar de um padrão aberto, baseado em XML, garante-se a portabilidade das mensagens mesmo sob diferentes plataformas e linguagens de programação;
+		\item \textbf{Segurança}: Opcionalmente, as informações trafegadas podem ser criptografadas;
+		\item \textbf{Utilização de recursos}: Os Web Services são sistemas não invasivos, pois não consomem recursos de comunicação enquanto em estado de espera.
+	\end{itemize}  
+  
+  Desta forma, propõe-se o uso de Web Services para a implementação de PACS, uma vez que suas tarefas de operação podem ser subdivididas em serviços, que podem ser utilizados por diferentes aplicações de software dentro do mesmo hospital, tornando sua adaptação mais ágil ao modelo de trabalho do hospital.
+     
+\end{textblock}
+
+\begin{textblock}{5}(11.7,3.6)
+
+  \begin{center}
+  \resizebox{5\TPHorizModule}{!}{
+  \includegraphics{figuras/webService.jpg}}
+  \textit{Figura 3: Funcionamento de um Web Service na implementação de um PACS.}
+  \end{center}
+
+  \par Como já foi dito anteriormente, SOA não constitu uma tecnologia mas sim um conceito de como desenvolver sistemas que sejam facilmente interligáveis e como interligar sistemas previamente existentes. Com esse objetivo, foram criadas várias tecnologias para que sistemas desenvolvidos utilizando tecnologias diferentes pudessem comunicar-se entre si. Entre essas tecnologias podemos citar CORBA, RMI e Web Services, porém tais tecnologias usadas de forma isolada ainda apresentavam falhas, algumas por não darem suporte a diversas tecnologias, outras por serem difíceis de implementar ou até mesmo por não possuírem uma especificação que fosse seguida sempre. O maior problema dessas tecnologias era que elas só ligavam um sistema a outro, e sempre que fosse necessária a ligação de vários sistemas elas geravam uma arquitetura muito complexa para se manter, e com o surgimento de novos sistemas a arquitetura tenderia a ficar ainda mais complexa, o que as tornaria inviáveis para o sistema proposto.
+  
+  \begin{center}
+  \resizebox{5\TPHorizModule}{!}{
+  \includegraphics{figuras/antesESB.jpg}}
+  \textit{Figura 4: Arquitetura do sistema antes da implantação de um ESB.}
+  \end{center}
+  
+  \par Com esse problema, surge a necessidade de um centralização de requisições para os serviços, e nesse contexto entra o Enterprise Service Bus (ESB), que surge como o cerne de uma Arquitetura Orientada a Serviços, pois ele torna-se o responsável pela parte de segurança do sistema, roteamento de requisições e a publicação dos serviços, tornando uma arquitetura mais ``limpa'', onde todos os serviços são publicados no barramento, o que torna o sistema mais expansível. Desta forma, a cada  surgimento de um novo sistema, só será necessário publicá-lo como novos serviços no barramento, não necessitando a alteração dos outros serviços pra que possam integrar-se com o novo sistema.
+  
+  \begin{center}
+  \resizebox{5\TPHorizModule}{!}{
+  \includegraphics{figuras/aposESB.jpg}}
+  \textit{Figura 5: Arquitetura do sistema após a implantação de um ESB.}
+  \end{center}
+
+\vspace{0.3cm}
+  \LHead{Conclusão}
+
+	\par Conforme verificado, a utilização de SOA no contexto proposto proverá abertura para alcançar novos horizontes quanto à integração de sistemas com as funcionalidades mencionadas, abstraídas como serviços. 
+\par Ao publicar tais serviços sobre uma infra-estrutura adequada, torna-se possível a construção de operações mais complexas com respeito à gestão e manipulação de informações dos pacientes, como por e-xemplo a obtenção de prontuário completo para um paciente, base-ado num histórico médico que possa estar distribuído em sistemas distintos e em localidades distintas.
+\par Desta forma, ao aplicar SOA em um ambiente médico, concluimos que SOA é uma tecnologia adequada para a integração de ambientes heterogêneos como os ambientes da área médica.
+\bibliographystyle{abnt-alf}	% Este é um estilo que determina como a bibliografia vai aparecer
+															% Existem ainda: abbrv, acm, alpha, amsalpha, amsplain
+
+\bibliography{poster}					% o nome do arquivo .bib com as referências
+
+
+\end{textblock}
+
+\end{document}

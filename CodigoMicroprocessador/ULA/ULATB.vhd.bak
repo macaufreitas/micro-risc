@@ -1,0 +1,40 @@
+--------------------------------------------------------------------------------------
+-------- Codigo que testa a Unidade Aritmetica e Logica do Microprocessador ----------
+--------------------------------------------------------------------------------------
+
+-------- Bibliotecas e Pacotes -------
+library ieee;
+library work;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+use ieee.numeric_std.all;
+--------------------------------------
+
+entity ULATB is
+end ULATB;
+
+architecture ArquiteturaULATB of ULATB is
+	
+	-- Declaracao dos sinais do test bench
+	signal
+	
+	-- Constante para controle do tempo
+	constant periodoClock : time := 50 ns;
+	
+	-- Instancia da ULA
+	component ULA
+		port (
+			signal clock	           : in  std_logic;
+			signal seletor 	        : in  std_logic_vector(2 downto 0); -- seletor de operações
+			signal vemUm	           : in  std_logic;
+			signal entradaA			  : in  std_logic_vector(15 downto 0); -- entrada de dados A
+			signal entradaB			  : in  std_logic_vector(15 downto 0); -- entrada de dados B
+			signal habilitaULA		  : in  std_logic;
+			signal vaiUm		        : out std_logic;
+			signal zero			        : out std_logic;
+			signal resultado          : out std_logic_vector(15 downto 0)
+		);
+	end component;
+	
+end ArquiteturaULATB;

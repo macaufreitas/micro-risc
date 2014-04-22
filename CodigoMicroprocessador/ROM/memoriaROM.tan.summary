@@ -1,0 +1,46 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 4.420 ns
+From           : chipenable
+To             : altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a0~porta_address_reg7
+From Clock     : --
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 10.737 ns
+From           : altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a0~porta_address_reg7
+To             : saida[2]
+From Clock     : clk
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 0.547 ns
+From           : endereco[7]
+To             : altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a0~porta_address_reg7
+From Clock     : --
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

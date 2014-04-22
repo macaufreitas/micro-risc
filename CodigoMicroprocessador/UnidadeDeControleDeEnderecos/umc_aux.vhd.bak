@@ -1,0 +1,10 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+-- Pacote auxiliar a unidade de controle de memoria, facilitar a escrita e visualização do código
+
+package ucm_aux is
+
+	--Possiveis estados da unidade de controle
+	type Tipo_estado is ( Reset, Espera, );
+end ucm_aux;

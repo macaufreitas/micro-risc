@@ -1,0 +1,15 @@
+--------------------------------------------------------------------------------------
+-------- Codigo que implementa o Detector de Paridade do Microprocessador ------------
+--------------------------------------------------------------------------------------
+
+-------- Bibliotecas e Pacotes -------
+library ieee;
+use ieee.std_logic_1164.all;
+--------------------------------------
+
+entity DetectorParidade is
+	port (
+		entrada : in std_logic_vector(15 downto 0);
+		saida : out std_logic
+	);
+end DetectorParidade;

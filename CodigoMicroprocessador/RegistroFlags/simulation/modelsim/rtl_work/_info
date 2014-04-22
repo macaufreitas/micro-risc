@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\silvadenisaraujo\Dropbox\TFG\CodigoMicroprocessador\RegistroFlags\simulation\modelsim
+Eregistroflags
+Z1 w1395109888
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\silvadenisaraujo\Dropbox\TFG\CodigoMicroprocessador\RegistroFlags\simulation\modelsim
+Z5 8C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd
+Z6 FC:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd
+l0
+L10
+VCHDoKS5I60Ab@D0mIY>6e3
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1395110111.847000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd|
+Z10 !s107 C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 W4Za2KWY1P`IShJnm7ceL0
+!i10b 1
+Aarquiteturarf
+R2
+R3
+DEx4 work 13 registroflags 0 22 CHDoKS5I60Ab@D0mIY>6e3
+l28
+L27
+VLNZgWCT6magbM=Y6:j`XT0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 E[U;l`Ma`eM:3chDJO]=N2
+!i10b 1
+Eregistroflagstb
+Z13 w1395110072
+R2
+R3
+R4
+Z14 8C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroFlags/RegistroFlagsTB.vhd
+Z15 FC:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroFlags/RegistroFlagsTB.vhd
+l0
+L10
+VAFNE0RIAbR6J[D;GJ_R6l2
+!s100 J@6Ci?SQ7OYzbXBl^g>P02
+R7
+31
+!i10b 1
+Z16 !s108 1395110112.412000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroFlags/RegistroFlagsTB.vhd|
+Z18 !s107 C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroFlags/RegistroFlagsTB.vhd|
+R11
+R12
+Aarquiteturarf
+R2
+R3
+DEx4 work 15 registroflagstb 0 22 AFNE0RIAbR6J[D;GJ_R6l2
+l50
+L13
+V=CiLiUlPjAcId<b[a_3l20
+!s100 DP4=0I=SlV`[2FDDBnlkc1
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+R12

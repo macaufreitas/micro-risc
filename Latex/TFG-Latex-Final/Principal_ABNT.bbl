@@ -1,0 +1,96 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.2 }
+
+\bibitem[Angeloleithold 2004]{MicroInternal}
+\abntrefinfo{Angeloleithold}{ANGELOLEITHOLD}{2004}
+{ANGELOLEITHOLD. Internal integrated circuit.
+  Http://pt.wikipedia.org/wiki/Ficheiro:InternalIntegratedCircuit2.JPG. 2004.}
+
+\bibitem[Binstock 2013]{intelMulticore}
+\abntrefinfo{Binstock}{BINSTOCK}{2013}
+{BINSTOCK, A. Multi-core processor architecture explained.
+  Http://software.intel.com/en-us/articles/multi-core-processor-architecture-explained.
+  2013.}
+
+\bibitem[CISC 2013]{CISC}
+\abntrefinfo{CISC}{CISC}{2013}
+{CISC. Cisc. Http://www.laynetworks.com/CISC.htm. 2013.}
+
+\bibitem[Engineering e Management 2013]{ielm}
+\abntrefinfo{Engineering e Management}{ENGINEERING; MANAGEMENT}{2013}
+{ENGINEERING, I.~D. of I.; MANAGEMENT, L. Lecture 7: Microprocessor structure,
+  assembly programming.
+  Http://www.ielm.ust.hk/dfaculty/ajay/courses/alp/ieem110/lecs/mup/mup.html.
+  2013.}
+
+\bibitem[Ferreira 1981]{praticasMicro}
+\abntrefinfo{Ferreira}{FERREIRA}{1981}
+{FERREIRA, F. B.~M. e I. S.~M. \emph{Práticas com Microprocessadores}. [S.l.:
+  s.n.], 1981.}
+
+\bibitem[Filho 2013]{ufpbHardware}
+\abntrefinfo{Filho}{FILHO}{2013}
+{FILHO, P. M.~R. de G.~N. Fundamentos de hardware.
+  Http://www.di.ufpb.br/raimundo/ArqDI/Arq5.htm. 2013.}
+
+\bibitem[Hennessy 1984]{ArtigoVLSI}
+\abntrefinfo{Hennessy}{HENNESSY}{1984}
+{HENNESSY, J.~L. Vlsi processor architecture.
+\emph{IEEE Transactions on Computers}, C-33, p. 1221--1245, 1984.}
+
+\bibitem[Microprocessadores 2013]{Microprocessadores}
+\abntrefinfo{Microprocessadores}{MICROPROCESSADORES}{2013}
+{MICROPROCESSADORES. Microprocessadores.
+  Http://pt.kioskea.net/contents/pc/processeur.php3. 2013.}
+
+\bibitem[Newell 1989]{IntroductionMicro}
+\abntrefinfo{Newell}{NEWELL}{1989}
+{NEWELL, S.~B. \emph{Introduction to Microcomputing}. [S.l.]: John Wiley and
+  Sons, Inc., 1989.}
+
+\bibitem[Patterson 2005]{ComputerOrg}
+\abntrefinfo{Patterson}{PATTERSON}{2005}
+{PATTERSON, J. L.~H. D.~A. \emph{Computer Organization and Design, The
+  Hardware/Software Interface}. Oxford, Reino Unido: Elsevier, 2005.}
+
+\bibitem[Pedroni 2011]{Pedroni}
+\abntrefinfo{Pedroni}{PEDRONI}{2011}
+{PEDRONI, V.~A. \emph{Eletrônica Digital Moderna e VHDL}. [S.l.]: Campus,
+  2011.}
+
+\bibitem[PUC-Rio 2013]{pucMicro}
+\abntrefinfo{PUC-Rio}{PUC-RIO}{2013}
+{PUC-RIO. Puc-rio. Http://tcs.eng.br/PUC/plog/sd11-Microprogramacao.pdf. 2013.}
+
+\bibitem[Shustek 2014]{MSDOSLink}
+\abntrefinfo{Shustek}{SHUSTEK}{2014}
+{SHUSTEK, L. Microsoft ms-dos early source code.
+  Http://www.computerhistory.org/atchm/microsoft-ms-dos-early-source-code/.
+  2014.}
+
+\bibitem[Singh 1947]{Avtar}
+\abntrefinfo{Singh}{SINGH}{1947}
+{SINGH, W. A.~T. e A. \emph{The 8088 and 8086 Microprocessors, Programming,
+  Interfacing, Software, Hardware, and Applications}. Upper Saddle River, New
+  Jersey, Columbus, Ohio: Pearson, 1947.}
+
+\bibitem[Tarnoff 2011]{memoriacache}
+\abntrefinfo{Tarnoff}{TARNOFF}{2011}
+{TARNOFF, D. \emph{Computer Organization and Design Fundamentals}. [S.l.]:
+  tarnoff, 2011.}
+
+\bibitem[Techopedia 2013]{techopediaALU}
+\abntrefinfo{Techopedia}{TECHOPEDIA}{2013}
+{TECHOPEDIA. Arithmetic logic unit (alu).
+  Http://www.techopedia.com/definition/2849/arithmetic-logic-unit-alu. 2013.}
+
+\bibitem[Waite 1988]{micro8086}
+\abntrefinfo{Waite}{WAITE}{1988}
+{WAITE, C. L.~M. e M. \emph{80866/8088 Manual do Microprocessador de 16 bits}.
+  [S.l.]: McGraw-Hill, 1988.}
+
+\end{thebibliography}

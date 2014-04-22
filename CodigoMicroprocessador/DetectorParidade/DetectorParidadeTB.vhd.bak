@@ -1,0 +1,13 @@
+--------------------------------------------------------------------------------------
+-------------- Codigo que testa o Detector de Paridade do Microprocessador -----------
+--------------------------------------------------------------------------------------
+
+-------- Bibliotecas e Pacotes -------
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+--------------------------------------
+
+entity DetectorParidadeTB is
+end DetectorParidadeTB;

@@ -1,0 +1,19 @@
+--------------------------------------------------------------------------------------
+---- Codigo que implementa uma Interface para Flag Auxiliar do Microprocessador ------
+--------------------------------------------------------------------------------------
+
+-------- Bibliotecas e Pacotes -------
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+--------------------------------------
+
+entity DetectorAuxiliarFlag is
+	port(
+		entrada_01 : in std_logic_vector(15 downto 0);
+		entrada_02 : in std_logic_vector(15 downto 0);
+		seletorOperacao : in std_logic;
+		estadoFlagAuxiliar : out std_logic
+	);
+end DetectorAuxiliarFlag;
+

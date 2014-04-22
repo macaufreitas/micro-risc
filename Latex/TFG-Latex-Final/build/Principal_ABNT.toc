@@ -1,0 +1,50 @@
+\select@language {brazil}
+\contentsline {chapter}{Lista de Figuras}{}
+\contentsline {chapter}{Lista de Tabelas}{}
+\contentsline {chapter}{\numberline {1}Resumo}{8}
+\contentsline {chapter}{\numberline {2}Introdu\c c\~ao}{9}
+\contentsline {chapter}{\numberline {3}Objetivo}{10}
+\contentsline {chapter}{\numberline {4}Fundamenta\c c\~ao Te\'orica}{11}
+\contentsline {section}{\numberline {4.1}Microprocessadores}{11}
+\contentsline {subsection}{\numberline {4.1.1}Defini\c c\~ao}{11}
+\contentsline {subsection}{\numberline {4.1.2}Funcionamento}{12}
+\contentsline {subsection}{\numberline {4.1.3}Programa de Computador}{13}
+\contentsline {subsection}{\numberline {4.1.4}Registradores}{14}
+\contentsline {subsection}{\numberline {4.1.5}Unidade L\'ogica Aritm\'etica}{15}
+\contentsline {subsection}{\numberline {4.1.6}Unidade de Controle}{16}
+\contentsline {subsubsection}{\numberline {4.1.6.1}Sinais de Controle}{16}
+\contentsline {subsection}{\numberline {4.1.7}Sistema de Barramentos}{17}
+\contentsline {subsection}{\numberline {4.1.8}Dispositivos de Entrada/Sa\IeC {\'\i }da}{18}
+\contentsline {subsection}{\numberline {4.1.9}Arquiteturas}{19}
+\contentsline {subsubsection}{\numberline {4.1.9.1}CISC - Complex Instruction Set Computer}{19}
+\contentsline {subsubsection}{\numberline {4.1.9.2}RISC - Reduced Instruction Set Computer}{20}
+\contentsline {subsubsection}{\numberline {4.1.9.3}Compara\c c\~ao entre RISC e CISC}{21}
+\contentsline {subsection}{\numberline {4.1.10}Mem\'oria Cache}{21}
+\contentsline {subsection}{\numberline {4.1.11}Pipeline}{22}
+\contentsline {subsubsection}{\numberline {4.1.11.1}Defini\c c\~ao}{22}
+\contentsline {subsubsection}{\numberline {4.1.11.2}Desenvolvimento de um conjunto de instru\c c\~ao para o \textit {Pipeline}}{23}
+\contentsline {subsubsection}{\numberline {4.1.11.3}Problemas do\textit {Pipeline}}{24}
+\contentsline {subsection}{\numberline {4.1.12}Processadores Multi-Core e Hyper-Threading}{26}
+\contentsline {section}{\numberline {4.2}Microprocessador 8086/8088}{28}
+\contentsline {subsection}{\numberline {4.2.1}Hist\'oria}{28}
+\contentsline {subsection}{\numberline {4.2.2}Vis\~ao preliminar}{29}
+\contentsline {subsection}{\numberline {4.2.3}Mem\'oria}{31}
+\contentsline {subsection}{\numberline {4.2.4}Arquitetura do microprocessador}{32}
+\contentsline {subsection}{\numberline {4.2.5}Endere\c camento da mem\'oria}{35}
+\contentsline {subsection}{\numberline {4.2.6}Conjunto de registros}{36}
+\contentsline {subsection}{\numberline {4.2.7}Instru\c c\~oes}{38}
+\contentsline {subsubsection}{\numberline {4.2.7.1}Endere\c camento por registro}{40}
+\contentsline {subsubsection}{\numberline {4.2.7.2}Endere\c camento imediato}{40}
+\contentsline {subsubsection}{\numberline {4.2.7.3}Endere\c camento Direto}{40}
+\contentsline {subsubsection}{\numberline {4.2.7.4}Endere\c camento indireto por registro}{40}
+\contentsline {subsubsection}{\numberline {4.2.7.5}Endere\c camento por base}{41}
+\contentsline {subsubsection}{\numberline {4.2.7.6}Endere\c camento Indexado}{41}
+\contentsline {subsubsection}{\numberline {4.2.7.7}Endere\c camento por base indexado}{42}
+\contentsline {section}{\numberline {4.3}VHDL}{42}
+\contentsline {subsection}{\numberline {4.3.1}Biblioteca}{43}
+\contentsline {subsection}{\numberline {4.3.2}Entidade}{44}
+\contentsline {subsection}{\numberline {4.3.3}Arquitetura}{44}
+\contentsline {section}{\numberline {4.4}FPGA}{45}
+\contentsline {subsection}{\numberline {4.4.1}Programa\c c\~ao de FPGAs}{46}
+\contentsline {section}{\numberline {4.5}Arquitetura FPGA da fam\IeC {\'\i }lia Cyclone II}{47}
+\contentsline {subsection}{\numberline {4.5.1}Arquitetura}{48}

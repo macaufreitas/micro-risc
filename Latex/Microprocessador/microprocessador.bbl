@@ -1,0 +1,75 @@
+\begin{thebibliography}{10}
+
+\bibitem{MicroInternal}
+Angeloleithold.
+\newblock Internal integrated circuit.
+\newblock http://pt.wikipedia.org/wiki/Ficheiro:InternalIntegratedCircuit2.JPG,
+  Dezembro 2004.
+
+\bibitem{intelMulticore}
+A.~Binstock.
+\newblock Multi-core processor architecture explained.
+\newblock
+  http://software.intel.com/en-us/articles/multi-core-processor-architecture-explained,
+  Setembro 2013.
+
+\bibitem{CISC}
+CISC.
+\newblock Cisc.
+\newblock http://www.laynetworks.com/CISC.htm, Agosto 2013.
+
+\bibitem{ComputerOrg}
+J.~L.~H. David A.~Patterson.
+\newblock {\em Computer Organization and Design, The Hardware/Software
+  Interface}.
+\newblock Elsevier, Oxford, Reino Unido, 2005.
+
+\bibitem{ufpbHardware}
+P.~M.~R. de~Gouveia Nóbrega~Filho.
+\newblock Fundamentos de hardware.
+\newblock http://www.di.ufpb.br/raimundo/ArqDI/Arq5.htm, Agosto 2013.
+
+\bibitem{Avtar}
+W.~A.~T. e~Avtar~Singh.
+\newblock {\em The 8088 and 8086 Microprocessors, Programming, Interfacing,
+  Software, Hardware, and Applications}.
+\newblock Pearson, Upper Saddle River, New Jersey, Columbus, Ohio, 1947.
+
+\bibitem{praticasMicro}
+F.~B.~M. e~Ignácio Sérgio M.~Ferreira.
+\newblock {\em Práticas com Microprocessadores}, volume~I.
+
+\bibitem{Microprocessadores}
+Microprocessadores.
+\newblock Microprocessadores.
+\newblock http://pt.kioskea.net/contents/pc/processeur.php3, Agosto 2013.
+
+\bibitem{IntroductionMicro}
+S.~B. Newell.
+\newblock {\em Introduction to Microcomputing}.
+\newblock John Wiley and Sons, Inc., 1989.
+
+\bibitem{ielm}
+I.~D. of~Industrial~Engineering and L.~Management.
+\newblock Lecture 7: Microprocessor structure, assembly programming.
+\newblock
+  http://www.ielm.ust.hk/dfaculty/ajay/courses/alp/ieem110/lecs/mup/mup.html,
+  Agosto 2013.
+
+\bibitem{pucMicro}
+PUC-Rio.
+\newblock Puc-rio.
+\newblock http://tcs.eng.br/PUC/plog/sd11-Microprogramacao.pdf, Agosto 2013.
+
+\bibitem{memoriacache}
+D.~Tarnoff.
+\newblock {\em Computer Organization and Design Fundamentals}.
+\newblock Lulu.com, 2007.
+
+\bibitem{techopediaALU}
+Techopedia.
+\newblock Arithmetic logic unit (alu).
+\newblock http://www.techopedia.com/definition/2849/arithmetic-logic-unit-alu,
+  Agosto 2013.
+
+\end{thebibliography}

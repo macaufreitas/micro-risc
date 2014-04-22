@@ -1,0 +1,379 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.12)  15 APR 2014 22:32
+entering extended mode
+**painel-micro-8086.tex
+
+("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\Painel\Painel-Micro-808
+6\painel-micro-8086.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\a0poster\a0poster.cls"
+Document Class: a0poster 2004/01/31 v1.22b a0poster class (GK, MW)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+\xkoord=\count87
+\ykoord=\count88
+\xscale=\count89
+\yscale=\count90
+\tausch=\dimen103
+\Ausgabe=\write3
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\a0poster\a0size.sty"
+File: a0size.sty 2004/01/31 v1.22b a0poster class (GK, MW)
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 229.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 229.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 229.
+\big@size=\dimen104
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\textpos\textpos.sty"
+Package: textpos 2014/01/03 v1.7j
+
+Package: textpos 2014/01/03 1.7j, absolute positioning of text on the page
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)
+\TP@textbox=\box26
+\TP@holdbox=\box27
+\TPHorizModule=\dimen105
+\TPVertModule=\dimen106
+\TP@margin=\dimen107
+\TP@absmargin=\dimen108
+
+Grid set 16 x 16 = 149.30585pt x 211.29729pt
+\TPboxrulesize=\dimen109
+\TP@ox=\dimen110
+\TP@oy=\dimen111
+\TP@tbargs=\toks14
+\TP@prevdepth=\dimen112
+TextBlockOrigin set to 0pt x 0pt
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
+\wrapoverhang=\dimen113
+\WF@size=\dimen114
+\c@WF@wrappedlines=\count92
+\WF@box=\box28
+\WF@everypar=\toks15
+Package: wrapfig 2003/01/31  v 3.6
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\times.sty"
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\portuges.ldf"
+Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count93
+\U@D=\dimen115
+)
+\l@brazil = a dialect from \language\l@portuges 
+Package babel Info: Making " an active character on input line 145.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex\abnt-alf.sty"
+Package: abnt-alf 2002/06/24
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex\abntcite.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex\cvs-id.def")
+Package: abntcite 2003/10/13 v1.26 Chamadas de referencias no texto (NBR10520)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count94
+\calc@Bcount=\count95
+\calc@Adimen=\dimen116
+\calc@Bdimen=\dimen117
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count96
+\calc@Cskip=\skip45
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex\abntex-abrev.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex\cvs-id.def")
+Package: abntex-abrev 2003/10/13 v1.3 Abreviacoes
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex\nbr10522-1988.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex\cvs-id.def")
+File: nbr10522-1988.def 2003/10/13 v1.2 Abreviacoes bibliograficas (NBR10522:19
+88)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex\abntex-abrev-pt_BR.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex\cvs-id.def")
+File: abntex-abrev-pt_BR.def 2003/10/13 v1.2 definicao de abntex-abrev, traduca
+o de termos en_US/pt_BR
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex\nbr10520-2002.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex\cvs-id.def")
+File: nbr10520-2002.def 2003/10/13 v1.2 Definicoes para abntcite (NBR10520:2002
+)
+)
+\minimumbiblabelwidth=\skip46
+\ABCIauxlen=\skip47
+\c@ABCIaux=\count97
+\c@ABCImax=\count98
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
+Package: relsize 2003/07/04 ver 3.1
+
+
+Package relsize Warning: Failed to get list of font sizes.
+(relsize)                Falling back to old definition. on input line 81.
+
+)
+\biblabelsep=\skip48
+LaTeX Info: Redefining \newblock on input line 562.
+LaTeX Info: Redefining \cite on input line 589.
+\ABCItoken=\toks18
+)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+\Gin@req@height=\dimen118
+\Gin@req@width=\dimen119
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count99
+\float@exts=\toks20
+\float@box=\box29
+\@float@everytoks=\toks21
+\@floatcapt=\box30
+)
+Grid set 17 x 25 = 133.82838pt x 130.67783pt
+TextBlockOrigin set to 20mm x 20mm
+
+("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\Painel\Painel-Micro-808
+6\painel-micro-8086.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 79.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+ABD: EveryShipout initializing macros
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count100
+\scratchdimen=\dimen120
+\scratchbox=\box31
+\nofMPsegments=\count101
+\nofMParguments=\count102
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count103
+\MPscratchDim=\dimen121
+\MPnumerator=\count104
+\makeMPintoPDFobject=\count105
+\everyMPtoPDFconversion=\toks23
+)
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 115.
+
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Overfull \hbox (14.06839pt too wide) in paragraph at lines 131--131
+ []\OT1/pcr/m/n/43 maurilio.coutinho@gmail.com[] 
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
+
+LaTeX Warning: Citation `seraphim' on page 1 undefined on input line 167.
+
+<figuras/pacs.jpg, id=1, 219.9417pt x 317.7471pt>
+File: figuras/pacs.jpg Graphic file (type jpg)
+ <use figuras/pacs.jpg>
+Package pdftex.def Info: figuras/pacs.jpg used on input line 173.
+(pdftex.def)             Requested size: 219.94115pt x 317.7463pt.
+
+
+LaTeX Warning: Citation `soainpractice' on page 1 undefined on input line 179.
+
+
+Overfull \hbox (57.34785pt too wide) in paragraph at lines 179--180
+\OT1/ptm/m/n/24.88 Oriented Ar-chi-tec-ture) []e um pa-ra-digma para a com-pre-
+ens[]ao e manuten[][]ao
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 181.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <24.88> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 181.
+
+
+LaTeX Warning: Citation `soainpractice' on page 1 undefined on input line 189.
+
+
+Overfull \hbox (0.17447pt too wide) in paragraph at lines 199--200
+\OT1/ptm/m/n/24.88 XML (Ex-ten-si-ble Mar-kup Lan-guage) para des-cre-ver flu-x
+os de neg[]o-
+ []
+
+<figuras/jpdl.jpg, id=2, 415.5525pt x 330.48468pt>
+File: figuras/jpdl.jpg Graphic file (type jpg)
+ <use figuras/jpdl.jpg>
+Package pdftex.def Info: figuras/jpdl.jpg used on input line 205.
+(pdftex.def)             Requested size: 415.55148pt x 330.48387pt.
+
+Overfull \hbox (4.45358pt too wide) in paragraph at lines 219--220
+[]\OT1/ptm/m/n/24.88 Desta forma, prop[]oe-se o uso de Web Ser-vi-ces para a im
+plementa[][]ao
+ []
+
+
+Overfull \hbox (8.68184pt too wide) in paragraph at lines 219--220
+\OT1/ptm/m/n/24.88 di-das em servi[]os, que po-dem ser uti-li-za-dos por di-fe-
+ren-tes aplica[][]oes
+ []
+
+<figuras/webService.jpg, id=3, 702.625pt x 250.9375pt>
+File: figuras/webService.jpg Graphic file (type jpg)
+
+<use figuras/webService.jpg>
+Package pdftex.def Info: figuras/webService.jpg used on input line 227.
+(pdftex.def)             Requested size: 702.62328pt x 250.93687pt.
+
+<figuras/antesESB.jpg, id=4, 825.0825pt x 366.36874pt>
+File: figuras/antesESB.jpg Graphic file (type jpg)
+
+<use figuras/antesESB.jpg>
+Package pdftex.def Info: figuras/antesESB.jpg used on input line 235.
+(pdftex.def)             Requested size: 825.08049pt x 366.36784pt.
+
+<figuras/aposESB.jpg, id=5, 825.0825pt x 366.36874pt>
+File: figuras/aposESB.jpg Graphic file (type jpg)
+
+<use figuras/aposESB.jpg>
+Package pdftex.def Info: figuras/aposESB.jpg used on input line 243.
+(pdftex.def)             Requested size: 825.08049pt x 366.36784pt.
+
+("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\Painel\Painel-Micro-808
+6\painel-micro-8086.bbl") [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map
+}
+
+
+Non-PDF special ignored!
+Non-PDF special ignored! <C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/Latex
+/Painel/Painel-Micro-8086/figuras/pacs.jpg> <C:/Users/Marcos Aurelio/Desktop/mi
+cro-8086-risc/Latex/Painel/Painel-Micro-8086/figuras/jpdl.jpg> <C:/Users/Marcos
+ Aurelio/Desktop/micro-8086-risc/Latex/Painel/Painel-Micro-8086/figuras/webServ
+ice.jpg> <C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/Latex/Painel/Painel-M
+icro-8086/figuras/antesESB.jpg> <C:/Users/Marcos Aurelio/Desktop/micro-8086-ris
+c/Latex/Painel/Painel-Micro-8086/figuras/aposESB.jpg>]
+("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\Painel\Painel-Micro-808
+6\painel-micro-8086.aux")
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2454 strings out of 493921
+ 37550 string characters out of 3144849
+ 117118 words of memory out of 3000000
+ 5674 multiletter control sequences out of 15000+200000
+ 17357 words of font info for 40 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 34i,7n,24p,1039b,306s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/urw/times/utmri8a.pfb>
+Output written on painel-micro-8086.pdf (1 page, 619099 bytes).
+PDF statistics:
+ 32 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+

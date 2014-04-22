@@ -1,0 +1,29 @@
+LIBRARY IEEE;
+USE ieee.std_logic_1164.all;
+
+ENTITY memoriaROM IS
+	PORT (      clk          : STD_LOGIC;
+                endereco     : INTEGER RANGE 0 TO 255;
+                chipenable   : IN  STD_LOGIC;
+                saida        : OUT STD_LOGIC_VECTOR(7 DOWNTO 0));
+END memoriaROM;
+
+ARCHITECTURE arch OF memoriaROM IS
+    TYPE formato_mem IS ARRAY(NATURAL RANGE <>) OF STD_LOGIC_VECTOR(7 DOWNTO 0);
+    CONSTANT dados : formato_mem(0 TO 255) :=
+                     (X"D1", X"12", X"F3", X"14", X"15",
+                      X"21", X"C2", X"23", X"14", X"25",
+                      X"B1", X"32", X"33", X"3A", X"35",
+                      X"41", OTHERS => X"FF");
+
+BEGIN
+     Registro: PROCESS(clk)
+     BEGIN
+          IF clk'EVENT AND clk = '1' THEN
+                   IF chipenable = '1' THEN
+                       saida <= dados(endereco);
+                   END IF;
+          END IF;
+     END PROCESS;
+end arch;
+

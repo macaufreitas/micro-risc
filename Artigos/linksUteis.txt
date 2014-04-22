@@ -1,0 +1,8 @@
+DOS
+http://www.computerhistory.org/atchm/microsoft-ms-dos-early-source-code/
+Word
+http://www.computerhistory.org/atchm/microsoft-word-for-windows-1-1a-source-code/
+
+http://www.borges-solutions.com/inserindo-codigos-fonte-em-arquivos-latex/
+
+http://pedrokroger.net/printing-python-code-latex/

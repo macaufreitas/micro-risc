@@ -1,0 +1,409 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.6)  11 NOV 2013 23:02
+entering extended mode
+**FundamentacaoTeorica.tex
+(C:\Users\Denis\Dropbox\TFG\Dissertacao\FundamentacaoTeorica.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\portuges.ldf"
+Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+\l@brazil = a dialect from \language\l@portuges 
+Package babel Info: Making " an active character on input line 145.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count89
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(C:\Users\Denis\Dropbox\TFG\Dissertacao\FundamentacaoTeorica.aux
+
+LaTeX Warning: Label `placa' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+ (C:\Users\Denis\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count90
+\scratchdimen=\dimen106
+\scratchbox=\box26
+\nofMPsegments=\count91
+\nofMParguments=\count92
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count93
+\MPscratchDim=\dimen107
+\MPnumerator=\count94
+\makeMPintoPDFobject=\count95
+\everyMPtoPDFconversion=\toks18
+) <etapa_projeto_vhdl.png, id=1, 185.94469pt x 207.77625pt>
+File: etapa_projeto_vhdl.png Graphic file (type png)
+
+<use etapa_projeto_vhdl.png>
+Package pdftex.def Info: etapa_projeto_vhdl.png used on input line 11.
+(pdftex.def)             Requested size: 130.16037pt x 145.44237pt.
+ <library.png, id=2, 335.45325pt x 280.04625pt>
+File: library.png Graphic file (type png)
+
+<use library.png>
+Package pdftex.def Info: library.png used on input line 28.
+(pdftex.def)             Requested size: 167.7262pt x 140.02277pt.
+
+
+LaTeX Warning: Citation `Pedroni' on page 1 undefined on input line 29.
+
+[1
+
+{C:/Users/Denis/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/De
+nis/Dropbox/TFG/Dissertacao/etapa_projeto_vhdl.png>]
+<entity.png, id=10, 338.4645pt x 142.73325pt>
+File: entity.png Graphic file (type png)
+ <use entity.png>
+Package pdftex.def Info: entity.png used on input line 44.
+(pdftex.def)             Requested size: 169.23183pt x 71.36644pt.
+
+
+LaTeX Warning: Citation `Pedroni' on page 2 undefined on input line 45.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2 <C:/Users/Denis/Dropbox/TFG/Dissertacao/library.png>]
+<architeture.png, id=14, 454.69875pt x 124.21407pt>
+File: architeture.png Graphic file (type png)
+ <use architeture.png>
+Package pdftex.def Info: architeture.png used on input line 58.
+(pdftex.def)             Requested size: 227.34882pt x 62.10687pt.
+
+[3 <C:/Users/Denis/Dropbox/TFG/Dissertacao/entity.png> <C:/Users/Denis/Dropbox/
+TFG/Dissertacao/architeture.png>]
+<fpga_struct.png, id=18, 216.81pt x 201.75375pt>
+File: fpga_struct.png Graphic file (type png)
+ <use fpga_struct.png>
+Package pdftex.def Info: fpga_struct.png used on input line 72.
+(pdftex.def)             Requested size: 108.40472pt x 100.87662pt.
+
+
+LaTeX Warning: Citation `Guntzel' on page 4 undefined on input line 73.
+
+[4 <C:/Users/Denis/Dropbox/TFG/Dissertacao/fpga_struct.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 92.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 92.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 92.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 92.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 92.
+
+<placa.png, id=22, 362.10281pt x 277.035pt>
+File: placa.png Graphic file (type png)
+ <use placa.png>
+Package pdftex.def Info: placa.png used on input line 95.
+(pdftex.def)             Requested size: 362.10191pt x 277.03432pt.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 		\caption
+               {Kit de desenvolvimento DE1}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[5]
+! Too many }'s.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.98 	\end{figure}
+                  
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.98 	\end{figure}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.98 	\end{figure}
+                  
+Things are pretty mixed up, but I think the worst is over.
+
+<tabela_1.png, id=28, 460.72125pt x 201.00093pt>
+File: tabela_1.png Graphic file (type png)
+ <use tabela_1.png>
+Package pdftex.def Info: tabela_1.png used on input line 105.
+(pdftex.def)             Requested size: 460.72012pt x 201.00043pt.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106 		\caption
+                {Características Dispositivos Família Ciclone II \cite{Altera}}
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Citation `Altera' on page 6 undefined on input line 106.
+
+
+Overfull \hbox (70.72012pt too wide) in paragraph at lines 104--108
+ [] 
+ []
+
+[6 <C:/Users/Denis/Dropbox/TFG/Dissertacao/placa.png>]
+! Too many }'s.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.108 	\end{figure}
+                   
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.108 	\end{figure}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.108 	\end{figure}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+<arquiteturaCiclone2.png, id=32, 360.59718pt x 241.65282pt>
+File: arquiteturaCiclone2.png Graphic file (type png)
+
+<use arquiteturaCiclone2.png>
+Package pdftex.def Info: arquiteturaCiclone2.png used on input line 113.
+(pdftex.def)             Requested size: 360.5963pt x 241.65222pt.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114 		\caption
+                {Arquitetura Ciclone II}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[7 <C:/Users/Denis/Dropbox/TFG/Dissertacao/tabela_1.png>]
+! Too many }'s.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.116 	\end{figure}
+                   
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.116 	\end{figure}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.116 	\end{figure}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+
+LaTeX Warning: Citation `Altera' on page 8 undefined on input line 118.
+
+
+LaTeX Warning: Reference `EL' on page 8 undefined on input line 120.
+
+
+LaTeX Warning: Citation `Altera' on page 8 undefined on input line 120.
+
+
+LaTeX Warning: File `elementoLogico.png' not found on input line 123.
+
+
+! Package pdftex.def Error: File `elementoLogico.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 ...degraphics[scale=0.7]{elementoLogico.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Citation `Altera' on page 8 undefined on input line 124.
+
+
+LaTeX Warning: Citation `Altera' on page 8 undefined on input line 128.
+
+[8 <C:/Users/Denis/Dropbox/TFG/Dissertacao/arquiteturaCiclone2.png>]
+
+LaTeX Warning: Citation `Altera' on page 9 undefined on input line 130.
+
+
+LaTeX Warning: Reference `EPC20' on page 9 undefined on input line 132.
+
+
+LaTeX Warning: Citation `Altera' on page 9 undefined on input line 132.
+
+[9] (C:\Users\Denis\Dropbox\TFG\Dissertacao\FundamentacaoTeorica.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1604 strings out of 493921
+ 21566 string characters out of 3144876
+ 75846 words of memory out of 3000000
+ 4906 multiletter control sequences out of 15000+200000
+ 8410 words of font info for 30 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 27i,7n,28p,688b,227s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on C:/Users/Denis/Dropbox/TFG/Dissertacao/build/FundamentacaoTeo
+rica.pdf (9 pages, 402028 bytes).
+PDF statistics:
+ 64 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,80 @@
+--------------------------------------------------------------------------------------
+------------ Codigo que testa a Interface de FlagAuxiliar do Microprocessador --------
+--------------------------------------------------------------------------------------
+
+-------- Bibliotecas e Pacotes -------
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+--------------------------------------
+
+entity DetectorAuxiliarFlagTB is
+end DetectorAuxiliarFlagTB;
+
+architecture ArquiteturaIFTB of InterfaceFlagsTB is
+
+	-- Declaracao Sinais do test bench
+	signal entradaA16_tb, entradaB16_tb : std_logic_vector(15 downto 0);
+	signal flagOverflow_tb, flagAuxiliar_tb : std_logic;
+	
+	-- Constante para controle do tempo
+	constant periodoClock : time := 50 ns;
+	
+	-- Instancia da Interface dos Flags
+	component InterfaceFlags
+		port(
+			entradaA16   : in std_logic_vector(15 downto 0);
+			entradaB16   : in std_logic_vector(15 downto 0);
+			flagOverflow : out std_logic;
+			flagAuxiliar : out std_logic
+		);
+	end component;
+	
+begin
+	
+	IFlags : InterfaceFlags port map(entradaA16_tb, entradaB16_tb, flagOverflow_tb, flagAuxiliar_tb);
+	
+	process
+	begin
+		
+		-------------------------
+		entradaA16_tb <= X"000A";
+		entradaB16_tb <= X"000D";
+		wait for periodoClock;
+		-------------------------
+		
+		-------------------------
+		entradaA16_tb <= X"101A";
+		entradaB16_tb <= X"0A02";
+		wait for periodoClock;
+		-------------------------
+		
+		-------------------------
+		entradaA16_tb <= X"00FC";
+		entradaB16_tb <= X"00EA";
+		wait for periodoClock;
+		-------------------------
+		
+		-------------------------
+		entradaA16_tb <= X"FF0A";
+		entradaB16_tb <= X"FE0D";
+		wait for periodoClock;
+		-------------------------
+		
+		-------------------------
+		entradaA16_tb <= X"F00A";
+		entradaB16_tb <= X"000D";
+		wait for periodoClock;
+		-------------------------
+		
+		-------------------------
+		entradaA16_tb <= X"FFFF";
+		entradaB16_tb <= X"FFFF";
+		wait for periodoClock;
+		-------------------------
+		
+		wait;
+		
+	end process;
+	
+end ArquiteturaIFTB;

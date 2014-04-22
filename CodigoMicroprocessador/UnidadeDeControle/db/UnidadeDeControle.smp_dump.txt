@@ -1,0 +1,11 @@
+
+State Machine - |UnidadeDeControle|Estado
+Name Estado.ResultRegImed Estado.FimInstrucao Estado.Erro Estado.Sub_regImed_16 Estado.Add_regImed_16 Estado.OpRegImed16 Estado.Fetch Estado.Busca 
+Estado.Busca 0 0 0 0 0 0 0 0 
+Estado.Fetch 0 0 0 0 0 0 1 1 
+Estado.OpRegImed16 0 0 0 0 0 1 0 1 
+Estado.Add_regImed_16 0 0 0 0 1 0 0 1 
+Estado.Sub_regImed_16 0 0 0 1 0 0 0 1 
+Estado.Erro 0 0 1 0 0 0 0 1 
+Estado.FimInstrucao 0 1 0 0 0 0 0 1 
+Estado.ResultRegImed 1 0 0 0 0 0 0 1 

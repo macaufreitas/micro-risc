@@ -1,0 +1,15 @@
+--------------------------------------------------------------------------------------
+------------------ Codigo que testa a logica do Microprocessador ---------------------
+--------------------------------------------------------------------------------------
+
+-------- Bibliotecas e Pacotes -------
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+--------------------------------------
+
+entity MicroprocessadorTB is
+end MicroprocessadorTB;
+
+architecture ArquiteturaMicroTB of MicroprocessadorTB is
+end ArquiteturaMicroTB;

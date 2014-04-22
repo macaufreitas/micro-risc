@@ -1,0 +1,82 @@
+%% Monografia de TCC - Desenvolvimento de Microprocessador 8086 RISC em FPGA
+%%
+\documentclass{abnt}
+% Incluir Pacotes ------------------------------------------------
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{ae}                         %% Font Encoding T1 (PDF)
+\usepackage[dvips,pdftex]{graphicx}
+\usepackage[dvips]{geometry}            %% Dimensões do documento (DVI/PS)
+\usepackage{lscape}                     %% Utilizar página em landscape
+\usepackage{url}                        %% Trata URLs, e-mails e paths
+\usepackage[alf]{abntex2cite}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{listings}       			%% Pacote Listings - Para a utilização dos códigos
+\usepackage{xcolor}         			%% Pacote de cores
+
+\renewcommand{\ABNTchapterfont}{\fontfamily{cmr}\fontseries{b}\selectfont}
+\renewcommand{\ABNTsectionfont}{\fontfamily{cmr}\fontseries{b}}
+\renewcommand{\tituloformat}{\large\bfseries}
+
+% ----------------------------------------------------------------
+%Confuguração para código em python
+% Define cores em RGB
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+ 
+% Configuração para exibir código em Python
+\lstset{
+  language=Python,                
+  basicstyle=\footnotesize,           
+  numbers=left,                   
+  numberstyle=\tiny\color{gray},  
+  stepnumber=2,                             
+  numbersep=5pt,                  
+  backgroundcolor=\color{white},    
+  showspaces=false,               
+  showstringspaces=false,         
+  showtabs=false,                 
+  frame=single,                   
+  rulecolor=\color{black},        
+  tabsize=2,                      
+  captionpos=b,                   
+  breaklines=true,                
+  breakatwhitespace=false,        
+  title=\lstname,                               
+  keywordstyle=\color{blue},          
+  commentstyle=\color{dkgreen},       
+  stringstyle=\color{mauve},     
+}
+%--------------------------------------------------------------------
+
+\begin{document}
+% ----------------------------------------------------------------
+% Páginas iniciais
+% ----------------------------------------------------------------
+\include{capa}                    %% Capa e Folha de rosto
+\tableofcontents                  %% Sumário
+\listoffigures                    %% Lista de figuras
+\listoftables                     %% Lista de tabelas
+%\include{ListaAbrev}             %% Lista de abreviaturas
+%\include{Agrade}                 %% Agradecimentos
+\include{Resumo}                 %% Resumo
+%-----------------------------------------------------------------
+% Corpo da Monografia
+% ----------------------------------------------------------------
+\include{Introducao}              %% INTRODUÇÃO
+\include{Objetivo}		          %% Objetivo
+\include{Fundamentacao}     	  %% Revisao Bibliográfica
+\include{Desenvolvimento}    
+%\include{Resultados}
+%\include{ConsideracoesFinais}
+%\include{TrabalhosFuturos}
+\include{Anexo}					  %% Anexos
+% ----------------------------------------------------------------
+\bibliographystyle{abntex2-alf}
+
+\bibliography{biblio}             %% REFERÊNCIAS (deve-se possuir o arquivo do tipo bibtex)
+% ----------------------------------------------------------------
+\end{document}
+% ----------------------------------------------------------------

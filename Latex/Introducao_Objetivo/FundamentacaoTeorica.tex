@@ -1,0 +1,134 @@
+\documentclass[12pt]{report}
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{graphicx}
+
+\begin{document}
+	\section{VHDL}
+A linguagem VHDL foi desenvolvida pela necessidade de um padrão para o intercâmbio de informações entre 			fornecedores de equipamentos para o Departamento de Defesa dos Estados Unidos. Esta linguagem é usada para descrever o comportamento de circuitos ou sistemas eletrônicos a partir de um sistema físico. É importante lembrar que esta é uma linguagem concorrente, ou seja, os comandos envolvidos em um mesmo evento acontecem simultaneamente, diferentemente de linguagens de programação de software.  Além disso, é uma linguagem portável, ou seja,  independe da tecnologia ou do fornecedor. A Figura 1 mostra as etapas de um projeto utilizando VHDL.
+
+	\begin{figure}[h] \centering
+		\includegraphics[scale=0.7]{etapa_projeto_vhdl.png}
+		\caption{Etapas de Projeto Usando VHDL}
+		\label{etapaProjeto}
+	\end{figure}											
+											
+Na lógica programável, há dois dispositivos principais: CPLD (\emph{Complex Programmable Logic Devices}) e FPGA (\emph{Field Programmable Gate Arrays}) no campo de ASIC (\emph{Application Specific Integrated Circuits}). A partir do código VHDL, pode-se fabricar um chip de alta complexidade ou executá-lo em um dispositivo programável.
+
+O código VHDL é composto de três partes principais: Biblioteca, Entidade e Arquitetura.
+\begin{enumerate}
+    \item Biblioteca (\emph{Library}) : É composta de todas as bibliotecas usadas no projeto.
+    \item Entidade (\emph{Entity}): Determina as entradas e saídas do circuito.
+    \item Arquitetura (\emph{Architeture}): Contém o código VHDL que descreve a forma de como o circuito deve ser 		comportar (\emph{function}).
+\end{enumerate}
+
+\subsection{Biblioteca}
+Uma biblioteca têm várias implementações de código que são úteis a outros projetos. A Figura \ref{library} ilustra a estrutura típica de uma biblioteca. O código, normalmente, é escrito na forma de funções (\emph{Functions}), procedimentos (\emph{Procedures}) ou componentes (\emph{Components}), que ficam dentro de pacotes (\emph{Packages}) e depois é compilado na biblioteca.
+	\begin{figure}[h] \centering
+		\includegraphics[scale=0.5]{library.png}
+		\caption{Estrutura de uma Library \cite{Pedroni}}
+		\label{library}
+	\end{figure}
+	
+\subsection{Entidade}
+Uma entidade de projeto pode representar uma simples porta lógica como um sistema completo. A declaração da entidade define a interface com o ambiente exterior, como, por exemplo, as entradas e saídas. Os quatro modos de porta são:
+
+	\begin{enumerate}
+    	\item IN : Apenas entrada.
+    	\item OUT: Apenas saída.
+    	\item BUFFER: Saída que controla sinal interno.
+		\item INOUT: Porta bidirecional    
+	\end{enumerate}
+
+	\begin{figure}[h] \centering
+		\includegraphics[scale=0.5]{entity.png}
+		\caption{Tipos de Entrada e Saída \cite{Pedroni}}
+		\label{entity}
+	\end{figure}
+	
+\subsection{Arquitetura}
+A arquitetura contém a parte lógica da entidade utilizando suas entradas e saídas. Ainda é possível declarar sinais internos dentro da arquitetura, estes sinais são chamados classes. São elas:
+	\begin{enumerate}
+		\item CONSTANT - Define um objeto com valor estático.
+		\item VARIABLE - São objetos que podem ter o seu valor alterado, e são usadas em regiões de código seqüencial.
+		\item SIGNAL - São objetos que podem ter o seu valor alterado, e são usadas em regiões de código concorrente 				ou seqüencial. É bom lembrar que a porta de uma entidade realiza a declaração de um sinal. 
+	\end{enumerate}
+
+	\begin{figure}[h] \centering
+		\includegraphics[scale=0.5]{architeture.png}
+		\caption{Sintaxe de uma Architeture}
+		\label{sintaxeArchiteture}
+	\end{figure}
+
+A arquitetura é composta de duas partes, uma para declarações, onde sinais e constantes são declarados e outra onde fica o código. Como no caso da entidade, o nome da arquitetura pode ser qualquer nome (exceto palavras reservadas), até mesmo o nome da entidade.
+
+\section{FPGA}
+
+Um dispositivo FPGA é um semicondutor utilizado amplamente no processamento de informações. Criado pela Xilinx Inc., teve seu lançamento no ano de 1985 como um dispositivo que poderia ser programado de acordo com as aplicações do usuário (programador). 
+
+O FPGA é composto basicamente por três tipos de componentes: blocos de entrada e saída (IOB), blocos lógicos configuráveis (CLB) e chaves de interconexão (Switch Matrix). Os blocos de entrada e saída (I/O) formam uma borda ao redor do dispositivo. Cada um desses blocos pode servir como entrada, saída ou acesso bi-direcional a outros pinos de I/O. Os blocos lógicos são dispostos de forma bidimensional, as chaves de interconexão são dispostas em formas de trilhas verticais e horizontais entre as linhas e as colunas dos blocos lógicos como é mostrado na figura.
+
+	\begin{figure}[h] \centering
+		\includegraphics[scale=0.5]{fpga_struct.png}
+		\caption{Estrutura de uma FPGA \cite{Guntzel}}
+		\label{estruturaFPGA}
+	\end{figure}
+	
+	\begin{enumerate}
+		\item CLB (Configuration Logical Blocks): São circuitos construídos pela reunião de Flip-Flops (entre 2 e 4) 					juntamente com lógica combinacional. A partir de CLBs é possível construir elementos funcionais lógicos. 
+		\item IOB (Input/Output Block): Circuitos que realizam o interfaceamento das saídas provenientes das 							saídas das combinações de CLBs. São basicamente buffers, que funcionarão como um pino bidirecional entrada e 			saída do FPGA. 
+		\item Switch Matrix (chaves de interconexões): Trilhas que conectam os CLBs e IOBs. O terceiro 									grupo é composto pelas interconexões. Os recursos de interconexões possuem trilhas para conectar as entradas e 			saídas dos CLBs e IOBs para as redes apropriadas. Geralmente, a configuração é estabelecida por programação 				interna das células de memória estática, que determinam funções lógicas e conexões internas implementadas no 				FPGA entre os CLBs e os IOBs. O processo de escolha das interconexões é chamado de roteamento. 
+	\end{enumerate}
+
+
+\subsection{Programação de FPGAs}
+De modo geral, a etapa inicial do projeto é seguida de uma simulação funcional. Neste ponto, é utilizado um simulador para conferir as saídas com as diversas entradas de teste. Uma vez de posse de uma representação funcional do hardware, a compilação é iniciada. Esta compilação é dividida em 2 etapas. 
+
+A primeira, chamada síntese (synthesys), é onde o compilador tem uma idéia de como implementar o projeto e falta apenas posicionar e rotear as estruturas lógicas em macrocélulas, interconexões e pinos de entrada e saída, que é a segunda etapa. 
+
+Feita a compilação, um bitstream é criado, ou seja, já sabemos quais são os dados binários que deverão ser carregados no FPGA ou CLPD para fazer com que o chip execute um projeto em particular. Geralmente, as empresas que desenvolvem dispositivos programáveis, fornecem também softwares capazes de carregar o bitstream no hardware utilizando linguagens de descrição de hardware (Hardware Description Language ? HDL).
+
+\section{Arquitetura FPGA da família Cyclone II}
+Neste projeto será utilizado o kit de desenvolvimento DE1, Figura \ref{placa}. Tal kit possui uma FPGA da família Cyclone® II que trabalha com o Quartus II cujas as características são apresentadas logo a seguir.
+
+	begin{figure}[h] \centering
+		\includegraphics[scale=1.0]{placa.png}
+		\caption{Kit de desenvolvimento DE1}
+		\label{placa}
+	\end{figure}
+
+A família de FPGAs Cyclone II® da Altera é manufaturada em wafers de silício de 300mm utilizando processadores com low-k dielétricos de 90nm da TSMC para garantir a rápida disponibilidade e o baixo custo. Minimizando a área de silício e oferecendo suporte a sistemas digitais complexos em um único chip, estes dispositivos podem facilmente competir no mercado com os ASICs. 
+
+Tendo uma densidade lógica de até 68.416 elementos lógicos (LEs) e um máximo de portas utilizáveis de 622 como é mostrado na Tabela 1, são soluções ideais para uma ampla gama de automóveis, processamento de vídeo, comunicações, teste e medições entre outras áreas.
+
+	begin{figure}[h] \centering
+		\includegraphics[scale=1.0]{tabela_1.png}
+		\caption{Características Dispositivos Família Ciclone II \cite{Altera}}
+		\label{placa}
+	\end{figure}
+
+\subsection{Arquitetura}
+A Figura 1 mostra a arquitetura dos dispositivos da família Cyclone II por uma visão bem alto nível. Nesta Figura é possível observar os componentes básicos da arquitetura, entre eles estão: pinos de entrada e saída, matriz lógica, blocos de memória, multiplicadores e os blocos PLL que podem multiplicar ou dividir um clock. Ainda existe uma matriz de interconexões que interliga todas as partes da arquitetura.
+	begin{figure}[h] \centering
+		\includegraphics[scale=1.0]{arquiteturaCiclone2.png}
+		\caption{Arquitetura Ciclone II}
+		\label{arquiteturaCiclone2}
+	\end{figure}
+	
+Os dispositivos Cyclone® II possuem um arranjo bidirecional baseado em linhas e colunas capazes de fornecer interconexões eficientes entre LABs (\emph{Logic Array Blocks}), blocos de memória e multiplicadores \cite{Altera}.
+
+O vetor lógico é composto por LABs, com 16 LEs (\emph{Logic Element}) em cada LAB que são agrupados em linhas e colunas pelo dispositivo. O LE, mostrado na Figura \ref{EL}, é uma pequena unidade de execução eficiente de lógica de funções do usuário. Dispositivos Cyclone II possuem uma  densidade de 4.608 para 68.416 LEs \cite{Altera}.
+
+\begin{figure}[h] \centering
+\includegraphics[scale=0.7]{elementoLogico.png}
+\caption{Elemento Lógico \cite{Altera}}
+\label{EL}
+\end{figure}
+
+Os LEs possuem dois modos de operação, modo normal e o modo aritimético. O modo normal é apropriado para funções gerais da lógica e funções de combinações (\emph{combinational functions}), já o modo aritimético é ideal para implementar contadores, somadores, acumuladores e comparadores. É importante salientar que o Quartus II automaticamente ajusta o LE para o melhor modo de operação \cite{Altera}.
+
+Dispositivos Cyclone II  oferece uma rede global de clock com mais de 4 PLLs (\emph{Phased Locked Loops}). Esta rede é composta por mais de 16 linhas que percorrem o dispositivo fornecendo esse sinal para todos os recursos da FPGA, como elementos de entrada / saída (IOBs), LEs, multiplicadores e blocos de memória embutidos\cite{Altera}.
+
+Cada pino de I/O do dispositivo Cyclone II é alimentado por um IOB loca\-lizados nas extremidades das linhas e colunas do LAB em torno da periferia do dispositivo. Os pinos de I/O suportam diversos padrões, tais como padrão PCI (\emph{Personal Computer Interface}) e o padrão para interface de memória externa do tipo DDR (\emph{Double Data Rating}). A Figura \ref{EPC20} mostra o diagrama de bloco do dispositivo EP2C20 da família Cyclone II \cite{Altera}.
+
+\end{document}

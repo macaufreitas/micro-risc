@@ -1,0 +1,94 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do FilaInstrucoes_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Marcos Aurelio/Dropbox/TFG/FilaInstrucoes/FilaInstrucoes.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity FilaInstrucoes
+# -- Compiling architecture ArquiteturaFI of FilaInstrucoes
+# 
+# vcom -93 -work work {C:/Users/Marcos Aurelio/Dropbox/TFG/FilaInstrucoes/FilaInstrucoesTB.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity FilaInstrucoesTB
+# -- Compiling architecture ArquiteturaFITB of FilaInstrucoesTB
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  FilaTeste
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=\"+acc\" -t 1ps FilaTeste 
+# ** Error: (vsim-3170) Could not find 'C:/Users/Marcos Aurelio/Dropbox/TFG/FilaInstrucoes/simulation/modelsim/rtl_work.FilaTeste'.
+# 
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./FilaInstrucoes_run_msim_rtl_vhdl.do PAUSED at line 12
+vcom -93 -work work -O0 {C:/Users/Marcos Aurelio/Dropbox/TFG/FilaInstrucoes/FilaInstrucoes.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity FilaInstrucoes
+# -- Compiling architecture ArquiteturaFI of FilaInstrucoes
+vcom -93 -work work -O0 {C:/Users/Marcos Aurelio/Dropbox/TFG/FilaInstrucoes/FilaInstrucoesTB.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity FilaInstrucoesTB
+# -- Compiling architecture ArquiteturaFITB of FilaInstrucoesTB
+vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=\"+acc\" -t 1ps work.filainstrucoestb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=\"+acc\" -t 1ps work.filainstrucoestb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.filainstrucoestb(arquiteturafitb)
+# Loading work.filainstrucoes(arquiteturafi)
+add wave sim:/filainstrucoestb/*
+run
+# ** Fatal: (vsim-3734) Index value 6 is out of range 0 to 5.
+#    Time: 475 ns  Iteration: 1  Process: /filainstrucoestb/Fila/ProcessoEscrita File: C:/Users/Marcos Aurelio/Dropbox/TFG/FilaInstrucoes/FilaInstrucoes.vhd
+# Fatal error in Process ProcessoEscrita at C:/Users/Marcos Aurelio/Dropbox/TFG/FilaInstrucoes/FilaInstrucoes.vhd line 81
+# 
+# HDL call sequence:
+# Stopped at C:/Users/Marcos Aurelio/Dropbox/TFG/FilaInstrucoes/FilaInstrucoes.vhd 81 Process ProcessoEscrita
+# 
+restart
+run
+# ** Fatal: (vsim-3734) Index value 6 is out of range 0 to 5.
+#    Time: 475 ns  Iteration: 1  Process: /filainstrucoestb/Fila/ProcessoEscrita File: C:/Users/Marcos Aurelio/Dropbox/TFG/FilaInstrucoes/FilaInstrucoes.vhd
+# Fatal error in Process ProcessoEscrita at C:/Users/Marcos Aurelio/Dropbox/TFG/FilaInstrucoes/FilaInstrucoes.vhd line 81
+# 
+# HDL call sequence:
+# Stopped at C:/Users/Marcos Aurelio/Dropbox/TFG/FilaInstrucoes/FilaInstrucoes.vhd 81 Process ProcessoEscrita
+# 
+restart
+run
+# ** Fatal: (vsim-3734) Index value 6 is out of range 0 to 5.
+#    Time: 475 ns  Iteration: 1  Process: /filainstrucoestb/Fila/ProcessoEscrita File: C:/Users/Marcos Aurelio/Dropbox/TFG/FilaInstrucoes/FilaInstrucoes.vhd
+# Fatal error in Process ProcessoEscrita at C:/Users/Marcos Aurelio/Dropbox/TFG/FilaInstrucoes/FilaInstrucoes.vhd line 81
+# 
+# HDL call sequence:
+# Stopped at C:/Users/Marcos Aurelio/Dropbox/TFG/FilaInstrucoes/FilaInstrucoes.vhd 81 Process ProcessoEscrita
+# 

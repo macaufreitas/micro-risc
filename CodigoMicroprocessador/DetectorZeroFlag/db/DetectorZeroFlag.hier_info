@@ -1,0 +1,20 @@
+|DetectorZeroFlag
+resultado[0] => saida.IN0
+resultado[1] => saida.IN1
+resultado[2] => saida.IN1
+resultado[3] => saida.IN1
+resultado[4] => saida.IN1
+resultado[5] => saida.IN1
+resultado[6] => saida.IN1
+resultado[7] => saida.IN1
+resultado[8] => saida.IN1
+resultado[9] => saida.IN1
+resultado[10] => saida.IN1
+resultado[11] => saida.IN1
+resultado[12] => saida.IN1
+resultado[13] => saida.IN1
+resultado[14] => saida.IN1
+resultado[15] => saida.IN1
+saida << saida.DB_MAX_OUTPUT_PORT_TYPE
+
+

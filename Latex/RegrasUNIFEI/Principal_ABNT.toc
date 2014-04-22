@@ -1,0 +1,14 @@
+\select@language {brazil}
+\contentsline {chapter}{\numberline {1}Como Estruturar o Projeto de Pesquisa}{3}
+\contentsline {section}{\numberline {1.1}Introdu\c c\~ao}{3}
+\contentsline {section}{\numberline {1.2}Elementos de Um Projeto de Pesquisa}{4}
+\contentsline {subsection}{\numberline {1.2.1}Apresenta\c c\~ao}{5}
+\contentsline {subsection}{\numberline {1.2.2}Objetivo}{5}
+\contentsline {subsection}{\numberline {1.2.3}Justificativa}{6}
+\contentsline {subsection}{\numberline {1.2.4}Objeto}{7}
+\contentsline {subsection}{\numberline {1.2.5}Metodologia}{7}
+\contentsline {subsection}{\numberline {1.2.6}Embasamento Te\'orico}{8}
+\contentsline {subsection}{\numberline {1.2.7}Cronograma}{8}
+\contentsline {subsection}{\numberline {1.2.8}Bibliografia}{8}
+\contentsline {section}{\numberline {1.3}Normas Para Elabora\c c\~ao do Projeto}{9}
+\contentsline {chapter}{Refer\^encias}{10}

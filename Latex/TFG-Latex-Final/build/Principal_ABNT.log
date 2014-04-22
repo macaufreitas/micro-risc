@@ -1,0 +1,932 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.6)  13 NOV 2013 16:48
+entering extended mode
+**Principal_ABNT.tex
+(C:\Users\Denis\Desktop\LatexFinal\TFG-Latex-Final\Principal_ABNT.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex\abnt.cls"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex\cvs-id.def")
+Document Class: abnt 2004/11/02 v1.27.2.1 Classe abnt (NBR6024, NBR6027, NBR602
+8, NBR14724)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count79
+\calc@Bcount=\count80
+\calc@Adimen=\dimen102
+\calc@Bdimen=\dimen103
+\calc@Askip=\skip41
+\calc@Bskip=\skip42
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count81
+\calc@Cskip=\skip43
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count82
+\mult@box=\box26
+\multicol@leftmargin=\dimen104
+\c@unbalance=\count83
+\c@collectmore=\count84
+\doublecol@number=\count85
+\multicoltolerance=\count86
+\multicolpretolerance=\count87
+\full@width=\dimen105
+\page@free=\dimen106
+\premulticols=\dimen107
+\postmulticols=\dimen108
+\multicolsep=\skip44
+\multicolbaselineskip=\skip45
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count88
+\c@finalcolumnbadness=\count89
+\last@try=\dimen109
+\multicolovershoot=\dimen110
+\multicolundershoot=\dimen111
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+\multicol@sort@counter=\count90
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count91
+\c@chapter=\count92
+\c@section=\count93
+\c@subsection=\count94
+\c@subsubsection=\count95
+\c@paragraph=\count96
+\c@subparagraph=\count97
+\c@figure=\count98
+\c@table=\count99
+\abovecaptionskip=\skip46
+\belowcaptionskip=\skip47
+\bibindent=\dimen112
+)
+(C:\Users\Denis\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+\ABNTanapindent=\skip48
+\ABNTsignwidth=\skip49
+\ABNTsignthickness=\skip50
+\ABNTsignskip=\skip51
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\portuges.ldf"
+Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count100
+\U@D=\dimen113
+)
+\l@brazil = a dialect from \language\l@portuges 
+Package babel Info: Making " an active character on input line 145.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ae\ae.sty"
+Package: ae 2001/02/12 1.3 Almost European Computer Modern
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)
+LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count101
+))
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count102
+\Gm@cntv=\count103
+\c@Gm@tempcnt=\count104
+\Gm@bindingoffset=\dimen116
+\Gm@wd@mp=\dimen117
+\Gm@odd@mp=\dimen118
+\Gm@even@mp=\dimen119
+\Gm@layoutwidth=\dimen120
+\Gm@layoutheight=\dimen121
+\Gm@layouthoffset=\dimen122
+\Gm@layoutvoffset=\dimen123
+\Gm@dimlist=\toks17
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex\abntcite.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex\cvs-id.def")
+Package: abntcite 2003/10/13 v1.26 Chamadas de referencias no texto (NBR10520)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex\abntex-abrev.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex\cvs-id.def")
+Package: abntex-abrev 2003/10/13 v1.3 Abreviacoes
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex\nbr10522-1988.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex\cvs-id.def")
+File: nbr10522-1988.def 2003/10/13 v1.2 Abreviacoes bibliograficas (NBR10522:19
+88)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex\abntex-abrev-pt_BR.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex\cvs-id.def")
+File: abntex-abrev-pt_BR.def 2003/10/13 v1.2 definicao de abntex-abrev, traduca
+o de termos en_US/pt_BR
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex\nbr10520-2002.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\abntex\cvs-id.def")
+File: nbr10520-2002.def 2003/10/13 v1.2 Definicoes para abntcite (NBR10520:2002
+)
+)
+\minimumbiblabelwidth=\skip52
+\ABCIauxlen=\skip53
+\c@ABCIaux=\count105
+\c@ABCImax=\count106
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
+Package: relsize 2003/07/04 ver 3.1
+)
+\biblabelsep=\skip54
+LaTeX Info: Redefining \newblock on input line 562.
+LaTeX Info: Redefining \cite on input line 589.
+\ABCItoken=\toks18
+)
+(C:\Users\Denis\Desktop\LatexFinal\TFG-Latex-Final\build\Principal_ABNT.aux
+(C:\Users\Denis\Desktop\LatexFinal\TFG-Latex-Final\build\capa.aux)
+(C:\Users\Denis\Desktop\LatexFinal\TFG-Latex-Final\build\Resumo.aux)
+(C:\Users\Denis\Desktop\LatexFinal\TFG-Latex-Final\build\Introducao.aux)
+(C:\Users\Denis\Desktop\LatexFinal\TFG-Latex-Final\build\Objetivo.aux)
+(C:\Users\Denis\Desktop\LatexFinal\TFG-Latex-Final\build\Fundamentacao.aux
+
+LaTeX Warning: Label `diagrama' multiply defined.
+
+
+LaTeX Warning: Label `placa' multiply defined.
+
+))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+ (C:\Users\Denis\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count107
+\scratchdimen=\dimen124
+\scratchbox=\box52
+\nofMPsegments=\count108
+\nofMParguments=\count109
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen125
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
+\everyMPtoPDFconversion=\toks20
+)
+*geometry* detected driver: dvips
+*geometry* verbose mode - [ preamble ] result:
+* driver: dvips
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=591.5302pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-5.00656pt
+* \headheight=12.0pt
+* \headsep=22.14322pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(C:\Users\Denis\Desktop\LatexFinal\TFG-Latex-Final\capa.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 24.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 24.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 24.
+ [0
+Non-PDF special ignored!
+
+
+{C:/Users/Denis/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [1])
+(C:\Users\Denis\Desktop\LatexFinal\TFG-Latex-Final\build\Principal_ABNT.toc
+[2
+
+
+] [3])
+\tf@toc=\write3
+ [4]
+(C:\Users\Denis\Desktop\LatexFinal\TFG-Latex-Final\build\Principal_ABNT.lof
+
+LaTeX Warning: Citation `MicroInternal' on page  undefined on input line 2.
+
+
+LaTeX Warning: Citation `IntroductionMicro' on page  undefined on input line 3.
+
+
+
+LaTeX Warning: Citation `IntroductionMicro' on page  undefined on input line 4.
+
+
+
+LaTeX Warning: Citation `ielm' on page  undefined on input line 5.
+
+
+LaTeX Warning: Citation `ufpbHardware' on page  undefined on input line 6.
+
+
+LaTeX Warning: Citation `pucMicro' on page  undefined on input line 7.
+
+
+LaTeX Warning: Citation `memoriacache' on page  undefined on input line 8.
+
+
+LaTeX Warning: Citation `memoriacache' on page  undefined on input line 9.
+
+
+LaTeX Warning: Citation `ComputerOrg' on page  undefined on input line 10.
+
+
+LaTeX Warning: Citation `ComputerOrg' on page  undefined on input line 11.
+
+
+LaTeX Warning: Citation `ComputerOrg' on page  undefined on input line 12.
+
+
+LaTeX Warning: Citation `ComputerOrg' on page  undefined on input line 13.
+
+
+LaTeX Warning: Citation `ComputerOrg' on page  undefined on input line 14.
+
+
+LaTeX Warning: Citation `intelMulticore' on page  undefined on input line 15.
+
+
+LaTeX Warning: Citation `intelMulticore' on page  undefined on input line 16.
+
+[5
+
+
+]
+
+LaTeX Warning: Citation `Pedroni' on page  undefined on input line 20.
+
+
+LaTeX Warning: Citation `Pedroni' on page  undefined on input line 21.
+
+
+LaTeX Warning: Citation `Guntzel' on page  undefined on input line 23.
+
+
+LaTeX Warning: Citation `Altera' on page  undefined on input line 25.
+
+)
+\tf@lof=\write4
+ [6]
+(C:\Users\Denis\Desktop\LatexFinal\TFG-Latex-Final\build\Principal_ABNT.lot)
+\tf@lot=\write5
+
+[7
+
+] (C:\Users\Denis\Desktop\LatexFinal\TFG-Latex-Final\Resumo.tex
+Cap\'{\i }tulo 1.
+) [8
+
+
+] (C:\Users\Denis\Desktop\LatexFinal\TFG-Latex-Final\Introducao.tex
+Cap\'{\i }tulo 2.
+) [9
+
+
+
+] (C:\Users\Denis\Desktop\LatexFinal\TFG-Latex-Final\Objetivo.tex
+Cap\'{\i }tulo 3.
+) [10
+
+
+
+] (C:\Users\Denis\Desktop\LatexFinal\TFG-Latex-Final\Fundamentacao.tex
+Cap\'{\i }tulo 4.
+
+LaTeX Warning: Citation `praticasMicro' on page 11 undefined on input line 10.
+
+
+LaTeX Warning: Citation `Avtar' on page 11 undefined on input line 12.
+
+<681px-InternalIntegratedCircuit2.jpg, id=43, 512.66531pt x 450.9347pt>
+File: 681px-InternalIntegratedCircuit2.jpg Graphic file (type jpg)
+
+<use 681px-InternalIntegratedCircuit2.jpg>
+Package pdftex.def Info: 681px-InternalIntegratedCircuit2.jpg used on input lin
+e 15.
+(pdftex.def)             Requested size: 307.60155pt x 270.5629pt.
+
+
+LaTeX Warning: Citation `MicroInternal' on page 11 undefined on input line 16.
+
+
+LaTeX Warning: Citation `MicroInternal' on page 11 undefined on input line 16.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation `IntroductionMicro' on page 11 undefined on input line 
+20.
+
+<sistemaMicro.png, id=44, 538.26094pt x 319.1925pt>
+File: sistemaMicro.png Graphic file (type png)
+ <use sistemaMicro.png>
+Package pdftex.def Info: sistemaMicro.png used on input line 23.
+(pdftex.def)             Requested size: 322.95906pt x 191.51697pt.
+
+
+LaTeX Warning: Citation `IntroductionMicro' on page 11 undefined on input line 
+24.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation `Microprocessadores' on page 11 undefined on input line
+ 29.
+
+[11
+
+
+
+]
+
+LaTeX Warning: Citation `Microprocessadores' on page 12 undefined on input line
+ 32.
+
+[12 <C:/Users/Denis/Desktop/LatexFinal/TFG-Latex-Final/681px-InternalIntegrated
+Circuit2.jpg>]
+
+LaTeX Warning: Citation `IntroductionMicro' on page 13 undefined on input line 
+35.
+
+<programa.png, id=54, 344.78813pt x 341.02406pt>
+File: programa.png Graphic file (type png)
+ <use programa.png>
+Package pdftex.def Info: programa.png used on input line 39.
+(pdftex.def)             Requested size: 206.87447pt x 204.61601pt.
+
+
+LaTeX Warning: Citation `IntroductionMicro' on page 13 undefined on input line 
+40.
+
+
+LaTeX Warning: Citation `IntroductionMicro' on page 13 undefined on input line 
+44.
+
+[13 <C:/Users/Denis/Desktop/LatexFinal/TFG-Latex-Final/sistemaMicro.png>]
+
+LaTeX Warning: Citation `ielm' on page 14 undefined on input line 57.
+
+<internalOrg.png, id=58, 460.72125pt x 332.74312pt>
+File: internalOrg.png Graphic file (type png)
+ <use internalOrg.png>
+Package pdftex.def Info: internalOrg.png used on input line 66.
+(pdftex.def)             Requested size: 276.43488pt x 199.6474pt.
+
+
+LaTeX Warning: Citation `ielm' on page 14 undefined on input line 67.
+
+[14 <C:/Users/Denis/Desktop/LatexFinal/TFG-Latex-Final/programa.png>]
+
+LaTeX Warning: Citation `techopediaALU' on page 15 undefined on input line 73.
+
+LaTeX Font Info:    Try loading font information for OMS+aer on input line 78.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ae\omsaer.fd"
+File: omsaer.fd 1999/12/27
+)
+LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
+ [15 <C:/Users/Denis/Desktop/LatexFinal/TFG-Latex-Final/internalOrg.png>]
+
+LaTeX Warning: Citation `ielm' on page 16 undefined on input line 84.
+
+
+LaTeX Warning: Citation `Microprocessadores' on page 16 undefined on input line
+ 87.
+
+
+LaTeX Warning: Citation `ufpbHardware' on page 16 undefined on input line 90.
+
+[16]
+
+LaTeX Warning: Citation `ufpbHardware' on page 17 undefined on input line 100.
+
+[17] <arqBarramento.jpg, id=72, 148.6353pt x 71.7882pt>
+File: arqBarramento.jpg Graphic file (type jpg)
+
+<use arqBarramento.jpg>
+Package pdftex.def Info: arqBarramento.jpg used on input line 104.
+(pdftex.def)             Requested size: 371.58733pt x 179.46999pt.
+
+
+LaTeX Warning: Citation `ufpbHardware' on page 18 undefined on input line 105.
+
+
+LaTeX Warning: Citation `ufpbHardware' on page 18 undefined on input line 111.
+
+
+LaTeX Warning: Citation `ComputerOrg' on page 18 undefined on input line 115.
+
+[18 <C:/Users/Denis/Desktop/LatexFinal/TFG-Latex-Final/arqBarramento.jpg>]
+
+LaTeX Warning: Citation `CISC' on page 19 undefined on input line 118.
+
+
+LaTeX Warning: Citation `ComputerOrg' on page 19 undefined on input line 122.
+
+<microcodigo.png, id=77, 354.57469pt x 265.74281pt>
+File: microcodigo.png Graphic file (type png)
+ <use microcodigo.png>
+Package pdftex.def Info: microcodigo.png used on input line 125.
+(pdftex.def)             Requested size: 354.57382pt x 265.74216pt.
+
+
+LaTeX Warning: Citation `pucMicro' on page 19 undefined on input line 126.
+
+
+LaTeX Warning: Citation `ComputerOrg' on page 19 undefined on input line 136.
+
+[19] [20 <C:/Users/Denis/Desktop/LatexFinal/TFG-Latex-Final/microcodigo.png>]
+
+LaTeX Warning: Citation `memoriacache' on page 21 undefined on input line 143.
+
+<memoriacache.png, id=84, 472.01344pt x 275.52937pt>
+File: memoriacache.png Graphic file (type png)
+ <use memoriacache.png>
+Package pdftex.def Info: memoriacache.png used on input line 146.
+(pdftex.def)             Requested size: 283.21025pt x 165.3189pt.
+
+
+LaTeX Warning: Citation `memoriacache' on page 21 undefined on input line 147.
+
+
+LaTeX Warning: Citation `memoriacache' on page 21 undefined on input line 151.
+
+
+LaTeX Warning: Citation `memoriacache' on page 21 undefined on input line 153.
+
+[21] <cacheniveis.png, id=88, 271.0125pt x 66.2475pt>
+File: cacheniveis.png Graphic file (type png)
+ <use cacheniveis.png>
+Package pdftex.def Info: cacheniveis.png used on input line 156.
+(pdftex.def)             Requested size: 271.01183pt x 66.24733pt.
+
+
+LaTeX Warning: Citation `memoriacache' on page 22 undefined on input line 157.
+
+
+LaTeX Warning: Citation `ComputerOrg' on page 22 undefined on input line 163.
+
+
+LaTeX Warning: Citation `ComputerOrg' on page 22 undefined on input line 163.
+
+<pipeline.png, id=89, 409.53pt x 331.99031pt>
+File: pipeline.png Graphic file (type png)
+ <use pipeline.png>
+Package pdftex.def Info: pipeline.png used on input line 166.
+(pdftex.def)             Requested size: 245.7199pt x 199.19571pt.
+
+
+LaTeX Warning: Citation `ComputerOrg' on page 22 undefined on input line 167.
+
+[22 <C:/Users/Denis/Desktop/LatexFinal/TFG-Latex-Final/memoriacache.png> <C:/Us
+ers/Denis/Desktop/LatexFinal/TFG-Latex-Final/cacheniveis.png>]
+<calculoPipeline.png, id=93, 432.11438pt x 299.61937pt>
+File: calculoPipeline.png Graphic file (type png)
+
+<use calculoPipeline.png>
+Package pdftex.def Info: calculoPipeline.png used on input line 174.
+(pdftex.def)             Requested size: 259.27061pt x 179.77301pt.
+
+
+LaTeX Warning: Citation `ComputerOrg' on page 23 undefined on input line 175.
+
+
+LaTeX Warning: Citation `ComputerOrg' on page 23 undefined on input line 175.
+
+
+LaTeX Font Warning: Font shape `T1/cmr/b/it' undefined
+(Font)              using `T1/cmr/b/n' instead on input line 179.
+
+
+LaTeX Warning: Citation `ComputerOrg' on page 23 undefined on input line 180.
+
+
+LaTeX Warning: Citation `ComputerOrg' on page 23 undefined on input line 183.
+
+[23 <C:/Users/Denis/Desktop/LatexFinal/TFG-Latex-Final/pipeline.png>]
+<codigo.png, id=97, 147.55125pt x 33.12375pt>
+File: codigo.png Graphic file (type png)
+ <use codigo.png>
+Package pdftex.def Info: codigo.png used on input line 187.
+(pdftex.def)             Requested size: 118.04114pt x 26.49902pt.
+
+
+LaTeX Warning: Citation `ComputerOrg' on page 24 undefined on input line 188.
+
+<bubble.png, id=98, 437.38406pt x 169.38281pt>
+File: bubble.png Graphic file (type png)
+ <use bubble.png>
+Package pdftex.def Info: bubble.png used on input line 195.
+(pdftex.def)             Requested size: 262.43245pt x 101.63046pt.
+
+
+LaTeX Warning: Citation `ComputerOrg' on page 24 undefined on input line 196.
+
+
+LaTeX Warning: Citation `ComputerOrg' on page 24 undefined on input line 196.
+
+[24 <C:/Users/Denis/Desktop/LatexFinal/TFG-Latex-Final/calculoPipeline.png> <C:
+/Users/Denis/Desktop/LatexFinal/TFG-Latex-Final/codigo.png>]
+
+LaTeX Warning: Citation `ComputerOrg' on page 25 undefined on input line 202.
+
+<branchproblema.png, id=103, 395.97937pt x 160.34906pt>
+File: branchproblema.png Graphic file (type png)
+
+<use branchproblema.png>
+Package pdftex.def Info: branchproblema.png used on input line 207.
+(pdftex.def)             Requested size: 237.58945pt x 96.21017pt.
+
+
+LaTeX Warning: Citation `ComputerOrg' on page 25 undefined on input line 208.
+
+
+LaTeX Warning: Citation `ComputerOrg' on page 25 undefined on input line 208.
+
+[25 <C:/Users/Denis/Desktop/LatexFinal/TFG-Latex-Final/bubble.png> <C:/Users/De
+nis/Desktop/LatexFinal/TFG-Latex-Final/branchproblema.png>]
+
+LaTeX Warning: Citation `intelMulticore' on page 26 undefined on input line 216
+.
+
+<multicore.png, id=107, 225.84375pt x 222.8325pt>
+File: multicore.png Graphic file (type png)
+ <use multicore.png>
+Package pdftex.def Info: multicore.png used on input line 219.
+(pdftex.def)             Requested size: 225.84319pt x 222.83195pt.
+
+
+LaTeX Warning: Citation `intelMulticore' on page 26 undefined on input line 220
+.
+
+[26 <C:/Users/Denis/Desktop/LatexFinal/TFG-Latex-Final/multicore.png>]
+LaTeX Font Info:    Font shape `OMS/aer/bx/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 227.
+
+<Hyperthreading.png, id=111, 319.1925pt x 229.60782pt>
+File: Hyperthreading.png Graphic file (type png)
+
+<use Hyperthreading.png>
+Package pdftex.def Info: Hyperthreading.png used on input line 230.
+(pdftex.def)             Requested size: 319.19171pt x 229.60725pt.
+
+
+LaTeX Warning: Citation `intelMulticore' on page 27 undefined on input line 231
+.
+
+[27 <C:/Users/Denis/Desktop/LatexFinal/TFG-Latex-Final/Hyperthreading.png>]
+[28] <pinagem.png, id=121, 320.19624pt x 510.90875pt>
+File: pinagem.png Graphic file (type png)
+ <use pinagem.png>
+Package pdftex.def Info: pinagem.png used on input line 263.
+(pdftex.def)             Requested size: 160.09772pt x 255.45375pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[29] <intern_diagram.png, id=125, 749.6808pt x 508.7808pt>
+File: intern_diagram.png Graphic file (type png)
+
+<use intern_diagram.png>
+Package pdftex.def Info: intern_diagram.png used on input line 271.
+(pdftex.def)             Requested size: 374.83948pt x 254.38977pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[30 <C:/Users/Denis/Desktop/LatexFinal/TFG-Latex-Final/pinagem.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 281--302
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--302
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--302
+
+ []
+
+[31 <C:/Users/Denis/Desktop/LatexFinal/TFG-Latex-Final/intern_diagram.png>]
+[32] [33] [34] [35] [36]
+Underfull \hbox (badness 10000) in paragraph at lines 362--381
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--381
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--381
+
+ []
+
+[37] [38] [39] [40] [41]
+<etapa_projeto_vhdl.png, id=167, 185.94469pt x 207.77625pt>
+File: etapa_projeto_vhdl.png Graphic file (type png)
+
+<use etapa_projeto_vhdl.png>
+Package pdftex.def Info: etapa_projeto_vhdl.png used on input line 454.
+(pdftex.def)             Requested size: 130.16037pt x 145.44237pt.
+ [42 <C:/Users/Denis/Desktop/LatexFinal/TFG-Latex-Final/etapa_projeto_vhdl.png>
+] <library.png, id=172, 335.45325pt x 280.04625pt>
+File: library.png Graphic file (type png)
+
+<use library.png>
+Package pdftex.def Info: library.png used on input line 471.
+(pdftex.def)             Requested size: 167.7262pt x 140.02277pt.
+
+
+LaTeX Warning: Citation `Pedroni' on page 43 undefined on input line 472.
+
+[43 <C:/Users/Denis/Desktop/LatexFinal/TFG-Latex-Final/library.png>]
+<entity.png, id=176, 338.4645pt x 142.73325pt>
+File: entity.png Graphic file (type png)
+ <use entity.png>
+Package pdftex.def Info: entity.png used on input line 487.
+(pdftex.def)             Requested size: 169.23183pt x 71.36644pt.
+
+
+LaTeX Warning: Citation `Pedroni' on page 44 undefined on input line 488.
+
+<architeture.png, id=177, 454.69875pt x 124.21407pt>
+File: architeture.png Graphic file (type png)
+ <use architeture.png>
+Package pdftex.def Info: architeture.png used on input line 501.
+(pdftex.def)             Requested size: 227.34882pt x 62.10687pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[44 <C:/Users/Denis/Desktop/LatexFinal/TFG-Latex-Final/entity.png>]
+<fpga_struct.png, id=181, 216.81pt x 201.75375pt>
+File: fpga_struct.png Graphic file (type png)
+ <use fpga_struct.png>
+Package pdftex.def Info: fpga_struct.png used on input line 515.
+(pdftex.def)             Requested size: 108.40472pt x 100.87662pt.
+
+
+LaTeX Warning: Citation `Guntzel' on page 45 undefined on input line 516.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[45 <C:/Users/Denis/Desktop/LatexFinal/TFG-Latex-Final/architeture.png>]
+[46 <C:/Users/Denis/Desktop/LatexFinal/TFG-Latex-Final/fpga_struct.png>]
+<placa.png, id=188, 362.10281pt x 277.035pt>
+File: placa.png Graphic file (type png)
+ <use placa.png>
+Package pdftex.def Info: placa.png used on input line 538.
+(pdftex.def)             Requested size: 362.10191pt x 277.03432pt.
+ [47 <C:/Users/Denis/Desktop/LatexFinal/TFG-Latex-Final/placa.png>]
+<tabela_1.png, id=192, 460.72125pt x 201.00093pt>
+File: tabela_1.png Graphic file (type png)
+ <use tabela_1.png>
+Package pdftex.def Info: tabela_1.png used on input line 548.
+(pdftex.def)             Requested size: 460.72012pt x 201.00043pt.
+
+Overfull \hbox (42.46645pt too wide) in paragraph at lines 548--549
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `Altera' on page 48 undefined on input line 549.
+
+<arquiteturaCiclone2.png, id=193, 360.59718pt x 241.65282pt>
+File: arquiteturaCiclone2.png Graphic file (type png)
+
+<use arquiteturaCiclone2.png>
+Package pdftex.def Info: arquiteturaCiclone2.png used on input line 556.
+(pdftex.def)             Requested size: 360.5963pt x 241.65222pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation `Altera' on page 48 undefined on input line 561.
+
+[48 <C:/Users/Denis/Desktop/LatexFinal/TFG-Latex-Final/tabela_1.png>]
+
+LaTeX Warning: Reference `EL' on page 49 undefined on input line 563.
+
+
+LaTeX Warning: Citation `Altera' on page 49 undefined on input line 563.
+
+
+LaTeX Warning: Citation `Altera' on page 49 undefined on input line 571.
+
+
+LaTeX Warning: Citation `Altera' on page 49 undefined on input line 573.
+
+[49 <C:/Users/Denis/Desktop/LatexFinal/TFG-Latex-Final/arquiteturaCiclone2.png>
+]
+
+LaTeX Warning: Reference `EPC20' on page 50 undefined on input line 575.
+
+
+LaTeX Warning: Citation `Altera' on page 50 undefined on input line 575.
+
+) [50]
+(C:\Users\Denis\Desktop\LatexFinal\TFG-Latex-Final\build\Principal_ABNT.bbl)
++-------------------------------------------------------------------+
+| Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
+|                  http://abntex.codigolivre.org.br                 |
++-------------------------------------------------------------------+
+(C:\Users\Denis\Desktop\LatexFinal\TFG-Latex-Final\build\Principal_ABNT.aux
+(C:\Users\Denis\Desktop\LatexFinal\TFG-Latex-Final\build\capa.aux)
+(C:\Users\Denis\Desktop\LatexFinal\TFG-Latex-Final\build\Resumo.aux)
+(C:\Users\Denis\Desktop\LatexFinal\TFG-Latex-Final\build\Introducao.aux)
+(C:\Users\Denis\Desktop\LatexFinal\TFG-Latex-Final\build\Objetivo.aux)
+(C:\Users\Denis\Desktop\LatexFinal\TFG-Latex-Final\build\Fundamentacao.aux))
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3514 strings out of 493921
+ 51419 string characters out of 3144876
+ 112428 words of memory out of 3000000
+ 6620 multiletter control sequences out of 15000+200000
+ 37554 words of font info for 76 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 28i,7n,27p,1182b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Denis\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ecrb1440.pk> <C:\Users\Denis\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecrb1728.pk> <C:\Users\Denis\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecrb1200.pk> <C:\Users\Denis\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecrb2488.pk><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmti12.pfb>
+Output written on C:/Users/Denis/Desktop/LatexFinal/TFG-Latex-Final/build/Princ
+ipal_ABNT.pdf (51 pages, 1353160 bytes).
+PDF statistics:
+ 420 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,80 @@
+# Current time Thu Mar 06 20:54:20 2014
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = win32pe
+# 0    0x1003e3a9: 'Tcl_GetChannel + 0x9' in 'c:\altera\13.1\modelsim_ase\win32aloem\tcl84.dll'
+# 1    0x00a0130e: '<unknown (@0xa0130e)>'
+# 2    0x008a3864: '<unknown (@0x8a3864)>'
+# 3    0x006b5e06: '<unknown (@0x6b5e06)>'
+# 4    0x0076efb1: '<unknown (@0x76efb1)>'
+# 5    0x10057da8: 'TclSignalExitThread + 0x118' in 'c:\altera\13.1\modelsim_ase\win32aloem\tcl84.dll'
+# 6    0x1004aed0: 'Tcl_ServiceEvent + 0x60' in 'c:\altera\13.1\modelsim_ase\win32aloem\tcl84.dll'
+# 7    0x1004b11e: 'Tcl_DoOneEvent + 0x10e' in 'c:\altera\13.1\modelsim_ase\win32aloem\tcl84.dll'
+# 8    0x00b4b3bc: '<unknown (@0xb4b3bc)>'
+# 9    0x0076f093: '<unknown (@0x76f093)>'
+# End of Stack Trace
+
+
+# Current time Thu Mar 06 20:54:20 2014
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = win32pe
+# 0    0x1003e3a9: 'Tcl_GetChannel + 0x9' in 'c:\altera\13.1\modelsim_ase\win32aloem\tcl84.dll'
+# 1    0x00a0130e: '<unknown (@0xa0130e)>'
+# 2    0x008a3864: '<unknown (@0x8a3864)>'
+# 3    0x006b5e06: '<unknown (@0x6b5e06)>'
+# 4    0x0076efb1: '<unknown (@0x76efb1)>'
+# 5    0x10057da8: 'TclSignalExitThread + 0x118' in 'c:\altera\13.1\modelsim_ase\win32aloem\tcl84.dll'
+# 6    0x1004aed0: 'Tcl_ServiceEvent + 0x60' in 'c:\altera\13.1\modelsim_ase\win32aloem\tcl84.dll'
+# 7    0x1004b11e: 'Tcl_DoOneEvent + 0x10e' in 'c:\altera\13.1\modelsim_ase\win32aloem\tcl84.dll'
+# 8    0x00b4b3bc: '<unknown (@0xb4b3bc)>'
+# 9    0x0076f093: '<unknown (@0x76f093)>'
+# End of Stack Trace
+
+
+# Current time Thu Mar 06 20:54:20 2014
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = win32pe
+# 0    0x1003e3a9: 'Tcl_GetChannel + 0x9' in 'c:\altera\13.1\modelsim_ase\win32aloem\tcl84.dll'
+# 1    0x00a0130e: '<unknown (@0xa0130e)>'
+# 2    0x008a3864: '<unknown (@0x8a3864)>'
+# 3    0x006b5e06: '<unknown (@0x6b5e06)>'
+# 4    0x0076efb1: '<unknown (@0x76efb1)>'
+# 5    0x10057da8: 'TclSignalExitThread + 0x118' in 'c:\altera\13.1\modelsim_ase\win32aloem\tcl84.dll'
+# 6    0x1004aed0: 'Tcl_ServiceEvent + 0x60' in 'c:\altera\13.1\modelsim_ase\win32aloem\tcl84.dll'
+# 7    0x1004b11e: 'Tcl_DoOneEvent + 0x10e' in 'c:\altera\13.1\modelsim_ase\win32aloem\tcl84.dll'
+# 8    0x00b4b3bc: '<unknown (@0xb4b3bc)>'
+# 9    0x0076f093: '<unknown (@0x76f093)>'
+# End of Stack Trace
+
+
+# Current time Thu Mar 06 20:54:20 2014
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.1d"
+# Version = "2012.11"
+# Date = "Nov  2 2012"
+# Platform = win32pe
+# 0    0x1003e3a9: 'Tcl_GetChannel + 0x9' in 'c:\altera\13.1\modelsim_ase\win32aloem\tcl84.dll'
+# 1    0x00a0130e: '<unknown (@0xa0130e)>'
+# 2    0x008a3864: '<unknown (@0x8a3864)>'
+# 3    0x006b5e06: '<unknown (@0x6b5e06)>'
+# 4    0x0076efb1: '<unknown (@0x76efb1)>'
+# 5    0x10057da8: 'TclSignalExitThread + 0x118' in 'c:\altera\13.1\modelsim_ase\win32aloem\tcl84.dll'
+# 6    0x1004aed0: 'Tcl_ServiceEvent + 0x60' in 'c:\altera\13.1\modelsim_ase\win32aloem\tcl84.dll'
+# 7    0x1004b11e: 'Tcl_DoOneEvent + 0x10e' in 'c:\altera\13.1\modelsim_ase\win32aloem\tcl84.dll'
+# 8    0x00b4b3bc: '<unknown (@0xb4b3bc)>'
+# 9    0x0076f093: '<unknown (@0x76f093)>'
+# End of Stack Trace
+
+

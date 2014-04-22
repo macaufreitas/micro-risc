@@ -1,0 +1,9 @@
+
+State Machine - |MicroprocessadorEndMemoria|UnidadeDeControleDeEnderecos:UCE|Estado
+Name Estado.TerminaCalculo Estado.ColocaEndBarramentoIncIP Estado.CalculoEndereco Estado.HabilitaIP Estado.HabilitaSegmento Estado.Espera 
+Estado.Espera 0 0 0 0 0 0 
+Estado.HabilitaSegmento 0 0 0 0 1 1 
+Estado.HabilitaIP 0 0 0 1 0 1 
+Estado.CalculoEndereco 0 0 1 0 0 1 
+Estado.ColocaEndBarramentoIncIP 0 1 0 0 0 1 
+Estado.TerminaCalculo 1 0 0 0 0 1 

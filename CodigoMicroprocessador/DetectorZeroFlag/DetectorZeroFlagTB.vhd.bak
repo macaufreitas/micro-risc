@@ -1,0 +1,29 @@
+--------------------------------------------------------------------------------------
+---------- Codigo que testa o Detector de Zero Flag do Microprocessador --------------
+--------------------------------------------------------------------------------------
+
+-------- Bibliotecas e Pacotes -------
+library ieee;
+use ieee.std_logic_1164.all;
+--------------------------------------
+
+entity DetectorZeroFlagTB is
+end DetectorZeroFlagTB;
+
+architecture ArquiteturaDZFTB of DetectorZeroFlagTB is
+
+	-- Declaracao Sinais do test bench
+	signal resultado_tb : std_logic_vector(15 downto 0);
+	signal saida_tb : std_logic;
+	
+	-- Instancia do Detector de Zero Flag
+	component DetectorZeroFlag
+		port(
+			resultado : in std_logic(15 downto 0);
+			saida : out std_logic
+		);
+	end component;
+
+begin
+
+end ArquiteturaDZFTB;

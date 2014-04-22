@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Marcos Aurelio\Dropbox\TFG\CodigoMicroprocessador\Demultiplexador\simulation\modelsim
+Edemultiplexador
+Z1 w1392820313
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Marcos Aurelio\Dropbox\TFG\CodigoMicroprocessador\Demultiplexador\simulation\modelsim
+Z5 8C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd
+Z6 FC:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd
+l0
+L10
+VB0jD`fB[bLIm>@?lCHT[i2
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1393458954.435000
+Z9 !s90 -reportprogress|300|-93|-work|work|-O0|C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd|
+Z10 !s107 C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 M@FTmWcTj6HF2ZbT_ZanI0
+!i10b 1
+Aarquiteturademux
+R2
+R3
+DEx4 work 15 demultiplexador 0 22 B0jD`fB[bLIm>@?lCHT[i2
+l20
+L19
+VC57L;Fo[^PC;?6C]1cZIE1
+!s100 ?_R@hh7YWb3YMXJ>0XMSS0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!i10b 1
+Edemultiplexadortb
+Z13 w1392826579
+R2
+R3
+R4
+Z14 8C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/DemultiplexadorTB.vhd
+Z15 FC:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/DemultiplexadorTB.vhd
+l0
+L10
+VRXLV_5QGegjhLnS8AVR6c1
+!s100 jcdN=0kW_bDH`Go[M8a9^3
+R7
+31
+!i10b 1
+Z16 !s108 1393458954.988000
+Z17 !s90 -reportprogress|300|-93|-work|work|-O0|C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/DemultiplexadorTB.vhd|
+Z18 !s107 C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/DemultiplexadorTB.vhd|
+R11
+R12
+Aarquiteturademuxtb
+R2
+R3
+Z19 DEx4 work 17 demultiplexadortb 0 22 RXLV_5QGegjhLnS8AVR6c1
+l29
+L13
+Z20 V6_fNb<3gW2cW1bg9@U8]40
+Z21 !s100 I@3;o:?QnZC<dkTf`Ufj53
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+R12

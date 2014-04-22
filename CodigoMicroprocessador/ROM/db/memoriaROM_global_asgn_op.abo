@@ -1,0 +1,1710 @@
+Version:
+	9.0 Build 132 02/25/2009 SJ Web Edition
+
+Chip Device Options:
+	Device Name:	EP2C5T144C6
+	Device JTAG code:	ffffffff
+	Programming_mode:	Active Serial Configuration
+	NWS_NRS_NCS:	UNRESERVED
+	RDYNBUSY:	UNRESERVED
+	DATA 7 to 1:	UNRESERVED
+	nCEO:	RESERVED_GND
+	UNUSED PINS:	RESERVED_GND
+	Default IO Standard::	3.3-V LVTTL
+	User Start-up Clock:	0
+	Auto Restart on Error:	1
+	Release Clears Before Tristates:	0
+	Device Clear:	0
+	Test And Scan:	0
+	Device OE:	0
+	Enable Lock Output:	0
+	Enable Init Done:	0
+	Enable JTAG BST:	0
+	Enable Vref A:	0
+	Enable Vref B:	0
+
+
+
+****************************
+******Individual Atoms******
+****************************
+
+- ATOM ------------------------
+	ATOM_NAME: altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a0 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 0
+	Atom Type: cycloneii_ram_block (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: [CLK0]	  clk	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		5: NO ITERM
+		6: [ENA0]	  chipenable	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: [PORTAADDR]	  endereco[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		11: [PORTAADDR]	  endereco[1]	LIT INDEX 1	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		12: [PORTAADDR]	  endereco[2]	LIT INDEX 2	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		13: [PORTAADDR]	  endereco[3]	LIT INDEX 3	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		14: [PORTAADDR]	  endereco[4]	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		15: [PORTAADDR]	  endereco[5]	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		16: [PORTAADDR]	  endereco[6]	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		17: [PORTAADDR]	  endereco[7]	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+	OUTPUTS (Int. Connections):
+		0: [PORTADATAOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a0	LIT INDEX 0 FANOUTS 1
+		1: [OBSERVABLEPORTADATAINREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a0~porta_datain_reg0	LIT INDEX 0 FANOUTS 0
+		2: [OBSERVABLEPORTAMEMORYREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a0~porta_memory_reg0	LIT INDEX 0 FANOUTS 0
+		3: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a0~porta_address_reg0	LIT INDEX 0 FANOUTS 0
+		4: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a0~porta_address_reg1	LIT INDEX 1 FANOUTS 0
+		5: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a0~porta_address_reg2	LIT INDEX 2 FANOUTS 0
+		6: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a0~porta_address_reg3	LIT INDEX 3 FANOUTS 0
+		7: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a0~porta_address_reg4	LIT INDEX 4 FANOUTS 0
+		8: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a0~porta_address_reg5	LIT INDEX 5 FANOUTS 0
+		9: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a0~porta_address_reg6	LIT INDEX 6 FANOUTS 0
+		10: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a0~porta_address_reg7	LIT INDEX 7 FANOUTS 0
+
+	PARAMETER LIST:
+		operation_mode                 = rom
+		ram_block_type                 = auto
+		logical_ram_name               = altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ALTSYNCRAM
+		init_file                      = memoriaROM.memoriaROM0.rtl.mif
+		init_file_layout               = port_a
+		data_interleave_width_in_bits  = 1
+		data_interleave_offset_in_bits = 1
+		port_a_logical_ram_depth       = 256
+		port_a_logical_ram_width       = 8
+		port_a_data_in_clear           = none
+		port_a_address_clear           = none
+		port_a_write_enable_clear      = none
+		port_a_byte_enable_clear       = none
+		port_a_data_out_clock          = none
+		port_a_data_out_clear          = none
+		port_a_first_address           = 0
+		port_a_last_address            = 255
+		port_a_first_bit_number        = 0
+		port_a_data_width              = 1
+		port_a_address_width           = 8
+		DIRTY_FLAG                     = false
+		safe_write                     = err_on_2clk
+
+
+- ATOM ------------------------
+	ATOM_NAME: altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a1 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 1
+	Atom Type: cycloneii_ram_block (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: [CLK0]	  clk	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		5: NO ITERM
+		6: [ENA0]	  chipenable	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: [PORTAADDR]	  endereco[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		11: [PORTAADDR]	  endereco[1]	LIT INDEX 1	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		12: [PORTAADDR]	  endereco[2]	LIT INDEX 2	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		13: [PORTAADDR]	  endereco[3]	LIT INDEX 3	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		14: [PORTAADDR]	  endereco[4]	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		15: [PORTAADDR]	  endereco[5]	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		16: [PORTAADDR]	  endereco[6]	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		17: [PORTAADDR]	  endereco[7]	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+	OUTPUTS (Int. Connections):
+		0: [PORTADATAOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a1	LIT INDEX 0 FANOUTS 1
+		1: [OBSERVABLEPORTADATAINREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a1~porta_datain_reg0	LIT INDEX 0 FANOUTS 0
+		2: [OBSERVABLEPORTAMEMORYREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a1~porta_memory_reg0	LIT INDEX 0 FANOUTS 0
+		3: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a1~porta_address_reg0	LIT INDEX 0 FANOUTS 0
+		4: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a1~porta_address_reg1	LIT INDEX 1 FANOUTS 0
+		5: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a1~porta_address_reg2	LIT INDEX 2 FANOUTS 0
+		6: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a1~porta_address_reg3	LIT INDEX 3 FANOUTS 0
+		7: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a1~porta_address_reg4	LIT INDEX 4 FANOUTS 0
+		8: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a1~porta_address_reg5	LIT INDEX 5 FANOUTS 0
+		9: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a1~porta_address_reg6	LIT INDEX 6 FANOUTS 0
+		10: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a1~porta_address_reg7	LIT INDEX 7 FANOUTS 0
+
+	PARAMETER LIST:
+		operation_mode                 = rom
+		ram_block_type                 = auto
+		logical_ram_name               = altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ALTSYNCRAM
+		init_file                      = memoriaROM.memoriaROM0.rtl.mif
+		init_file_layout               = port_a
+		data_interleave_width_in_bits  = 1
+		data_interleave_offset_in_bits = 1
+		port_a_logical_ram_depth       = 256
+		port_a_logical_ram_width       = 8
+		port_a_data_in_clear           = none
+		port_a_address_clear           = none
+		port_a_write_enable_clear      = none
+		port_a_byte_enable_clear       = none
+		port_a_data_out_clock          = none
+		port_a_data_out_clear          = none
+		port_a_first_address           = 0
+		port_a_last_address            = 255
+		port_a_first_bit_number        = 1
+		port_a_data_width              = 1
+		port_a_address_width           = 8
+		DIRTY_FLAG                     = false
+		safe_write                     = err_on_2clk
+
+
+- ATOM ------------------------
+	ATOM_NAME: altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a2 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 2
+	Atom Type: cycloneii_ram_block (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: [CLK0]	  clk	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		5: NO ITERM
+		6: [ENA0]	  chipenable	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: [PORTAADDR]	  endereco[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		11: [PORTAADDR]	  endereco[1]	LIT INDEX 1	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		12: [PORTAADDR]	  endereco[2]	LIT INDEX 2	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		13: [PORTAADDR]	  endereco[3]	LIT INDEX 3	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		14: [PORTAADDR]	  endereco[4]	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		15: [PORTAADDR]	  endereco[5]	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		16: [PORTAADDR]	  endereco[6]	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		17: [PORTAADDR]	  endereco[7]	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+	OUTPUTS (Int. Connections):
+		0: [PORTADATAOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a2	LIT INDEX 0 FANOUTS 1
+		1: [OBSERVABLEPORTADATAINREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a2~porta_datain_reg0	LIT INDEX 0 FANOUTS 0
+		2: [OBSERVABLEPORTAMEMORYREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a2~porta_memory_reg0	LIT INDEX 0 FANOUTS 0
+		3: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a2~porta_address_reg0	LIT INDEX 0 FANOUTS 0
+		4: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a2~porta_address_reg1	LIT INDEX 1 FANOUTS 0
+		5: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a2~porta_address_reg2	LIT INDEX 2 FANOUTS 0
+		6: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a2~porta_address_reg3	LIT INDEX 3 FANOUTS 0
+		7: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a2~porta_address_reg4	LIT INDEX 4 FANOUTS 0
+		8: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a2~porta_address_reg5	LIT INDEX 5 FANOUTS 0
+		9: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a2~porta_address_reg6	LIT INDEX 6 FANOUTS 0
+		10: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a2~porta_address_reg7	LIT INDEX 7 FANOUTS 0
+
+	PARAMETER LIST:
+		operation_mode                 = rom
+		ram_block_type                 = auto
+		logical_ram_name               = altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ALTSYNCRAM
+		init_file                      = memoriaROM.memoriaROM0.rtl.mif
+		init_file_layout               = port_a
+		data_interleave_width_in_bits  = 1
+		data_interleave_offset_in_bits = 1
+		port_a_logical_ram_depth       = 256
+		port_a_logical_ram_width       = 8
+		port_a_data_in_clear           = none
+		port_a_address_clear           = none
+		port_a_write_enable_clear      = none
+		port_a_byte_enable_clear       = none
+		port_a_data_out_clock          = none
+		port_a_data_out_clear          = none
+		port_a_first_address           = 0
+		port_a_last_address            = 255
+		port_a_first_bit_number        = 2
+		port_a_data_width              = 1
+		port_a_address_width           = 8
+		DIRTY_FLAG                     = false
+		safe_write                     = err_on_2clk
+
+
+- ATOM ------------------------
+	ATOM_NAME: altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a3 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 3
+	Atom Type: cycloneii_ram_block (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: [CLK0]	  clk	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		5: NO ITERM
+		6: [ENA0]	  chipenable	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: [PORTAADDR]	  endereco[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		11: [PORTAADDR]	  endereco[1]	LIT INDEX 1	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		12: [PORTAADDR]	  endereco[2]	LIT INDEX 2	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		13: [PORTAADDR]	  endereco[3]	LIT INDEX 3	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		14: [PORTAADDR]	  endereco[4]	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		15: [PORTAADDR]	  endereco[5]	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		16: [PORTAADDR]	  endereco[6]	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		17: [PORTAADDR]	  endereco[7]	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+	OUTPUTS (Int. Connections):
+		0: [PORTADATAOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a3	LIT INDEX 0 FANOUTS 1
+		1: [OBSERVABLEPORTADATAINREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a3~porta_datain_reg0	LIT INDEX 0 FANOUTS 0
+		2: [OBSERVABLEPORTAMEMORYREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a3~porta_memory_reg0	LIT INDEX 0 FANOUTS 0
+		3: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a3~porta_address_reg0	LIT INDEX 0 FANOUTS 0
+		4: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a3~porta_address_reg1	LIT INDEX 1 FANOUTS 0
+		5: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a3~porta_address_reg2	LIT INDEX 2 FANOUTS 0
+		6: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a3~porta_address_reg3	LIT INDEX 3 FANOUTS 0
+		7: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a3~porta_address_reg4	LIT INDEX 4 FANOUTS 0
+		8: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a3~porta_address_reg5	LIT INDEX 5 FANOUTS 0
+		9: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a3~porta_address_reg6	LIT INDEX 6 FANOUTS 0
+		10: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a3~porta_address_reg7	LIT INDEX 7 FANOUTS 0
+
+	PARAMETER LIST:
+		operation_mode                 = rom
+		ram_block_type                 = auto
+		logical_ram_name               = altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ALTSYNCRAM
+		init_file                      = memoriaROM.memoriaROM0.rtl.mif
+		init_file_layout               = port_a
+		data_interleave_width_in_bits  = 1
+		data_interleave_offset_in_bits = 1
+		port_a_logical_ram_depth       = 256
+		port_a_logical_ram_width       = 8
+		port_a_data_in_clear           = none
+		port_a_address_clear           = none
+		port_a_write_enable_clear      = none
+		port_a_byte_enable_clear       = none
+		port_a_data_out_clock          = none
+		port_a_data_out_clear          = none
+		port_a_first_address           = 0
+		port_a_last_address            = 255
+		port_a_first_bit_number        = 3
+		port_a_data_width              = 1
+		port_a_address_width           = 8
+		DIRTY_FLAG                     = false
+		safe_write                     = err_on_2clk
+
+
+- ATOM ------------------------
+	ATOM_NAME: altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a4 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 4
+	Atom Type: cycloneii_ram_block (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: [CLK0]	  clk	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		5: NO ITERM
+		6: [ENA0]	  chipenable	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: [PORTAADDR]	  endereco[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		11: [PORTAADDR]	  endereco[1]	LIT INDEX 1	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		12: [PORTAADDR]	  endereco[2]	LIT INDEX 2	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		13: [PORTAADDR]	  endereco[3]	LIT INDEX 3	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		14: [PORTAADDR]	  endereco[4]	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		15: [PORTAADDR]	  endereco[5]	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		16: [PORTAADDR]	  endereco[6]	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		17: [PORTAADDR]	  endereco[7]	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+	OUTPUTS (Int. Connections):
+		0: [PORTADATAOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a4	LIT INDEX 0 FANOUTS 1
+		1: [OBSERVABLEPORTADATAINREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a4~porta_datain_reg0	LIT INDEX 0 FANOUTS 0
+		2: [OBSERVABLEPORTAMEMORYREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a4~porta_memory_reg0	LIT INDEX 0 FANOUTS 0
+		3: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a4~porta_address_reg0	LIT INDEX 0 FANOUTS 0
+		4: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a4~porta_address_reg1	LIT INDEX 1 FANOUTS 0
+		5: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a4~porta_address_reg2	LIT INDEX 2 FANOUTS 0
+		6: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a4~porta_address_reg3	LIT INDEX 3 FANOUTS 0
+		7: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a4~porta_address_reg4	LIT INDEX 4 FANOUTS 0
+		8: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a4~porta_address_reg5	LIT INDEX 5 FANOUTS 0
+		9: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a4~porta_address_reg6	LIT INDEX 6 FANOUTS 0
+		10: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a4~porta_address_reg7	LIT INDEX 7 FANOUTS 0
+
+	PARAMETER LIST:
+		operation_mode                 = rom
+		ram_block_type                 = auto
+		logical_ram_name               = altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ALTSYNCRAM
+		init_file                      = memoriaROM.memoriaROM0.rtl.mif
+		init_file_layout               = port_a
+		data_interleave_width_in_bits  = 1
+		data_interleave_offset_in_bits = 1
+		port_a_logical_ram_depth       = 256
+		port_a_logical_ram_width       = 8
+		port_a_data_in_clear           = none
+		port_a_address_clear           = none
+		port_a_write_enable_clear      = none
+		port_a_byte_enable_clear       = none
+		port_a_data_out_clock          = none
+		port_a_data_out_clear          = none
+		port_a_first_address           = 0
+		port_a_last_address            = 255
+		port_a_first_bit_number        = 4
+		port_a_data_width              = 1
+		port_a_address_width           = 8
+		DIRTY_FLAG                     = false
+		safe_write                     = err_on_2clk
+
+
+- ATOM ------------------------
+	ATOM_NAME: altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a5 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 5
+	Atom Type: cycloneii_ram_block (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: [CLK0]	  clk	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		5: NO ITERM
+		6: [ENA0]	  chipenable	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: [PORTAADDR]	  endereco[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		11: [PORTAADDR]	  endereco[1]	LIT INDEX 1	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		12: [PORTAADDR]	  endereco[2]	LIT INDEX 2	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		13: [PORTAADDR]	  endereco[3]	LIT INDEX 3	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		14: [PORTAADDR]	  endereco[4]	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		15: [PORTAADDR]	  endereco[5]	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		16: [PORTAADDR]	  endereco[6]	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		17: [PORTAADDR]	  endereco[7]	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+	OUTPUTS (Int. Connections):
+		0: [PORTADATAOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a5	LIT INDEX 0 FANOUTS 1
+		1: [OBSERVABLEPORTADATAINREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a5~porta_datain_reg0	LIT INDEX 0 FANOUTS 0
+		2: [OBSERVABLEPORTAMEMORYREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a5~porta_memory_reg0	LIT INDEX 0 FANOUTS 0
+		3: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a5~porta_address_reg0	LIT INDEX 0 FANOUTS 0
+		4: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a5~porta_address_reg1	LIT INDEX 1 FANOUTS 0
+		5: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a5~porta_address_reg2	LIT INDEX 2 FANOUTS 0
+		6: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a5~porta_address_reg3	LIT INDEX 3 FANOUTS 0
+		7: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a5~porta_address_reg4	LIT INDEX 4 FANOUTS 0
+		8: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a5~porta_address_reg5	LIT INDEX 5 FANOUTS 0
+		9: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a5~porta_address_reg6	LIT INDEX 6 FANOUTS 0
+		10: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a5~porta_address_reg7	LIT INDEX 7 FANOUTS 0
+
+	PARAMETER LIST:
+		operation_mode                 = rom
+		ram_block_type                 = auto
+		logical_ram_name               = altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ALTSYNCRAM
+		init_file                      = memoriaROM.memoriaROM0.rtl.mif
+		init_file_layout               = port_a
+		data_interleave_width_in_bits  = 1
+		data_interleave_offset_in_bits = 1
+		port_a_logical_ram_depth       = 256
+		port_a_logical_ram_width       = 8
+		port_a_data_in_clear           = none
+		port_a_address_clear           = none
+		port_a_write_enable_clear      = none
+		port_a_byte_enable_clear       = none
+		port_a_data_out_clock          = none
+		port_a_data_out_clear          = none
+		port_a_first_address           = 0
+		port_a_last_address            = 255
+		port_a_first_bit_number        = 5
+		port_a_data_width              = 1
+		port_a_address_width           = 8
+		DIRTY_FLAG                     = false
+		safe_write                     = err_on_2clk
+
+
+- ATOM ------------------------
+	ATOM_NAME: altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a6 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 6
+	Atom Type: cycloneii_ram_block (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: [CLK0]	  clk	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		5: NO ITERM
+		6: [ENA0]	  chipenable	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: [PORTAADDR]	  endereco[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		11: [PORTAADDR]	  endereco[1]	LIT INDEX 1	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		12: [PORTAADDR]	  endereco[2]	LIT INDEX 2	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		13: [PORTAADDR]	  endereco[3]	LIT INDEX 3	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		14: [PORTAADDR]	  endereco[4]	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		15: [PORTAADDR]	  endereco[5]	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		16: [PORTAADDR]	  endereco[6]	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		17: [PORTAADDR]	  endereco[7]	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+	OUTPUTS (Int. Connections):
+		0: [PORTADATAOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a6	LIT INDEX 0 FANOUTS 1
+		1: [OBSERVABLEPORTADATAINREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a6~porta_datain_reg0	LIT INDEX 0 FANOUTS 0
+		2: [OBSERVABLEPORTAMEMORYREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a6~porta_memory_reg0	LIT INDEX 0 FANOUTS 0
+		3: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a6~porta_address_reg0	LIT INDEX 0 FANOUTS 0
+		4: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a6~porta_address_reg1	LIT INDEX 1 FANOUTS 0
+		5: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a6~porta_address_reg2	LIT INDEX 2 FANOUTS 0
+		6: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a6~porta_address_reg3	LIT INDEX 3 FANOUTS 0
+		7: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a6~porta_address_reg4	LIT INDEX 4 FANOUTS 0
+		8: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a6~porta_address_reg5	LIT INDEX 5 FANOUTS 0
+		9: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a6~porta_address_reg6	LIT INDEX 6 FANOUTS 0
+		10: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a6~porta_address_reg7	LIT INDEX 7 FANOUTS 0
+
+	PARAMETER LIST:
+		operation_mode                 = rom
+		ram_block_type                 = auto
+		logical_ram_name               = altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ALTSYNCRAM
+		init_file                      = memoriaROM.memoriaROM0.rtl.mif
+		init_file_layout               = port_a
+		data_interleave_width_in_bits  = 1
+		data_interleave_offset_in_bits = 1
+		port_a_logical_ram_depth       = 256
+		port_a_logical_ram_width       = 8
+		port_a_data_in_clear           = none
+		port_a_address_clear           = none
+		port_a_write_enable_clear      = none
+		port_a_byte_enable_clear       = none
+		port_a_data_out_clock          = none
+		port_a_data_out_clear          = none
+		port_a_first_address           = 0
+		port_a_last_address            = 255
+		port_a_first_bit_number        = 6
+		port_a_data_width              = 1
+		port_a_address_width           = 8
+		DIRTY_FLAG                     = false
+		safe_write                     = err_on_2clk
+
+
+- ATOM ------------------------
+	ATOM_NAME: altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a7 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 7
+	Atom Type: cycloneii_ram_block (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: [CLK0]	  clk	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		5: NO ITERM
+		6: [ENA0]	  chipenable	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: [PORTAADDR]	  endereco[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		11: [PORTAADDR]	  endereco[1]	LIT INDEX 1	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		12: [PORTAADDR]	  endereco[2]	LIT INDEX 2	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		13: [PORTAADDR]	  endereco[3]	LIT INDEX 3	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		14: [PORTAADDR]	  endereco[4]	LIT INDEX 4	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		15: [PORTAADDR]	  endereco[5]	LIT INDEX 5	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		16: [PORTAADDR]	  endereco[6]	LIT INDEX 6	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		17: [PORTAADDR]	  endereco[7]	LIT INDEX 7	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+	OUTPUTS (Int. Connections):
+		0: [PORTADATAOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a7	LIT INDEX 0 FANOUTS 1
+		1: [OBSERVABLEPORTADATAINREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a7~porta_datain_reg0	LIT INDEX 0 FANOUTS 0
+		2: [OBSERVABLEPORTAMEMORYREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a7~porta_memory_reg0	LIT INDEX 0 FANOUTS 0
+		3: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a7~porta_address_reg0	LIT INDEX 0 FANOUTS 0
+		4: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a7~porta_address_reg1	LIT INDEX 1 FANOUTS 0
+		5: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a7~porta_address_reg2	LIT INDEX 2 FANOUTS 0
+		6: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a7~porta_address_reg3	LIT INDEX 3 FANOUTS 0
+		7: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a7~porta_address_reg4	LIT INDEX 4 FANOUTS 0
+		8: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a7~porta_address_reg5	LIT INDEX 5 FANOUTS 0
+		9: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a7~porta_address_reg6	LIT INDEX 6 FANOUTS 0
+		10: [OBSERVABLEPORTAADDRESSREGOUT]	altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a7~porta_address_reg7	LIT INDEX 7 FANOUTS 0
+
+	PARAMETER LIST:
+		operation_mode                 = rom
+		ram_block_type                 = auto
+		logical_ram_name               = altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ALTSYNCRAM
+		init_file                      = memoriaROM.memoriaROM0.rtl.mif
+		init_file_layout               = port_a
+		data_interleave_width_in_bits  = 1
+		data_interleave_offset_in_bits = 1
+		port_a_logical_ram_depth       = 256
+		port_a_logical_ram_width       = 8
+		port_a_data_in_clear           = none
+		port_a_address_clear           = none
+		port_a_write_enable_clear      = none
+		port_a_byte_enable_clear       = none
+		port_a_data_out_clock          = none
+		port_a_data_out_clear          = none
+		port_a_first_address           = 0
+		port_a_last_address            = 255
+		port_a_first_bit_number        = 7
+		port_a_data_width              = 1
+		port_a_address_width           = 8
+		DIRTY_FLAG                     = false
+		safe_write                     = err_on_2clk
+
+
+- ATOM ------------------------
+	ATOM_NAME: saida[0] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 28
+	Atom Type: cycloneii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: [PADIO]	saida[0]	LIT INDEX 0 FANOUTS 0
+		5: NONE
+		6: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		BOTH_EDGES
+
+- ATOM ------------------------
+	ATOM_NAME: saida[1] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 29
+	Atom Type: cycloneii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: [PADIO]	saida[1]	LIT INDEX 0 FANOUTS 0
+		5: NONE
+		6: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		BOTH_EDGES
+
+- ATOM ------------------------
+	ATOM_NAME: saida[2] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 30
+	Atom Type: cycloneii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a2	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: [PADIO]	saida[2]	LIT INDEX 0 FANOUTS 0
+		5: NONE
+		6: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		BOTH_EDGES
+
+- ATOM ------------------------
+	ATOM_NAME: saida[3] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 31
+	Atom Type: cycloneii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a3	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: [PADIO]	saida[3]	LIT INDEX 0 FANOUTS 0
+		5: NONE
+		6: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		BOTH_EDGES
+
+- ATOM ------------------------
+	ATOM_NAME: saida[4] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 32
+	Atom Type: cycloneii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a4	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: [PADIO]	saida[4]	LIT INDEX 0 FANOUTS 0
+		5: NONE
+		6: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		BOTH_EDGES
+
+- ATOM ------------------------
+	ATOM_NAME: saida[5] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 33
+	Atom Type: cycloneii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a5	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: [PADIO]	saida[5]	LIT INDEX 0 FANOUTS 0
+		5: NONE
+		6: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		BOTH_EDGES
+
+- ATOM ------------------------
+	ATOM_NAME: saida[6] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 34
+	Atom Type: cycloneii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a6	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: [PADIO]	saida[6]	LIT INDEX 0 FANOUTS 0
+		5: NONE
+		6: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		BOTH_EDGES
+
+- ATOM ------------------------
+	ATOM_NAME: saida[7] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 35
+	Atom Type: cycloneii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  altsyncram:Mux7_rtl_0|altsyncram_4t01:auto_generated|ram_block1a7	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: [PADIO]	saida[7]	LIT INDEX 0 FANOUTS 0
+		5: NONE
+		6: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		BOTH_EDGES
+
+- ATOM ------------------------
+	ATOM_NAME: clk -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 36
+	Atom Type: cycloneii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	clk	LIT INDEX 0 FANOUTS 8
+		1: NONE
+		2: NONE
+		3: NONE
+		4: [PADIO]	clk	LIT INDEX 0 FANOUTS 0
+		5: NONE
+		6: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		BOTH_EDGES
+
+- ATOM ------------------------
+	ATOM_NAME: chipenable -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 37
+	Atom Type: cycloneii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	chipenable	LIT INDEX 0 FANOUTS 8
+		1: NONE
+		2: NONE
+		3: NONE
+		4: [PADIO]	chipenable	LIT INDEX 0 FANOUTS 0
+		5: NONE
+		6: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		BOTH_EDGES
+
+- ATOM ------------------------
+	ATOM_NAME: endereco[0] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 38
+	Atom Type: cycloneii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	endereco[0]	LIT INDEX 0 FANOUTS 8
+		1: NONE
+		2: NONE
+		3: NONE
+		4: [PADIO]	endereco[0]	LIT INDEX 0 FANOUTS 0
+		5: NONE
+		6: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		BOTH_EDGES
+
+- ATOM ------------------------
+	ATOM_NAME: endereco[1] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 39
+	Atom Type: cycloneii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	endereco[1]	LIT INDEX 0 FANOUTS 8
+		1: NONE
+		2: NONE
+		3: NONE
+		4: [PADIO]	endereco[1]	LIT INDEX 0 FANOUTS 0
+		5: NONE
+		6: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		BOTH_EDGES
+
+- ATOM ------------------------
+	ATOM_NAME: endereco[2] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 40
+	Atom Type: cycloneii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	endereco[2]	LIT INDEX 0 FANOUTS 8
+		1: NONE
+		2: NONE
+		3: NONE
+		4: [PADIO]	endereco[2]	LIT INDEX 0 FANOUTS 0
+		5: NONE
+		6: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		BOTH_EDGES
+
+- ATOM ------------------------
+	ATOM_NAME: endereco[3] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 41
+	Atom Type: cycloneii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	endereco[3]	LIT INDEX 0 FANOUTS 8
+		1: NONE
+		2: NONE
+		3: NONE
+		4: [PADIO]	endereco[3]	LIT INDEX 0 FANOUTS 0
+		5: NONE
+		6: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		BOTH_EDGES
+
+- ATOM ------------------------
+	ATOM_NAME: endereco[4] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 42
+	Atom Type: cycloneii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	endereco[4]	LIT INDEX 0 FANOUTS 8
+		1: NONE
+		2: NONE
+		3: NONE
+		4: [PADIO]	endereco[4]	LIT INDEX 0 FANOUTS 0
+		5: NONE
+		6: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		BOTH_EDGES
+
+- ATOM ------------------------
+	ATOM_NAME: endereco[5] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 43
+	Atom Type: cycloneii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	endereco[5]	LIT INDEX 0 FANOUTS 8
+		1: NONE
+		2: NONE
+		3: NONE
+		4: [PADIO]	endereco[5]	LIT INDEX 0 FANOUTS 0
+		5: NONE
+		6: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		BOTH_EDGES
+
+- ATOM ------------------------
+	ATOM_NAME: endereco[6] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 44
+	Atom Type: cycloneii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	endereco[6]	LIT INDEX 0 FANOUTS 8
+		1: NONE
+		2: NONE
+		3: NONE
+		4: [PADIO]	endereco[6]	LIT INDEX 0 FANOUTS 0
+		5: NONE
+		6: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		BOTH_EDGES
+
+- ATOM ------------------------
+	ATOM_NAME: endereco[7] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 45
+	Atom Type: cycloneii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	endereco[7]	LIT INDEX 0 FANOUTS 8
+		1: NONE
+		2: NONE
+		3: NONE
+		4: [PADIO]	endereco[7]	LIT INDEX 0 FANOUTS 0
+		5: NONE
+		6: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		BOTH_EDGES
+
+- ATOM ------------------------
+	ATOM_NAME: ~QUARTUS_CREATED_GND~I -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 46
+	Atom Type: cycloneii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	~QUARTUS_CREATED_GND~I	LIT INDEX 0 FANOUTS 0
+		1: NONE
+
+	PARAMETER LIST:
+		(Skipping parameters for lcell or lcell comb with no fanout)
+
+
+- ATOM ------------------------
+	ATOM_NAME: ~ASDO~ -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 47
+	Atom Type: cycloneii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	~ASDO~	LIT INDEX 0 FANOUTS 0
+		1: NONE
+		2: NONE
+		3: NONE
+		4: [PADIO]	~ASDO~	LIT INDEX 0 FANOUTS 0
+		5: NONE
+		6: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: ~nCSO~ -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 48
+	Atom Type: cycloneii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	~nCSO~	LIT INDEX 0 FANOUTS 0
+		1: NONE
+		2: NONE
+		3: NONE
+		4: [PADIO]	~nCSO~	LIT INDEX 0 FANOUTS 0
+		5: NONE
+		6: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+
+- ATOM ------------------------
+	ATOM_NAME: ~LVDS41p/nCEO~ -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 49
+	Atom Type: cycloneii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  GND	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: [PADIO]	~LVDS41p/nCEO~	LIT INDEX 0 FANOUTS 0
+		5: NONE
+		6: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		BOTH_EDGES
+
