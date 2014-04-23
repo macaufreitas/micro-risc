@@ -43,12 +43,7 @@ entrada_02[14] => ~NO_FANOUT~
 entrada_02[15] => ~NO_FANOUT~
 carry => Somador:Add0.carryIn
 carry => Subtrator:Sub0.borrowIn
-seletorOperacao[0] => Mux1.IN8
-seletorOperacao[0] => Mux0.IN10
-seletorOperacao[1] => Mux1.IN7
-seletorOperacao[1] => Mux0.IN9
-seletorOperacao[2] => Mux1.IN6
-seletorOperacao[2] => Mux0.IN8
+seletorOperacao => estadoFlagAuxiliar.OUTPUTSELECT
 estadoFlagAuxiliar << estadoFlagAuxiliar.DB_MAX_OUTPUT_PORT_TYPE
 
 

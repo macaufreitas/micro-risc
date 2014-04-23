@@ -1,5 +1,5 @@
 Flow report for ULA
-Fri Apr 18 16:51:53 2014
+Mon Mar 31 23:35:00 2014
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Flow Summary                                                                    ;
 +------------------------------------+--------------------------------------------+
-; Flow Status                        ; Successful - Fri Apr 18 16:51:53 2014      ;
+; Flow Status                        ; Successful - Mon Mar 31 23:35:00 2014      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; ULA                                        ;
 ; Top-level Entity Name              ; ULA                                        ;
@@ -68,7 +68,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/18/2014 16:51:27 ;
+; Start date & time ; 03/31/2014 23:34:23 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ULA                 ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ applicable agreement for further details.
 +--------------------------------------+--------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                          ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+--------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 79554453800410.139785068708784 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 79554453800410.139631966205836 ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                             ; --            ; --          ; ULATB          ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; ULATB                          ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Vhdl                           ; --            ; --          ; eda_simulation ;
@@ -100,12 +100,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 583 MB              ; 00:00:03                           ;
-; Fitter                    ; 00:00:12     ; 1.0                     ; 845 MB              ; 00:00:11                           ;
+; Analysis & Synthesis      ; 00:00:05     ; 1.0                     ; 583 MB              ; 00:00:04                           ;
+; Fitter                    ; 00:00:20     ; 1.0                     ; 845 MB              ; 00:00:20                           ;
 ; Assembler                 ; 00:00:02     ; 1.0                     ; 515 MB              ; 00:00:02                           ;
-; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 503 MB              ; 00:00:03                           ;
+; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 499 MB              ; 00:00:03                           ;
 ; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 462 MB              ; 00:00:01                           ;
-; Total                     ; 00:00:21     ; --                      ; --                  ; 00:00:20                           ;
+; Total                     ; 00:00:31     ; --                      ; --                  ; 00:00:30                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

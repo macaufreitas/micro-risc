@@ -1,5 +1,5 @@
 Analysis & Synthesis report for UnidadeDeControleDeEnderecos
-Mon Mar 31 22:08:45 2014
+Wed Apr 16 21:36:37 2014
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -44,16 +44,16 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Mar 31 22:08:45 2014      ;
+; Analysis & Synthesis Status        ; Successful - Wed Apr 16 21:36:37 2014      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; UnidadeDeControleDeEnderecos               ;
 ; Top-level Entity Name              ; UnidadeDeControleDeEnderecos               ;
 ; Family                             ; Cyclone III                                ;
-; Total logic elements               ; 20                                         ;
-;     Total combinational functions  ; 12                                         ;
-;     Dedicated logic registers      ; 16                                         ;
-; Total registers                    ; 16                                         ;
-; Total pins                         ; 13                                         ;
+; Total logic elements               ; 18                                         ;
+;     Total combinational functions  ; 13                                         ;
+;     Dedicated logic registers      ; 15                                         ;
+; Total registers                    ; 15                                         ;
+; Total pins                         ; 14                                         ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 0                                          ;
 ; Embedded Multiplier 9-bit elements ; 0                                          ;
@@ -179,28 +179,28 @@ applicable agreement for further details.
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 20          ;
+; Estimated Total logic elements              ; 18          ;
 ;                                             ;             ;
-; Total combinational functions               ; 12          ;
+; Total combinational functions               ; 13          ;
 ; Logic element usage by number of LUT inputs ;             ;
 ;     -- 4 input functions                    ; 0           ;
-;     -- 3 input functions                    ; 2           ;
-;     -- <=2 input functions                  ; 10          ;
+;     -- 3 input functions                    ; 5           ;
+;     -- <=2 input functions                  ; 8           ;
 ;                                             ;             ;
 ; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 12          ;
+;     -- normal mode                          ; 13          ;
 ;     -- arithmetic mode                      ; 0           ;
 ;                                             ;             ;
-; Total registers                             ; 16          ;
-;     -- Dedicated logic registers            ; 16          ;
+; Total registers                             ; 15          ;
+;     -- Dedicated logic registers            ; 15          ;
 ;     -- I/O registers                        ; 0           ;
 ;                                             ;             ;
-; I/O pins                                    ; 13          ;
+; I/O pins                                    ; 14          ;
 ; Embedded Multiplier 9-bit elements          ; 0           ;
 ; Maximum fan-out node                        ; clock~input ;
-; Maximum fan-out                             ; 16          ;
-; Total fan-out                               ; 100         ;
-; Average fan-out                             ; 1.85        ;
+; Maximum fan-out                             ; 15          ;
+; Total fan-out                               ; 101         ;
+; Average fan-out                             ; 1.80        ;
 +---------------------------------------------+-------------+
 
 
@@ -209,7 +209,7 @@ applicable agreement for further details.
 +-------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------+--------------+
 ; Compilation Hierarchy Node    ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name           ; Library Name ;
 +-------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------+--------------+
-; |UnidadeDeControleDeEnderecos ; 12 (12)           ; 16 (16)      ; 0           ; 0            ; 0       ; 0         ; 13   ; 0            ; |UnidadeDeControleDeEnderecos ; work         ;
+; |UnidadeDeControleDeEnderecos ; 13 (13)           ; 15 (15)      ; 0           ; 0            ; 0       ; 0         ; 14   ; 0            ; |UnidadeDeControleDeEnderecos ; work         ;
 +-------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -234,14 +234,16 @@ Encoding Type:  One-Hot
 +---------------------------------------+----------------------------------------+
 ; Register name                         ; Reason for Removal                     ;
 +---------------------------------------+----------------------------------------+
+; leRegSeg~reg0                         ; Stuck at VCC due to stuck port data_in ;
 ; ctrlRegSeg[1]~reg0                    ; Stuck at GND due to stuck port data_in ;
+; habSaidaEnd~reg0                      ; Merged with habMemoria~reg0            ;
 ; habilitaCalc~en                       ; Stuck at GND due to stuck port data_in ;
 ; ctrlRegSeg[0]~en                      ; Stuck at GND due to stuck port data_in ;
 ; ctrlRegSeg[1]~en                      ; Stuck at GND due to stuck port data_in ;
 ; ctrlRegSeg[2]~en                      ; Stuck at GND due to stuck port data_in ;
 ; incIP~en                              ; Stuck at GND due to stuck port data_in ;
 ; selecSeg~en                           ; Stuck at GND due to stuck port data_in ;
-; Total Number of Removed Registers = 7 ;                                        ;
+; Total Number of Removed Registers = 9 ;                                        ;
 +---------------------------------------+----------------------------------------+
 
 
@@ -250,12 +252,12 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 16    ;
+; Total registers                              ; 15    ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 16    ;
+; Number of registers using Asynchronous Clear ; 15    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 9     ;
+; Number of registers using Clock Enable       ; 5     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -265,8 +267,8 @@ Encoding Type:  One-Hot
 +----------------------------------------+---------+
 ; Inverted Register                      ; Fan out ;
 +----------------------------------------+---------+
-; habRegSeg~reg0                         ; 1       ;
-; leRegSeg~en                            ; 1       ;
+; habRegSeg~reg0                         ; 2       ;
+; leRegSeg~en                            ; 2       ;
 ; Total number of inverted registers = 2 ;         ;
 +----------------------------------------+---------+
 
@@ -286,7 +288,7 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Mon Mar 31 22:08:34 2014
+    Info: Processing started: Wed Apr 16 21:36:31 2014
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off UnidadeDeControleDeEnderecos -c UnidadeDeControleDeEnderecos
 Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
 Info (12021): Found 1 design units, including 0 entities, in source file uce_aux.vhd
@@ -298,8 +300,8 @@ Info (12021): Found 2 design units, including 1 entities, in source file unidade
     Info (12022): Found design unit 1: UnidadeDeControleDeEnderecosTB-ArquiteturaUC
     Info (12023): Found entity 1: UnidadeDeControleDeEnderecosTB
 Info (12127): Elaborating entity "UnidadeDeControleDeEnderecos" for the top level hierarchy
-Warning (10631): VHDL Process Statement warning at UnidadeDeControleDeEnderecos.vhd(98): inferring latch(es) for signal or variable "Estado", which holds its previous value in one or more paths through the process
-Info (10041): Inferred latch for "Estado.Erro" at UnidadeDeControleDeEnderecos.vhd(98)
+Warning (10631): VHDL Process Statement warning at UnidadeDeControleDeEnderecos.vhd(103): inferring latch(es) for signal or variable "Estado", which holds its previous value in one or more paths through the process
+Info (10041): Inferred latch for "Estado.Erro" at UnidadeDeControleDeEnderecos.vhd(103)
 Info (13000): Registers with preset signals will power-up high
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Critical Warning (18061): Ignored Power-Up Level option on the following registers
@@ -313,14 +315,14 @@ Critical Warning (18061): Ignored Power-Up Level option on the following registe
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 33 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 32 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 3 input pins
-    Info (21059): Implemented 10 output pins
-    Info (21061): Implemented 20 logic cells
+    Info (21059): Implemented 11 output pins
+    Info (21061): Implemented 18 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 9 warnings
-    Info: Peak virtual memory: 526 megabytes
-    Info: Processing ended: Mon Mar 31 22:08:45 2014
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:07
+    Info: Peak virtual memory: 551 megabytes
+    Info: Processing ended: Wed Apr 16 21:36:37 2014
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:06
 
 

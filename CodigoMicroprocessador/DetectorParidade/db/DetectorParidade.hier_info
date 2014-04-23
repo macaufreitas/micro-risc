@@ -15,6 +15,6 @@ entrada[12] => saida.IN1
 entrada[13] => saida.IN1
 entrada[14] => saida.IN0
 entrada[15] => saida.IN1
-saida << saida.DB_MAX_OUTPUT_PORT_TYPE
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
 
 

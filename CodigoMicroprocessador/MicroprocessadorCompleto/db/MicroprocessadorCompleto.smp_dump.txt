@@ -1,0 +1,27 @@
+
+State Machine - |MicroprocessadorCompleto|UnidadeDeControleDeEnderecos:UCE|Estado
+Name Estado.TerminaCalculo Estado.ColocaEndBarramentoIncIP Estado.CalculoEndereco Estado.HabilitaIP Estado.HabilitaSegmento Estado.Espera 
+Estado.Espera 0 0 0 0 0 0 
+Estado.HabilitaSegmento 0 0 0 0 1 1 
+Estado.HabilitaIP 0 0 0 1 0 1 
+Estado.CalculoEndereco 0 0 1 0 0 1 
+Estado.ColocaEndBarramentoIncIP 0 1 0 0 0 1 
+Estado.TerminaCalculo 1 0 0 0 0 1 
+
+State Machine - |MicroprocessadorCompleto|UnidadeDeControle:UC|Estado
+Name Estado.Move_To_Reg Estado.Compara_Reg_16 Estado.ResultRegImed Estado.FimInstrucao Estado.Xor_regImed_16 Estado.And_regImed_16 Estado.Sbb_regImed_16 Estado.Adc_regImed_16 Estado.Or_regImed_16 Estado.Erro Estado.Sub_regImed_16 Estado.Add_regImed_16 Estado.OpRegImed16 Estado.Fetch Estado.Busca 
+Estado.Busca 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Estado.Fetch 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+Estado.OpRegImed16 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+Estado.Add_regImed_16 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+Estado.Sub_regImed_16 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+Estado.Erro 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+Estado.Or_regImed_16 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+Estado.Adc_regImed_16 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+Estado.Sbb_regImed_16 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+Estado.And_regImed_16 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+Estado.Xor_regImed_16 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+Estado.FimInstrucao 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+Estado.ResultRegImed 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+Estado.Compara_Reg_16 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Estado.Move_To_Reg 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

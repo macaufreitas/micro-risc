@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus II 64-Bit"
 -- VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition"
 
--- DATE "03/31/2014 22:09:40"
+-- DATE "04/16/2014 21:37:25"
 
 -- 
 -- Device: Altera EP3C5F256C6 Package FBGA256
@@ -45,21 +45,23 @@ ENTITY 	UnidadeDeControleDeEnderecos IS
 	incIP : OUT std_logic;
 	selecSeg : OUT std_logic;
 	habSaidaEnd : OUT std_logic;
-	habMemoria : OUT std_logic
+	habMemoria : OUT std_logic;
+	habUnidCtrl : OUT std_logic
 	);
 END UnidadeDeControleDeEnderecos;
 
 -- Design Ports Information
--- habilitaCalc	=>  Location: PIN_F11,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- habRegSeg	=>  Location: PIN_A10,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- leRegSeg	=>  Location: PIN_A11,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- ctrlRegSeg[0]	=>  Location: PIN_C11,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- ctrlRegSeg[1]	=>  Location: PIN_D12,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- ctrlRegSeg[2]	=>  Location: PIN_F10,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- incIP	=>  Location: PIN_B12,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- selecSeg	=>  Location: PIN_F9,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- habSaidaEnd	=>  Location: PIN_B10,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- habMemoria	=>  Location: PIN_A15,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- habilitaCalc	=>  Location: PIN_F7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- habRegSeg	=>  Location: PIN_C6,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- leRegSeg	=>  Location: PIN_B6,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- ctrlRegSeg[0]	=>  Location: PIN_F8,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- ctrlRegSeg[1]	=>  Location: PIN_B12,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- ctrlRegSeg[2]	=>  Location: PIN_B7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- incIP	=>  Location: PIN_F6,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- selecSeg	=>  Location: PIN_A7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- habSaidaEnd	=>  Location: PIN_A5,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- habMemoria	=>  Location: PIN_E6,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- habUnidCtrl	=>  Location: PIN_A6,	 I/O Standard: 2.5 V,	 Current Strength: Default
 -- clock	=>  Location: PIN_E2,	 I/O Standard: 2.5 V,	 Current Strength: Default
 -- reset	=>  Location: PIN_E1,	 I/O Standard: 2.5 V,	 Current Strength: Default
 -- habilita	=>  Location: PIN_E16,	 I/O Standard: 2.5 V,	 Current Strength: Default
@@ -86,6 +88,7 @@ SIGNAL ww_incIP : std_logic;
 SIGNAL ww_selecSeg : std_logic;
 SIGNAL ww_habSaidaEnd : std_logic;
 SIGNAL ww_habMemoria : std_logic;
+SIGNAL ww_habUnidCtrl : std_logic;
 SIGNAL \clock~inputclkctrl_INCLK_bus\ : std_logic_vector(3 DOWNTO 0);
 SIGNAL \reset~inputclkctrl_INCLK_bus\ : std_logic_vector(3 DOWNTO 0);
 SIGNAL \habilitaCalc~output_o\ : std_logic;
@@ -98,10 +101,11 @@ SIGNAL \selecSeg~output_o\ : std_logic;
 SIGNAL \habRegSeg~output_o\ : std_logic;
 SIGNAL \habSaidaEnd~output_o\ : std_logic;
 SIGNAL \habMemoria~output_o\ : std_logic;
+SIGNAL \habUnidCtrl~output_o\ : std_logic;
 SIGNAL \clock~input_o\ : std_logic;
 SIGNAL \clock~inputclkctrl_outclk\ : std_logic;
 SIGNAL \habilita~input_o\ : std_logic;
-SIGNAL \Selector3~0_combout\ : std_logic;
+SIGNAL \Selector4~0_combout\ : std_logic;
 SIGNAL \reset~input_o\ : std_logic;
 SIGNAL \reset~inputclkctrl_outclk\ : std_logic;
 SIGNAL \Estado.Espera~q\ : std_logic;
@@ -110,31 +114,28 @@ SIGNAL \Estado.HabilitaSegmento~q\ : std_logic;
 SIGNAL \Estado.HabilitaIP~feeder_combout\ : std_logic;
 SIGNAL \Estado.HabilitaIP~q\ : std_logic;
 SIGNAL \Estado.CalculoEndereco~q\ : std_logic;
-SIGNAL \Estado.ColocaEndBarramentoIncIP~feeder_combout\ : std_logic;
 SIGNAL \Estado.ColocaEndBarramentoIncIP~q\ : std_logic;
-SIGNAL \Estado.TerminaCalculo~feeder_combout\ : std_logic;
 SIGNAL \Estado.TerminaCalculo~q\ : std_logic;
 SIGNAL \habilitaCalc~1_combout\ : std_logic;
-SIGNAL \Selector0~0_combout\ : std_logic;
+SIGNAL \WideOr1~0_combout\ : std_logic;
 SIGNAL \habilitaCalc~reg0_q\ : std_logic;
-SIGNAL \leRegSeg~reg0feeder_combout\ : std_logic;
-SIGNAL \WideOr2~0_combout\ : std_logic;
-SIGNAL \leRegSeg~reg0_q\ : std_logic;
+SIGNAL \leRegSeg~1_combout\ : std_logic;
 SIGNAL \leRegSeg~en_q\ : std_logic;
 SIGNAL \ctrlRegSeg[0]~3_combout\ : std_logic;
 SIGNAL \WideOr3~0_combout\ : std_logic;
 SIGNAL \ctrlRegSeg[0]~reg0_q\ : std_logic;
 SIGNAL \ctrlRegSeg[2]~reg0_q\ : std_logic;
 SIGNAL \incIP~1_combout\ : std_logic;
-SIGNAL \WideOr4~0_combout\ : std_logic;
+SIGNAL \WideOr5~0_combout\ : std_logic;
 SIGNAL \incIP~reg0_q\ : std_logic;
 SIGNAL \selecSeg~1_combout\ : std_logic;
 SIGNAL \selecSeg~reg0_q\ : std_logic;
-SIGNAL \habRegSeg~0_combout\ : std_logic;
+SIGNAL \Selector1~0_combout\ : std_logic;
 SIGNAL \habRegSeg~reg0_q\ : std_logic;
-SIGNAL \Selector2~0_combout\ : std_logic;
-SIGNAL \habSaidaEnd~reg0_q\ : std_logic;
+SIGNAL \Selector3~0_combout\ : std_logic;
 SIGNAL \habMemoria~reg0_q\ : std_logic;
+SIGNAL \Selector0~0_combout\ : std_logic;
+SIGNAL \habUnidCtrl~reg0_q\ : std_logic;
 SIGNAL \ALT_INV_clock~inputclkctrl_outclk\ : std_logic;
 SIGNAL \ALT_INV_leRegSeg~en_q\ : std_logic;
 SIGNAL \ALT_INV_habRegSeg~reg0_q\ : std_logic;
@@ -152,6 +153,7 @@ incIP <= ww_incIP;
 selecSeg <= ww_selecSeg;
 habSaidaEnd <= ww_habSaidaEnd;
 habMemoria <= ww_habMemoria;
+habUnidCtrl <= ww_habUnidCtrl;
 ww_devoe <= devoe;
 ww_devclrn <= devclrn;
 ww_devpor <= devpor;
@@ -163,7 +165,7 @@ ww_devpor <= devpor;
 \ALT_INV_leRegSeg~en_q\ <= NOT \leRegSeg~en_q\;
 \ALT_INV_habRegSeg~reg0_q\ <= NOT \habRegSeg~reg0_q\;
 
--- Location: IOOBUF_X23_Y24_N23
+-- Location: IOOBUF_X11_Y24_N23
 \habilitaCalc~output\ : cycloneiii_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -176,7 +178,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => \habilitaCalc~output_o\);
 
--- Location: IOOBUF_X25_Y24_N16
+-- Location: IOOBUF_X9_Y24_N23
 \leRegSeg~output\ : cycloneiii_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -184,12 +186,12 @@ GENERIC MAP (
 	open_drain_output => "false")
 -- pragma translate_on
 PORT MAP (
-	i => \leRegSeg~reg0_q\,
+	i => VCC,
 	oe => \ALT_INV_leRegSeg~en_q\,
 	devoe => ww_devoe,
 	o => \leRegSeg~output_o\);
 
--- Location: IOOBUF_X23_Y24_N2
+-- Location: IOOBUF_X13_Y24_N23
 \ctrlRegSeg[0]~output\ : cycloneiii_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -202,7 +204,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => \ctrlRegSeg[0]~output_o\);
 
--- Location: IOOBUF_X30_Y24_N2
+-- Location: IOOBUF_X25_Y24_N9
 \ctrlRegSeg[1]~output\ : cycloneiii_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -214,7 +216,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => \ctrlRegSeg[1]~output_o\);
 
--- Location: IOOBUF_X23_Y24_N9
+-- Location: IOOBUF_X11_Y24_N9
 \ctrlRegSeg[2]~output\ : cycloneiii_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -227,7 +229,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => \ctrlRegSeg[2]~output_o\);
 
--- Location: IOOBUF_X25_Y24_N9
+-- Location: IOOBUF_X11_Y24_N16
 \incIP~output\ : cycloneiii_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -240,7 +242,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => \incIP~output_o\);
 
--- Location: IOOBUF_X23_Y24_N16
+-- Location: IOOBUF_X11_Y24_N2
 \selecSeg~output\ : cycloneiii_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -253,7 +255,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => \selecSeg~output_o\);
 
--- Location: IOOBUF_X21_Y24_N9
+-- Location: IOOBUF_X9_Y24_N9
 \habRegSeg~output\ : cycloneiii_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -265,7 +267,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => \habRegSeg~output_o\);
 
--- Location: IOOBUF_X21_Y24_N16
+-- Location: IOOBUF_X7_Y24_N16
 \habSaidaEnd~output\ : cycloneiii_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -273,11 +275,11 @@ GENERIC MAP (
 	open_drain_output => "false")
 -- pragma translate_on
 PORT MAP (
-	i => \habSaidaEnd~reg0_q\,
+	i => \habMemoria~reg0_q\,
 	devoe => ww_devoe,
 	o => \habSaidaEnd~output_o\);
 
--- Location: IOOBUF_X21_Y24_N2
+-- Location: IOOBUF_X7_Y24_N9
 \habMemoria~output\ : cycloneiii_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -288,6 +290,18 @@ PORT MAP (
 	i => \habMemoria~reg0_q\,
 	devoe => ww_devoe,
 	o => \habMemoria~output_o\);
+
+-- Location: IOOBUF_X9_Y24_N16
+\habUnidCtrl~output\ : cycloneiii_io_obuf
+-- pragma translate_off
+GENERIC MAP (
+	bus_hold => "false",
+	open_drain_output => "false")
+-- pragma translate_on
+PORT MAP (
+	i => \habUnidCtrl~reg0_q\,
+	devoe => ww_devoe,
+	o => \habUnidCtrl~output_o\);
 
 -- Location: IOIBUF_X0_Y11_N1
 \clock~input\ : cycloneiii_io_ibuf
@@ -324,21 +338,21 @@ PORT MAP (
 	i => ww_habilita,
 	o => \habilita~input_o\);
 
--- Location: LCCOMB_X24_Y23_N26
-\Selector3~0\ : cycloneiii_lcell_comb
+-- Location: LCCOMB_X11_Y21_N22
+\Selector4~0\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Selector3~0_combout\ = (!\Estado.TerminaCalculo~q\ & ((\habilita~input_o\) # (\Estado.Espera~q\)))
+-- \Selector4~0_combout\ = (!\Estado.TerminaCalculo~q\ & ((\habilita~input_o\) # (\Estado.Espera~q\)))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0000000011111100",
+	lut_mask => "0101010001010100",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
+	dataa => \Estado.TerminaCalculo~q\,
 	datab => \habilita~input_o\,
 	datac => \Estado.Espera~q\,
-	datad => \Estado.TerminaCalculo~q\,
-	combout => \Selector3~0_combout\);
+	combout => \Selector4~0_combout\);
 
 -- Location: IOIBUF_X0_Y11_N8
 \reset~input\ : cycloneiii_io_ibuf
@@ -364,7 +378,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	outclk => \reset~inputclkctrl_outclk\);
 
--- Location: FF_X24_Y23_N27
+-- Location: FF_X11_Y21_N23
 \Estado.Espera\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -373,28 +387,28 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_clock~inputclkctrl_outclk\,
-	d => \Selector3~0_combout\,
+	d => \Selector4~0_combout\,
 	clrn => \reset~inputclkctrl_outclk\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \Estado.Espera~q\);
 
--- Location: LCCOMB_X24_Y23_N28
+-- Location: LCCOMB_X12_Y21_N24
 \Estado~10\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Estado~10_combout\ = (!\Estado.Espera~q\ & \habilita~input_o\)
+-- \Estado~10_combout\ = (\habilita~input_o\ & !\Estado.Espera~q\)
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0000111100000000",
+	lut_mask => "0000000011110000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \Estado.Espera~q\,
-	datad => \habilita~input_o\,
+	datac => \habilita~input_o\,
+	datad => \Estado.Espera~q\,
 	combout => \Estado~10_combout\);
 
--- Location: FF_X24_Y23_N29
+-- Location: FF_X12_Y21_N25
 \Estado.HabilitaSegmento\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -409,7 +423,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \Estado.HabilitaSegmento~q\);
 
--- Location: LCCOMB_X23_Y23_N8
+-- Location: LCCOMB_X12_Y21_N28
 \Estado.HabilitaIP~feeder\ : cycloneiii_lcell_comb
 -- Equation(s):
 -- \Estado.HabilitaIP~feeder_combout\ = \Estado.HabilitaSegmento~q\
@@ -423,7 +437,7 @@ PORT MAP (
 	datad => \Estado.HabilitaSegmento~q\,
 	combout => \Estado.HabilitaIP~feeder_combout\);
 
--- Location: FF_X23_Y23_N9
+-- Location: FF_X12_Y21_N29
 \Estado.HabilitaIP\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -438,7 +452,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \Estado.HabilitaIP~q\);
 
--- Location: FF_X23_Y23_N19
+-- Location: FF_X11_Y21_N27
 \Estado.CalculoEndereco\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -454,21 +468,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \Estado.CalculoEndereco~q\);
 
--- Location: LCCOMB_X23_Y23_N6
-\Estado.ColocaEndBarramentoIncIP~feeder\ : cycloneiii_lcell_comb
--- Equation(s):
--- \Estado.ColocaEndBarramentoIncIP~feeder_combout\ = \Estado.CalculoEndereco~q\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "1111111100000000",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	datad => \Estado.CalculoEndereco~q\,
-	combout => \Estado.ColocaEndBarramentoIncIP~feeder_combout\);
-
--- Location: FF_X23_Y23_N7
+-- Location: FF_X11_Y21_N5
 \Estado.ColocaEndBarramentoIncIP\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -477,27 +477,14 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_clock~inputclkctrl_outclk\,
-	d => \Estado.ColocaEndBarramentoIncIP~feeder_combout\,
+	asdata => \Estado.CalculoEndereco~q\,
 	clrn => \reset~inputclkctrl_outclk\,
+	sload => VCC,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \Estado.ColocaEndBarramentoIncIP~q\);
 
--- Location: LCCOMB_X22_Y23_N28
-\Estado.TerminaCalculo~feeder\ : cycloneiii_lcell_comb
--- Equation(s):
--- \Estado.TerminaCalculo~feeder_combout\ = \Estado.ColocaEndBarramentoIncIP~q\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "1111111100000000",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	datad => \Estado.ColocaEndBarramentoIncIP~q\,
-	combout => \Estado.TerminaCalculo~feeder_combout\);
-
--- Location: FF_X22_Y23_N29
+-- Location: FF_X11_Y21_N19
 \Estado.TerminaCalculo\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -506,30 +493,31 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_clock~inputclkctrl_outclk\,
-	d => \Estado.TerminaCalculo~feeder_combout\,
+	asdata => \Estado.ColocaEndBarramentoIncIP~q\,
 	clrn => \reset~inputclkctrl_outclk\,
+	sload => VCC,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \Estado.TerminaCalculo~q\);
 
--- Location: LCCOMB_X21_Y23_N10
+-- Location: LCCOMB_X11_Y21_N24
 \habilitaCalc~1\ : cycloneiii_lcell_comb
 -- Equation(s):
 -- \habilitaCalc~1_combout\ = !\Estado.TerminaCalculo~q\
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0000000011111111",
+	lut_mask => "0000111100001111",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datad => \Estado.TerminaCalculo~q\,
+	datac => \Estado.TerminaCalculo~q\,
 	combout => \habilitaCalc~1_combout\);
 
--- Location: LCCOMB_X21_Y23_N0
-\Selector0~0\ : cycloneiii_lcell_comb
+-- Location: LCCOMB_X11_Y21_N8
+\WideOr1~0\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Selector0~0_combout\ = (\Estado.HabilitaSegmento~q\) # (\Estado.TerminaCalculo~q\)
+-- \WideOr1~0_combout\ = (\Estado.TerminaCalculo~q\) # (\Estado.HabilitaSegmento~q\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -537,11 +525,11 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \Estado.HabilitaSegmento~q\,
-	datad => \Estado.TerminaCalculo~q\,
-	combout => \Selector0~0_combout\);
+	datac => \Estado.TerminaCalculo~q\,
+	datad => \Estado.HabilitaSegmento~q\,
+	combout => \WideOr1~0_combout\);
 
--- Location: FF_X21_Y23_N11
+-- Location: FF_X11_Y21_N25
 \habilitaCalc~reg0\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -552,56 +540,28 @@ PORT MAP (
 	clk => \clock~inputclkctrl_outclk\,
 	d => \habilitaCalc~1_combout\,
 	clrn => \reset~inputclkctrl_outclk\,
-	ena => \Selector0~0_combout\,
+	ena => \WideOr1~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \habilitaCalc~reg0_q\);
 
--- Location: LCCOMB_X24_Y23_N10
-\leRegSeg~reg0feeder\ : cycloneiii_lcell_comb
+-- Location: LCCOMB_X10_Y21_N6
+\leRegSeg~1\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \leRegSeg~reg0feeder_combout\ = VCC
+-- \leRegSeg~1_combout\ = (\Estado.ColocaEndBarramentoIncIP~q\) # ((\leRegSeg~en_q\ & !\Estado.HabilitaSegmento~q\))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1111111111111111",
+	lut_mask => "1010101011111010",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	combout => \leRegSeg~reg0feeder_combout\);
-
--- Location: LCCOMB_X24_Y23_N24
-\WideOr2~0\ : cycloneiii_lcell_comb
--- Equation(s):
--- \WideOr2~0_combout\ = (\Estado.ColocaEndBarramentoIncIP~q\) # (\Estado.HabilitaSegmento~q\)
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "1111111111110000",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	datac => \Estado.ColocaEndBarramentoIncIP~q\,
+	dataa => \Estado.ColocaEndBarramentoIncIP~q\,
+	datac => \leRegSeg~en_q\,
 	datad => \Estado.HabilitaSegmento~q\,
-	combout => \WideOr2~0_combout\);
+	combout => \leRegSeg~1_combout\);
 
--- Location: FF_X24_Y23_N11
-\leRegSeg~reg0\ : dffeas
--- pragma translate_off
-GENERIC MAP (
-	is_wysiwyg => "true",
-	power_up => "low")
--- pragma translate_on
-PORT MAP (
-	clk => \clock~inputclkctrl_outclk\,
-	d => \leRegSeg~reg0feeder_combout\,
-	clrn => \reset~inputclkctrl_outclk\,
-	ena => \WideOr2~0_combout\,
-	devclrn => ww_devclrn,
-	devpor => ww_devpor,
-	q => \leRegSeg~reg0_q\);
-
--- Location: FF_X24_Y23_N25
+-- Location: FF_X10_Y21_N7
 \leRegSeg~en\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -610,44 +570,42 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \clock~inputclkctrl_outclk\,
-	asdata => \Estado.ColocaEndBarramentoIncIP~q\,
+	d => \leRegSeg~1_combout\,
 	clrn => \reset~inputclkctrl_outclk\,
-	sload => VCC,
-	ena => \WideOr2~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \leRegSeg~en_q\);
 
--- Location: LCCOMB_X23_Y23_N20
+-- Location: LCCOMB_X12_Y21_N26
 \ctrlRegSeg[0]~3\ : cycloneiii_lcell_comb
 -- Equation(s):
 -- \ctrlRegSeg[0]~3_combout\ = !\Estado.HabilitaIP~q\
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0000111100001111",
+	lut_mask => "0000000011111111",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \Estado.HabilitaIP~q\,
+	datad => \Estado.HabilitaIP~q\,
 	combout => \ctrlRegSeg[0]~3_combout\);
 
--- Location: LCCOMB_X23_Y23_N10
+-- Location: LCCOMB_X12_Y21_N20
 \WideOr3~0\ : cycloneiii_lcell_comb
 -- Equation(s):
 -- \WideOr3~0_combout\ = (\Estado.HabilitaIP~q\) # (\Estado.HabilitaSegmento~q\)
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1111111111001100",
+	lut_mask => "1111111111110000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datab => \Estado.HabilitaIP~q\,
+	datac => \Estado.HabilitaIP~q\,
 	datad => \Estado.HabilitaSegmento~q\,
 	combout => \WideOr3~0_combout\);
 
--- Location: FF_X23_Y23_N21
+-- Location: FF_X12_Y21_N27
 \ctrlRegSeg[0]~reg0\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -663,7 +621,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \ctrlRegSeg[0]~reg0_q\);
 
--- Location: FF_X23_Y23_N11
+-- Location: FF_X12_Y21_N21
 \ctrlRegSeg[2]~reg0\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -680,7 +638,7 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \ctrlRegSeg[2]~reg0_q\);
 
--- Location: LCCOMB_X22_Y23_N14
+-- Location: LCCOMB_X10_Y21_N16
 \incIP~1\ : cycloneiii_lcell_comb
 -- Equation(s):
 -- \incIP~1_combout\ = !\Estado.TerminaCalculo~q\
@@ -694,10 +652,10 @@ PORT MAP (
 	datad => \Estado.TerminaCalculo~q\,
 	combout => \incIP~1_combout\);
 
--- Location: LCCOMB_X22_Y23_N24
-\WideOr4~0\ : cycloneiii_lcell_comb
+-- Location: LCCOMB_X11_Y21_N26
+\WideOr5~0\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \WideOr4~0_combout\ = (\Estado.TerminaCalculo~q\) # (\Estado.ColocaEndBarramentoIncIP~q\)
+-- \WideOr5~0_combout\ = (\Estado.ColocaEndBarramentoIncIP~q\) # (\Estado.TerminaCalculo~q\)
 
 -- pragma translate_off
 GENERIC MAP (
@@ -705,11 +663,11 @@ GENERIC MAP (
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datab => \Estado.TerminaCalculo~q\,
-	datad => \Estado.ColocaEndBarramentoIncIP~q\,
-	combout => \WideOr4~0_combout\);
+	datab => \Estado.ColocaEndBarramentoIncIP~q\,
+	datad => \Estado.TerminaCalculo~q\,
+	combout => \WideOr5~0_combout\);
 
--- Location: FF_X22_Y23_N15
+-- Location: FF_X10_Y21_N17
 \incIP~reg0\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -720,26 +678,26 @@ PORT MAP (
 	clk => \clock~inputclkctrl_outclk\,
 	d => \incIP~1_combout\,
 	clrn => \reset~inputclkctrl_outclk\,
-	ena => \WideOr4~0_combout\,
+	ena => \WideOr5~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \incIP~reg0_q\);
 
--- Location: LCCOMB_X23_Y23_N12
+-- Location: LCCOMB_X12_Y21_N30
 \selecSeg~1\ : cycloneiii_lcell_comb
 -- Equation(s):
 -- \selecSeg~1_combout\ = !\Estado.HabilitaIP~q\
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0000111100001111",
+	lut_mask => "0000000011111111",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \Estado.HabilitaIP~q\,
+	datad => \Estado.HabilitaIP~q\,
 	combout => \selecSeg~1_combout\);
 
--- Location: FF_X23_Y23_N13
+-- Location: FF_X12_Y21_N31
 \selecSeg~reg0\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -755,21 +713,23 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \selecSeg~reg0_q\);
 
--- Location: LCCOMB_X21_Y23_N12
-\habRegSeg~0\ : cycloneiii_lcell_comb
+-- Location: LCCOMB_X10_Y21_N0
+\Selector1~0\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \habRegSeg~0_combout\ = !\Estado.HabilitaSegmento~q\
+-- \Selector1~0_combout\ = (!\Estado.HabilitaSegmento~q\ & ((\Estado.TerminaCalculo~q\) # (\habRegSeg~reg0_q\)))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0000111100001111",
+	lut_mask => "0000000011111100",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datac => \Estado.HabilitaSegmento~q\,
-	combout => \habRegSeg~0_combout\);
+	datab => \Estado.TerminaCalculo~q\,
+	datac => \habRegSeg~reg0_q\,
+	datad => \Estado.HabilitaSegmento~q\,
+	combout => \Selector1~0_combout\);
 
--- Location: FF_X21_Y23_N13
+-- Location: FF_X10_Y21_N1
 \habRegSeg~reg0\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -778,45 +738,29 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \clock~inputclkctrl_outclk\,
-	d => \habRegSeg~0_combout\,
+	d => \Selector1~0_combout\,
 	clrn => \reset~inputclkctrl_outclk\,
-	ena => \Selector0~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \habRegSeg~reg0_q\);
 
--- Location: LCCOMB_X21_Y23_N22
-\Selector2~0\ : cycloneiii_lcell_comb
+-- Location: LCCOMB_X10_Y21_N2
+\Selector3~0\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Selector2~0_combout\ = (\Estado.ColocaEndBarramentoIncIP~q\) # ((\habSaidaEnd~reg0_q\ & !\Estado.TerminaCalculo~q\))
+-- \Selector3~0_combout\ = (\Estado.ColocaEndBarramentoIncIP~q\) # ((\habMemoria~reg0_q\ & !\Estado.TerminaCalculo~q\))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1100110011111100",
+	lut_mask => "1010101011111010",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
-	datab => \Estado.ColocaEndBarramentoIncIP~q\,
-	datac => \habSaidaEnd~reg0_q\,
+	dataa => \Estado.ColocaEndBarramentoIncIP~q\,
+	datac => \habMemoria~reg0_q\,
 	datad => \Estado.TerminaCalculo~q\,
-	combout => \Selector2~0_combout\);
+	combout => \Selector3~0_combout\);
 
--- Location: FF_X21_Y23_N23
-\habSaidaEnd~reg0\ : dffeas
--- pragma translate_off
-GENERIC MAP (
-	is_wysiwyg => "true",
-	power_up => "low")
--- pragma translate_on
-PORT MAP (
-	clk => \clock~inputclkctrl_outclk\,
-	d => \Selector2~0_combout\,
-	clrn => \reset~inputclkctrl_outclk\,
-	devclrn => ww_devclrn,
-	devpor => ww_devpor,
-	q => \habSaidaEnd~reg0_q\);
-
--- Location: FF_X21_Y23_N1
+-- Location: FF_X10_Y21_N3
 \habMemoria~reg0\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -825,13 +769,42 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \clock~inputclkctrl_outclk\,
-	asdata => \Estado.HabilitaSegmento~q\,
+	d => \Selector3~0_combout\,
 	clrn => \reset~inputclkctrl_outclk\,
-	sload => VCC,
-	ena => \Selector0~0_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \habMemoria~reg0_q\);
+
+-- Location: LCCOMB_X10_Y21_N12
+\Selector0~0\ : cycloneiii_lcell_comb
+-- Equation(s):
+-- \Selector0~0_combout\ = (\Estado.ColocaEndBarramentoIncIP~q\) # ((\habUnidCtrl~reg0_q\ & \Estado.Espera~q\))
+
+-- pragma translate_off
+GENERIC MAP (
+	lut_mask => "1111101010101010",
+	sum_lutc_input => "datac")
+-- pragma translate_on
+PORT MAP (
+	dataa => \Estado.ColocaEndBarramentoIncIP~q\,
+	datac => \habUnidCtrl~reg0_q\,
+	datad => \Estado.Espera~q\,
+	combout => \Selector0~0_combout\);
+
+-- Location: FF_X10_Y21_N13
+\habUnidCtrl~reg0\ : dffeas
+-- pragma translate_off
+GENERIC MAP (
+	is_wysiwyg => "true",
+	power_up => "low")
+-- pragma translate_on
+PORT MAP (
+	clk => \clock~inputclkctrl_outclk\,
+	d => \Selector0~0_combout\,
+	clrn => \reset~inputclkctrl_outclk\,
+	devclrn => ww_devclrn,
+	devpor => ww_devpor,
+	q => \habUnidCtrl~reg0_q\);
 
 ww_habilitaCalc <= \habilitaCalc~output_o\;
 
@@ -852,6 +825,8 @@ ww_selecSeg <= \selecSeg~output_o\;
 ww_habSaidaEnd <= \habSaidaEnd~output_o\;
 
 ww_habMemoria <= \habMemoria~output_o\;
+
+ww_habUnidCtrl <= \habUnidCtrl~output_o\;
 END structure;
 
 

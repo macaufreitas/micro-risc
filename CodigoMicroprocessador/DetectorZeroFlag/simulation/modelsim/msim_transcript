@@ -11,7 +11,7 @@
 # ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vcom -93 -work work {C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlag.vhd}
+# vcom -93 -work work {C:/Users/Marcos Aurelio/Desktop/DetectorZeroFlag/DetectorZeroFlag.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -19,7 +19,7 @@
 # -- Compiling entity DetectorZeroFlag
 # -- Compiling architecture ArquiteturaDZF of DetectorZeroFlag
 # 
-# vcom -93 -work work {C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlagTB.vhd}
+# vcom -93 -work work {C:/Users/Marcos Aurelio/Desktop/DetectorZeroFlag/DetectorZeroFlagTB.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO

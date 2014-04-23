@@ -2,54 +2,54 @@ m255
 K3
 13
 cModel Technology
-Z0 dC:\Users\silvadenisaraujo\Dropbox\TFG\CodigoMicroprocessador\UnidadeDeControle\simulation\modelsim
+Z0 dC:\Users\silvadenisaraujo\Desktop\TFG8086\micro-8086-risc\CodigoMicroprocessador\UnidadeDeControle\simulation\modelsim
 Puc_aux
 Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
-w1391035332
-Z3 dC:\Users\silvadenisaraujo\Dropbox\TFG\CodigoMicroprocessador\UnidadeDeControle\simulation\modelsim
-8C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd
-FC:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd
+w1397092902
+Z3 dC:\Users\silvadenisaraujo\Desktop\TFG8086\micro-8086-risc\CodigoMicroprocessador\UnidadeDeControle\simulation\modelsim
+8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd
+FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd
 l0
 L6
-VCL8PLDa<o?dEz1gY0PO3Z0
+Vzoo40`jFnYXgYXPKKfaRH2
 Z4 OV;C;10.1d;51
 31
 Z5 o-93 -work work -O0
 Z6 tExplicit 1
-!s100 hIb;H>EV?1c<8>bdBa[`j2
+!s100 DzDT=AlFK]W1QM3m@z22E2
 !i10b 1
-!s108 1394153780.510000
-!s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd|
-!s107 C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd|
+!s108 1397841587.515000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd|
+!s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd|
 Eunidadedecontrole
-Z7 w1394153609
-Z8 DPx4 work 6 uc_aux 0 22 CL8PLDa<o?dEz1gY0PO3Z0
+Z7 w1397840886
+Z8 DPx4 work 6 uc_aux 0 22 zoo40`jFnYXgYXPKKfaRH2
 R1
 R2
 R3
-Z9 8C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd
-Z10 FC:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd
+Z9 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd
+Z10 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd
 l0
 L11
-VdgXOJ]DSBQKo0>`2:GJka1
+VnK:R1OS>h?Oo5Pa=VY<TA2
 R4
 31
-Z11 !s108 1394153780.988000
-Z12 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd|
-Z13 !s107 C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd|
+Z11 !s108 1397841587.830000
+Z12 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd|
+Z13 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd|
 R5
 R6
-!s100 P^P:dPJK9n[cizJX4ASJ=2
+!s100 kLn7=c[RXzhGOe:BQ0QMb1
 !i10b 1
 Aarquitetura
 R8
 R1
 R2
-DEx4 work 17 unidadedecontrole 0 22 dgXOJ]DSBQKo0>`2:GJka1
+DEx4 work 17 unidadedecontrole 0 22 nK:R1OS>h?Oo5Pa=VY<TA2
 l31
 L27
-VBe[dXg;cES3z:?^nViNPB1
+V@8QIj?AL1e_chCSk@a:d^3
 R4
 31
 R11
@@ -57,15 +57,15 @@ R12
 R13
 R5
 R6
-!s100 JWAm=PfUDkLgVzDzFi7<K1
+!s100 9^Bzhh]jb5Y0a1EkN7U>E1
 !i10b 1
 Eunidadedecontroletb
-Z14 w1394153722
+Z14 w1397841406
 R1
 R2
 R3
-Z15 8C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControleTB.vhd
-Z16 FC:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControleTB.vhd
+Z15 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControleTB.vhd
+Z16 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControleTB.vhd
 l0
 L10
 VK^gmFl42OXlgN[gi?NHB=1
@@ -73,9 +73,9 @@ VK^gmFl42OXlgN[gi?NHB=1
 R4
 31
 !i10b 1
-Z17 !s108 1394153781.540000
-Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControleTB.vhd|
-Z19 !s107 C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControleTB.vhd|
+Z17 !s108 1397841588.597000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControleTB.vhd|
+Z19 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControleTB.vhd|
 R5
 R6
 Aarquiteturauc
@@ -84,8 +84,8 @@ R2
 DEx4 work 19 unidadedecontroletb 0 22 K^gmFl42OXlgN[gi?NHB=1
 l41
 L13
-V>dIG6OV]6M@AF:05KBK5H2
-!s100 kHD6nlcQFO7MFOOHNA;Dh1
+VFae<P4;;37C;I`k08I3gI0
+!s100 2g6o3dBeOlPGDGe4inD;X0
 R4
 31
 !i10b 1

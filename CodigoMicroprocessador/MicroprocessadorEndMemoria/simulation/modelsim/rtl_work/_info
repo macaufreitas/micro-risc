@@ -4,7 +4,7 @@ K3
 cModel Technology
 Z0 dC:\Users\silvadenisaraujo\Desktop\TFG8086\micro-8086-risc\CodigoMicroprocessador\MicroprocessadorEndMemoria\simulation\modelsim
 Ecalculadoraendereco
-Z1 w1396312171
+Z1 w1397092851
 Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
 Z3 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
 Z4 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
@@ -18,7 +18,7 @@ L13
 VX:M]3RaWzYBmF9AM_=jBg0
 Z10 OV;C;10.1d;51
 31
-Z11 !s108 1396320819.161000
+Z11 !s108 1397835382.237000
 Z12 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd|
 Z13 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd|
 Z14 o-93 -work work -O0
@@ -45,7 +45,7 @@ R15
 !s100 lc95X67G20C:9?[NNjL7G1
 !i10b 1
 Edemultiplexador
-Z16 w1395715393
+Z16 w1397092852
 R5
 R6
 R7
@@ -56,7 +56,7 @@ L10
 VB0jD`fB[bLIm>@?lCHT[i2
 R10
 31
-Z19 !s108 1396320818.662000
+Z19 !s108 1397835381.815000
 Z20 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd|
 Z21 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd|
 R14
@@ -80,7 +80,7 @@ R15
 !s100 ?_R@hh7YWb3YMXJ>0XMSS0
 !i10b 1
 Emicroprocessadorendmemoria
-Z22 w1396316253
+Z22 w1397832673
 R2
 R5
 R6
@@ -89,24 +89,24 @@ Z23 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroproces
 Z24 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/MicroprocessadorEndMemoria/MicroprocessadorEndMemoria.vhd
 l0
 L11
-V:eonDEYk>@42miX5_^j0@0
+VbC2`8M[o;X]O`LLJilSoJ0
 R10
 31
-Z25 !s108 1396320820.318000
+Z25 !s108 1397835383.468000
 Z26 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/MicroprocessadorEndMemoria/MicroprocessadorEndMemoria.vhd|
 Z27 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/MicroprocessadorEndMemoria/MicroprocessadorEndMemoria.vhd|
 R14
 R15
-!s100 bo=?o8>gg:J3XNF:dJ;1m1
+!s100 P8?o=QQ@9CQMNSbiaegKE2
 !i10b 1
 Aarquiteturamicro
 R2
 R5
 R6
-DEx4 work 26 microprocessadorendmemoria 0 22 :eonDEYk>@42miX5_^j0@0
-l98
-L20
-Vdn5c1j7ZdXPzmn=G?lf;j1
+DEx4 work 26 microprocessadorendmemoria 0 22 bC2`8M[o;X]O`LLJilSoJ0
+l106
+L19
+V]aRc0?IM^P_eKKl:]OKz[2
 R10
 31
 R25
@@ -114,10 +114,10 @@ R26
 R27
 R14
 R15
-!s100 42PO?b;LJ_>2d3R<SIP1`1
+!s100 oM[Z0[O30@oDKdFGe@QfJ0
 !i10b 1
 Emicroprocessadorendmemoriatb
-Z28 w1396316487
+Z28 w1397835281
 R2
 R5
 R6
@@ -131,7 +131,7 @@ V5HIh5QNk6;NL@33FSjUQ22
 R10
 31
 !i10b 1
-Z31 !s108 1396320821.264000
+Z31 !s108 1397835384.289000
 Z32 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/MicroprocessadorEndMemoria/MicroprocessadorEndMemoriaTB.vhd|
 Z33 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/MicroprocessadorEndMemoria/MicroprocessadorEndMemoriaTB.vhd|
 R14
@@ -141,10 +141,10 @@ R2
 R5
 R6
 DEx4 work 28 microprocessadorendmemoriatb 0 22 5HIh5QNk6;NL@33FSjUQ22
-l34
+l32
 L14
-VPHm0aOGGd97Gl7_57dYVE0
-!s100 ZhS5W3b6h3Y3AocK_1H2A2
+VB5SeFQgDD9o_YzC0`d7em3
+!s100 FJ[efjid^leoL^lDWBP0X1
 R10
 31
 !i10b 1
@@ -154,7 +154,7 @@ R33
 R14
 R15
 Eregistrosegmento
-Z34 w1396316231
+Z34 w1397174811
 R4
 R3
 R5
@@ -167,7 +167,7 @@ L11
 V@AGoJBX_JZ4l`d@;E6Njk0
 R10
 31
-Z37 !s108 1396320819.924000
+Z37 !s108 1397835383.047000
 Z38 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/RegistroSegmento/RegistroSegmento.vhd|
 Z39 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/RegistroSegmento/RegistroSegmento.vhd|
 R14
@@ -182,7 +182,7 @@ R6
 DEx4 work 16 registrosegmento 0 22 @AGoJBX_JZ4l`d@;E6Njk0
 l29
 L24
-Vc0_RPcbSei>nX<b^iK`401
+V;<S[9Hjb<m9`XT2_ijPoS2
 R10
 31
 R37
@@ -190,12 +190,12 @@ R38
 R39
 R14
 R15
-!s100 FiV@J6JoOSZBlnm@A`VfY1
+!s100 BiQ>R3QfSozNe?8jTg]011
 !i10b 1
 Puce_aux
 R5
 R6
-w1396312189
+w1397092905
 R7
 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/uce_aux.vhd
 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/uce_aux.vhd
@@ -208,11 +208,11 @@ R14
 R15
 !s100 33`8Za17E;GZ@]o_ZDG>g0
 !i10b 1
-!s108 1396320819.615000
+!s108 1397835382.670000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/uce_aux.vhd|
 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/uce_aux.vhd|
 Eunidadedecontroledeenderecos
-Z40 w1396320560
+Z40 w1397832561
 Z41 DPx4 work 7 uce_aux 0 22 i3RLlGbdLOcFRNeeXl:PS1
 R5
 R6
@@ -220,25 +220,25 @@ R7
 Z42 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd
 Z43 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd
 l0
-L11
-VoacWQ8;1PBIabbPFmEG;a0
+L12
+VHa;6^3QR:KzzndLRG;jh;2
 R10
 31
-Z44 !s108 1396320820.867000
+Z44 !s108 1397835383.880000
 Z45 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd|
 Z46 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd|
 R14
 R15
-!s100 T@oHHP5>Kg1m9]U;7oMaD3
+!s100 7oQCZh<JQdc];mo;]k?<[3
 !i10b 1
 Aarquitetura
 R41
 R5
 R6
-DEx4 work 28 unidadedecontroledeenderecos 0 22 oacWQ8;1PBIabbPFmEG;a0
-l30
-L27
-VUNlEMO:7?EE9^ZaDkjKWU2
+DEx4 work 28 unidadedecontroledeenderecos 0 22 Ha;6^3QR:KzzndLRG;jh;2
+l32
+L29
+VBcDYfCU6D8db_]=Z?HPYY0
 R10
 31
 R44
@@ -246,5 +246,5 @@ R45
 R46
 R14
 R15
-!s100 MffZc9<BK7V8Ofj[fDN@V3
+!s100 VC5FO59C0hACT]bVIA8`]0
 !i10b 1

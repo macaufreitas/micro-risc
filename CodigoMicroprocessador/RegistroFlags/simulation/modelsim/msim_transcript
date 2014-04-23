@@ -1,4 +1,5 @@
 # Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
 # do RegistroFlags_run_msim_rtl_vhdl.do 
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
@@ -10,7 +11,7 @@
 # ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -18,7 +19,7 @@
 # -- Compiling entity RegistroFlags
 # -- Compiling architecture ArquiteturaRF of RegistroFlags
 # 
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroFlags/RegistroFlagsTB.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/RegistroFlags/RegistroFlagsTB.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO

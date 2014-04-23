@@ -1,3 +1,4 @@
+
 --------------------------------------------------------------------------------------
 ----  Codigo que implementa a Unidade de Controle de Memoria do Microprocessador  ----
 --------------------------------------------------------------------------------------
@@ -20,7 +21,8 @@ entity UnidadeDeControleDeEnderecos is
 			incIP				: out std_logic;
 			selecSeg			: out std_logic;
 			habSaidaEnd		: out std_logic;
-			habMemoria		: out std_logic
+			habMemoria		: out std_logic;
+			habUnidCtrl		: out std_logic
 	);
 end UnidadeDeControleDeEnderecos;
 
@@ -43,6 +45,7 @@ begin
 		habSaidaEnd  <= '0';
 		habRegSeg 	 <= '1';
 		habMemoria	 <= '0';
+		habUnidCtrl	 <= '0';
 	
 	elsif rising_edge(clock) then
 
@@ -50,6 +53,7 @@ begin
 		
 			when Espera =>
 			-- Estado nao modifica seus sinais, somente aguarda
+				habUnidCtrl <= '0'; -- Faz a unidade de controle esperar também
 			
 			when HabilitaSegmento =>
 			-- Estado habilita o valor do segmento para ser calculado o endereco pela calculadora de enderecos
@@ -58,7 +62,7 @@ begin
 				selecSeg     <= '1'; -- Seleciona o registro de segmento para ir para a calculadora de endereco
 				ctrlRegSeg   <= "001"; -- Seleciona como registro de segmento o CS
 				leRegSeg		 <= '1'; -- Le o registro de segmento
-				habMemoria	 <= '1';
+				
 			
 			when HabilitaIP =>
 			--Estado que habilida o valor do registro IP para ser calculado o endereco pela calculadora de enderecos
@@ -73,6 +77,8 @@ begin
 				habSaidaEnd <= '1'; -- habilita a saida da calculadora de endereco para o IP
 				leRegSeg	   <= 'Z'; -- para de ler a unidade de registro
 				incIP       <= '1'; -- Envia o sinal para incrementar o IP
+				habUnidCtrl <= '1'; -- Avisa a Unidade de Controle que o dado que vai ser colocado no barramento de dados pela memória é um dado válido
+				habMemoria	 <= '1'; -- Habilita a memória
 				
 			when TerminaCalculo =>
 			--Estado em que termina o calculo do endereco

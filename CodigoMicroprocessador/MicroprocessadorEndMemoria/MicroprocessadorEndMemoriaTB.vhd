@@ -15,8 +15,7 @@ architecture ArquiteturaMicroEndMTB of MicroprocessadorEndMemoriaTB is
 
 	-- Declaracao sinais do test bench
 	signal clock_tb, reset_tb : std_logic;
-	signal data_tb : std_logic_vector (15 downto 0);
-	signal addr_tb : std_logic_vector (19 downto 0);
+	signal end_tb : std_logic_vector (19 downto 0);
 	
 	-- Constante para controle do tempo
 	constant periodoClock : time := 50 ns;
@@ -24,16 +23,15 @@ architecture ArquiteturaMicroEndMTB of MicroprocessadorEndMemoriaTB is
 	-- Instancia do microprocessador
 	component MicroprocessadorEndMemoria is
 	port(
-		clk	 : in    std_logic;
-		reset  : in    std_logic;
-		data   : in 	std_logic_vector(15 downto 0);
-		addr   : out   std_logic_vector(19 downto 0)
+		clk	   : in    std_logic;
+		reset    : in    std_logic;
+		endereco : out   std_logic_vector(19 downto 0)
 	);
 	end component;
 	
 begin
 
-	Micro : MicroprocessadorEndMemoria port map (clock_tb, reset_tb, data_tb, addr_tb);
+	Micro : MicroprocessadorEndMemoria port map (clock_tb, reset_tb,end_tb);
 	
 	-- Cria processo do clock
 	Clock : process
@@ -54,9 +52,8 @@ begin
 	begin
 		
 		------ Reseta o Microprocessador -----
-		reset_tb <= '0';
-		data_tb <= X"FFFF";		
-		wait for 20*periodoClock;
+		reset_tb <= '0';	
+		wait for 10*periodoClock;
 		reset_tb <= '1';
 		--------------------------------------
 		wait;

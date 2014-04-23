@@ -1,5 +1,5 @@
 Assembler report for Demultiplexador
-Wed Feb 26 20:54:48 2014
+Sun Apr 13 22:22:42 2014
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -10,7 +10,7 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/output_files/Demultiplexador.sof
+  5. Assembler Device Options: C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Demultiplexador/output_files/Demultiplexador.sof
   6. Assembler Messages
 
 
@@ -37,7 +37,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Wed Feb 26 20:54:48 2014 ;
+; Assembler Status      ; Successful - Sun Apr 13 22:22:42 2014 ;
 ; Revision Name         ; Demultiplexador                       ;
 ; Top-level Entity Name ; Demultiplexador                       ;
 ; Family                ; Cyclone IV GX                         ;
@@ -77,24 +77,24 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+-------------------------------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                                                   ;
-+-------------------------------------------------------------------------------------------------------------+
-; File Name                                                                                                   ;
-+-------------------------------------------------------------------------------------------------------------+
-; C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/output_files/Demultiplexador.sof ;
-+-------------------------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                                                         ;
++-----------------------------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                                         ;
++-----------------------------------------------------------------------------------------------------------------------------------+
+; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Demultiplexador/output_files/Demultiplexador.sof ;
++-----------------------------------------------------------------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/output_files/Demultiplexador.sof ;
-+----------------+----------------------------------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                                              ;
-+----------------+----------------------------------------------------------------------------------------------------------------------+
-; Device         ; EP4CGX22CF19C6                                                                                                       ;
-; JTAG usercode  ; 0x001748A9                                                                                                           ;
-; Checksum       ; 0x001748A9                                                                                                           ;
-+----------------+----------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Demultiplexador/output_files/Demultiplexador.sof ;
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                                                                    ;
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+; Device         ; EP4CGX22CF19C6                                                                                                                             ;
+; JTAG usercode  ; 0x001748A9                                                                                                                                 ;
+; Checksum       ; 0x001748A9                                                                                                                                 ;
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -103,14 +103,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Wed Feb 26 20:54:44 2014
+    Info: Processing started: Sun Apr 13 22:22:35 2014
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off Demultiplexador -c Demultiplexador
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 500 megabytes
-    Info: Processing ended: Wed Feb 26 20:54:48 2014
-    Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Peak virtual memory: 528 megabytes
+    Info: Processing ended: Sun Apr 13 22:22:43 2014
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:08
 
 

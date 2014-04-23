@@ -55,11 +55,17 @@ begin
 									
 	-- Cria processo do clock
    Clock : process
+	variable cont : integer := 0;
 	begin
-		clock_tb <= '0';
-      wait for periodoClock/2;
-      clock_tb <= '1';
-      wait for periodoClock/2;
+		if (cont /= 40) then
+        clock_tb <= '0';
+        wait for periodoClock/2;
+        clock_tb <= '1';
+        wait for periodoClock/2;
+		  cont := cont + 1;
+		else
+		  wait;
+		end if;
    end process;
 	
 	process
@@ -80,18 +86,15 @@ begin
 		
 		------ Carrega RegB --------
 		entradaB_tb <= X"0090";
+		habilitaULA_tb <= '1';
 		carryIn_tb <= '1';
 		wait for periodoClock;
 		----------------------------
 		
 		--- Soma RegA com RegB -----
 		seletor_tb <= "000";
-		wait for 2*periodoClock;
-		----------------------------
-		
-		--- Estabiliza Resultado ---
-		habilitaULA_tb <= '0';
-		wait for 2*periodoClock;
+		habilitaULA_tb <= '1';
+		wait for periodoClock;
 		----------------------------
 		
 		------ Carrega RegA --------
@@ -102,19 +105,15 @@ begin
 		
 		------ Carrega RegB --------
 		entradaB_tb <= X"12AB";
+		habilitaULA_tb <= '1';
 		carryIn_tb <= '0';
 		wait for periodoClock;
 		----------------------------
 		
-		--- Estabiliza Resultado ---
-		habilitaULA_tb <= '0';
-		wait for 2*periodoClock;
-		----------------------------
-		
 		-- Subtrai RegA com RegB ---
-		habilitaULA_tb <= '1';
 		seletor_tb <= "100";
-		wait for 2*periodoClock;
+		habilitaULA_tb <= '1';
+		wait for periodoClock;
 		----------------------------
 		
 		wait for periodoClock;

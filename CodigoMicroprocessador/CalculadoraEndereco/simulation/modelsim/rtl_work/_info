@@ -2,25 +2,25 @@ m255
 K3
 13
 cModel Technology
-Z0 dC:\Users\silvadenisaraujo\Dropbox\TFG\CodigoMicroprocessador\CalculadoraEndereco\simulation\modelsim
+Z0 dC:\Users\silvadenisaraujo\Desktop\TFG8086\micro-8086-risc\CodigoMicroprocessador\CalculadoraEndereco\simulation\modelsim
 Ecalculadoraendereco
-Z1 w1395770331
+Z1 w1397092851
 Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
 Z3 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
 Z4 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
 Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
-Z7 dC:\Users\silvadenisaraujo\Dropbox\TFG\CodigoMicroprocessador\CalculadoraEndereco\simulation\modelsim
-Z8 8C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd
-Z9 FC:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd
+Z7 dC:\Users\silvadenisaraujo\Desktop\TFG8086\micro-8086-risc\CodigoMicroprocessador\CalculadoraEndereco\simulation\modelsim
+Z8 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd
+Z9 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd
 l0
 L13
 VX:M]3RaWzYBmF9AM_=jBg0
 Z10 OV;C;10.1d;51
 31
-Z11 !s108 1395770429.851000
-Z12 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd|
-Z13 !s107 C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd|
+Z11 !s108 1397177282.055000
+Z12 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd|
+Z13 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd|
 Z14 o-93 -work work -O0
 Z15 tExplicit 1
 !s100 6i:dYYVZY5N2G5;<4lUhW3
@@ -45,15 +45,15 @@ R15
 !s100 lc95X67G20C:9?[NNjL7G1
 !i10b 1
 Ecalculadoraenderecotb
-Z16 w1395769269
+Z16 w1397176982
 R2
 R3
 R4
 R5
 R6
 R7
-Z17 8C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEnderecoTB.vhd
-Z18 FC:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEnderecoTB.vhd
+Z17 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEnderecoTB.vhd
+Z18 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEnderecoTB.vhd
 l0
 L13
 Vaj@Z:SzCW77mDA?MaNgJ;0
@@ -61,9 +61,9 @@ Vaj@Z:SzCW77mDA?MaNgJ;0
 R10
 31
 !i10b 1
-Z19 !s108 1395770430.464000
-Z20 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEnderecoTB.vhd|
-Z21 !s107 C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEnderecoTB.vhd|
+Z19 !s108 1397177284.344000
+Z20 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEnderecoTB.vhd|
+Z21 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEnderecoTB.vhd|
 R14
 R15
 Artl
@@ -75,8 +75,8 @@ R6
 DEx4 work 21 calculadoraenderecotb 0 22 aj@Z:SzCW77mDA?MaNgJ;0
 l39
 L16
-VUJ?;eQe[<MP1d2ASPi>`I3
-!s100 3SFd`YDI:XD4ajlXBWnEj0
+V5>a6B=QE>7fYnai6`1`S=1
+!s100 <_<9U9Qg`L`;C<Db5=JBd2
 R10
 31
 !i10b 1

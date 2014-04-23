@@ -1,4 +1,5 @@
 # Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
 # do UnidadeDeControle_run_msim_rtl_vhdl.do 
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
@@ -10,13 +11,13 @@
 # ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package uc_aux
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -25,7 +26,7 @@
 # -- Compiling entity UnidadeDeControle
 # -- Compiling architecture Arquitetura of UnidadeDeControle
 # 
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControleTB.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControleTB.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -48,19 +49,3 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-add wave  \
-sim:/unidadedecontroletb/opcode_tb
-add wave -position insertpoint  \
-sim:/unidadedecontroletb/UC/Estado
-restart
-# Loading work.uc_aux
-# Loading work.unidadedecontrole(arquitetura)
-run
-restart
-run
-restart
-run
-restart
-run
-restart
-run

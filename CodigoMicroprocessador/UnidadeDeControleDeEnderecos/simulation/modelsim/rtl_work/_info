@@ -6,7 +6,7 @@ Z0 dC:\Users\silvadenisaraujo\Desktop\TFG8086\micro-8086-risc\CodigoMicroprocess
 Puce_aux
 Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
-w1396312189
+w1397092905
 Z3 dC:\Users\silvadenisaraujo\Desktop\TFG8086\micro-8086-risc\CodigoMicroprocessador\UnidadeDeControleDeEnderecos\simulation\modelsim
 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/uce_aux.vhd
 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/uce_aux.vhd
@@ -19,11 +19,11 @@ Z5 o-93 -work work -O0
 Z6 tExplicit 1
 !s100 33`8Za17E;GZ@]o_ZDG>g0
 !i10b 1
-!s108 1396314759.405000
+!s108 1397695149.576000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/uce_aux.vhd|
 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/uce_aux.vhd|
 Eunidadedecontroledeenderecos
-Z7 w1396314505
+Z7 w1397694930
 Z8 DPx4 work 7 uce_aux 0 22 i3RLlGbdLOcFRNeeXl:PS1
 R1
 R2
@@ -32,24 +32,24 @@ Z9 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocess
 Z10 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd
 l0
 L11
-VoacWQ8;1PBIabbPFmEG;a0
+VHa;6^3QR:KzzndLRG;jh;2
 R4
 31
-Z11 !s108 1396314759.836000
+Z11 !s108 1397695149.954000
 Z12 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd|
 Z13 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd|
 R5
 R6
-!s100 T@oHHP5>Kg1m9]U;7oMaD3
+!s100 `IV[Rz`zA=hWdzc6ah^122
 !i10b 1
 Aarquitetura
 R8
 R1
 R2
-DEx4 work 28 unidadedecontroledeenderecos 0 22 oacWQ8;1PBIabbPFmEG;a0
-l30
-L27
-VPAhJJ49XlO3YgNYCQOoZB1
+DEx4 work 28 unidadedecontroledeenderecos 0 22 Ha;6^3QR:KzzndLRG;jh;2
+l31
+L28
+VBcDYfCU6D8db_]=Z?HPYY0
 R4
 31
 R11
@@ -57,10 +57,10 @@ R12
 R13
 R5
 R6
-!s100 iEdOZSUWM9z:1adg8EM:P1
+!s100 N0HWL5_?DXM1i[5o211Cg2
 !i10b 1
 Eunidadedecontroledeenderecostb
-Z14 w1396312188
+Z14 w1397694987
 R1
 R2
 R3
@@ -73,7 +73,7 @@ VBb2QzM2iULGMoXZ8C3PSO1
 R4
 31
 !i10b 1
-Z17 !s108 1396314760.236000
+Z17 !s108 1397695150.415000
 Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecosTB.vhd|
 Z19 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecosTB.vhd|
 R5
@@ -82,10 +82,10 @@ Aarquiteturauc
 R1
 R2
 DEx4 work 30 unidadedecontroledeenderecostb 0 22 Bb2QzM2iULGMoXZ8C3PSO1
-l39
+l41
 L13
-VCL=lgOVaDOFme9<Ab]lH?3
-!s100 JfRIKg9EBLcY=AkLT26<h1
+V9C=9_mh<4[_fIiklFAi2d2
+!s100 cL?23oAcoG[T;kAIJ^G^k1
 R4
 31
 !i10b 1

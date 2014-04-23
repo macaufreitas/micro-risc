@@ -63,8 +63,8 @@ begin
 		wait for 5*periodoClock;
 		
 		habilita_tb <= '1';
-		entradaIndice_tb <= X"FFC1";
-		entradaSegmen_tb <= X"103D";
+		entradaIndice_tb <= X"3450";
+		entradaSegmen_tb <= X"1200";
 		wait for 10*periodoClock;
 		
 		entradaIndice_tb <= X"00F1";

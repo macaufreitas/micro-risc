@@ -41,7 +41,7 @@
 % see documentation for a0poster class for the size options here
 \let\Textsize\normalsize
 \def\Head#1{\noindent\hbox to \hsize{\hfil{\LARGE\color{DarkBlue} #1}}\bigskip}
-\def\LHead#1{\noindent{\LARGE\color{DarkBlue} #1}\smallskip}
+\def\LHead#1{\noindent{\large\color{DarkBlue} #1}\smallskip}
 \def\Subhead#1{\noindent{\large\color{DarkBlue} #1}}
 \newcommand{\quiteHuge}{\fontsize{70.3}{93}\selectfont}
 \def\Title#1{\begin{center}\noindent{\quiteHuge\color{DarkGreen}#1}\end{center}}
@@ -95,17 +95,13 @@
 % This gives good title positioning for a portrait poster.
 % Watch out for hyphenation in titles - LaTeX will do it
 % but it looks awful.
-\begin{textblock}{15}(0.3,0)
+\begin{textblock}{17}(0.3,0)
 \Title{{\textsc {\textsc Desenvolvimento de um Microprocessador 8086 na Arquitetura RISC}}}
 \end{textblock}
 
-%\begin{textblock}{2}(15,0)
-%\resizebox{1.6\TPHorizModule}{!}{\includegraphics{ime-arquimedes}}
-%\end{textblock}
-
 \begin{textblock}{17}(0.3,1.5)
 \begin{center}
-\parbox{0.3\textwidth}{
+\parbox{0.2\textwidth}{
     \begin{center}
     \LHead{Dênis Araújo da Silva}  \\
     \LHead{Engenharia da Computação} \\
@@ -113,7 +109,7 @@
     \LHead{\texttt{silvadenisaraujo@gmail.com}} 
     \end{center}
 }
-\parbox{0.3\textwidth}{
+\parbox{0.2\textwidth}{
     \begin{center}
     \LHead{Marcos Aurélio F. de A. Costa} \\
     \LHead{Engenharia da Computação} \\
@@ -121,7 +117,7 @@
     \LHead{\texttt{macaufreitas@gmail.com}} 
     \end{center}
 }
-\parbox{0.3\textwidth}{
+\parbox{0.2\textwidth}{
     \begin{center}
     \LHead{Maurílio Pereira Coutinho} \\
     \LHead{Orientador} \\
@@ -129,7 +125,7 @@
     \LHead{\texttt{maurilio.coutinho@gmail.com}} 
     \end{center}
 }
-\parbox{0.3\textwidth}{
+\parbox{0.2\textwidth}{
     \begin{center}
     \LHead{Robson Luiz Moreno} \\
     \LHead{Co-Orientador} \\

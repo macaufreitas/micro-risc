@@ -54,6 +54,7 @@ begin
 		seletor_tb <= '1';
 		wait for 30 ns;
 		------------------------
+		wait;
 	end process;
 
 end ArquiteturaDemuxTB;

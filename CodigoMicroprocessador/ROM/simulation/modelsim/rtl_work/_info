@@ -2,74 +2,78 @@ m255
 K3
 13
 cModel Technology
-Z0 dC:\Users\Marcos Aurelio\Desktop\micro-8086-risc\CodigoMicroprocessador\ROM\simulation\modelsim
+Z0 dC:\Users\silvadenisaraujo\Desktop\TFG8086\micro-8086-risc\CodigoMicroprocessador\ROM\simulation\modelsim
 Ememoriarom
-Z1 w1397606416
-Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
-Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
-Z4 dC:\Users\Marcos Aurelio\Desktop\micro-8086-risc\CodigoMicroprocessador\ROM\simulation\modelsim
-Z5 8C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROM.vhd
-Z6 FC:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROM.vhd
+Z1 w1397830273
+Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dC:\Users\silvadenisaraujo\Desktop\TFG8086\micro-8086-risc\CodigoMicroprocessador\ROM\simulation\modelsim
+Z7 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROM.vhd
+Z8 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROM.vhd
 l0
-L10
-VQbMk:Hd<>65U8O3Vn8kd=3
-Z7 OV;C;10.1d;51
+L11
+VEKoYeW@j6n]Ub1P:flYM>1
+Z9 OV;C;10.1d;51
 31
-Z8 !s108 1397606459.332000
-Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROM.vhd|
-Z10 !s107 C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROM.vhd|
-Z11 o-93 -work work -O0
-Z12 tExplicit 1
-!s100 FJNS1e=:doUC_[^4`e[i>0
+Z10 !s108 1397830690.790000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROM.vhd|
+Z12 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROM.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+!s100 8n[T^6gH>Oce@c5GbhQlb1
 !i10b 1
 Aarch
 R2
 R3
-DEx4 work 10 memoriarom 0 22 QbMk:Hd<>65U8O3Vn8kd=3
-l26
-L19
-VT7^X1S11?6<SzA1BGTVE?1
-R7
-31
-R8
+R4
+R5
+DEx4 work 10 memoriarom 0 22 EKoYeW@j6n]Ub1P:flYM>1
+l25
+L18
+V3AzPiP?_RKCC8GO52NKC80
 R9
+31
 R10
 R11
 R12
-!s100 HRER0JDbgAE^32cH1a1ac3
+R13
+R14
+!s100 Ro5nM;m[4aG8e==1_9^SE2
 !i10b 1
 Ememoriaromtb
-Z13 w1397605741
-R2
-R3
+Z15 w1397830454
 R4
-Z14 8C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROMTB.vhd
-Z15 FC:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROMTB.vhd
+R5
+R6
+Z16 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROMTB.vhd
+Z17 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROMTB.vhd
 l0
 L10
 Vd]M?:ol=[W`f5F2[B14`?1
 !s100 ;3Y>d_9@BcTNf8oS50f=K1
-R7
+R9
 31
 !i10b 1
-Z16 !s108 1397606459.586000
-Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROMTB.vhd|
-Z18 !s107 C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROMTB.vhd|
-R11
-R12
+Z18 !s108 1397830691.228000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROMTB.vhd|
+Z20 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROMTB.vhd|
+R13
+R14
 Aarquitetura
-R2
-R3
+R4
+R5
 DEx4 work 12 memoriaromtb 0 22 d]M?:ol=[W`f5F2[B14`?1
 l32
 L13
-V7HQ>GZ4:YDn0Kh6>=8Kb11
-!s100 6f3lUT^EH2GS^RLi1C:AD1
-R7
+VB;8[=ieETSkWO9R3>8end2
+!s100 jV=H3=z]TR6^Xm5dBm3mF2
+R9
 31
 !i10b 1
-R16
-R17
 R18
-R11
-R12
+R19
+R20
+R13
+R14

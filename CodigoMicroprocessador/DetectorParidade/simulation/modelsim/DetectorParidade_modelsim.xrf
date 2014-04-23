@@ -1,7 +1,7 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd
-source_file = 1, C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidadeTB.vhd
-source_file = 1, C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorParidade/db/DetectorParidade.cbx.xml
+source_file = 1, C:/Users/Marcos Aurelio/Desktop/RepositorioLocal/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd
+source_file = 1, C:/Users/Marcos Aurelio/Desktop/RepositorioLocal/CodigoMicroprocessador/DetectorParidade/DetectorParidadeTB.vhd
+source_file = 1, C:/Users/Marcos Aurelio/Desktop/RepositorioLocal/CodigoMicroprocessador/DetectorParidade/db/DetectorParidade.cbx.xml
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd

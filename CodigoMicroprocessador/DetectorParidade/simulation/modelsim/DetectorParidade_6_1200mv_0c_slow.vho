@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus II 64-Bit"
 -- VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition"
 
--- DATE "04/09/2014 23:45:07"
+-- DATE "03/27/2014 22:48:52"
 
 -- 
 -- Device: Altera EP4CGX15BF14C6 Package FBGA169
@@ -34,7 +34,7 @@ USE IEEE.STD_LOGIC_1164.ALL;
 ENTITY 	DetectorParidade IS
     PORT (
 	entrada : IN std_logic_vector(15 DOWNTO 0);
-	saida : BUFFER std_logic
+	saida : OUT std_logic
 	);
 END DetectorParidade;
 

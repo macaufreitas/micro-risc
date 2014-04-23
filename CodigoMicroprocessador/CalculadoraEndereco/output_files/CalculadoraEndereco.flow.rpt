@@ -1,5 +1,5 @@
 Flow report for CalculadoraEndereco
-Tue Mar 25 16:28:31 2014
+Thu Apr 10 21:45:58 2014
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Flow Summary                                                                    ;
 +------------------------------------+--------------------------------------------+
-; Flow Status                        ; Successful - Tue Mar 25 16:28:31 2014      ;
+; Flow Status                        ; Successful - Thu Apr 10 21:45:58 2014      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; CalculadoraEndereco                        ;
 ; Top-level Entity Name              ; CalculadoraEndereco                        ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/25/2014 16:27:28 ;
+; Start date & time ; 04/10/2014 21:43:21 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CalculadoraEndereco ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +--------------------------------------+--------------------------------+---------------+-------------+-----------------------+
 ; Assignment Name                      ; Value                          ; Default Value ; Entity Name ; Section Id            ;
 +--------------------------------------+--------------------------------+---------------+-------------+-----------------------+
-; COMPILER_SIGNATURE_ID                ; 52863701328856.139577564807448 ; --            ; --          ; --                    ;
+; COMPILER_SIGNATURE_ID                ; 88750180851854.139717699901464 ; --            ; --          ; --                    ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                             ; --            ; --          ; CalculadoraEnderecoTB ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; CalculadoraEnderecoTB          ; --            ; --          ; eda_simulation        ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Vhdl                           ; --            ; --          ; eda_simulation        ;
@@ -96,12 +96,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:06     ; 1.0                     ; 534 MB              ; 00:00:06                           ;
-; Fitter                    ; 00:00:25     ; 1.5                     ; 1125 MB             ; 00:00:27                           ;
-; Assembler                 ; 00:00:04     ; 1.0                     ; 469 MB              ; 00:00:04                           ;
-; TimeQuest Timing Analyzer ; 00:00:08     ; 1.0                     ; 538 MB              ; 00:00:08                           ;
-; EDA Netlist Writer        ; 00:00:04     ; 1.0                     ; 425 MB              ; 00:00:03                           ;
-; Total                     ; 00:00:47     ; --                      ; --                  ; 00:00:48                           ;
+; Analysis & Synthesis      ; 00:00:24     ; 1.0                     ; 531 MB              ; 00:00:11                           ;
+; Fitter                    ; 00:00:53     ; 1.2                     ; 1121 MB             ; 00:00:38                           ;
+; Assembler                 ; 00:00:08     ; 1.0                     ; 466 MB              ; 00:00:06                           ;
+; TimeQuest Timing Analyzer ; 00:00:25     ; 1.0                     ; 526 MB              ; 00:00:17                           ;
+; EDA Netlist Writer        ; 00:00:07     ; 1.0                     ; 422 MB              ; 00:00:05                           ;
+; Total                     ; 00:01:57     ; --                      ; --                  ; 00:01:17                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

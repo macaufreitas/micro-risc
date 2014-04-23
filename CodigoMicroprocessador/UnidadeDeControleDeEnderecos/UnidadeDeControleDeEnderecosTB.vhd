@@ -14,7 +14,7 @@ architecture ArquiteturaUC of UnidadeDeControleDeEnderecosTB is
 
 	-- Declaracao dos sinais de test bench
 	signal clock_tb,reset_tb,habilita_tb,habilitaCalc_tb,
-			 leRegSeg_tb, incIP_tb, selecSeg_tb,habRegSeg_tb,habSaidaEnd_tb: std_logic;
+			 leRegSeg_tb, incIP_tb, selecSeg_tb,habRegSeg_tb,habSaidaEnd_tb,habMemoria_tb,habUnidCtrl_tb: std_logic;
 	signal ctrlRegSeg_tb : std_logic_vector(2 downto 0);
 	
 	-- Constante para o controle do tempo
@@ -32,7 +32,9 @@ architecture ArquiteturaUC of UnidadeDeControleDeEnderecosTB is
 			ctrlRegSeg		: out std_logic_vector(2 downto 0);
 			incIP				: out std_logic;
 			selecSeg			: out std_logic;
-			habSaidaEnd		: out std_logic
+			habSaidaEnd		: out std_logic;
+			habMemoria		: out std_logic;
+			habUnidCtrl		: out std_logic
 	);
 	end component;
 	
@@ -41,7 +43,7 @@ begin
 	UCE : UnidadeDeControleDeEnderecos port map( clock_tb,reset_tb,habilita_tb,habRegSeg_tb,
 														      habilitaCalc_tb,leRegSeg_tb,
 																ctrlRegSeg_tb,incIP_tb,selecSeg_tb,
-																habSaidaEnd_tb);
+																habSaidaEnd_tb,habMemoria_tb,habUnidCtrl_tb);
 	
 	-- Cria processo do clock
    Clock : process

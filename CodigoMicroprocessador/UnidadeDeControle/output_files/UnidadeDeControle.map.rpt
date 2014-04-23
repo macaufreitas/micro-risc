@@ -1,5 +1,5 @@
 Analysis & Synthesis report for UnidadeDeControle
-Thu Mar 06 21:55:27 2014
+Fri Apr 18 14:16:58 2014
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -43,15 +43,15 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Mar 06 21:55:27 2014      ;
+; Analysis & Synthesis Status        ; Successful - Fri Apr 18 14:16:57 2014      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; UnidadeDeControle                          ;
 ; Top-level Entity Name              ; UnidadeDeControle                          ;
 ; Family                             ; Cyclone III                                ;
-; Total logic elements               ; 43                                         ;
-;     Total combinational functions  ; 26                                         ;
-;     Dedicated logic registers      ; 33                                         ;
-; Total registers                    ; 33                                         ;
+; Total logic elements               ; 54                                         ;
+;     Total combinational functions  ; 37                                         ;
+;     Dedicated logic registers      ; 40                                         ;
+; Total registers                    ; 40                                         ;
 ; Total pins                         ; 30                                         ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 0                                          ;
@@ -164,14 +164,14 @@ applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                ;
-+----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                         ; Library ;
-+----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------+---------+
-; UnidadeDeControle.vhd            ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd ;         ;
-; uc_aux.vhd                       ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd            ;         ;
-+----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                    ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                             ; Library ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------------+---------+
+; UnidadeDeControle.vhd            ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd ;         ;
+; uc_aux.vhd                       ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd            ;         ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------+
@@ -179,28 +179,28 @@ applicable agreement for further details.
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 43          ;
+; Estimated Total logic elements              ; 54          ;
 ;                                             ;             ;
-; Total combinational functions               ; 26          ;
+; Total combinational functions               ; 37          ;
 ; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 16          ;
-;     -- 3 input functions                    ; 7           ;
+;     -- 4 input functions                    ; 23          ;
+;     -- 3 input functions                    ; 11          ;
 ;     -- <=2 input functions                  ; 3           ;
 ;                                             ;             ;
 ; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 26          ;
+;     -- normal mode                          ; 37          ;
 ;     -- arithmetic mode                      ; 0           ;
 ;                                             ;             ;
-; Total registers                             ; 33          ;
-;     -- Dedicated logic registers            ; 33          ;
+; Total registers                             ; 40          ;
+;     -- Dedicated logic registers            ; 40          ;
 ;     -- I/O registers                        ; 0           ;
 ;                                             ;             ;
 ; I/O pins                                    ; 30          ;
 ; Embedded Multiplier 9-bit elements          ; 0           ;
 ; Maximum fan-out node                        ; clock~input ;
-; Maximum fan-out                             ; 33          ;
-; Total fan-out                               ; 229         ;
-; Average fan-out                             ; 1.92        ;
+; Maximum fan-out                             ; 40          ;
+; Total fan-out                               ; 292         ;
+; Average fan-out                             ; 2.13        ;
 +---------------------------------------------+-------------+
 
 
@@ -209,26 +209,33 @@ applicable agreement for further details.
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
-; |UnidadeDeControle         ; 26 (26)           ; 33 (33)      ; 0           ; 0            ; 0       ; 0         ; 30   ; 0            ; |UnidadeDeControle  ; work         ;
+; |UnidadeDeControle         ; 37 (37)           ; 40 (40)      ; 0           ; 0            ; 0       ; 0         ; 30   ; 0            ; |UnidadeDeControle  ; work         ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
 Encoding Type:  One-Hot
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; State Machine - |UnidadeDeControle|Estado                                                                                                                                           ;
-+-----------------------+----------------------+---------------------+-------------+-----------------------+-----------------------+--------------------+--------------+--------------+
-; Name                  ; Estado.ResultRegImed ; Estado.FimInstrucao ; Estado.Erro ; Estado.Sub_regImed_16 ; Estado.Add_regImed_16 ; Estado.OpRegImed16 ; Estado.Fetch ; Estado.Busca ;
-+-----------------------+----------------------+---------------------+-------------+-----------------------+-----------------------+--------------------+--------------+--------------+
-; Estado.Busca          ; 0                    ; 0                   ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 0            ;
-; Estado.Fetch          ; 0                    ; 0                   ; 0           ; 0                     ; 0                     ; 0                  ; 1            ; 1            ;
-; Estado.OpRegImed16    ; 0                    ; 0                   ; 0           ; 0                     ; 0                     ; 1                  ; 0            ; 1            ;
-; Estado.Add_regImed_16 ; 0                    ; 0                   ; 0           ; 0                     ; 1                     ; 0                  ; 0            ; 1            ;
-; Estado.Sub_regImed_16 ; 0                    ; 0                   ; 0           ; 1                     ; 0                     ; 0                  ; 0            ; 1            ;
-; Estado.Erro           ; 0                    ; 0                   ; 1           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
-; Estado.FimInstrucao   ; 0                    ; 1                   ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
-; Estado.ResultRegImed  ; 1                    ; 0                   ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
-+-----------------------+----------------------+---------------------+-------------+-----------------------+-----------------------+--------------------+--------------+--------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |UnidadeDeControle|Estado                                                                                                                                                                                                                                                                                                               ;
++-----------------------+--------------------+-----------------------+----------------------+---------------------+-----------------------+-----------------------+-----------------------+-----------------------+----------------------+-------------+-----------------------+-----------------------+--------------------+--------------+--------------+
+; Name                  ; Estado.Move_To_Reg ; Estado.Compara_Reg_16 ; Estado.ResultRegImed ; Estado.FimInstrucao ; Estado.Xor_regImed_16 ; Estado.And_regImed_16 ; Estado.Sbb_regImed_16 ; Estado.Adc_regImed_16 ; Estado.Or_regImed_16 ; Estado.Erro ; Estado.Sub_regImed_16 ; Estado.Add_regImed_16 ; Estado.OpRegImed16 ; Estado.Fetch ; Estado.Busca ;
++-----------------------+--------------------+-----------------------+----------------------+---------------------+-----------------------+-----------------------+-----------------------+-----------------------+----------------------+-------------+-----------------------+-----------------------+--------------------+--------------+--------------+
+; Estado.Busca          ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 0            ;
+; Estado.Fetch          ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 1            ; 1            ;
+; Estado.OpRegImed16    ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 1                  ; 0            ; 1            ;
+; Estado.Add_regImed_16 ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 1                     ; 0                  ; 0            ; 1            ;
+; Estado.Sub_regImed_16 ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 1                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.Erro           ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 1           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.Or_regImed_16  ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 1                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.Adc_regImed_16 ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 1                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.Sbb_regImed_16 ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 1                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.And_regImed_16 ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 1                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.Xor_regImed_16 ; 0                  ; 0                     ; 0                    ; 0                   ; 1                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.FimInstrucao   ; 0                  ; 0                     ; 0                    ; 1                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.ResultRegImed  ; 0                  ; 0                     ; 1                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.Compara_Reg_16 ; 0                  ; 1                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.Move_To_Reg    ; 1                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
++-----------------------+--------------------+-----------------------+----------------------+---------------------+-----------------------+-----------------------+-----------------------+-----------------------+----------------------+-------------+-----------------------+-----------------------+--------------------+--------------+--------------+
 
 
 +--------------------------------------------------------------------------------+
@@ -236,8 +243,8 @@ Encoding Type:  One-Hot
 +---------------------------------------+----------------------------------------+
 ; Register name                         ; Reason for Removal                     ;
 +---------------------------------------+----------------------------------------+
-; ctrlULA[1]~reg0                       ; Stuck at GND due to stuck port data_in ;
-; ctrlULA[0]~reg0                       ; Stuck at GND due to stuck port data_in ;
+; Estado.Move_To_Reg                    ; Merged with Estado.Compara_Reg_16      ;
+; Estado.Compara_Reg_16                 ; Stuck at GND due to stuck port data_in ;
 ; Total Number of Removed Registers = 2 ;                                        ;
 +---------------------------------------+----------------------------------------+
 
@@ -247,10 +254,10 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 33    ;
+; Total registers                              ; 40    ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 17    ;
+; Number of registers using Asynchronous Clear ; 24    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 16    ;
 ; Number of registers using Preset             ; 0     ;
@@ -262,7 +269,7 @@ Encoding Type:  One-Hot
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -272,7 +279,7 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Thu Mar 06 21:55:25 2014
+    Info: Processing started: Fri Apr 18 14:16:50 2014
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off UnidadeDeControle -c UnidadeDeControle
 Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
 Info (12021): Found 2 design units, including 1 entities, in source file unidadedecontrole.vhd
@@ -284,20 +291,17 @@ Info (12021): Found 2 design units, including 1 entities, in source file unidade
     Info (12022): Found design unit 1: UnidadeDeControleTB-ArquiteturaUC
     Info (12023): Found entity 1: UnidadeDeControleTB
 Info (12127): Elaborating entity "UnidadeDeControle" for the top level hierarchy
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "ctrlULA[0]" is stuck at GND
-    Warning (13410): Pin "ctrlULA[1]" is stuck at GND
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 74 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 85 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 19 input pins
     Info (21059): Implemented 11 output pins
-    Info (21061): Implemented 44 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 3 warnings
+    Info (21061): Implemented 55 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 535 megabytes
-    Info: Processing ended: Thu Mar 06 21:55:27 2014
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Processing ended: Fri Apr 18 14:16:58 2014
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:07
 
 

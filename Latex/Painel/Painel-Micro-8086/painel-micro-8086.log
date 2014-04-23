@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.12)  15 APR 2014 22:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.17)  22 APR 2014 21:45
 entering extended mode
 **painel-micro-8086.tex
 
-("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\Painel\Painel-Micro-808
-6\painel-micro-8086.tex"
+(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\Painel\Painel-Micro
+-8086\painel-micro-8086.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -15,7 +15,9 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\a0poster\a0poster.cls"
+
+(C:\Users\silvadenisaraujo\AppData\Roaming\MiKTeX\2.9\tex\latex\a0poster\a0post
+er.cls
 Document Class: a0poster 2004/01/31 v1.22b a0poster class (GK, MW)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
@@ -41,7 +43,8 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \tausch=\dimen103
 \Ausgabe=\write3
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\a0poster\a0size.sty"
+(C:\Users\silvadenisaraujo\AppData\Roaming\MiKTeX\2.9\tex\latex\a0poster\a0size
+.sty
 File: a0size.sty 2004/01/31 v1.22b a0poster class (GK, MW)
 LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 229.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
@@ -50,11 +53,13 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 229.
 \big@size=\dimen104
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\textpos\textpos.sty"
+(C:\Users\silvadenisaraujo\AppData\Roaming\MiKTeX\2.9\tex\latex\textpos\textpos
+.sty
 Package: textpos 2014/01/03 v1.7j
 
 Package: textpos 2014/01/03 1.7j, absolute positioning of text on the page
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+
+(C:\Users\silvadenisaraujo\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )
 \TP@textbox=\box26
@@ -93,15 +98,15 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count91
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
+(C:\Users\silvadenisaraujo\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig
+.sty
 \wrapoverhang=\dimen113
 \WF@size=\dimen114
 \c@WF@wrappedlines=\count92
 \WF@box=\box28
 \WF@everypar=\toks15
 Package: wrapfig 2003/01/31  v 3.6
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\times.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\times.sty"
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
@@ -220,8 +225,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 Grid set 17 x 25 = 133.82838pt x 130.67783pt
 TextBlockOrigin set to 20mm x 20mm
 
-("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\Painel\Painel-Micro-808
-6\painel-micro-8086.aux")
+(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\Painel\Painel-Micro
+-8086\painel-micro-8086.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
 LaTeX Font Info:    ... okay on input line 79.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
@@ -240,7 +245,8 @@ LaTeX Font Info:    Try loading font information for OT1+ptm on input line 79.
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 ABD: EveryShipout initializing macros
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(C:\Users\silvadenisaraujo\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf
+.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count100
 \scratchdimen=\dimen120
@@ -254,48 +260,53 @@ ABD: EveryShipout initializing macros
 \makeMPintoPDFobject=\count105
 \everyMPtoPDFconversion=\toks23
 )
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 115.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 111.
 
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Overfull \hbox (14.06839pt too wide) in paragraph at lines 131--131
- []\OT1/pcr/m/n/43 maurilio.coutinho@gmail.com[] 
+Overfull \hbox (10.80646pt too wide) in paragraph at lines 111--111
+ []\OT1/pcr/m/n/29.86 silvadenisaraujo@gmail.com[] 
+ []
+
+
+Overfull \hbox (28.72246pt too wide) in paragraph at lines 127--127
+ []\OT1/pcr/m/n/29.86 maurilio.coutinho@gmail.com[] 
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 163.
 
-LaTeX Warning: Citation `seraphim' on page 1 undefined on input line 167.
+LaTeX Warning: Citation `seraphim' on page 1 undefined on input line 163.
 
 <figuras/pacs.jpg, id=1, 219.9417pt x 317.7471pt>
 File: figuras/pacs.jpg Graphic file (type jpg)
  <use figuras/pacs.jpg>
-Package pdftex.def Info: figuras/pacs.jpg used on input line 173.
+Package pdftex.def Info: figuras/pacs.jpg used on input line 169.
 (pdftex.def)             Requested size: 219.94115pt x 317.7463pt.
 
 
-LaTeX Warning: Citation `soainpractice' on page 1 undefined on input line 179.
+LaTeX Warning: Citation `soainpractice' on page 1 undefined on input line 175.
 
 
-Overfull \hbox (57.34785pt too wide) in paragraph at lines 179--180
+Overfull \hbox (57.34785pt too wide) in paragraph at lines 175--176
 \OT1/ptm/m/n/24.88 Oriented Ar-chi-tec-ture) []e um pa-ra-digma para a com-pre-
 ens[]ao e manuten[][]ao
  []
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 181.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 177.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <24.88> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 181.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 177.
 
 
-LaTeX Warning: Citation `soainpractice' on page 1 undefined on input line 189.
+LaTeX Warning: Citation `soainpractice' on page 1 undefined on input line 185.
 
 
-Overfull \hbox (0.17447pt too wide) in paragraph at lines 199--200
+Overfull \hbox (0.17447pt too wide) in paragraph at lines 195--196
 \OT1/ptm/m/n/24.88 XML (Ex-ten-si-ble Mar-kup Lan-guage) para des-cre-ver flu-x
 os de neg[]o-
  []
@@ -303,16 +314,16 @@ os de neg[]o-
 <figuras/jpdl.jpg, id=2, 415.5525pt x 330.48468pt>
 File: figuras/jpdl.jpg Graphic file (type jpg)
  <use figuras/jpdl.jpg>
-Package pdftex.def Info: figuras/jpdl.jpg used on input line 205.
+Package pdftex.def Info: figuras/jpdl.jpg used on input line 201.
 (pdftex.def)             Requested size: 415.55148pt x 330.48387pt.
 
-Overfull \hbox (4.45358pt too wide) in paragraph at lines 219--220
+Overfull \hbox (4.45358pt too wide) in paragraph at lines 215--216
 []\OT1/ptm/m/n/24.88 Desta forma, prop[]oe-se o uso de Web Ser-vi-ces para a im
 plementa[][]ao
  []
 
 
-Overfull \hbox (8.68184pt too wide) in paragraph at lines 219--220
+Overfull \hbox (8.68184pt too wide) in paragraph at lines 215--216
 \OT1/ptm/m/n/24.88 di-das em servi[]os, que po-dem ser uti-li-za-dos por di-fe-
 ren-tes aplica[][]oes
  []
@@ -321,45 +332,46 @@ ren-tes aplica[][]oes
 File: figuras/webService.jpg Graphic file (type jpg)
 
 <use figuras/webService.jpg>
-Package pdftex.def Info: figuras/webService.jpg used on input line 227.
+Package pdftex.def Info: figuras/webService.jpg used on input line 223.
 (pdftex.def)             Requested size: 702.62328pt x 250.93687pt.
 
 <figuras/antesESB.jpg, id=4, 825.0825pt x 366.36874pt>
 File: figuras/antesESB.jpg Graphic file (type jpg)
 
 <use figuras/antesESB.jpg>
-Package pdftex.def Info: figuras/antesESB.jpg used on input line 235.
+Package pdftex.def Info: figuras/antesESB.jpg used on input line 231.
 (pdftex.def)             Requested size: 825.08049pt x 366.36784pt.
 
 <figuras/aposESB.jpg, id=5, 825.0825pt x 366.36874pt>
 File: figuras/aposESB.jpg Graphic file (type jpg)
 
 <use figuras/aposESB.jpg>
-Package pdftex.def Info: figuras/aposESB.jpg used on input line 243.
+Package pdftex.def Info: figuras/aposESB.jpg used on input line 239.
 (pdftex.def)             Requested size: 825.08049pt x 366.36784pt.
 
-("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\Painel\Painel-Micro-808
-6\painel-micro-8086.bbl") [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map
-}
+(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\Painel\Painel-Micro
+-8086\painel-micro-8086.bbl) [1{C:/Users/silvadenisaraujo/AppData/Local/MiKTeX/
+2.9/pdftex/config/pdftex.map}
 
 
 Non-PDF special ignored!
-Non-PDF special ignored! <C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/Latex
-/Painel/Painel-Micro-8086/figuras/pacs.jpg> <C:/Users/Marcos Aurelio/Desktop/mi
-cro-8086-risc/Latex/Painel/Painel-Micro-8086/figuras/jpdl.jpg> <C:/Users/Marcos
- Aurelio/Desktop/micro-8086-risc/Latex/Painel/Painel-Micro-8086/figuras/webServ
-ice.jpg> <C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/Latex/Painel/Painel-M
-icro-8086/figuras/antesESB.jpg> <C:/Users/Marcos Aurelio/Desktop/micro-8086-ris
-c/Latex/Painel/Painel-Micro-8086/figuras/aposESB.jpg>]
-("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\Painel\Painel-Micro-808
-6\painel-micro-8086.aux")
+Non-PDF special ignored! <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/
+Latex/Painel/Painel-Micro-8086/figuras/pacs.jpg> <C:/Users/silvadenisaraujo/Des
+ktop/TFG8086/micro-risc/Latex/Painel/Painel-Micro-8086/figuras/jpdl.jpg> <C:/Us
+ers/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/Painel/Painel-Micro-8086/
+figuras/webService.jpg> <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/L
+atex/Painel/Painel-Micro-8086/figuras/antesESB.jpg> <C:/Users/silvadenisaraujo/
+Desktop/TFG8086/micro-risc/Latex/Painel/Painel-Micro-8086/figuras/aposESB.jpg>]
+
+(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\Painel\Painel-Micro
+-8086\painel-micro-8086.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
  2454 strings out of 493921
- 37550 string characters out of 3144849
+ 37924 string characters out of 3144924
  117118 words of memory out of 3000000
  5674 multiletter control sequences out of 15000+200000
  17357 words of font info for 40 fonts, out of 3000000 for 9000
@@ -371,7 +383,7 @@ Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on painel-micro-8086.pdf (1 page, 619099 bytes).
+Output written on painel-micro-8086.pdf (1 page, 619036 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

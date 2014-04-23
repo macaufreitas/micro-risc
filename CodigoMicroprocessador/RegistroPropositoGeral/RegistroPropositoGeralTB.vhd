@@ -42,11 +42,17 @@ begin
 														
 	-- Cria processo do clock
    Clock : process
+	variable cont : integer := 0;
 	begin
+		if (cont /= 40) then
         clock_tb <= '0';
         wait for periodoClock/2;
         clock_tb <= '1';
         wait for periodoClock/2;
+		  cont := cont + 1;
+		else
+		  wait;
+		end if;
    end process;
 	
 	process
@@ -108,6 +114,8 @@ begin
 		----------------------------
 		
 		wait for periodoClock;
+		
+		wait;
 	
 	end process;
 

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for MicroprocessadorEndMemoria
-Mon Mar 31 23:49:36 2014
+Fri Apr 18 12:34:53 2014
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -20,9 +20,10 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
  12. General Register Statistics
  13. Inverted Register Statistics
  14. Multiplexer Restructuring Statistics (Restructuring Performed)
- 15. Port Connectivity Checks: "UnidadeDeControleDeEnderecos:UCE"
- 16. Elapsed Time Per Partition
- 17. Analysis & Synthesis Messages
+ 15. Port Connectivity Checks: "RegistroSegmento:RegS"
+ 16. Port Connectivity Checks: "UnidadeDeControleDeEnderecos:UCE"
+ 17. Elapsed Time Per Partition
+ 18. Analysis & Synthesis Messages
 
 
 
@@ -48,16 +49,16 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Mar 31 23:49:36 2014      ;
+; Analysis & Synthesis Status        ; Successful - Fri Apr 18 12:34:53 2014      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; MicroprocessadorEndMemoria                 ;
 ; Top-level Entity Name              ; MicroprocessadorEndMemoria                 ;
 ; Family                             ; Cyclone III                                ;
-; Total logic elements               ; 119                                        ;
-;     Total combinational functions  ; 110                                        ;
+; Total logic elements               ; 118                                        ;
+;     Total combinational functions  ; 109                                        ;
 ;     Dedicated logic registers      ; 96                                         ;
 ; Total registers                    ; 96                                         ;
-; Total pins                         ; 38                                         ;
+; Total pins                         ; 22                                         ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 0                                          ;
 ; Embedded Multiplier 9-bit elements ; 0                                          ;
@@ -188,28 +189,28 @@ applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 119       ;
+; Estimated Total logic elements              ; 118       ;
 ;                                             ;           ;
-; Total combinational functions               ; 110       ;
+; Total combinational functions               ; 109       ;
 ; Logic element usage by number of LUT inputs ;           ;
 ;     -- 4 input functions                    ; 0         ;
 ;     -- 3 input functions                    ; 68        ;
-;     -- <=2 input functions                  ; 42        ;
+;     -- <=2 input functions                  ; 41        ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 80        ;
+;     -- normal mode                          ; 79        ;
 ;     -- arithmetic mode                      ; 30        ;
 ;                                             ;           ;
 ; Total registers                             ; 96        ;
 ;     -- Dedicated logic registers            ; 96        ;
 ;     -- I/O registers                        ; 0         ;
 ;                                             ;           ;
-; I/O pins                                    ; 38        ;
+; I/O pins                                    ; 22        ;
 ; Embedded Multiplier 9-bit elements          ; 0         ;
 ; Maximum fan-out node                        ; clk~input ;
 ; Maximum fan-out                             ; 96        ;
-; Total fan-out                               ; 647       ;
-; Average fan-out                             ; 2.29      ;
+; Total fan-out                               ; 629       ;
+; Average fan-out                             ; 2.53      ;
 +---------------------------------------------+-----------+
 
 
@@ -218,10 +219,10 @@ applicable agreement for further details.
 +---------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node            ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                          ; Library Name ;
 +---------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------+--------------+
-; |MicroprocessadorEndMemoria           ; 110 (0)           ; 96 (0)       ; 0           ; 0            ; 0       ; 0         ; 38   ; 0            ; |MicroprocessadorEndMemoria                                  ; work         ;
+; |MicroprocessadorEndMemoria           ; 109 (0)           ; 96 (0)       ; 0           ; 0            ; 0       ; 0         ; 22   ; 0            ; |MicroprocessadorEndMemoria                                  ; work         ;
 ;    |CalculadoraEndereco:Calc|         ; 36 (36)           ; 52 (52)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MicroprocessadorEndMemoria|CalculadoraEndereco:Calc         ; work         ;
 ;    |Demultiplexador:Demux|            ; 32 (32)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MicroprocessadorEndMemoria|Demultiplexador:Demux            ; work         ;
-;    |RegistroSegmento:RegS|            ; 34 (34)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MicroprocessadorEndMemoria|RegistroSegmento:RegS            ; work         ;
+;    |RegistroSegmento:RegS|            ; 33 (33)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MicroprocessadorEndMemoria|RegistroSegmento:RegS            ; work         ;
 ;    |UnidadeDeControleDeEnderecos:UCE| ; 8 (8)             ; 12 (12)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MicroprocessadorEndMemoria|UnidadeDeControleDeEnderecos:UCE ; work         ;
 +---------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
@@ -506,7 +507,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------------------------------+---------+
 ; Inverted Register                          ; Fan out ;
 +--------------------------------------------+---------+
-; UnidadeDeControleDeEnderecos:UCE|habRegSeg ; 19      ;
+; UnidadeDeControleDeEnderecos:UCE|habRegSeg ; 18      ;
 ; Total number of inverted registers = 1     ;         ;
 +--------------------------------------------+---------+
 
@@ -520,14 +521,24 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "UnidadeDeControleDeEnderecos:UCE"                                                         ;
-+------------+--------+----------+-------------------------------------------------------------------------------------+
-; Port       ; Type   ; Severity ; Details                                                                             ;
-+------------+--------+----------+-------------------------------------------------------------------------------------+
-; habilita   ; Input  ; Info     ; Stuck at VCC                                                                        ;
-; habmemoria ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------------+--------+----------+-------------------------------------------------------------------------------------+
++---------------------------------------------------+
+; Port Connectivity Checks: "RegistroSegmento:RegS" ;
++--------------+-------+----------+-----------------+
+; Port         ; Type  ; Severity ; Details         ;
++--------------+-------+----------+-----------------+
+; entradadados ; Input ; Info     ; Stuck at GND    ;
++--------------+-------+----------+-----------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "UnidadeDeControleDeEnderecos:UCE"                                                          ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port        ; Type   ; Severity ; Details                                                                             ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; habilita    ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; habmemoria  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; habunidctrl ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +-------------------------------+
@@ -535,7 +546,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -545,9 +556,12 @@ Note: All latches listed above may not be present at the end of synthesis due to
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Mon Mar 31 23:49:28 2014
+    Info: Processing started: Fri Apr 18 12:34:46 2014
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MicroprocessadorEndMemoria -c MicroprocessadorEndMemoria
 Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
+Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/tfg8086/micro-8086-risc/codigomicroprocessador/rom/memoriarom.vhd
+    Info (12022): Found design unit 1: memoriaROM-arch
+    Info (12023): Found entity 1: memoriaROM
 Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/tfg8086/micro-8086-risc/codigomicroprocessador/demultiplexador/demultiplexador.vhd
     Info (12022): Found design unit 1: Demultiplexador-ArquiteturaDemux
     Info (12023): Found entity 1: Demultiplexador
@@ -569,12 +583,12 @@ Info (12021): Found 2 design units, including 1 entities, in source file micropr
     Info (12022): Found design unit 1: MicroprocessadorEndMemoriaTB-ArquiteturaMicroEndMTB
     Info (12023): Found entity 1: MicroprocessadorEndMemoriaTB
 Info (12127): Elaborating entity "MicroprocessadorEndMemoria" for the top level hierarchy
-Warning (10036): Verilog HDL or VHDL warning at MicroprocessadorEndMemoria.vhd(32): object "habMemoriaSig" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at MicroprocessadorEndMemoria.vhd(30): object "habMemoria" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at MicroprocessadorEndMemoria.vhd(31): object "habUnidCtrl" assigned a value but never read
 Info (12128): Elaborating entity "UnidadeDeControleDeEnderecos" for hierarchy "UnidadeDeControleDeEnderecos:UCE"
-Warning (10631): VHDL Process Statement warning at UnidadeDeControleDeEnderecos.vhd(98): inferring latch(es) for signal or variable "Estado", which holds its previous value in one or more paths through the process
-Info (10041): Inferred latch for "Estado.Erro" at UnidadeDeControleDeEnderecos.vhd(98)
+Warning (10631): VHDL Process Statement warning at UnidadeDeControleDeEnderecos.vhd(104): inferring latch(es) for signal or variable "Estado", which holds its previous value in one or more paths through the process
+Info (10041): Inferred latch for "Estado.Erro" at UnidadeDeControleDeEnderecos.vhd(104)
 Info (12128): Elaborating entity "RegistroSegmento" for hierarchy "RegistroSegmento:RegS"
-Warning (10492): VHDL Process Statement warning at RegistroSegmento.vhd(34): signal "habilita" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Warning (10492): VHDL Process Statement warning at RegistroSegmento.vhd(40): signal "habilita" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Warning (10492): VHDL Process Statement warning at RegistroSegmento.vhd(43): signal "leitura_Escrita" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Warning (10492): VHDL Process Statement warning at RegistroSegmento.vhd(43): signal "habilita" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
@@ -749,31 +763,14 @@ Info (286030): Timing-Driven Synthesis is running
 Info (17049): 135 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 16 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "data[0]"
-    Warning (15610): No output dependent on input pin "data[1]"
-    Warning (15610): No output dependent on input pin "data[2]"
-    Warning (15610): No output dependent on input pin "data[3]"
-    Warning (15610): No output dependent on input pin "data[15]"
-    Warning (15610): No output dependent on input pin "data[14]"
-    Warning (15610): No output dependent on input pin "data[13]"
-    Warning (15610): No output dependent on input pin "data[12]"
-    Warning (15610): No output dependent on input pin "data[11]"
-    Warning (15610): No output dependent on input pin "data[10]"
-    Warning (15610): No output dependent on input pin "data[9]"
-    Warning (15610): No output dependent on input pin "data[8]"
-    Warning (15610): No output dependent on input pin "data[7]"
-    Warning (15610): No output dependent on input pin "data[6]"
-    Warning (15610): No output dependent on input pin "data[5]"
-    Warning (15610): No output dependent on input pin "data[4]"
-Info (21057): Implemented 189 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 18 input pins
+Info (21057): Implemented 172 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 2 input pins
     Info (21059): Implemented 20 output pins
-    Info (21061): Implemented 151 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 134 warnings
-    Info: Peak virtual memory: 542 megabytes
-    Info: Processing ended: Mon Mar 31 23:49:36 2014
-    Info: Elapsed time: 00:00:08
+    Info (21061): Implemented 150 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 117 warnings
+    Info: Peak virtual memory: 531 megabytes
+    Info: Processing ended: Fri Apr 18 12:34:53 2014
+    Info: Elapsed time: 00:00:07
     Info: Total CPU time (on all processors): 00:00:08
 
 

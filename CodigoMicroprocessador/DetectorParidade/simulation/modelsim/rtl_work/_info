@@ -2,22 +2,22 @@ m255
 K3
 13
 cModel Technology
-Z0 dC:\Users\Marcos Aurelio\Desktop\micro-8086-risc\CodigoMicroprocessador\DetectorParidade\simulation\modelsim
+Z0 dC:\Users\Marcos Aurelio\Desktop\RepositorioLocal\CodigoMicroprocessador\DetectorParidade\simulation\modelsim
 Edetectorparidade
-Z1 w1397092294
+Z1 w1395971303
 Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
-Z4 dC:\Users\Marcos Aurelio\Desktop\micro-8086-risc\CodigoMicroprocessador\DetectorParidade\simulation\modelsim
-Z5 8C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd
-Z6 FC:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd
+Z4 dC:\Users\Marcos Aurelio\Desktop\RepositorioLocal\CodigoMicroprocessador\DetectorParidade\simulation\modelsim
+Z5 8C:/Users/Marcos Aurelio/Desktop/RepositorioLocal/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd
+Z6 FC:/Users/Marcos Aurelio/Desktop/RepositorioLocal/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd
 l0
 L10
 VU?ni0TQl79497lH]>S=dn0
 Z7 OV;C;10.1d;51
 31
-Z8 !s108 1397098108.817000
-Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd|
-Z10 !s107 C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd|
+Z8 !s108 1395971392.617000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/RepositorioLocal/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd|
+Z10 !s107 C:/Users/Marcos Aurelio/Desktop/RepositorioLocal/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd|
 Z11 o-93 -work work -O0
 Z12 tExplicit 1
 !s100 CQKazSTAd9l;0j8h88Oeh3
@@ -39,14 +39,14 @@ R12
 !s100 m2n=>5]``oKhK5O6B>cBc0
 !i10b 1
 Edetectorparidadetb
-R1
-Z13 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
-Z14 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z13 w1395791310
+Z14 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z15 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
 R2
 R3
 R4
-Z15 8C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidadeTB.vhd
-Z16 FC:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidadeTB.vhd
+Z16 8C:/Users/Marcos Aurelio/Desktop/RepositorioLocal/CodigoMicroprocessador/DetectorParidade/DetectorParidadeTB.vhd
+Z17 FC:/Users/Marcos Aurelio/Desktop/RepositorioLocal/CodigoMicroprocessador/DetectorParidade/DetectorParidadeTB.vhd
 l0
 L12
 Vl2Xi^hJ4>LPgYR2ndo8kE0
@@ -54,14 +54,14 @@ Vl2Xi^hJ4>LPgYR2ndo8kE0
 R7
 31
 !i10b 1
-Z17 !s108 1397098109.308000
-Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidadeTB.vhd|
-Z19 !s107 C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidadeTB.vhd|
+Z18 !s108 1395971392.931000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/RepositorioLocal/CodigoMicroprocessador/DetectorParidade/DetectorParidadeTB.vhd|
+Z20 !s107 C:/Users/Marcos Aurelio/Desktop/RepositorioLocal/CodigoMicroprocessador/DetectorParidade/DetectorParidadeTB.vhd|
 R11
 R12
 Aarquiteturadptb
-R13
 R14
+R15
 R2
 R3
 DEx4 work 18 detectorparidadetb 0 22 l2Xi^hJ4>LPgYR2ndo8kE0
@@ -72,8 +72,8 @@ VkfXz4=SU58hk@GVT49BE?2
 R7
 31
 !i10b 1
-R17
 R18
 R19
+R20
 R11
 R12

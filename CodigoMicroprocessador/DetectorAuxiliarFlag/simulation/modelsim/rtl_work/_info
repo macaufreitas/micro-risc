@@ -2,35 +2,35 @@ m255
 K3
 13
 cModel Technology
-Z0 dC:\Users\Marcos Aurelio\Desktop\micro-8086-risc\CodigoMicroprocessador\DetectorAuxiliarFlag\simulation\modelsim
+Z0 dC:\Users\Marcos Aurelio\Desktop\DetectorAuxiliarFlag\simulation\modelsim
 Edetectorauxiliarflag
-Z1 w1397095620
+Z1 w1395973156
 Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
 Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
-Z5 dC:\Users\Marcos Aurelio\Desktop\micro-8086-risc\CodigoMicroprocessador\DetectorAuxiliarFlag\simulation\modelsim
-Z6 8C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd
-Z7 FC:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd
+Z5 dC:\Users\Marcos Aurelio\Desktop\DetectorAuxiliarFlag\simulation\modelsim
+Z6 8C:/Users/Marcos Aurelio/Desktop/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd
+Z7 FC:/Users/Marcos Aurelio/Desktop/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd
 l0
-L17
-VUT`iQIOGQ6E@gioLQDc<b3
+L16
+V^IYNW`TOHh[kAWOP5oUAH2
 Z8 OV;C;10.1d;51
 31
-Z9 !s108 1397097644.580000
-Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd|
-Z11 !s107 C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd|
+Z9 !s108 1395974059.385000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd|
+Z11 !s107 C:/Users/Marcos Aurelio/Desktop/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd|
 Z12 o-93 -work work -O0
 Z13 tExplicit 1
-!s100 cU[iJ;^;U9Jd3Mk@THJ@j3
+!s100 4PTJzg]V4<hEh`oJHlCUA0
 !i10b 1
 Aarquiteturadaf
 R2
 R3
 R4
-DEx4 work 20 detectorauxiliarflag 0 22 UT`iQIOGQ6E@gioLQDc<b3
-l57
-L27
-Vz0Wg9;SRP`=YhmE7Y=YPM1
+DEx4 work 20 detectorauxiliarflag 0 22 ^IYNW`TOHh[kAWOP5oUAH2
+l56
+L26
+Vg`2Lch]mI6Pl;n@12zlhl0
 R8
 31
 R9
@@ -38,16 +38,16 @@ R10
 R11
 R12
 R13
-!s100 QjVAicY>figVXVYRSXogR1
+!s100 =LnY=NeI_Zzc;_=_jPbTW3
 !i10b 1
 Edetectorauxiliarflagtb
-Z14 w1397097590
+Z14 w1395973954
 R2
 R3
 R4
 R5
-Z15 8C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlagTB.vhd
-Z16 FC:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlagTB.vhd
+Z15 8C:/Users/Marcos Aurelio/Desktop/DetectorAuxiliarFlag/DetectorAuxiliarFlagTB.vhd
+Z16 FC:/Users/Marcos Aurelio/Desktop/DetectorAuxiliarFlag/DetectorAuxiliarFlagTB.vhd
 l0
 L11
 VhCaBBXFGV`=?h>H>gneLo0
@@ -55,9 +55,9 @@ VhCaBBXFGV`=?h>H>gneLo0
 R8
 31
 !i10b 1
-Z17 !s108 1397097644.992000
-Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlagTB.vhd|
-Z19 !s107 C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlagTB.vhd|
+Z17 !s108 1395974059.638000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/DetectorAuxiliarFlag/DetectorAuxiliarFlagTB.vhd|
+Z19 !s107 C:/Users/Marcos Aurelio/Desktop/DetectorAuxiliarFlag/DetectorAuxiliarFlagTB.vhd|
 R12
 R13
 Aarquiteturadaftb
@@ -67,8 +67,8 @@ R4
 DEx4 work 22 detectorauxiliarflagtb 0 22 hCaBBXFGV`=?h>H>gneLo0
 l35
 L14
-VSeIEo:_f7IHNaRNg@B6cS2
-!s100 9hGC3<T7>KUaIXBgj4PX72
+V37a6S2bjEF4hiZbfZ0ZGa2
+!s100 3fX4^Qj22go<mLDkA^95=2
 R8
 31
 !i10b 1
@@ -78,20 +78,20 @@ R19
 R12
 R13
 Esomador
-Z20 w1397092292
+Z20 w1395973117
 R3
 R4
 R5
-Z21 8C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Somador.vhd
-Z22 FC:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Somador.vhd
+Z21 8C:/Users/Marcos Aurelio/Desktop/DetectorAuxiliarFlag/Somador.vhd
+Z22 FC:/Users/Marcos Aurelio/Desktop/DetectorAuxiliarFlag/Somador.vhd
 l0
 L10
 Voh?Qa69GCBFEf`A6mnLk>2
 R8
 31
-Z23 !s108 1397097643.256000
-Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Somador.vhd|
-Z25 !s107 C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Somador.vhd|
+Z23 !s108 1395974059.074000
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/DetectorAuxiliarFlag/Somador.vhd|
+Z25 !s107 C:/Users/Marcos Aurelio/Desktop/DetectorAuxiliarFlag/Somador.vhd|
 R12
 R13
 !s100 Bdnc1`m?G9;MQJnjWG?fk2
@@ -117,16 +117,16 @@ R20
 R3
 R4
 R5
-Z26 8C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Subtrator.vhd
-Z27 FC:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Subtrator.vhd
+Z26 8C:/Users/Marcos Aurelio/Desktop/DetectorAuxiliarFlag/Subtrator.vhd
+Z27 FC:/Users/Marcos Aurelio/Desktop/DetectorAuxiliarFlag/Subtrator.vhd
 l0
 L10
 V4QZ[71`WhfAK_Vo>MaGHO1
 R8
 31
-Z28 !s108 1397097642.391000
-Z29 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Subtrator.vhd|
-Z30 !s107 C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Subtrator.vhd|
+Z28 !s108 1395974058.096000
+Z29 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/DetectorAuxiliarFlag/Subtrator.vhd|
+Z30 !s107 C:/Users/Marcos Aurelio/Desktop/DetectorAuxiliarFlag/Subtrator.vhd|
 R12
 R13
 !s100 Zn@S?PA5RML08Nf5@<6Ad2

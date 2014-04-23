@@ -10,15 +10,13 @@ use IEEE.numeric_std.all;
 
 entity MicroprocessadorEndMemoria is
 	port(
-		clk	 : in    std_logic;
-		reset  : in    std_logic;
-		data   : in 	std_logic_vector(15 downto 0);
-		addr   : out   std_logic_vector(19 downto 0)
+		clk	   : in    std_logic;
+		reset    : in    std_logic;
+		endereco : out 	std_logic_vector(19 downto 0)
 	);
 end MicroprocessadorEndMemoria;
 
 architecture ArquiteturaMicro of MicroprocessadorEndMemoria is
-	--Declaração dos sinais
 	
 	--Sinais da unidade de controle de enderecos
 	signal habUCESig      : std_logic;
@@ -29,7 +27,8 @@ architecture ArquiteturaMicro of MicroprocessadorEndMemoria is
 	signal incIPSig	    : std_logic;
 	signal selecSegSig  	 : std_logic;
 	signal habSaidaEndSig : std_logic;
-	signal habMemoriaSig	 : std_logic;
+	signal habMemoria		 : std_logic;
+	signal habUnidCtrl	 : std_logic;
 
 	--Sinais do registro de segmentos
 	signal saidaRegSegSig : std_logic_vector(15 downto 0);
@@ -67,7 +66,8 @@ architecture ArquiteturaMicro of MicroprocessadorEndMemoria is
 			incIP				: out std_logic;
 			selecSeg			: out std_logic;
 			habSaidaEnd		: out std_logic;
-			habMemoria		: out std_logic
+			habMemoria		: out std_logic;
+			habUnidCtrl		: out std_logic
 	);
 	end component;
 	
@@ -93,6 +93,14 @@ architecture ArquiteturaMicro of MicroprocessadorEndMemoria is
 		seletor  : in std_logic
 	);
 	end component;
+	
+	--ROM para a simulação
+	component memoriaROM IS
+	PORT (       clk          : IN  STD_LOGIC;
+                endereco     : in  STD_LOGIC_VECTOR(19 downto 0);
+                chipenable   : IN  STD_LOGIC;
+                saida        : OUT STD_LOGIC_VECTOR(15 DOWNTO 0));
+	END component;
 
 --Inicio do código de comportamento
 begin
@@ -100,16 +108,20 @@ begin
 	
 	--Unidade de Controle de Enderecos
 	UCE   : UnidadeDeControleDeEnderecos port map(clk,reset,'1',habCalcSig,habRegSegSig,leRegSegSig,
-															  ctrlRegSegSig,incIPSig,selecSegSig,habSaidaEndSig,habMemoriaSig);
+															  ctrlRegSegSig,incIPSig,selecSegSig,habSaidaEndSig,
+															  habMemoria,habUnidCtrl);
 	
 	--Registro de Segmentos
 	RegS  : RegistroSegmento port map (clk,reset,habRegSegSig,leRegSegSig,incIPSig,
-												  ctrlRegSegSig,data,saidaRegSegSig);
+												  ctrlRegSegSig,x"0000",saidaRegSegSig);
 	
 	--Demultiplexador
 	Demux : Demultiplexador port map (saidaRegSegSig,entradaSegCalcSig,entradaIPCalcSig,selecSegSig);
 	
 	--CalculadoraEndereco
-	Calc  : CalculadoraEndereco port map (clk,habCalcSig,habSaidaEndSig,entradaIPCalcSig,entradaSegCalcSig,addr);
+	Calc  : CalculadoraEndereco port map (clk,habCalcSig,habSaidaEndSig,entradaIPCalcSig,entradaSegCalcSig,endereco);
+	
+	--ROM
+	--ROM	: memoriaROM port map (clk,addrSig,habMemoria,dados);
 	
 end ArquiteturaMicro;

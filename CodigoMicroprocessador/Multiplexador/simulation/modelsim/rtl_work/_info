@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\silvadenisaraujo\Desktop\TFG8086\micro-8086-risc\CodigoMicroprocessador\Multiplexador\simulation\modelsim
+Emultiplexador
+Z1 w1397092872
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\silvadenisaraujo\Desktop\TFG8086\micro-8086-risc\CodigoMicroprocessador\Multiplexador\simulation\modelsim
+Z5 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Multiplexador/Multiplexador.vhd
+Z6 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Multiplexador/Multiplexador.vhd
+l0
+L10
+VQ5W`D64hCB9aZ4[]zf8>a3
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1397441136.415000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Multiplexador/Multiplexador.vhd|
+Z10 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Multiplexador/Multiplexador.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 ]4eQ=Ng1cbFNzW^9o[>h70
+!i10b 1
+Aarquiteturamux
+R2
+R3
+DEx4 work 13 multiplexador 0 22 Q5W`D64hCB9aZ4[]zf8>a3
+l20
+L19
+VmLnMoTMFDA6l_I=2J:DXR1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 fa=fgnZciRd5Qb=ilKWgM1
+!i10b 1
+Emultiplexadortb
+Z13 w1397441040
+R2
+R3
+R4
+Z14 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Multiplexador/MultiplexadorTB.vhd
+Z15 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Multiplexador/MultiplexadorTB.vhd
+l0
+L10
+V_[Qe8gS7X08PWfomo^1o<2
+!s100 afOo:i[7]eASWYHg^f8T53
+R7
+31
+!i10b 1
+Z16 !s108 1397441137.369000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Multiplexador/MultiplexadorTB.vhd|
+Z18 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Multiplexador/MultiplexadorTB.vhd|
+R11
+R12
+Aarquiteturamuxtb
+R2
+R3
+DEx4 work 15 multiplexadortb 0 22 _[Qe8gS7X08PWfomo^1o<2
+l29
+L13
+Vl9F6D]fg2053hZ<i5O7LN0
+!s100 D3?=6enoGbK7A?;T>?j`02
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+R12

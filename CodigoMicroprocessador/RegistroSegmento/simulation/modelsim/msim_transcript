@@ -1,4 +1,5 @@
 # Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
 # do RegistroSegmento_run_msim_rtl_vhdl.do 
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
@@ -10,7 +11,7 @@
 # ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vcom -93 -work work {C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/RegistroSegmento/RegistroSegmento.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/RegistroSegmento/RegistroSegmento.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -20,7 +21,7 @@
 # -- Compiling entity RegistroSegmento
 # -- Compiling architecture ArquiteturaRS of RegistroSegmento
 # 
-# vcom -93 -work work {C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/RegistroSegmento/RegistroSegmentoTB.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/RegistroSegmento/RegistroSegmentoTB.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -30,34 +31,8 @@
 # -- Compiling entity RegistroSegmentoTB
 # -- Compiling architecture ArquiteturaRSTB of RegistroSegmentoTB
 # 
-# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  RSTeste
-# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=\"+acc\" -t 1ps RSTeste 
-# ** Error: (vsim-3170) Could not find 'C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/RegistroSegmento/simulation/modelsim/rtl_work.RSTeste'.
-# 
-# Error loading design
-# Error: Error loading design 
-#        Pausing macro execution 
-# MACRO ./RegistroSegmento_run_msim_rtl_vhdl.do PAUSED at line 12
-vcom -93 -work work -O0 {C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/RegistroSegmento/RegistroSegmento.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity RegistroSegmento
-# -- Compiling architecture ArquiteturaRS of RegistroSegmento
-vcom -93 -work work -O0 {C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/RegistroSegmento/RegistroSegmentoTB.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity RegistroSegmentoTB
-# -- Compiling architecture ArquiteturaRSTB of RegistroSegmentoTB
-vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=\"+acc\" -t 1ps work.registrosegmentotb
-# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=\"+acc\" -t 1ps work.registrosegmentotb 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  RegistroSegmentoTB
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=\"+acc\" -t 1ps RegistroSegmentoTB 
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -65,8 +40,13 @@ vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L
 # Loading ieee.std_logic_unsigned(body)
 # Loading work.registrosegmentotb(arquiteturarstb)
 # Loading work.registrosegmento(arquiteturars)
-add wave sim:/registrosegmentotb/*
-run
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
 add wave -position insertpoint  \
 sim:/registrosegmentotb/RegSegmento/ES \
 sim:/registrosegmentotb/RegSegmento/CS \
@@ -75,4 +55,3 @@ sim:/registrosegmentotb/RegSegmento/DS \
 sim:/registrosegmentotb/RegSegmento/IP
 restart
 run
-# WARNING: No extended dataflow license exists

@@ -1,0 +1,125 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -2.348
+TNS   : -164.104
+
+Type  : Slow 1200mV 85C Model Setup 'UnidadeDeControleDeEnderecos:UCE|habMemoria'
+Slack : -1.653
+TNS   : -17.835
+
+Type  : Slow 1200mV 85C Model Setup 'UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0'
+Slack : -0.574
+TNS   : -11.667
+
+Type  : Slow 1200mV 85C Model Hold 'UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0'
+Slack : -0.124
+TNS   : -1.046
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : -0.018
+TNS   : -0.019
+
+Type  : Slow 1200mV 85C Model Hold 'UnidadeDeControleDeEnderecos:UCE|habMemoria'
+Slack : 0.589
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -128.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'UnidadeDeControleDeEnderecos:UCE|habMemoria'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'UnidadeDeControle:UC|ctrlDemuxData'
+Slack : 0.399
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -2.008
+TNS   : -137.673
+
+Type  : Slow 1200mV 0C Model Setup 'UnidadeDeControleDeEnderecos:UCE|habMemoria'
+Slack : -1.519
+TNS   : -16.763
+
+Type  : Slow 1200mV 0C Model Setup 'UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0'
+Slack : -0.558
+TNS   : -9.998
+
+Type  : Slow 1200mV 0C Model Hold 'UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0'
+Slack : -0.068
+TNS   : -0.552
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : -0.021
+TNS   : -0.026
+
+Type  : Slow 1200mV 0C Model Hold 'UnidadeDeControleDeEnderecos:UCE|habMemoria'
+Slack : 0.679
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -128.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'UnidadeDeControleDeEnderecos:UCE|habMemoria'
+Slack : 0.441
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'UnidadeDeControle:UC|ctrlDemuxData'
+Slack : 0.454
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0'
+Slack : 0.461
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.090
+TNS   : -55.066
+
+Type  : Fast 1200mV 0C Model Setup 'UnidadeDeControleDeEnderecos:UCE|habMemoria'
+Slack : -0.709
+TNS   : -4.645
+
+Type  : Fast 1200mV 0C Model Setup 'UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0'
+Slack : -0.044
+TNS   : -0.399
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : -0.116
+TNS   : -0.181
+
+Type  : Fast 1200mV 0C Model Hold 'UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0'
+Slack : -0.098
+TNS   : -0.965
+
+Type  : Fast 1200mV 0C Model Hold 'UnidadeDeControleDeEnderecos:UCE|habMemoria'
+Slack : 0.464
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -136.553
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0'
+Slack : 0.363
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'UnidadeDeControleDeEnderecos:UCE|habMemoria'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'UnidadeDeControle:UC|ctrlDemuxData'
+Slack : 0.395
+TNS   : 0.000
+
+------------------------------------------------------------

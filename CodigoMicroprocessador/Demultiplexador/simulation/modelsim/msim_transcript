@@ -1,4 +1,5 @@
 # Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
 # do Demultiplexador_run_msim_rtl_vhdl.do 
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
@@ -10,7 +11,7 @@
 # ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vcom -93 -work work {C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -18,7 +19,7 @@
 # -- Compiling entity Demultiplexador
 # -- Compiling architecture ArquiteturaDemux of Demultiplexador
 # 
-# vcom -93 -work work {C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/DemultiplexadorTB.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Demultiplexador/DemultiplexadorTB.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -26,37 +27,17 @@
 # -- Compiling entity DemultiplexadorTB
 # -- Compiling architecture ArquiteturaDemuxTB of DemultiplexadorTB
 # 
-# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  DemultiplexadorTeste
-# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=\"+acc\" -t 1ps DemultiplexadorTeste 
-# ** Error: (vsim-3170) Could not find 'C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/rtl_work.DemultiplexadorTeste'.
-# 
-# Error loading design
-# Error: Error loading design 
-#        Pausing macro execution 
-# MACRO ./Demultiplexador_run_msim_rtl_vhdl.do PAUSED at line 12
-vcom -93 -work work -O0 {C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity Demultiplexador
-# -- Compiling architecture ArquiteturaDemux of Demultiplexador
-vcom -93 -work work -O0 {C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/DemultiplexadorTB.vhd}
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# ** Warning: (vcom-7) Failed to open lock file "C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/rtl_work/_lock" in create mode.
-# 
-# Permission denied. (errno = EACCES)
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity DemultiplexadorTB
-# -- Compiling architecture ArquiteturaDemuxTB of DemultiplexadorTB
-vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=\"+acc\" -t 1ps work.demultiplexadortb
-# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=\"+acc\" -t 1ps work.demultiplexadortb 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  DemultiplexadorTB
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=\"+acc\" -t 1ps DemultiplexadorTB 
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading work.demultiplexadortb(arquiteturademuxtb)
 # Loading work.demultiplexador(arquiteturademux)
-add wave sim:/demultiplexadortb/*
-run
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all

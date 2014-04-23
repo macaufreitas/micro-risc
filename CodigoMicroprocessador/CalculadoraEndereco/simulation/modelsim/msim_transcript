@@ -11,7 +11,7 @@
 # ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -22,7 +22,7 @@
 # -- Compiling entity CalculadoraEndereco
 # -- Compiling architecture rtl of CalculadoraEndereco
 # 
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEnderecoTB.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEnderecoTB.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO

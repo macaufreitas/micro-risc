@@ -3,35 +3,27 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'clk'
-Slack : -2.414
-TNS   : -94.091
+Slack : -2.360
+TNS   : -99.823
 
 Type  : Slow 1200mV 85C Model Setup 'UnidadeDeControleDeEnderecos:UCE|habSaidaEnd'
-Slack : -1.198
-TNS   : -7.059
+Slack : -1.334
+TNS   : -5.506
 
 Type  : Slow 1200mV 85C Model Setup 'UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0'
-Slack : -0.322
-TNS   : -1.820
+Slack : -0.723
+TNS   : -8.325
 
 Type  : Slow 1200mV 85C Model Hold 'UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0'
-Slack : -0.374
-TNS   : -3.405
-
-Type  : Slow 1200mV 85C Model Hold 'clk'
-Slack : -0.027
-TNS   : -0.027
+Slack : -0.436
+TNS   : -0.519
 
 Type  : Slow 1200mV 85C Model Hold 'UnidadeDeControleDeEnderecos:UCE|habSaidaEnd'
-Slack : -0.024
-TNS   : -0.024
+Slack : -0.152
+TNS   : -0.152
 
-Type  : Slow 1200mV 85C Model Recovery 'clk'
-Slack : -0.373
-TNS   : -5.968
-
-Type  : Slow 1200mV 85C Model Removal 'clk'
-Slack : 0.942
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.182
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
@@ -39,43 +31,35 @@ Slack : -3.000
 TNS   : -99.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'UnidadeDeControleDeEnderecos:UCE|habSaidaEnd'
-Slack : 0.359
+Slack : 0.347
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0'
-Slack : 0.396
+Slack : 0.388
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Setup 'clk'
-Slack : -2.040
-TNS   : -74.654
+Slack : -2.013
+TNS   : -80.377
 
 Type  : Slow 1200mV 0C Model Setup 'UnidadeDeControleDeEnderecos:UCE|habSaidaEnd'
-Slack : -1.146
-TNS   : -7.142
+Slack : -1.234
+TNS   : -5.255
 
 Type  : Slow 1200mV 0C Model Setup 'UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0'
-Slack : -0.225
-TNS   : -1.642
+Slack : -0.721
+TNS   : -6.647
 
 Type  : Slow 1200mV 0C Model Hold 'UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0'
-Slack : -0.284
-TNS   : -0.684
-
-Type  : Slow 1200mV 0C Model Hold 'clk'
-Slack : -0.030
-TNS   : -0.030
+Slack : -0.392
+TNS   : -0.446
 
 Type  : Slow 1200mV 0C Model Hold 'UnidadeDeControleDeEnderecos:UCE|habSaidaEnd'
-Slack : 0.131
-TNS   : 0.000
+Slack : -0.006
+TNS   : -0.006
 
-Type  : Slow 1200mV 0C Model Recovery 'clk'
-Slack : -0.234
-TNS   : -3.744
-
-Type  : Slow 1200mV 0C Model Removal 'clk'
-Slack : 0.834
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.176
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
@@ -83,55 +67,47 @@ Slack : -3.000
 TNS   : -99.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'UnidadeDeControleDeEnderecos:UCE|habSaidaEnd'
-Slack : 0.439
+Slack : 0.411
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0'
-Slack : 0.465
+Slack : 0.461
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Setup 'clk'
-Slack : -0.944
-TNS   : -23.535
+Slack : -0.930
+TNS   : -26.931
 
 Type  : Fast 1200mV 0C Model Setup 'UnidadeDeControleDeEnderecos:UCE|habSaidaEnd'
-Slack : -0.432
-TNS   : -0.700
+Slack : -0.496
+TNS   : -0.662
 
 Type  : Fast 1200mV 0C Model Setup 'UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0'
-Slack : 0.230
-TNS   : 0.000
+Slack : -0.104
+TNS   : -0.207
 
 Type  : Fast 1200mV 0C Model Hold 'UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0'
-Slack : -0.231
-TNS   : -1.191
-
-Type  : Fast 1200mV 0C Model Hold 'clk'
-Slack : -0.096
-TNS   : -0.096
+Slack : -0.271
+TNS   : -0.480
 
 Type  : Fast 1200mV 0C Model Hold 'UnidadeDeControleDeEnderecos:UCE|habSaidaEnd'
-Slack : 0.107
+Slack : 0.004
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Recovery 'clk'
-Slack : 0.233
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Removal 'clk'
-Slack : 0.532
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.032
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
 Slack : -3.000
-TNS   : -105.480
-
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0'
-Slack : 0.328
-TNS   : 0.000
+TNS   : -105.326
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'UnidadeDeControleDeEnderecos:UCE|habSaidaEnd'
-Slack : 0.336
+Slack : 0.316
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0'
+Slack : 0.348
 TNS   : 0.000
 
 ------------------------------------------------------------

@@ -15,8 +15,8 @@ architecture ArquiteturaDAFTB of DetectorAuxiliarFlagTB is
 
 	-- Declaracao Sinais do test bench
 	signal entrada_01_tb, entrada_02_tb : std_logic_vector(15 downto 0);
-	signal carry_tb, estadoFlagAuxiliar_tb : std_logic;
-	signal seletorOperacao_tb : std_logic_vector(2 downto 0);
+	signal carry_tb, seletorOperacao_tb : std_logic;
+	signal estadoFlagAuxiliar_tb : std_logic;
 	
 	-- Constante para controle do tempo
 	constant periodoClock : time := 50 ns;
@@ -27,7 +27,7 @@ architecture ArquiteturaDAFTB of DetectorAuxiliarFlagTB is
 			entrada_01 : in std_logic_vector(15 downto 0);
 			entrada_02 : in std_logic_vector(15 downto 0);
 			carry : in std_logic;
-			seletorOperacao : in std_logic_vector(2 downto 0);
+			seletorOperacao : in std_logic;
 			estadoFlagAuxiliar : out std_logic
 		);
 	end component;
@@ -43,7 +43,7 @@ begin
 		-------------------------
 		entrada_01_tb <= X"000A";
 		entrada_02_tb <= X"000D";
-		seletorOperacao_tb <= "000";
+		seletorOperacao_tb <= '0';
 		carry_tb <= '0';
 		wait for periodoClock;
 		-------------------------
@@ -51,7 +51,7 @@ begin
 		-------------------------
 		entrada_01_tb <= X"101A";
 		entrada_02_tb <= X"0A02";
-		seletorOperacao_tb <= "001";
+		seletorOperacao_tb <= '1';
 		carry_tb <= '0';
 		wait for periodoClock;
 		-------------------------
@@ -59,7 +59,7 @@ begin
 		-------------------------
 		entrada_01_tb <= X"00FC";
 		entrada_02_tb <= X"00EA";
-		seletorOperacao_tb <= "000";
+		seletorOperacao_tb <= '0';
 		carry_tb <= '1';
 		wait for periodoClock;
 		-------------------------
@@ -67,7 +67,7 @@ begin
 		-------------------------
 		entrada_01_tb <= X"FF0A";
 		entrada_02_tb <= X"FE0D";
-		seletorOperacao_tb <= "001";
+		seletorOperacao_tb <= '1';
 		carry_tb <= '1';
 		wait for periodoClock;
 		-------------------------
@@ -75,7 +75,7 @@ begin
 		-------------------------
 		entrada_01_tb <= X"F00A";
 		entrada_02_tb <= X"000D";
-		seletorOperacao_tb <= "000";
+		seletorOperacao_tb <= '0';
 		carry_tb <= '0';
 		wait for periodoClock;
 		-------------------------
@@ -83,7 +83,7 @@ begin
 		-------------------------
 		entrada_01_tb <= X"FFFF";
 		entrada_02_tb <= X"FFFF";
-		seletorOperacao_tb <= "001";
+		seletorOperacao_tb <= '1';
 		carry_tb <= '0';
 		wait for periodoClock;
 		-------------------------

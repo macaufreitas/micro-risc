@@ -1,5 +1,5 @@
 Fitter report for DetectorZeroFlag
-Wed Apr 09 23:31:40 2014
+Fri Mar 28 17:42:12 2014
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -63,7 +63,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Fitter Summary                                                                  ;
 +------------------------------------+--------------------------------------------+
-; Fitter Status                      ; Successful - Wed Apr 09 23:31:40 2014      ;
+; Fitter Status                      ; Successful - Fri Mar 28 17:42:12 2014      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; DetectorZeroFlag                           ;
 ; Top-level Entity Name              ; DetectorZeroFlag                           ;
@@ -218,7 +218,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorZeroFlag/output_files/DetectorZeroFlag.pin.
+The pin-out file can be found in C:/Users/Marcos Aurelio/Desktop/DetectorZeroFlag/output_files/DetectorZeroFlag.pin.
 
 
 +--------------------------------------------------------------------+
@@ -972,7 +972,7 @@ Info (176215): I/O bank details before I/O pin placement
         Info (176213): I/O bank number 8A does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  2 pins available
         Info (176213): I/O bank number 8 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  5 pins available
         Info (176213): I/O bank number 9 does not use VREF pins and has undetermined VCCIO pins. 4 total pin(s) used --  0 pins available
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:00
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
@@ -991,17 +991,17 @@ Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
-Info (144001): Generated suppressed messages file C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorZeroFlag/output_files/DetectorZeroFlag.fit.smsg
+Info (144001): Generated suppressed messages file C:/Users/Marcos Aurelio/Desktop/DetectorZeroFlag/output_files/DetectorZeroFlag.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 6 warnings
     Info: Peak virtual memory: 830 megabytes
-    Info: Processing ended: Wed Apr 09 23:31:41 2014
-    Info: Elapsed time: 00:00:07
+    Info: Processing ended: Fri Mar 28 17:42:12 2014
+    Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:06
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorZeroFlag/output_files/DetectorZeroFlag.fit.smsg.
+The suppressed messages can be found in C:/Users/Marcos Aurelio/Desktop/DetectorZeroFlag/output_files/DetectorZeroFlag.fit.smsg.
 
 

@@ -72,30 +72,30 @@ VCCIO8                       : A1        : power  :                   : 2.5V    
 RESERVED_INPUT_WITH_WEAK_PULLUP : A2        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A3        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A4        :        :                   :         : 8         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : A5        :        :                   :         : 8         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : A6        :        :                   :         : 8         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : A7        :        :                   :         : 8         :                
+habSaidaEnd                  : A5        : output : 2.5 V             :         : 8         : N              
+habUnidCtrl                  : A6        : output : 2.5 V             :         : 8         : N              
+selecSeg                     : A7        : output : 2.5 V             :         : 8         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : A8        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A9        :        :                   :         : 7         :                
-habRegSeg                    : A10       : output : 2.5 V             :         : 7         : N              
-leRegSeg                     : A11       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : A10       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : A11       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A12       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A13       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A14       :        :                   :         : 7         :                
-habMemoria                   : A15       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : A15       :        :                   :         : 7         :                
 VCCIO7                       : A16       : power  :                   : 2.5V    : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B1        :        :                   :         : 1         :                
 GND                          : B2        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B3        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B4        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B5        :        :                   :         : 8         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : B6        :        :                   :         : 8         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : B7        :        :                   :         : 8         :                
+leRegSeg                     : B6        : output : 2.5 V             :         : 8         : N              
+ctrlRegSeg[2]                : B7        : output : 2.5 V             :         : 8         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : B8        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B9        :        :                   :         : 7         :                
-habSaidaEnd                  : B10       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : B10       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B11       :        :                   :         : 7         :                
-incIP                        : B12       : output : 2.5 V             :         : 7         : N              
+ctrlRegSeg[1]                : B12       : output : 2.5 V             :         : 7         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : B13       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B14       :        :                   :         : 7         :                
 GND                          : B15       : gnd    :                   :         :           :                
@@ -105,12 +105,12 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : C2        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : C3        :        :                   :         : 8         :                
 VCCIO8                       : C4        : power  :                   : 2.5V    : 8         :                
 GND                          : C5        : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : C6        :        :                   :         : 8         :                
+habRegSeg                    : C6        : output : 2.5 V             :         : 8         : N              
 VCCIO8                       : C7        : power  :                   : 2.5V    : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C8        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C9        :        :                   :         : 7         :                
 VCCIO7                       : C10       : power  :                   : 2.5V    : 7         :                
-ctrlRegSeg[0]                : C11       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C11       :        :                   :         : 7         :                
 GND                          : C12       : gnd    :                   :         :           :                
 VCCIO7                       : C13       : power  :                   : 2.5V    : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C14       :        :                   :         : 7         :                
@@ -127,7 +127,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : D8        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : D9        :        :                   :         : 7         :                
 GND                          : D10       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D11       :        :                   :         : 7         :                
-ctrlRegSeg[1]                : D12       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D12       :        :                   :         : 7         :                
 VCCD_PLL2                    : D13       : power  :                   : 1.2V    :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D14       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D15       :        :                   :         : 6         :                
@@ -137,7 +137,7 @@ clock                        : E2        : input  : 2.5 V             :         
 VCCIO1                       : E3        : power  :                   : 2.5V    : 1         :                
 GND                          : E4        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E5        :        :                   :         : 1         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : E6        :        :                   :         : 8         :                
+habMemoria                   : E6        : output : 2.5 V             :         : 8         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : E7        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E8        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E9        :        :                   :         : 7         :                
@@ -153,12 +153,12 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : F2        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : F3        :        :                   :         : 1         :                
 nSTATUS                      : F4        :        :                   :         : 1         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F5        :        :                   :         : 1         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : F6        :        :                   :         : 8         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : F7        :        :                   :         : 8         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : F8        :        :                   :         : 8         :                
-selecSeg                     : F9        : output : 2.5 V             :         : 7         : N              
-ctrlRegSeg[2]                : F10       : output : 2.5 V             :         : 7         : N              
-habilitaCalc                 : F11       : output : 2.5 V             :         : 7         : N              
+incIP                        : F6        : output : 2.5 V             :         : 8         : N              
+habilitaCalc                 : F7        : output : 2.5 V             :         : 8         : N              
+ctrlRegSeg[0]                : F8        : output : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F9        :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F10       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F11       :        :                   :         : 7         :                
 VCCA2                        : F12       : power  :                   : 2.5V    :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F13       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F14       :        :                   :         : 6         :                

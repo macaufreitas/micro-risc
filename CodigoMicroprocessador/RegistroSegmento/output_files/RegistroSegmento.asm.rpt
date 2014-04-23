@@ -1,5 +1,5 @@
 Assembler report for RegistroSegmento
-Thu Feb 27 17:46:54 2014
+Thu Apr 10 21:08:13 2014
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -10,7 +10,7 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/RegistroSegmento/output_files/RegistroSegmento.sof
+  5. Assembler Device Options: C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/RegistroSegmento/output_files/RegistroSegmento.sof
   6. Assembler Messages
 
 
@@ -37,7 +37,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Thu Feb 27 17:46:54 2014 ;
+; Assembler Status      ; Successful - Thu Apr 10 21:08:13 2014 ;
 ; Revision Name         ; RegistroSegmento                      ;
 ; Top-level Entity Name ; RegistroSegmento                      ;
 ; Family                ; Cyclone IV GX                         ;
@@ -77,24 +77,24 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+---------------------------------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                                                     ;
-+---------------------------------------------------------------------------------------------------------------+
-; File Name                                                                                                     ;
-+---------------------------------------------------------------------------------------------------------------+
-; C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/RegistroSegmento/output_files/RegistroSegmento.sof ;
-+---------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                                                           ;
++-------------------------------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                                           ;
++-------------------------------------------------------------------------------------------------------------------------------------+
+; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/RegistroSegmento/output_files/RegistroSegmento.sof ;
++-------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/RegistroSegmento/output_files/RegistroSegmento.sof ;
-+----------------+------------------------------------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                                                ;
-+----------------+------------------------------------------------------------------------------------------------------------------------+
-; Device         ; EP4CGX15BF14C6                                                                                                         ;
-; JTAG usercode  ; 0x000D0220                                                                                                             ;
-; Checksum       ; 0x000D0220                                                                                                             ;
-+----------------+------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/RegistroSegmento/output_files/RegistroSegmento.sof ;
++----------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                                                                      ;
++----------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Device         ; EP4CGX15BF14C6                                                                                                                               ;
+; JTAG usercode  ; 0x000D03C9                                                                                                                                   ;
+; Checksum       ; 0x000D03C9                                                                                                                                   ;
++----------------+----------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -103,14 +103,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Thu Feb 27 17:46:53 2014
+    Info: Processing started: Thu Apr 10 21:08:07 2014
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off RegistroSegmento -c RegistroSegmento
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 514 megabytes
-    Info: Processing ended: Thu Feb 27 17:46:54 2014
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Peak virtual memory: 533 megabytes
+    Info: Processing ended: Thu Apr 10 21:08:14 2014
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:06
 
 

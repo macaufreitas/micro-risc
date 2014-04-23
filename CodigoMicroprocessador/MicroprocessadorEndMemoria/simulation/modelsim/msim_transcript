@@ -92,13 +92,4 @@
 # .main_pane.objects.interior.cs.body.tree
 # run -all
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1125 ns  Iteration: 1  Instance: /microprocessadorendmemoriatb/Micro/Calc
-add wave -position insertpoint sim:/microprocessadorendmemoriatb/Micro/RegS/*
-add wave -position insertpoint sim:/microprocessadorendmemoriatb/Micro/Demux/*
-add wave -position insertpoint sim:/microprocessadorendmemoriatb/Micro/Calc/*
-add wave -position insertpoint  \
-sim:/microprocessadorendmemoriatb/Micro/addr
-restart
-run
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1125 ns  Iteration: 1  Instance: /microprocessadorendmemoriatb/Micro/Calc
+#    Time: 625 ns  Iteration: 1  Instance: /microprocessadorendmemoriatb/Micro/Calc

@@ -1,5 +1,5 @@
 EDA Netlist Writer report for Demultiplexador
-Wed Feb 26 20:54:56 2014
+Sun Apr 13 22:23:05 2014
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Wed Feb 26 20:54:56 2014 ;
+; EDA Netlist Writer Status ; Successful - Sun Apr 13 22:23:05 2014 ;
 ; Revision Name             ; Demultiplexador                       ;
 ; Top-level Entity Name     ; Demultiplexador                       ;
 ; Family                    ; Cyclone IV GX                         ;
@@ -66,20 +66,20 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                                                                ;
-+-------------------------------------------------------------------------------------------------------------------------------------------+
-; Generated Files                                                                                                                           ;
-+-------------------------------------------------------------------------------------------------------------------------------------------+
-; C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/Demultiplexador_6_1200mv_85c_slow.vho      ;
-; C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/Demultiplexador_6_1200mv_0c_slow.vho       ;
-; C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/Demultiplexador_min_1200mv_0c_fast.vho     ;
-; C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/Demultiplexador.vho                        ;
-; C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/Demultiplexador_6_1200mv_85c_vhd_slow.sdo  ;
-; C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/Demultiplexador_6_1200mv_0c_vhd_slow.sdo   ;
-; C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/Demultiplexador_min_1200mv_0c_vhd_fast.sdo ;
-; C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/Demultiplexador_vhd.sdo                    ;
-+-------------------------------------------------------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                                                                                      ;
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                                                                                 ;
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/Demultiplexador_6_1200mv_85c_slow.vho      ;
+; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/Demultiplexador_6_1200mv_0c_slow.vho       ;
+; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/Demultiplexador_min_1200mv_0c_fast.vho     ;
+; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/Demultiplexador.vho                        ;
+; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/Demultiplexador_6_1200mv_85c_vhd_slow.sdo  ;
+; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/Demultiplexador_6_1200mv_0c_vhd_slow.sdo   ;
+; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/Demultiplexador_min_1200mv_0c_vhd_fast.sdo ;
+; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/Demultiplexador_vhd.sdo                    ;
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -88,20 +88,20 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Wed Feb 26 20:54:55 2014
+    Info: Processing started: Sun Apr 13 22:23:02 2014
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off Demultiplexador -c Demultiplexador
-Info (204019): Generated file Demultiplexador_6_1200mv_85c_slow.vho in folder "C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file Demultiplexador_6_1200mv_0c_slow.vho in folder "C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file Demultiplexador_min_1200mv_0c_fast.vho in folder "C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file Demultiplexador.vho in folder "C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file Demultiplexador_6_1200mv_85c_vhd_slow.sdo in folder "C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file Demultiplexador_6_1200mv_0c_vhd_slow.sdo in folder "C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file Demultiplexador_min_1200mv_0c_vhd_fast.sdo in folder "C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file Demultiplexador_vhd.sdo in folder "C:/Users/Marcos Aurelio/Dropbox/TFG/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Demultiplexador_6_1200mv_85c_slow.vho in folder "C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Demultiplexador_6_1200mv_0c_slow.vho in folder "C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Demultiplexador_min_1200mv_0c_fast.vho in folder "C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Demultiplexador.vho in folder "C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Demultiplexador_6_1200mv_85c_vhd_slow.sdo in folder "C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Demultiplexador_6_1200mv_0c_vhd_slow.sdo in folder "C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Demultiplexador_min_1200mv_0c_vhd_fast.sdo in folder "C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Demultiplexador_vhd.sdo in folder "C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/Demultiplexador/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 474 megabytes
-    Info: Processing ended: Wed Feb 26 20:54:56 2014
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Peak virtual memory: 493 megabytes
+    Info: Processing ended: Sun Apr 13 22:23:06 2014
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:04
 
 

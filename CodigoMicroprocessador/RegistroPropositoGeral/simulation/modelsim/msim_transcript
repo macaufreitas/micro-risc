@@ -1,4 +1,5 @@
 # Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
 # do RegistroPropositoGeral_run_msim_rtl_vhdl.do 
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
@@ -10,7 +11,7 @@
 # ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -18,7 +19,7 @@
 # -- Compiling entity RegistroPropositoGeral
 # -- Compiling architecture ArquiteturaRPG of RegistroPropositoGeral
 # 
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeralTB.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeralTB.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -26,11 +27,22 @@
 # -- Compiling entity RegistroPropositoGeralTB
 # -- Compiling architecture ArquiteturaRPGTB of RegistroPropositoGeralTB
 # 
-# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  TesteRPG
-# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=\"+acc\" -t 1ps TesteRPG 
-# ** Error: (vsim-3170) Could not find 'C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/simulation/modelsim/rtl_work.TesteRPG'.
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  RegistroPropositoGeralTB
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=\"+acc\" -t 1ps RegistroPropositoGeralTB 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.registropropositogeraltb(arquiteturarpgtb)
+# Loading work.registropropositogeral(arquiteturarpg)
 # 
-# Error loading design
-# Error: Error loading design 
-#        Pausing macro execution 
-# MACRO ./RegistroPropositoGeral_run_msim_rtl_vhdl.do PAUSED at line 12
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+add wave -position insertpoint  \
+sim:/registropropositogeraltb/RPG/AX \
+sim:/registropropositogeraltb/RPG/DX
+restart
+run

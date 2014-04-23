@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for Demultiplexador
-Wed Feb 26 20:54:53 2014
+Sun Apr 13 22:22:58 2014
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -96,15 +96,22 @@ applicable agreement for further details.
 +--------------------+----------------------------------------------------+
 
 
-Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
-+-------------------------------------+
-; Parallel Compilation                ;
-+----------------------------+--------+
-; Processors                 ; Number ;
-+----------------------------+--------+
-; Number detected on machine ; 4      ;
-; Maximum allowed            ; 1      ;
-+----------------------------+--------+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 4           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ; < 0.1%      ;
+;     Processors 5-8         ;   0.0%      ;
++----------------------------+-------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1493,10 +1500,10 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Wed Feb 26 20:54:49 2014
+    Info: Processing started: Sun Apr 13 22:22:46 2014
 Info: Command: quartus_sta Demultiplexador -c Demultiplexador
 Info: qsta_default_script.tcl version: #1
-Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
 Info (21076): High junction temperature operating condition is not set. Assuming a default value of '85'.
 Info (21076): Low junction temperature operating condition is not set. Assuming a default value of '0'.
 Warning (335093): TimeQuest Timing Analyzer is analyzing 32 combinational loops as latches.
@@ -1548,10 +1555,10 @@ Info (332146): Worst-case minimum pulse width slack is -3.000
     Info (332119):    -3.000              -3.000 seletor 
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
-Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 515 megabytes
-    Info: Processing ended: Wed Feb 26 20:54:53 2014
-    Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:03
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
+    Info: Peak virtual memory: 543 megabytes
+    Info: Processing ended: Sun Apr 13 22:22:58 2014
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:12
 
 

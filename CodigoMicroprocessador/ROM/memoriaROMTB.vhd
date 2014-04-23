@@ -13,69 +13,68 @@ end memoriaROMTB;
 architecture Arquitetura of memoriaROMTB is
 
 	-- Declaracao dos sinais do test bench
-	signal clock_tb,habilita_tb : std_logic;
+	signal clock_tb,chipenable_tb : std_logic;
 	signal saida_tb 	 : std_logic_vector(15 downto 0);
-	signal endereco_tb : INTEGER RANGE 0 TO 255;
+	signal endereco_tb : std_logic_vector(19 downto 0);
 	
 	-- Constante para controle do tempo
-	constant periodoClock : time := 100 us;
+	constant periodoClock : time := 50 ns;
 	
 	-- Instancia da Memoria RAM
 	component memoriaROM is
-	port (       clk          : IN  STD_LOGIC;
-                endereco     : INTEGER RANGE 0 TO 255;
-                habilita   : IN  STD_LOGIC;
+	PORT (       clk          : IN  STD_LOGIC;
+                endereco     : in  STD_LOGIC_VECTOR(19 downto 0);
+                chipenable   : IN  STD_LOGIC;
                 saida        : OUT STD_LOGIC_VECTOR(15 DOWNTO 0));
 	end component;
 
 	
 begin
-	memROM : memoriaROM port map(clock_tb,endereco_tb,habilita_tb,saida_tb);
+	memROM : memoriaROM port map(clock_tb,endereco_tb,chipenable_tb,saida_tb);
 	
 	-- Cria processo do clock
    Clock : process
+	variable cont : integer := 0;
 	begin
+		if (cont /= 40) then
         clock_tb <= '0';
         wait for periodoClock/2;
         clock_tb <= '1';
         wait for periodoClock/2;
+		  cont := cont + 1;
+		else
+		  wait;
+		end if;
    end process;
 	
 	process
 	begin
 		-----------------------
-		habilita_tb <= '1';
-		endereco_tb <= 0;
+		chipenable_tb <= '1';
+		endereco_tb <= X"00000";
 		wait for periodoClock;
 		-----------------------
 		
 		-----------------------
-		endereco_tb <= 1;
+		endereco_tb <= X"00001";
 		wait for periodoClock;
 		-----------------------
 		
 		-----------------------
-		endereco_tb <= 2;
+		endereco_tb <= X"00002";
 		wait for periodoClock;
 		-----------------------
 		
 		-----------------------
-		endereco_tb <= 3;
+		endereco_tb <= X"00003";
 		wait for periodoClock;
 		-----------------------
 		
 		-----------------------
-		endereco_tb <= 254;
+		endereco_tb <= X"000FF";
 		wait for periodoClock;
 		-----------------------
-		
-		wait for periodoClock;
-		
-		assert false report "NONE. End of simulation." severity failure;
 		
 		wait;
-		
-		wait;
-		
 	end process;
 end Arquitetura;

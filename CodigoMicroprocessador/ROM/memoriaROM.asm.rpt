@@ -1,5 +1,5 @@
 Assembler report for memoriaROM
-Tue Apr 15 21:00:29 2014
+Fri Apr 18 11:14:58 2014
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -10,8 +10,8 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROM.sof
-  6. Assembler Device Options: C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROM.pof
+  5. Assembler Device Options: C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROM.sof
+  6. Assembler Device Options: C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROM.pof
   7. Assembler Messages
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Tue Apr 15 21:00:29 2014 ;
+; Assembler Status      ; Successful - Fri Apr 18 11:14:58 2014 ;
 ; Revision Name         ; memoriaROM                            ;
 ; Top-level Entity Name ; memoriaROM                            ;
 ; Family                ; Cyclone III                           ;
@@ -79,37 +79,37 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+-------------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                                 ;
-+-------------------------------------------------------------------------------------------+
-; File Name                                                                                 ;
-+-------------------------------------------------------------------------------------------+
-; C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROM.sof ;
-; C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROM.pof ;
-+-------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                           ;
++-----------------------------------------------------------------------------------------------------+
+; File Name                                                                                           ;
++-----------------------------------------------------------------------------------------------------+
+; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROM.sof ;
+; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROM.pof ;
++-----------------------------------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROM.sof ;
-+----------------+----------------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                            ;
-+----------------+----------------------------------------------------------------------------------------------------+
-; Device         ; EP3C5F256C6                                                                                        ;
-; JTAG usercode  ; 0xFFFFFFFF                                                                                         ;
-; Checksum       ; 0x00089D13                                                                                         ;
-+----------------+----------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROM.sof ;
++----------------+--------------------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                                      ;
++----------------+--------------------------------------------------------------------------------------------------------------+
+; Device         ; EP3C5F256C6                                                                                                  ;
+; JTAG usercode  ; 0xFFFFFFFF                                                                                                   ;
+; Checksum       ; 0x000897C3                                                                                                   ;
++----------------+--------------------------------------------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROM.pof ;
-+--------------------+------------------------------------------------------------------------------------------------+
-; Option             ; Setting                                                                                        ;
-+--------------------+------------------------------------------------------------------------------------------------+
-; Device             ; EPCS4                                                                                          ;
-; JTAG usercode      ; 0x00000000                                                                                     ;
-; Checksum           ; 0x06752B04                                                                                     ;
-; Compression Ratio  ; 3                                                                                              ;
-+--------------------+------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROM.pof ;
++--------------------+----------------------------------------------------------------------------------------------------------+
+; Option             ; Setting                                                                                                  ;
++--------------------+----------------------------------------------------------------------------------------------------------+
+; Device             ; EPCS4                                                                                                    ;
+; JTAG usercode      ; 0x00000000                                                                                               ;
+; Checksum           ; 0x067547AE                                                                                               ;
+; Compression Ratio  ; 3                                                                                                        ;
++--------------------+----------------------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -118,14 +118,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Tue Apr 15 21:00:27 2014
+    Info: Processing started: Fri Apr 18 11:14:54 2014
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off memoriaROM -c memoriaROM
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 437 megabytes
-    Info: Processing ended: Tue Apr 15 21:00:29 2014
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Peak virtual memory: 467 megabytes
+    Info: Processing ended: Fri Apr 18 11:14:58 2014
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:05
 
 

@@ -1,5 +1,5 @@
 EDA Netlist Writer report for UnidadeDeControle
-Thu Mar 06 21:55:47 2014
+Fri Apr 18 14:17:58 2014
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Thu Mar 06 21:55:47 2014 ;
+; EDA Netlist Writer Status ; Successful - Fri Apr 18 14:17:58 2014 ;
 ; Revision Name             ; UnidadeDeControle                     ;
 ; Top-level Entity Name     ; UnidadeDeControle                     ;
 ; Family                    ; Cyclone III                           ;
@@ -66,20 +66,20 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                                                                        ;
-+---------------------------------------------------------------------------------------------------------------------------------------------------+
-; Generated Files                                                                                                                                   ;
-+---------------------------------------------------------------------------------------------------------------------------------------------------+
-; C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/UnidadeDeControle_7_1200mv_100c_slow.vho       ;
-; C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/UnidadeDeControle_7_1200mv_-40c_slow.vho       ;
-; C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/UnidadeDeControle_min_1200mv_-40c_fast.vho     ;
-; C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/UnidadeDeControle.vho                          ;
-; C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/UnidadeDeControle_7_1200mv_100c_vhd_slow.sdo   ;
-; C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/UnidadeDeControle_7_1200mv_-40c_vhd_slow.sdo   ;
-; C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/UnidadeDeControle_min_1200mv_-40c_vhd_fast.sdo ;
-; C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/UnidadeDeControle_vhd.sdo                      ;
-+---------------------------------------------------------------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                                                                                            ;
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                                                                                       ;
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/UnidadeDeControle_7_1200mv_100c_slow.vho       ;
+; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/UnidadeDeControle_7_1200mv_-40c_slow.vho       ;
+; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/UnidadeDeControle_min_1200mv_-40c_fast.vho     ;
+; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/UnidadeDeControle.vho                          ;
+; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/UnidadeDeControle_7_1200mv_100c_vhd_slow.sdo   ;
+; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/UnidadeDeControle_7_1200mv_-40c_vhd_slow.sdo   ;
+; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/UnidadeDeControle_min_1200mv_-40c_vhd_fast.sdo ;
+; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/UnidadeDeControle_vhd.sdo                      ;
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -88,20 +88,20 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Thu Mar 06 21:55:46 2014
+    Info: Processing started: Fri Apr 18 14:17:55 2014
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off UnidadeDeControle -c UnidadeDeControle
-Info (204019): Generated file UnidadeDeControle_7_1200mv_100c_slow.vho in folder "C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file UnidadeDeControle_7_1200mv_-40c_slow.vho in folder "C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file UnidadeDeControle_min_1200mv_-40c_fast.vho in folder "C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file UnidadeDeControle.vho in folder "C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file UnidadeDeControle_7_1200mv_100c_vhd_slow.sdo in folder "C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file UnidadeDeControle_7_1200mv_-40c_vhd_slow.sdo in folder "C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file UnidadeDeControle_min_1200mv_-40c_vhd_fast.sdo in folder "C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file UnidadeDeControle_vhd.sdo in folder "C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file UnidadeDeControle_7_1200mv_100c_slow.vho in folder "C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file UnidadeDeControle_7_1200mv_-40c_slow.vho in folder "C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file UnidadeDeControle_min_1200mv_-40c_fast.vho in folder "C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file UnidadeDeControle.vho in folder "C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file UnidadeDeControle_7_1200mv_100c_vhd_slow.sdo in folder "C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file UnidadeDeControle_7_1200mv_-40c_vhd_slow.sdo in folder "C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file UnidadeDeControle_min_1200mv_-40c_vhd_fast.sdo in folder "C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file UnidadeDeControle_vhd.sdo in folder "C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/UnidadeDeControle/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 428 megabytes
-    Info: Processing ended: Thu Mar 06 21:55:47 2014
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Processing ended: Fri Apr 18 14:17:59 2014
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:03
 
 

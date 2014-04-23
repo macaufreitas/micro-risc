@@ -11,15 +11,17 @@
 # ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vcom -93 -work work {C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROM.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROM.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity memoriaROM
 # -- Compiling architecture arch of memoriaROM
 # 
-# vcom -93 -work work {C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROMTB.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROMTB.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -33,6 +35,8 @@
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading work.memoriaromtb(arquitetura)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
 # Loading work.memoriarom(arch)
 # 
 # add wave *
@@ -41,8 +45,3 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# ** Failure: NONE. End of simulation.
-#    Time: 600 us  Iteration: 0  Process: /memoriaromtb/line__45 File: C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROMTB.vhd
-# Break in Process line__45 at C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROMTB.vhd line 74
-# Simulation Breakpoint: Break in Process line__45 at C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/ROM/memoriaROMTB.vhd line 74
-# MACRO ./memoriaROM_run_msim_rtl_vhdl.do PAUSED at line 17

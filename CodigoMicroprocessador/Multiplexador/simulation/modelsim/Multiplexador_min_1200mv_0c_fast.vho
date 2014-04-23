@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus II 64-Bit"
 -- VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition"
 
--- DATE "03/25/2014 15:17:45"
+-- DATE "04/13/2014 23:05:03"
 
 -- 
 -- Device: Altera EP3C5F256C6 Package FBGA256
@@ -35,7 +35,7 @@ ENTITY 	Multiplexador IS
     PORT (
 	entrada_01 : IN std_logic_vector(15 DOWNTO 0);
 	entrada_02 : IN std_logic_vector(15 DOWNTO 0);
-	saida : OUT std_logic_vector(15 DOWNTO 0);
+	saida : BUFFER std_logic_vector(15 DOWNTO 0);
 	seletor : IN std_logic
 	);
 END Multiplexador;

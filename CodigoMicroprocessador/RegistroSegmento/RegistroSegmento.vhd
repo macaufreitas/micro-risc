@@ -31,7 +31,7 @@ begin
 	-- Processo de Reset - Escrita - Incremento IP
 	ProcessoResetEscrita : process (clock, reset, soma_IP)
 	begin
-		if (reset = '0' and habilita = '1') then
+		if (reset = '0') then
 			ES <= X"0000";
 			CS <= X"0000";
 			SS <= X"0000";

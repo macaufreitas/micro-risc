@@ -9,9 +9,8 @@ use ieee.std_logic_arith.all;
 --------------------------------------
 
 ----------------------------------------------------
--- seletorOperacao = 000 ==> Operacao de Adicao ----
--- seletorOperacao = 001 ==> Operacao de Subtracao -
--- seletorOperacao = XXX ==> Alta Impedancia -------
+-- seletorOperacao = 0 ==> Operacao de Adicao ------
+-- seletorOperacao = 1 ==> Operacao de Subtracao ---
 ----------------------------------------------------
 
 entity DetectorAuxiliarFlag is

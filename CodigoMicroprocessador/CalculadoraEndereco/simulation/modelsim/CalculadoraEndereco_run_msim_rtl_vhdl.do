@@ -5,9 +5,9 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vcom -93 -work work {C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd}
+vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd}
 
-vcom -93 -work work {C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEnderecoTB.vhd}
+vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEnderecoTB.vhd}
 
 vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs="+acc"  CalculadoraEnderecoTB
 

@@ -1,5 +1,5 @@
 Flow report for Multiplexador
-Tue Mar 25 15:17:45 2014
+Sun Apr 13 23:05:04 2014
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Flow Summary                                                                    ;
 +------------------------------------+--------------------------------------------+
-; Flow Status                        ; Successful - Tue Mar 25 15:17:45 2014      ;
+; Flow Status                        ; Successful - Sun Apr 13 23:05:03 2014      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; Multiplexador                              ;
 ; Top-level Entity Name              ; Multiplexador                              ;
@@ -64,25 +64,31 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/25/2014 15:16:46 ;
+; Start date & time ; 04/13/2014 23:04:08 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Multiplexador       ;
 +-------------------+---------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                    ;
-+-------------------------------------+--------------------------------+---------------+-------------+----------------+
-; Assignment Name                     ; Value                          ; Default Value ; Entity Name ; Section Id     ;
-+-------------------------------------+--------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 52863701328856.139577140605428 ; --            ; --          ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                           ; --            ; --          ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)         ; <None>        ; --          ; --             ;
-; PARTITION_COLOR                     ; 16764057                       ; --            ; --          ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --            ; --          ; Top            ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                         ; --            ; --          ; Top            ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                   ; --            ; --          ; --             ;
-+-------------------------------------+--------------------------------+---------------+-------------+----------------+
++-----------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                      ;
++--------------------------------------+--------------------------------+---------------+-------------+-----------------+
+; Assignment Name                      ; Value                          ; Default Value ; Entity Name ; Section Id      ;
++--------------------------------------+--------------------------------+---------------+-------------+-----------------+
+; COMPILER_SIGNATURE_ID                ; 88750180851854.139744104706668 ; --            ; --          ; --              ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                             ; --            ; --          ; MultiplexadorTB ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; MultiplexadorTB                ; --            ; --          ; eda_simulation  ;
+; EDA_OUTPUT_DATA_FORMAT               ; Vhdl                           ; --            ; --          ; eda_simulation  ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (VHDL)         ; <None>        ; --          ; --              ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                ; --            ; --          ; eda_simulation  ;
+; EDA_TEST_BENCH_FILE                  ; MultiplexadorTB.vhd            ; --            ; --          ; MultiplexadorTB ;
+; EDA_TEST_BENCH_MODULE_NAME           ; MultiplexadorTB                ; --            ; --          ; MultiplexadorTB ;
+; EDA_TEST_BENCH_NAME                  ; MultiplexadorTB                ; --            ; --          ; eda_simulation  ;
+; PARTITION_COLOR                      ; 16764057                       ; --            ; --          ; Top             ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; PLACEMENT_AND_ROUTING          ; --            ; --          ; Top             ;
+; PARTITION_NETLIST_TYPE               ; SOURCE                         ; --            ; --          ; Top             ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                   ; --            ; --          ; --              ;
++--------------------------------------+--------------------------------+---------------+-------------+-----------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -90,12 +96,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:07     ; 1.0                     ; 538 MB              ; 00:00:06                           ;
-; Fitter                    ; 00:00:19     ; 1.0                     ; 1109 MB             ; 00:00:19                           ;
-; Assembler                 ; 00:00:04     ; 1.0                     ; 450 MB              ; 00:00:04                           ;
-; TimeQuest Timing Analyzer ; 00:00:06     ; 1.0                     ; 528 MB              ; 00:00:06                           ;
-; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 420 MB              ; 00:00:03                           ;
-; Total                     ; 00:00:39     ; --                      ; --                  ; 00:00:38                           ;
+; Analysis & Synthesis      ; 00:00:07     ; 1.0                     ; 532 MB              ; 00:00:06                           ;
+; Fitter                    ; 00:00:17     ; 1.0                     ; 1114 MB             ; 00:00:18                           ;
+; Assembler                 ; 00:00:05     ; 1.0                     ; 475 MB              ; 00:00:04                           ;
+; TimeQuest Timing Analyzer ; 00:00:08     ; 1.0                     ; 531 MB              ; 00:00:08                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 426 MB              ; 00:00:03                           ;
+; Total                     ; 00:00:39     ; --                      ; --                  ; 00:00:39                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

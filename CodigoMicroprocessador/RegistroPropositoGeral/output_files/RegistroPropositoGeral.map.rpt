@@ -1,5 +1,5 @@
 Analysis & Synthesis report for RegistroPropositoGeral
-Mon Mar 10 18:30:44 2014
+Wed Apr 09 22:38:07 2014
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -42,7 +42,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Mar 10 18:30:44 2014      ;
+; Analysis & Synthesis Status        ; Successful - Wed Apr 09 22:38:07 2014      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; RegistroPropositoGeral                     ;
 ; Top-level Entity Name              ; RegistroPropositoGeral                     ;
@@ -166,13 +166,13 @@ applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                          ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                   ; Library ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------------------+---------+
-; RegistroPropositoGeral.vhd       ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd ;         ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                              ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                                       ; Library ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------+---------+
+; RegistroPropositoGeral.vhd       ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd ;         ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------+
@@ -228,7 +228,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -238,7 +238,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Mon Mar 10 18:30:37 2014
+    Info: Processing started: Wed Apr 09 22:37:58 2014
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off RegistroPropositoGeral -c RegistroPropositoGeral
 Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
 Info (12021): Found 2 design units, including 1 entities, in source file registropropositogeral.vhd
@@ -259,9 +259,9 @@ Info (21057): Implemented 257 device resources after synthesis - the final resou
     Info (21059): Implemented 16 output pins
     Info (21061): Implemented 218 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 3 warnings
-    Info: Peak virtual memory: 590 megabytes
-    Info: Processing ended: Mon Mar 10 18:30:44 2014
-    Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Peak virtual memory: 598 megabytes
+    Info: Processing ended: Wed Apr 09 22:38:07 2014
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:09
 
 

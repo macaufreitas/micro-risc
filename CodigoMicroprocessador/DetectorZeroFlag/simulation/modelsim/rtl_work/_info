@@ -2,22 +2,22 @@ m255
 K3
 13
 cModel Technology
-Z0 dC:\Users\Marcos Aurelio\Desktop\micro-8086-risc\CodigoMicroprocessador\DetectorZeroFlag\simulation\modelsim
+Z0 dC:\Users\Marcos Aurelio\Desktop\DetectorZeroFlag\simulation\modelsim
 Edetectorzeroflag
-Z1 w1397092295
+Z1 w1396039309
 Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
-Z4 dC:\Users\Marcos Aurelio\Desktop\micro-8086-risc\CodigoMicroprocessador\DetectorZeroFlag\simulation\modelsim
-Z5 8C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlag.vhd
-Z6 FC:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlag.vhd
+Z4 dC:\Users\Marcos Aurelio\Desktop\DetectorZeroFlag\simulation\modelsim
+Z5 8C:/Users/Marcos Aurelio/Desktop/DetectorZeroFlag/DetectorZeroFlag.vhd
+Z6 FC:/Users/Marcos Aurelio/Desktop/DetectorZeroFlag/DetectorZeroFlag.vhd
 l0
 L10
 V^hdNW<HCiI>jP>@j`=D5`0
 Z7 OV;C;10.1d;51
 31
-Z8 !s108 1397097146.006000
-Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlag.vhd|
-Z10 !s107 C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlag.vhd|
+Z8 !s108 1396039389.478000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/DetectorZeroFlag/DetectorZeroFlag.vhd|
+Z10 !s107 C:/Users/Marcos Aurelio/Desktop/DetectorZeroFlag/DetectorZeroFlag.vhd|
 Z11 o-93 -work work -O0
 Z12 tExplicit 1
 !s100 J:T>EfzJl>]8Qzlhi75=_0
@@ -39,12 +39,12 @@ R12
 !s100 9W;eRaW1>613CM?[YE0@H1
 !i10b 1
 Edetectorzeroflagtb
-R1
+Z13 w1396039321
 R2
 R3
 R4
-Z13 8C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlagTB.vhd
-Z14 FC:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlagTB.vhd
+Z14 8C:/Users/Marcos Aurelio/Desktop/DetectorZeroFlag/DetectorZeroFlagTB.vhd
+Z15 FC:/Users/Marcos Aurelio/Desktop/DetectorZeroFlag/DetectorZeroFlagTB.vhd
 l0
 L10
 V^AL5YdE=`Q^=?@;a;GeYV2
@@ -52,9 +52,9 @@ V^AL5YdE=`Q^=?@;a;GeYV2
 R7
 31
 !i10b 1
-Z15 !s108 1397097146.506000
-Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlagTB.vhd|
-Z17 !s107 C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlagTB.vhd|
+Z16 !s108 1396039390.084000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/Marcos Aurelio/Desktop/DetectorZeroFlag/DetectorZeroFlagTB.vhd|
+Z18 !s107 C:/Users/Marcos Aurelio/Desktop/DetectorZeroFlag/DetectorZeroFlagTB.vhd|
 R11
 R12
 Aarquiteturadzftb
@@ -68,8 +68,8 @@ VOFoKIEH?8lL[V3RA5BW]_3
 R7
 31
 !i10b 1
-R15
 R16
 R17
+R18
 R11
 R12

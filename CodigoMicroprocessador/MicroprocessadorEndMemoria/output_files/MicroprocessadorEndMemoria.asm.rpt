@@ -1,5 +1,5 @@
 Assembler report for MicroprocessadorEndMemoria
-Mon Mar 31 23:50:17 2014
+Fri Apr 18 12:35:30 2014
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -37,7 +37,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Mon Mar 31 23:50:17 2014 ;
+; Assembler Status      ; Successful - Fri Apr 18 12:35:30 2014 ;
 ; Revision Name         ; MicroprocessadorEndMemoria            ;
 ; Top-level Entity Name ; MicroprocessadorEndMemoria            ;
 ; Family                ; Cyclone III                           ;
@@ -92,8 +92,8 @@ applicable agreement for further details.
 ; Option         ; Setting                                                                                                                                                          ;
 +----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Device         ; EP3C5F256C6                                                                                                                                                      ;
-; JTAG usercode  ; 0x00099B4E                                                                                                                                                       ;
-; Checksum       ; 0x00099B4E                                                                                                                                                       ;
+; JTAG usercode  ; 0x00099E5F                                                                                                                                                       ;
+; Checksum       ; 0x00099E5F                                                                                                                                                       ;
 +----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -103,14 +103,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Mon Mar 31 23:50:12 2014
+    Info: Processing started: Fri Apr 18 12:35:25 2014
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off MicroprocessadorEndMemoria -c MicroprocessadorEndMemoria
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 475 megabytes
-    Info: Processing ended: Mon Mar 31 23:50:17 2014
+    Info: Processing ended: Fri Apr 18 12:35:30 2014
     Info: Elapsed time: 00:00:05
-    Info: Total CPU time (on all processors): 00:00:05
+    Info: Total CPU time (on all processors): 00:00:04
 
 

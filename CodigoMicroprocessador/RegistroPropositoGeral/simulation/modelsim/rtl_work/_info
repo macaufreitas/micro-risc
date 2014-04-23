@@ -2,22 +2,22 @@ m255
 K3
 13
 cModel Technology
-Z0 dC:\Users\silvadenisaraujo\Dropbox\TFG\CodigoMicroprocessador\RegistroPropositoGeral\simulation\modelsim
+Z0 dC:\Users\silvadenisaraujo\Desktop\TFG8086\micro-8086-risc\CodigoMicroprocessador\RegistroPropositoGeral\simulation\modelsim
 Eregistropropositogeral
-Z1 w1394412582
+Z1 w1397092884
 Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
-Z4 dC:\Users\silvadenisaraujo\Dropbox\TFG\CodigoMicroprocessador\RegistroPropositoGeral\simulation\modelsim
-Z5 8C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd
-Z6 FC:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd
+Z4 dC:\Users\silvadenisaraujo\Desktop\TFG8086\micro-8086-risc\CodigoMicroprocessador\RegistroPropositoGeral\simulation\modelsim
+Z5 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd
+Z6 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd
 l0
 L10
 VUd887ee4RFajP54716i?C2
 Z7 OV;C;10.1d;51
 31
-Z8 !s108 1394487195.254000
-Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd|
-Z10 !s107 C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd|
+Z8 !s108 1397094067.339000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd|
+Z10 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd|
 Z11 o-93 -work work -O0
 Z12 tExplicit 1
 !s100 _K_U0O2`nJUTlfCTljz_D1
@@ -39,12 +39,12 @@ R12
 !s100 97EJD@gZ_oRLQ[O`nziVU1
 !i10b 1
 Eregistropropositogeraltb
-Z13 w1394413960
+Z13 w1397093873
 R2
 R3
 R4
-Z14 8C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeralTB.vhd
-Z15 FC:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeralTB.vhd
+Z14 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeralTB.vhd
+Z15 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeralTB.vhd
 l0
 L10
 Vg=BSNkdMJgW:=lZh[3KHF1
@@ -52,9 +52,9 @@ Vg=BSNkdMJgW:=lZh[3KHF1
 R7
 31
 !i10b 1
-Z16 !s108 1394487195.543000
-Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeralTB.vhd|
-Z18 !s107 C:/Users/silvadenisaraujo/Dropbox/TFG/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeralTB.vhd|
+Z16 !s108 1397094068.072000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeralTB.vhd|
+Z18 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-8086-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeralTB.vhd|
 R11
 R12
 Aarquiteturarpgtb
@@ -63,8 +63,8 @@ R3
 DEx4 work 24 registropropositogeraltb 0 22 g=BSNkdMJgW:=lZh[3KHF1
 l37
 L13
-VmS`5<7C@R]Z58obZD17W22
-!s100 LOB[FEQ36VaafSC@m@[092
+VckG2d=JzPOQ5WhRC6^Cbo2
+!s100 MiiV1l@SB^e4:]W6mh<IQ2
 R7
 31
 !i10b 1
