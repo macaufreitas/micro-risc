@@ -182,11 +182,14 @@
 	\end{tabular}%
 	\label{tabelaRegPropGeral}%
 \end{table}%
-
-	Temos abaixo o resultado produzido pela execução do \textit{testbench}, que também se encontra em anexos.
 	
-	COLOCAR PRINT DO TESTBENCH 
+Temos na figura \ref{figRegPropositoGeralTB} o resultado produzido pela execução do \textit{testbench}, que também se encontra em anexos.
 	
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=0.5]{printsImplementacaoVHDL/regPropositoGeralTB.png}
+		\caption{Resultado do \textit{testbench} aplicado ao componente de Registro de Propósito Geral}
+		\label{figRegPropositoGeralTB}
+	\end{figure}
 	
 \subsection{Registro de Segmento}
 	Com funcionamento semelhante do Registro de Propósito Geral, possui o objetivo de encaplusar os registradores que possuem o funcionamento de manipulação de memória que são, CS, ES, DS, SS, além do contador de índice IP. Diferentemente, do Registro de Popósito Geral, o registro de Segmento, possui uma linha de entrada denominada incrementa\_IP, tal linha foi implementada a fim de facilitar o comando de incremento de IP para se caminhar continuamente na memória, sendo que o registro possui acesso direto ao registrador IP, em vez de se desenvolver uma estrutura própria para este cálculo. Tal registro também possui seu devido barramento de controle de 3 bits, que está descrito na tabela \ref{tabelaRegSeg}, porém como descrito anteriormente este barramento será fixado em "001" para que somente seja utilizado o segmento de código para o funcionamento deste microprocessador.
@@ -214,18 +217,70 @@
   \label{tabelaRegSeg}%
 \end{table}%
 
-	Temos abaixo o resultado produzido pela execução do \textit{testbench}, que também se encontra em anexos.
+	Temos na figura \ref{figRegSegmentoTB} o resultado produzido pela execução do \textit{testbench}, que também se encontra em anexos.
 	
-	COLOCAR PRINT DO TESTBENCH 
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=0.7]{printsImplementacaoVHDL/regSegmentoTB.png}
+		\caption{Resultado do \textit{testbench} aplicado ao componente de Registro de Segmento}
+		\label{figRegSegmentoTB}
+	\end{figure}
 
 \subsection{Calculadora de Endereço}
-	Foi desenvolvido uma calculadora de endereço que tem o papel de realizar o cálculo do endereço relativo para o endereço físico. Portanto, realizando o papel de deslocar o valor do registro de Segmento
+
+	Foi desenvolvido uma calculadora de endereço para realizar o cálculo do endereço relativo para o endereço físico, por exemplo, temos o seguinte endereço lógico CS:IP, sendo CS com 1200h e IP com 3450h, então, a calculado tem o papel de converter este endereço lógico, realizando a seguinte operação: 12000h + 3405h = 15405h, um endereço físico de 16 bits que é colocado no barramento de endereço do microprocessador, a fim de apontar um endereço na memória. Assim foi desenvolvido um componente simples, com duas entradas de 16 bits e uma saída de 20 bits, temos na figura \ref{figCalcEndTB} a execução do exemplo dado logo a cima.	 
+
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=0.5]{printsImplementacaoVHDL/calcEndTB.png}
+		\caption{Resultado do \textit{testbench} aplicado a Calculadora de Endereço}
+		\label{figCalcEndTB}
+	\end{figure}
 
 \subsection{Demultiplexador}
 	O Demultiplexador seleciona um dos diversos dados de entrada e o transfere para a saída. Foi implementado para possuir duas saídas de 16 bits, devido requisitos básicos do sistema.
 
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=1]{printsImplementacaoVHDL/demuxTB.png}
+		\caption{Resultado do \textit{testbench} aplicado ao Demultiplexador}
+		\label{figDemuxTB}
+	\end{figure}
+
 \subsection{Multiplexador}
 	O Multiplexador seleciona um dos diversos dados de entrada e o transfere para a saída. Assim como o Demultiplexador, foi implementado com duas entradas de 16 bits.
+	
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=1]{printsImplementacaoVHDL/muxTB.png}
+		\caption{Resultado do \textit{testbench} aplicado ao Multiplexador}
+		\label{figMuxTB}
+	\end{figure}
+
+\subsection{Registro de Flags} 
+	O Registro de Flags tem como objetivo guardar o resultado dos flags que são calculado pela Unidade Lógica Aritmética. Funciona como um flip-flop para cada sinal de entrada, porém como saída possui um único vetor de 16 bits, para que tenha uma exibição semelhante à maneira de se manipular flags no microprocessador 8086, podemos verificar seu funcionamento na figura \ref{figRegFlagTB}.
+
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=0.7]{printsImplementacaoVHDL/registroFlagsTB.png}
+		\caption{Resultado do \textit{testbench} aplicado ao Registro de Flags}
+		\label{figRegFlagTB}
+	\end{figure}
+
+\subsection{Unidade de Controle de Endereços}
+	A Unidade de Controle de Endereços possui como objetivo controlar alguns componentes a maneira de realizar a perfeita sincronização entre eles, e que exista um fluxo consistente de dados entre as estruturas para que o cálculo que seja realizado, e que seja correto.
+	Portanto a Unidade de Controle de Endereços é a implementação de uma máquina de estados \ref{figUCEestados}, que é iniciada em reset, e estimulado por pulsos de clock e por um sinal de habilitação advindo da Unidade de Controle, responsável pela realização da sincronia total do microprocessador.
+	
+	\subsubsection{Diagrama de Estados}	
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=0.8]{DiagramaEstadosEnd.png}
+		\caption{Diagrama de Estados da Unidade de Controle de Endereços}
+		\label{figUCEestados}
+	\end{figure}
+	
+	O sinal de habilita existe para que exista uma espécie de domínio da Unidade de Controle sobre a Unidade de Controle de Endereços, pois o papel da controladora de endereços é fornecer á memória o endereço correto para que a unidade de controle sempre acesse no barramento de dados, um dado válido para que a máquina não trave e sempre continue processando cíclicamente, temos na figura \ref{figUCETB} o resultado do \textit{testbench} realizado com a unidade.
+	
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=0.5]{printsImplementacaoVHDL/unidadeControleEndTB.png}
+		\caption{Resultado do \textit{testbench} aplicado a Unidade de Controle de Endereços}
+		\label{figUCETB}
+	\end{figure}
+
 \subsection{Detector do Flag Auxiliar}
 	O Detector do Flag Auxiliar é uma estrutura criada para ser utilizada na Unidade Aritmética e Lógica. Esta estrutura detecta a ocorrência de um "vai um" do bit 3 para o bit 4 ou quando há "vem um" do bit 4 para o bit 3, durante a execução de alguma instrução aritmética.
 	A validação da funcionalidade da estrutura através de um \textit{testbench} é apresentada na figura \ref{saidaAuxiliarFlag} a seguir:
