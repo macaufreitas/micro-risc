@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.17)  22 APR 2014 22:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.12)  22 APR 2014 22:27
 entering extended mode
 **painel-micro-8086.tex
 
-(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\Painel\Painel-Micro
--8086\painel-micro-8086.tex
+("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\Painel\Painel-Micro-808
+6\painel-micro-8086.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -15,9 +15,7 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-
-(C:\Users\silvadenisaraujo\AppData\Roaming\MiKTeX\2.9\tex\latex\a0poster\a0post
-er.cls
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\a0poster\a0poster.cls"
 Document Class: a0poster 2004/01/31 v1.22b a0poster class (GK, MW)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
@@ -43,8 +41,7 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \tausch=\dimen103
 \Ausgabe=\write3
 
-(C:\Users\silvadenisaraujo\AppData\Roaming\MiKTeX\2.9\tex\latex\a0poster\a0size
-.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\a0poster\a0size.sty"
 File: a0size.sty 2004/01/31 v1.22b a0poster class (GK, MW)
 LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 229.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
@@ -53,13 +50,11 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 229.
 \big@size=\dimen104
 ))
-(C:\Users\silvadenisaraujo\AppData\Roaming\MiKTeX\2.9\tex\latex\textpos\textpos
-.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\textpos\textpos.sty"
 Package: textpos 2014/01/03 v1.7j
 
 Package: textpos 2014/01/03 1.7j, absolute positioning of text on the page
-
-(C:\Users\silvadenisaraujo\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )
 \TP@textbox=\box26
@@ -98,15 +93,15 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count91
 ))
-(C:\Users\silvadenisaraujo\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig
-.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
 \wrapoverhang=\dimen113
 \WF@size=\dimen114
 \c@WF@wrappedlines=\count92
 \WF@box=\box28
 \WF@everypar=\toks15
 Package: wrapfig 2003/01/31  v 3.6
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\times.sty"
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\times.sty"
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
@@ -225,8 +220,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 Grid set 17 x 25 = 133.82838pt x 130.67783pt
 TextBlockOrigin set to 20mm x 20mm
 
-(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\Painel\Painel-Micro
--8086\painel-micro-8086.aux)
+("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\Painel\Painel-Micro-808
+6\painel-micro-8086.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
 LaTeX Font Info:    ... okay on input line 79.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
@@ -245,8 +240,7 @@ LaTeX Font Info:    Try loading font information for OT1+ptm on input line 79.
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 ABD: EveryShipout initializing macros
-(C:\Users\silvadenisaraujo\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf
-.mkii
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count100
 \scratchdimen=\dimen120
@@ -362,31 +356,31 @@ File: figuras/aposESB.jpg Graphic file (type jpg)
 Package pdftex.def Info: figuras/aposESB.jpg used on input line 243.
 (pdftex.def)             Requested size: 825.08049pt x 366.36784pt.
 
-(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\Painel\Painel-Micro
--8086\painel-micro-8086.bbl) [1{C:/Users/silvadenisaraujo/AppData/Local/MiKTeX/
-2.9/pdftex/config/pdftex.map}
+("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\Painel\Painel-Micro-808
+6\painel-micro-8086.bbl") [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map
+}
 
 
 Non-PDF special ignored!
-Non-PDF special ignored! <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/
-Latex/Painel/Painel-Micro-8086/figuras/LogoEFEI.jpg> <C:/Users/silvadenisaraujo
-/Desktop/TFG8086/micro-risc/Latex/Painel/Painel-Micro-8086/figuras/Brasao.png> 
-<C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/Painel/Painel-Micro
--8086/figuras/pacs.jpg> <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/L
-atex/Painel/Painel-Micro-8086/figuras/jpdl.jpg> <C:/Users/silvadenisaraujo/Desk
-top/TFG8086/micro-risc/Latex/Painel/Painel-Micro-8086/figuras/webService.jpg> <
-C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/Painel/Painel-Micro-
-8086/figuras/antesESB.jpg> <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-ris
-c/Latex/Painel/Painel-Micro-8086/figuras/aposESB.jpg>]
-(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\Painel\Painel-Micro
--8086\painel-micro-8086.aux)
+Non-PDF special ignored! <C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/Latex
+/Painel/Painel-Micro-8086/figuras/LogoEFEI.jpg> <C:/Users/Marcos Aurelio/Deskto
+p/micro-8086-risc/Latex/Painel/Painel-Micro-8086/figuras/Brasao.png> <C:/Users/
+Marcos Aurelio/Desktop/micro-8086-risc/Latex/Painel/Painel-Micro-8086/figuras/p
+acs.jpg> <C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/Latex/Painel/Painel-M
+icro-8086/figuras/jpdl.jpg> <C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/La
+tex/Painel/Painel-Micro-8086/figuras/webService.jpg> <C:/Users/Marcos Aurelio/D
+esktop/micro-8086-risc/Latex/Painel/Painel-Micro-8086/figuras/antesESB.jpg> <C:
+/Users/Marcos Aurelio/Desktop/micro-8086-risc/Latex/Painel/Painel-Micro-8086/fi
+guras/aposESB.jpg>]
+("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\Painel\Painel-Micro-808
+6\painel-micro-8086.aux")
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
  2464 strings out of 493921
- 38136 string characters out of 3144924
+ 37768 string characters out of 3144849
  118118 words of memory out of 3000000
  5682 multiletter control sequences out of 15000+200000
  17357 words of font info for 40 fonts, out of 3000000 for 9000
