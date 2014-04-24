@@ -153,13 +153,14 @@
 \begin{textblock}{5}(0.3,3.6)
   \LHead{Abstract}
 
-  Service Oriented Architecture (SOA) proposes organization of assets of software in order to enable them to represent processes, activities or tasks of business so directly. Such representations are called Services, which must be based on standards and should be easily combined and reused aiming at satisfying business requirements. This paper aims to show a SOA implementation which contemplates the deployment of a simplified PACS of a hospital, with textual information recovery services implementation for the Radiology Department.
+	The Reduced Instruction Set Computers (RISC) are receiving much attention in the last few years. The main concept of this architecture allows a fast execution in nowadays machines. Once we have fast memories, it isn't necessary to avoid accessing it, so short instructions which do a simple task is the better option. This way, this paper introduce the job of converting a CISC machine (iAPX8086) in a RISC one. The whole process consist in analyse and reduce the instruction set, after this some adjustments need to be done, like adapter all the instructions in order to have all of them in the same size.
   
 \vspace{0.3cm}
  \LHead{Introdução}
 
-  \par Com a evolução muito rápida das tecnologias utilizadas no desenvolvimento de software, muitos dos softwares existentes hoje em dia foram criados sem utilização de padrões e metodologias bem definidas, e com o passar do tempo e o grande crescimento das empresas que utilizam tais softwares, começou a surgir uma necessidade de integração da grande massa de software existente. Entretanto, pela grande falta de padrões, tais softwares não conseguiam comunicar-se entre si. Baseando-se nesse problema, começaram a ser propostas ferramentas que pudessem integrar tais sistemas.
-  \par Esse problema também existe entre sistemas médicos, que apresentam grande dificuldade para que ocorram integrações adequadas, dificultando o diagnóstico de doenças que já poderiam ter sido verificadas em outros hospitais ou o relacionamento entre laudos textuais e imagens obtidas através de exames radiológicos, tomografias e ressonância magnética. Baseado nessa falha já conhecida da integra-ção entre sistemas médicos, é proposto neste trabalho uma solução para essa integração, utilizando para isso uma Arquitetura Orientada a Serviços.
+\par A arquitetura CISC possui um conjunto de instruções extenso, onde cada instrução é capaz de executar uma tarefa bastante complexa. Tal formato requer instruções de tamanhos variados e que necessitam de uma diferente quantidade de ciclos de clock para serem executadas. Esta definição é válida quando se trabalha com memórias de baixa velocidade, onde cada acesso é custoso, e se torna necessário evitar acessos à memória de modo a reduzir o tempo de execução. Porém, atualmente as memórias são de alto desempenho, o que torna desnecessário o intuito de evitar acessá-las.
+
+\par Por sua vez, a arquitetura RISC possui um conjunto de instruções reduzido, onde cada instrução é capaz de realizar um simples tarefa. Há instruções específicas para acessar a memória, de modo a permitir que a seguinte regra possa ser respeitada: A cada ciclo de clock uma nova instrução deve começar a ser executada. Nesta arquitetura todas as instruções possuem o mesmo tamanho e levam a mesma quantidade de cliclos de clock para serem executadas, com excessão das instruções que acessam a memória. Desta forma, este formato é interessante para o hardware disponível atualmente.
 
 \vspace{0.3cm}
  \LHead{Desenvolvimento}
@@ -247,9 +248,12 @@
 \vspace{0.3cm}
   \LHead{Conclusão}
 
-	\par Conforme verificado, a utilização de SOA no contexto proposto proverá abertura para alcançar novos horizontes quanto à integração de sistemas com as funcionalidades mencionadas, abstraídas como serviços. 
-\par Ao publicar tais serviços sobre uma infra-estrutura adequada, torna-se possível a construção de operações mais complexas com respeito à gestão e manipulação de informações dos pacientes, como por e-xemplo a obtenção de prontuário completo para um paciente, base-ado num histórico médico que possa estar distribuído em sistemas distintos e em localidades distintas.
-\par Desta forma, ao aplicar SOA em um ambiente médico, concluimos que SOA é uma tecnologia adequada para a integração de ambientes heterogêneos como os ambientes da área médica.
+\par Conforme descrito neste documento, a adaptação de uma máquina CISC para RISC é um trabalho válido, onde se tem uma redução da quantidade de instruções disponíveis e a diminuição no tempo de execução de cada uma.
+	
+\par O microprocessador resultante deste trabalho é uma máquina eficaz e de simples programação. Estão disponíveis as principais instruções necessárias, com as quais é possível escrever programas que executam as mais diversas tarefas. O desempenho destes programas é de certa forma incrementado e o resultado obtido é considerado satisfatório.
+
+\par Uma boa comparação a ser feita é a análise do código do sistema operacional DOS da Microsoft. Onde as instruções mais utilizadas são as que constam na máquina desenvolvida neste documento.
+
 \bibliographystyle{abnt-alf}	% Este é um estilo que determina como a bibliografia vai aparecer
 															% Existem ainda: abbrv, acm, alpha, amsalpha, amsplain
 

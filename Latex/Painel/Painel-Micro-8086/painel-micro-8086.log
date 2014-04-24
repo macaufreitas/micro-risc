@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.12)  22 APR 2014 22:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.12)  23 APR 2014 21:13
 entering extended mode
 **painel-micro-8086.tex
 
@@ -281,39 +281,39 @@ File: figuras/Brasao.png Graphic file (type png)
 Package pdftex.def Info: figuras/Brasao.png used on input line 147.
 (pdftex.def)             Requested size: 802.99805pt x 805.00555pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 168.
 
 
-LaTeX Warning: Citation `seraphim' on page 1 undefined on input line 167.
+LaTeX Warning: Citation `seraphim' on page 1 undefined on input line 168.
 
 <figuras/pacs.jpg, id=4, 219.9417pt x 317.7471pt>
 File: figuras/pacs.jpg Graphic file (type jpg)
  <use figuras/pacs.jpg>
-Package pdftex.def Info: figuras/pacs.jpg used on input line 173.
+Package pdftex.def Info: figuras/pacs.jpg used on input line 174.
 (pdftex.def)             Requested size: 219.94115pt x 317.7463pt.
 
 
-LaTeX Warning: Citation `soainpractice' on page 1 undefined on input line 179.
+LaTeX Warning: Citation `soainpractice' on page 1 undefined on input line 180.
 
 
-Overfull \hbox (57.34785pt too wide) in paragraph at lines 179--180
+Overfull \hbox (57.34785pt too wide) in paragraph at lines 180--181
 \OT1/ptm/m/n/24.88 Oriented Ar-chi-tec-ture) []e um pa-ra-digma para a com-pre-
 ens[]ao e manuten[][]ao
  []
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 181.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 182.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <24.88> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 181.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 182.
 
 
-LaTeX Warning: Citation `soainpractice' on page 1 undefined on input line 189.
+LaTeX Warning: Citation `soainpractice' on page 1 undefined on input line 190.
 
 
-Overfull \hbox (0.17447pt too wide) in paragraph at lines 199--200
+Overfull \hbox (0.17447pt too wide) in paragraph at lines 200--201
 \OT1/ptm/m/n/24.88 XML (Ex-ten-si-ble Mar-kup Lan-guage) para des-cre-ver flu-x
 os de neg[]o-
  []
@@ -321,16 +321,16 @@ os de neg[]o-
 <figuras/jpdl.jpg, id=5, 415.5525pt x 330.48468pt>
 File: figuras/jpdl.jpg Graphic file (type jpg)
  <use figuras/jpdl.jpg>
-Package pdftex.def Info: figuras/jpdl.jpg used on input line 205.
+Package pdftex.def Info: figuras/jpdl.jpg used on input line 206.
 (pdftex.def)             Requested size: 415.55148pt x 330.48387pt.
 
-Overfull \hbox (4.45358pt too wide) in paragraph at lines 219--220
+Overfull \hbox (4.45358pt too wide) in paragraph at lines 220--221
 []\OT1/ptm/m/n/24.88 Desta forma, prop[]oe-se o uso de Web Ser-vi-ces para a im
 plementa[][]ao
  []
 
 
-Overfull \hbox (8.68184pt too wide) in paragraph at lines 219--220
+Overfull \hbox (8.68184pt too wide) in paragraph at lines 220--221
 \OT1/ptm/m/n/24.88 di-das em servi[]os, que po-dem ser uti-li-za-dos por di-fe-
 ren-tes aplica[][]oes
  []
@@ -339,22 +339,28 @@ ren-tes aplica[][]oes
 File: figuras/webService.jpg Graphic file (type jpg)
 
 <use figuras/webService.jpg>
-Package pdftex.def Info: figuras/webService.jpg used on input line 227.
+Package pdftex.def Info: figuras/webService.jpg used on input line 228.
 (pdftex.def)             Requested size: 702.62328pt x 250.93687pt.
 
 <figuras/antesESB.jpg, id=7, 825.0825pt x 366.36874pt>
 File: figuras/antesESB.jpg Graphic file (type jpg)
 
 <use figuras/antesESB.jpg>
-Package pdftex.def Info: figuras/antesESB.jpg used on input line 235.
+Package pdftex.def Info: figuras/antesESB.jpg used on input line 236.
 (pdftex.def)             Requested size: 825.08049pt x 366.36784pt.
 
 <figuras/aposESB.jpg, id=8, 825.0825pt x 366.36874pt>
 File: figuras/aposESB.jpg Graphic file (type jpg)
 
 <use figuras/aposESB.jpg>
-Package pdftex.def Info: figuras/aposESB.jpg used on input line 243.
+Package pdftex.def Info: figuras/aposESB.jpg used on input line 244.
 (pdftex.def)             Requested size: 825.08049pt x 366.36784pt.
+
+Overfull \hbox (5.82051pt too wide) in paragraph at lines 253--254
+\OT1/ptm/m/n/24.88 e de sim-ples programa[][]ao. Est[]ao dis-pon[]veis as prin
+-ci-pais instru[][]oes
+ []
+
 
 ("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\Painel\Painel-Micro-808
 6\painel-micro-8086.bbl") [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map
@@ -392,7 +398,7 @@ Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on painel-micro-8086.pdf (1 page, 840543 bytes).
+Output written on painel-micro-8086.pdf (1 page, 841003 bytes).
 PDF statistics:
  36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
