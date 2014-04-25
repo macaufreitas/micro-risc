@@ -1,18 +1,12 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: painel-micro-8086.aux
 I couldn't open style file abnt-alf.bst
----line 6 of file painel-micro-8086.aux
+---line 8 of file painel-micro-8086.aux
  : \bibstyle{abnt-alf
  :                   }
 I'm skipping whatever remains of this command
-I couldn't open database file poster.bib
----line 7 of file painel-micro-8086.aux
- : \bibdata{poster
- :                }
-I'm skipping whatever remains of this command
-Illegal, another \bibstyle command---line 8 of file painel-micro-8086.aux
+Illegal, another \bibstyle command---line 10 of file painel-micro-8086.aux
  : \bibstyle
  :          {abnt-alf}
 I'm skipping whatever remains of this command
-I found no database files---while reading file painel-micro-8086.aux
 I found no style file---while reading file painel-micro-8086.aux
-(There were 5 error messages)
+(There were 3 error messages)

@@ -164,62 +164,110 @@
 
 \vspace{0.3cm}
  \LHead{Desenvolvimento}
- 
- \citeonline{seraphim} apresenta uma implementação de um sistema médico para gerenciamento de imagens digitais denominado PACS (Picture Archiving and Communication System). O PACS, em conjunto com os Sistemas de Informação em Radiologia (RIS) e de Informação Hospitalar (HIS), formam a base para um serviço de Radiologia \textit{Filmless}. 
- 
-  As imagens são obtidas de modalidades de imagens médicas digitais, como Ressonância Magnética Nuclear (RMN) e Tomografia Computadorizada (TC), em formato DICOM (Digital Imaging and Communication in Medicine) 3.0, indexadas, armazenadas e vinculadas ao RIS do Hospital para posterior visualização.
 
-  \begin{center}
-\resizebox{2.5\TPHorizModule}{!}{
-\includegraphics{figuras/pacs}}
-\\\textit{Figura 1: Arquitetura do sistema PACS proposto.}
-  \end{center}
+   De acordo com \cite{ComputerOrg}, uma das mais importantes abstrações é a interface entre o hardware e o software de baixo nível. Por causa de sua importância, é dado uma nomenclatura especial: \textbf{arquitetura do conjunto de instruções} (ISA), ou simplesmente arquitetura de uma máquina. O conjunto de instruções, inclui qualquer coisa que programadores necessitam para saber como programar em linguagem de máquina corretamente, incluem instruções, dispositivos E/S, entre outros. Tipicamente o sistema operacional irá encapsular os detalhes da realização da E/S, alocação de memória, e outras funcionalidades de baixo nível do sistema, portanto, programadores não precisam se preocupar com estes detalhes. Dois tipos de conjuntos de instruções existentes serão explicados a diante.
  
-  Este sistema foi concebido e desenvolvido dentre um escopo bem-definido. No entanto, há diversos requisitos de negócio em ambientes médicos que necessitam de manipular as informações obtidas pelo sistema apresentado. De forma a realizar integrações com tal sistema de forma escalável e padronizável, é proposta a utilização de SOA.
-
- Segundo \citeonline{soainpractice}, Arquitetura Orientada a Serviços (SOA - Service-Oriented Architecture) é um paradigma para a compreensão e manutenção de processos de negócio que abrangem sistemas gran-des. É baseado em três conceitos principais: serviço, interoperabilidade e baixo acoplamento. 
-\begin{itemize}
-	\item \textbf{Serviço}: pedaço auto-contido de uma funcionalidade de negócio, seja esta funcionalidade simples ou complexa. Serviços desempenham o papel de estruturar sistemas distribuídos baseados em abstrações de regras e processos de negócios.
-	\item \textbf{Interoperabilidade}: capacidade de interação entre sistemas diferentes, baseada em infra-estruturas que distribuem e oferecem ser-viços a tais sistemas, utilizando diferentes plataformas e tecnologias.
-	\item \textbf{Baixo acoplamento}:  minimização de dependências entre sistemas, de tal forma que modificações e falhas não sejam muito impactantes. Com isso, ganha-se em flexibilidade, escalabilidade e tolerância a falhas.
-\end{itemize}
-
+	\textbf{CISC} é uma arquitetura de processador, que teve como princípio o uso eficiente de memória e a facilidade de programar. Cada instrução desse processador tem várias operações em seu interior ajudando o programador a implementar programas. A maioria dos projetos de microprocessadores comuns - incluindo o Intel (R) 80x86 e séries Motorola 68K - também seguem a filosofia CISC \cite{CISC}.
+ 
+	Na década de 1980, ocorreu as mudanças para a nova arquitetura, o modelo \textbf{RISC} (Reduced Instruction Set Computer). As melhorias nas linguagens de programação, tecnologia de compiladores e custo de memória significaram que, menos programação estava sendo feita no nível do assembly, de modo que os conjuntos de instruções poderiam ser medidos pela forma como os compiladores os usavam, ao contrário de como os programadores em assembly os usavam.
+	Praticamente todos os novos conjuntos de instruções desde 1982, seguiram essa filosofia RISC de
+tamanhos de instrução fixos, conjuntos de instrução load/store, modos de endereçamento limitados e
+operações limitadas. ARM, Hitachi SH, IBM PowerPC, MIPS e Sun SPARC são todos exemplos de
+arquiteturas RISCs \cite{ComputerOrg}.  
+	
+	Portanto, a \textbf{regra de ouro} é que  todas as instruções devem ser executadas em apenas um ciclo de máquina e devem possuir um tamanho fixo. O problema quanto à regra de ouro são as instruções LOAD e STORE que requerem mais ciclos de relógio, uma vez que estas fazem acesso à memória. Neste ponto, a regra de ouro tem de ser adaptada. A solução proposta é que a cada ciclo de relógio a execução de uma nova instrução seja iniciada. E nessa característica é que entra o uso da técnica de \textbf{pipelining}.
+	
+	Para o microprocessador desenvolvido neste trabalho as instruções possuem 4 bytes. Este tamanho de instrução foi definido visando uma melhor administração da memória disponível e respeitando a regra de ouro, onde todas as instruções tem o mesmo tamanho. Na figura \ref{FigEstruturaInstrucao} a seguir tem-se a estrutura das instruções aritméticas e lógicas.
+	
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=0.15]{figuras/estrutura_instrucao.jpg}
+		\caption{Bytes das Instruções Aritméticas e Lógicas}
+		\label{FigEstruturaInstrucao}
+	\end{figure}
+	
+	Na figura \ref{FigEstruturaInstrucaoMOV} a seguir tem-se a estrutura da instrução MOV.
+	
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=0.15]{figuras/estrutura_instrucao_mov.jpg}
+		\caption{Bytes da Instrução MOV}
+		\label{FigEstruturaInstrucaoMOV}
+	\end{figure}
 \end{textblock}
+
+% ----------------------------------------------------------------------------------------------------------
+% Fim da primeira coluna
+% ----------------------------------------------------------------------------------------------------------
 
 \begin{textblock}{5}(6,3.6)
- \citeonline{soainpractice} apresenta o conceito de serviço como (idealmente) uma funcionalidade de negócio auto-contida que não mantém estado, que aceita uma ou mais requisições e retorna uma ou mais respostas através de uma interface bem definida e padronizada. Servi-ços podem também realizar unidades de trabalho discretas como editar e processar uma transação. Serviços não devem depender do estado de outras funções ou processos. A tecnologia utilizada para prover o serviço, como linguagens de programação, não faz parte desta definição.
-  
-  Um conceito-chave em SOA é BPM, acrônimo que diz respeito a dois conceitos distintos:
-\begin{enumerate}
-	\item \textbf{Business Process Management (BPM)}: termo geral que diz respeito a todas as atividades relacionadas ao gerenciamento e melhoria de processos de negócio.
-	\item \textbf{Business Process Modeling (BPM)}: termo que diz respeito à modelagem de processos de negócio e partes destes.
-\end{enumerate}
 
-  Para implementar BPM, é fundamental a utilização de uma linguagem padronizada para a modelagem e execução de processos de negócio em ferramentas e \textit{engines}. Uma linguagem referência para isto é BPEL (Business Process Execution Language), que está rapidamente tornando-se o padrão para projeto e execução de processos de negócio.
+"O design do conjunto de instruções deve ter vários objetivos, sendo o mais óbvio e útil a performance do microprocessador."\cite{ArtigoVLSI}.
 
-  Conceitualmente, uma linguagem como BPEL é uma linguagem XML (Extensible Markup Language) para descrever fluxos de negó-cio e seqüências, que dizem respeito a serviços. Há elementos de linguagem para a chamada de serviços, respostas de processos, e manipulação de variáveis de processo, estruturas de controle e erros.
+	Neste momento a preocupação é desenvolver um microprocessador que tenha um funcionamento básico e muito explí­cito, pois o foco deste trabalho não é desenvolver uma tecnologia nova, porém compreender profundamente o desenvolvimento da arquitetura e dos componentes de um microprocessador e lembrando que, as máquinas RISC só se tornaram viáveis devido aos avanços de software no aparecimento de compiladores otimizados.\cite{riscArtigo}.
 
- O domínio do problema em questão remete à necessidade da obten-ção de diagnóstico de mamografia de um paciente, dado que as informações sobre o paciente em questão estão armazenadas em um sistema HIS, e as imagens obtidas em exames estão em um sistema RIS. Neste contexto, propõe-se uma solução baseada em BPM, onde um processo realizará buscas em ambos sistemas HIS e RIS, coletará os resultados desta busca e realizará a junção destes, obtendo um diagnóstico adequado. 
+	Para o devido gerenciamento de memória, o microprocessador a ser desenvolvido não irá ter em seu conjunto os modos que fazem uso de segmentação, portanto a memória será enxergada como uma memória linear. Como se tivessemos somente um segmento sendo utilizado, tal definição será explicitada mais a diante. Semelhante ao funcionamento do micrprocessador 386 que possui além de um modo de memória segmentada, um modo protegido o qual a memória é vista linearmente.
 
-  \begin{center}
-  \resizebox{5\TPHorizModule}{!}{
-  \includegraphics{figuras/jpdl.jpg}}
-  \textit{Figura 2: Modelo BPM de diagnóstico de mamografia usando jPDL, uma linguagem para BPM.}
-  \end{center}
+	Portanto, após todas as considerações tomadas para o desenvolvimento do conjunto de instruções, temos na tabela \ref{tabelaInstrucoes} o conjunto de instruções escolhido para o desenvolvimento deste microprocessador.
+	
+		\begin{table}[htbp]
+		\centering
+  		\caption{Instruções Escolhidas e seus devidos Opcodes}
+  		\begin{tabular}{|c|c|}
+			\hline
+			Instrução & Opcode \\
+			\hline
+			\textbf{ADD  Reg16,Imed 16} & 10000001 11000 R/M I16L I16H \\
+			\hline
+			\textbf{OR     Reg16,Imed16} & 10000001 11001 R/M I16L I16H \\
+			\hline
+		    \textbf{ADC  Reg16,Imed16} & 10000001 11010 R/M I16L I16H \\
+		    \hline
+		    \textbf{SBB   Reg16,Imed16} & 10000001 11011 R/M I16L I16H \\
+		    \hline
+		    \textbf{AND  Reg16,Imed16} & 10000001 11100 R/M I16L I16H \\
+		    \hline
+		    \textbf{SUB   Reg16,Imed16} & 10000001 11101 R/M I16L I16H \\
+		    \hline
+		    \textbf{XOR   Reg16,Imed16} & 10000001 11110 R/M I16L I16H \\
+		    \hline
+		    \textbf{CMP  Reg16,Imed16} & 10000001 11111 R/M I16L I16H \\
+		    \hline
+		    \textbf{MOV Reg16,Imed16} & 00000000 10111 R/M I16L I16H \\
+		    \hline
+		\end{tabular}
+		\label{tabelaInstrucoes}%
 
-  \par Como já foi apresentado, SOA é um conceito amplo e abstrato, já um Web Service é uma das implementações possíveis deste conceito. De acordo com a W3C, um Web Service é uma aplicação de software identificada por uma URI (Uniform Resource Identifier), cujas interfaces públicas e contratos são capazes de serem definidos, descritos e descobertos por artefatos XML; e ainda suporta diretamente interações com outras aplicações utilizando mensagens baseadas em XML, via protocolos baseados na internet. Entre as principais vantagens de um Web Service estão:
-
+	Para realizar a \textbf{implementação em VHDL} baseou-se nos componentes internos conhecidos do microprocessador Intel® 8086 e buscou-se a maneira de deixar mais nítido e auto-explicativo  o funcionamento de cada componente desenvolvido, a seguir temos todos os componentes desenvolvidos e testados, para que no fim fossem todos unidos e controlados pelo Unidade de Controle do microprocessador.
+	
 	\begin{itemize}
-		\item \textbf{Interface abstrata}: os Web Services fornecem uma interface abstrata para acesso aos métodos disponibilizados, ocultando detalhes de implementação do usuário do serviço;
-		\item \textbf{Semântica acompanha dados}: Ao invés de trafegarem somente os dados, a comunicação entre o servidor e o cliente carrega consigo metadados;
-		\item \textbf{Portabilidade}: Por se tratar de um padrão aberto, baseado em XML, garante-se a portabilidade das mensagens mesmo sob diferentes plataformas e linguagens de programação;
-		\item \textbf{Segurança}: Opcionalmente, as informações trafegadas podem ser criptografadas;
-		\item \textbf{Utilização de recursos}: Os Web Services são sistemas não invasivos, pois não consomem recursos de comunicação enquanto em estado de espera.
-	\end{itemize}  
-  
-  Desta forma, propõe-se o uso de Web Services para a implementação de PACS, uma vez que suas tarefas de operação podem ser subdivididas em serviços, que podem ser utilizados por diferentes aplicações de software dentro do mesmo hospital, tornando sua adaptação mais ágil ao modelo de trabalho do hospital.
-     
+		\item \textbf{Registro de Propósito Geral:} O registrador de próposito geral tem como objetivo encapsular os registradores AX, BX, CX, DX, SP, BP, SI e DI, onde cada registro possui seu devido código R/M a ser substituído nas intruções aritméticas e lógicas.
+
+		\item \textbf{Registro de Segmento:} Com funcionamento semelhante do Registro de Propósito Geral, possui o objetivo de encaplusar os registradores que possuem o funcionamento de manipulação de memória que são, CS, ES, DS, SS, além do contador de índice IP. Diferentemente, do Registro de Popósito Geral, o registro de Segmento, possui uma linha de entrada denominada incrementa IP, tal linha foi implementada a fim de facilitar o comando de incremento de IP para se caminhar continuamente na memória, sendo que o registro possui acesso direto ao registrador IP, em vez de se desenvolver uma estrutura própria para este cálculo.
+		
+		\item \textbf{Calculadora de Endereço:} Foi desenvolvido uma calculadora de endereço para realizar o cálculo do endereço relativo para o endereço físico.
+		
+		\item \textbf{Demultiplexador e Multiplexador:} Utilizados para realizar a comunicação entre alguns componentes.
+		 
+		\item \textbf{Registro de Flags:} O Registro de Flags tem como objetivo guardar o resultado dos Flags que são calculado pela Unidade Lógica Aritmética.
+
+		\item \textbf{Unidade Aritmética e Lógica:} É a estrutura responsável por executar todas as operações aritméticas e lógicas do microprocessador. É composta por algumas estruturas auxiliares que implementam funcionalidades necessárias na execução bit a bit de cada instrução.
+		
+		\begin{itemize}
+			\item \textbf{Detector do Flag Auxiliar:} É uma estrutura criada para ser utilizada na Unidade Aritmética e Lógica. Esta estrutura detecta a ocorrência de um "vai um" do bit 3 para o bit 4 ou quando há "vem um" do bit 4 para o bit 3, durante a execução de alguma instrução aritmética.
+			\item \textbf{Detector do Flag de Paridade:} É uma estrutura que detecta a paridade do resultado obtido em uma instrução aritmética ou lógica. Caso haja um número par de bits 1 no resultado da operação, o flag de paridade recebe valor 1, caso contrário, recebe valor 0.7
+			\item \textbf{Detector do Zero Flag:} Esta estrutura verifica o resultado obtido em uma operação aritmética ou lógica. Caso o valor final seja 0, o zero flag recebe valor 1, caso contrário, recebe valor 0.
+		\end{itemize}
+		\item \textbf{Registro de Propósito Geral}
+		\item \textbf{Registro de Propósito Geral}
+	\end{itemize}
+	
+		
+\end{table}%
+
 \end{textblock}
+
+%---------------------------------------------------------------------------------------
+% Fim da Segunda Coluna
+%---------------------------------------------------------------------------------------
 
 \begin{textblock}{5}(11.7,3.6)
 
@@ -257,7 +305,7 @@
 \bibliographystyle{abnt-alf}	% Este é um estilo que determina como a bibliografia vai aparecer
 															% Existem ainda: abbrv, acm, alpha, amsalpha, amsplain
 
-\bibliography{poster}					% o nome do arquivo .bib com as referências
+\bibliography{biblio}					% o nome do arquivo .bib com as referências
 
 
 \end{textblock}
