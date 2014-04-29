@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.17)  24 APR 2014 21:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.17)  26 APR 2014 19:05
 entering extended mode
 **painel-micro-8086.tex
 
@@ -226,7 +226,14 @@ Grid set 17 x 25 = 133.82838pt x 130.67783pt
 TextBlockOrigin set to 20mm x 20mm
 
 (C:\Users\silvadenisaraujo\Desktop\micro-risc\Latex\Painel\Painel-Micro-8086\pa
-inel-micro-8086.aux)
+inel-micro-8086.aux
+
+LaTeX Warning: Label `FigEstruturaInstrucao' multiply defined.
+
+
+LaTeX Warning: Label `RTLMicro' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
 LaTeX Font Info:    ... okay on input line 79.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
@@ -240,8 +247,7 @@ LaTeX Font Info:    ... okay on input line 79.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
 LaTeX Font Info:    ... okay on input line 79.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 79.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 ABD: EveryShipout initializing macros
@@ -269,11 +275,6 @@ Overfull \hbox (10.80646pt too wide) in paragraph at lines 111--111
  []\OT1/pcr/m/n/29.86 silvadenisaraujo@gmail.com[] 
  []
 
-
-Overfull \hbox (28.72246pt too wide) in paragraph at lines 127--127
- []\OT1/pcr/m/n/29.86 maurilio.coutinho@gmail.com[] 
- []
-
 <figuras/LogoEFEI.jpg, id=1, 330.5148pt x 330.5148pt>
 File: figuras/LogoEFEI.jpg Graphic file (type jpg)
 
@@ -286,14 +287,22 @@ File: figuras/Brasao.png Graphic file (type png)
 <use figuras/Brasao.png>
 Package pdftex.def Info: figuras/Brasao.png used on input line 147.
 (pdftex.def)             Requested size: 802.99805pt x 805.00555pt.
+
+
+Package relsize Warning: Current font size is unknown! (Why?!?)
+(relsize)                Assuming \normalsize on input line 168.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 168.
 
+Overfull \hbox (51.75844pt too wide) in paragraph at lines 168--169
+[]\OT1/ptm/m/n/24.88 De acordo com (\OT1/ptm/m/n/20.74 PAT-TER-SON\OT1/ptm/m/n/
+24.88 , 2005), uma das mais im-por-tan-tes abstra[][]oes
+ []
 
-LaTeX Warning: Citation `ComputerOrg' on page 1 undefined on input line 168.
 
-
-LaTeX Warning: Citation `CISC' on page 1 undefined on input line 170.
+Package relsize Warning: Current font size is unknown! (Why?!?)
+(relsize)                Assuming \normalsize on input line 170.
 
 
 Overfull \hbox (5.64731pt too wide) in paragraph at lines 170--171
@@ -302,110 +311,141 @@ r. Cada instru[][]ao
  []
 
 
-LaTeX Warning: Citation `ComputerOrg' on page 1 undefined on input line 176.
+Package relsize Warning: Current font size is unknown! (Why?!?)
+(relsize)                Assuming \normalsize on input line 176.
 
-<figuras/estrutura_instrucao.jpg, id=4, 2665.96pt x 385.44pt>
+<figuras/fluxograma-maquinas.jpg, id=4, 644.4075pt x 409.53pt>
+File: figuras/fluxograma-maquinas.jpg Graphic file (type jpg)
+
+<use figuras/fluxograma-maquinas.jpg>
+Package pdftex.def Info: figuras/fluxograma-maquinas.jpg used on input line 181
+.
+(pdftex.def)             Requested size: 451.08218pt x 286.66904pt.
+
+<figuras/estrutura_instrucao.jpg, id=5, 2665.96pt x 385.44pt>
 File: figuras/estrutura_instrucao.jpg Graphic file (type jpg)
 
 <use figuras/estrutura_instrucao.jpg>
-Package pdftex.def Info: figuras/estrutura_instrucao.jpg used on input line 183
+Package pdftex.def Info: figuras/estrutura_instrucao.jpg used on input line 189
 .
 (pdftex.def)             Requested size: 399.87675pt x 57.81349pt.
 
-<figuras/estrutura_instrucao_mov.jpg, id=5, 2665.96pt x 385.44pt>
+<figuras/estrutura_instrucao_mov.jpg, id=6, 2665.96pt x 385.44pt>
 File: figuras/estrutura_instrucao_mov.jpg Graphic file (type jpg)
 
 <use figuras/estrutura_instrucao_mov.jpg>
 Package pdftex.def Info: figuras/estrutura_instrucao_mov.jpg used on input line
- 191.
+ 192.
 (pdftex.def)             Requested size: 399.87675pt x 57.81349pt.
 
 
-LaTeX Warning: Citation `ArtigoVLSI' on page 1 undefined on input line 203.
+Package relsize Warning: Current font size is unknown! (Why?!?)
+(relsize)                Assuming \normalsize on input line 204.
 
 
-LaTeX Warning: Citation `riscArtigo' on page 1 undefined on input line 205.
+Overfull \hbox (8.21259pt too wide) in paragraph at lines 204--205
+\OT1/ptm/m/it/24.88 o mais []obvio e []util a per-for-mance do mi-cro-pro-ces-s
+a-dor.\OT1/ptm/m/n/24.88 "(\OT1/ptm/m/n/20.74 HENNESSY\OT1/ptm/m/n/24.88 ,
+ []
 
 
-Overfull \hbox (8.11116pt too wide) in paragraph at lines 205--206
+Package relsize Warning: Current font size is unknown! (Why?!?)
+(relsize)                Assuming \normalsize on input line 206.
+
+
+Overfull \hbox (8.11116pt too wide) in paragraph at lines 206--207
 \OT1/ptm/m/n/24.88 com-po-nen-tes de um mi-cro-pro-ces-sa-dor e lem-brando que,
  as m[]aquinas
  []
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 239.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 246.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <24.88> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 239.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 246.
 
-<figuras/webService.jpg, id=6, 702.625pt x 250.9375pt>
-File: figuras/webService.jpg Graphic file (type jpg)
+<figuras/DiagramaEstadosEnd.png, id=7, 530.73282pt x 322.20375pt>
+File: figuras/DiagramaEstadosEnd.png Graphic file (type png)
 
-<use figuras/webService.jpg>
-Package pdftex.def Info: figuras/webService.jpg used on input line 276.
-(pdftex.def)             Requested size: 702.62328pt x 250.93687pt.
+<use figuras/DiagramaEstadosEnd.png>
+Package pdftex.def Info: figuras/DiagramaEstadosEnd.png used on input line 279.
 
-<figuras/antesESB.jpg, id=7, 825.0825pt x 366.36874pt>
-File: figuras/antesESB.jpg Graphic file (type jpg)
+(pdftex.def)             Requested size: 530.73152pt x 322.20296pt.
 
-<use figuras/antesESB.jpg>
-Package pdftex.def Info: figuras/antesESB.jpg used on input line 284.
-(pdftex.def)             Requested size: 825.08049pt x 366.36784pt.
+Underfull \hbox (badness 1242) in paragraph at lines 280--280
+[]\OT1/ptm/m/n/24.88 Figura 4: Di-a-grama de Es-ta-dos da Uni-dade de Con-trole
+ de
+ []
 
-<figuras/aposESB.jpg, id=8, 825.0825pt x 366.36874pt>
-File: figuras/aposESB.jpg Graphic file (type jpg)
+<figuras/RTLMicro.png, id=8, 763.35187pt x 390.70969pt>
+File: figuras/RTLMicro.png Graphic file (type png)
 
-<use figuras/aposESB.jpg>
-Package pdftex.def Info: figuras/aposESB.jpg used on input line 292.
-(pdftex.def)             Requested size: 825.08049pt x 366.36784pt.
+<use figuras/RTLMicro.png>
+Package pdftex.def Info: figuras/RTLMicro.png used on input line 285.
+(pdftex.def)             Requested size: 763.35pt x 390.70872pt.
 
-Overfull \hbox (5.82051pt too wide) in paragraph at lines 301--302
+Overfull \hbox (94.20808pt too wide) in paragraph at lines 285--286
+ [][] 
+ []
+
+
+Overfull \hbox (5.82051pt too wide) in paragraph at lines 295--296
 \OT1/ptm/m/n/24.88 e de sim-ples programa[][]ao. Est[]ao dis-pon[]veis as prin
 -ci-pais instru[][]oes
  []
 
 
 (C:\Users\silvadenisaraujo\Desktop\micro-risc\Latex\Painel\Painel-Micro-8086\pa
-inel-micro-8086.bbl) [1{C:/Users/silvadenisaraujo/AppData/Local/MiKTeX/2.9/pdft
-ex/config/pdftex.map}
+inel-micro-8086.bbl
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <35.83> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+) <figuras/github.png, id=9, 502.87875pt x 240.9pt>
+File: figuras/github.png Graphic file (type png)
+
+<use figuras/github.png>
+Package pdftex.def Info: figuras/github.png used on input line 304.
+(pdftex.def)             Requested size: 502.87752pt x 240.8994pt.
+ [1{C:/Users/silvadenisaraujo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
+}
 
 
 Non-PDF special ignored!
 Non-PDF special ignored! <C:/Users/silvadenisaraujo/Desktop/micro-risc/Latex/Pa
 inel/Painel-Micro-8086/figuras/LogoEFEI.jpg> <C:/Users/silvadenisaraujo/Desktop
 /micro-risc/Latex/Painel/Painel-Micro-8086/figuras/Brasao.png> <C:/Users/silvad
-enisaraujo/Desktop/micro-risc/Latex/Painel/Painel-Micro-8086/figuras/estrutura_
-instrucao.jpg> <C:/Users/silvadenisaraujo/Desktop/micro-risc/Latex/Painel/Paine
-l-Micro-8086/figuras/estrutura_instrucao_mov.jpg> <C:/Users/silvadenisaraujo/De
-sktop/micro-risc/Latex/Painel/Painel-Micro-8086/figuras/webService.jpg> <C:/Use
-rs/silvadenisaraujo/Desktop/micro-risc/Latex/Painel/Painel-Micro-8086/figuras/a
-ntesESB.jpg> <C:/Users/silvadenisaraujo/Desktop/micro-risc/Latex/Painel/Painel-
-Micro-8086/figuras/aposESB.jpg>]
+enisaraujo/Desktop/micro-risc/Latex/Painel/Painel-Micro-8086/figuras/fluxograma
+-maquinas.jpg> <C:/Users/silvadenisaraujo/Desktop/micro-risc/Latex/Painel/Paine
+l-Micro-8086/figuras/estrutura_instrucao.jpg> <C:/Users/silvadenisaraujo/Deskto
+p/micro-risc/Latex/Painel/Painel-Micro-8086/figuras/estrutura_instrucao_mov.jpg
+> <C:/Users/silvadenisaraujo/Desktop/micro-risc/Latex/Painel/Painel-Micro-8086/
+figuras/DiagramaEstadosEnd.png> <C:/Users/silvadenisaraujo/Desktop/micro-risc/L
+atex/Painel/Painel-Micro-8086/figuras/RTLMicro.png> <C:/Users/silvadenisaraujo/
+Desktop/micro-risc/Latex/Painel/Painel-Micro-8086/figuras/github.png>]
 (C:\Users\silvadenisaraujo\Desktop\micro-risc\Latex\Painel\Painel-Micro-8086\pa
 inel-micro-8086.aux)
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2483 strings out of 493921
- 38543 string characters out of 3144924
- 123142 words of memory out of 3000000
- 5700 multiletter control sequences out of 15000+200000
- 18942 words of font info for 42 fonts, out of 3000000 for 9000
+ 2509 strings out of 493921
+ 39060 string characters out of 3144924
+ 120302 words of memory out of 3000000
+ 5724 multiletter control sequences out of 15000+200000
+ 21075 words of font info for 45 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,13n,24p,1039b,306s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,13n,24p,833b,306s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on painel-micro-8086.pdf (1 page, 806881 bytes).
+Output written on painel-micro-8086.pdf (1 page, 688578 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
+ 39 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

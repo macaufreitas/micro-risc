@@ -122,7 +122,7 @@
     \LHead{Maurílio Pereira Coutinho} \\
     \LHead{Orientador} \\
     \LHead{Universidade Federal de Itajubá} \\
-    \LHead{\texttt{maurilio.coutinho@gmail.com}} 
+    \LHead{\texttt{mc9@unifei.edu.br}} 
     \end{center}
 }
 \parbox{0.2\textwidth}{
@@ -175,19 +175,20 @@ tamanhos de instrução fixos, conjuntos de instrução load/store, modos de endereç
 operações limitadas. ARM, Hitachi SH, IBM PowerPC, MIPS e Sun SPARC são todos exemplos de
 arquiteturas RISCs \cite{ComputerOrg}.  
 	
-	Portanto, a \textbf{regra de ouro} é que  todas as instruções devem ser executadas em apenas um ciclo de máquina e devem possuir um tamanho fixo. O problema quanto à regra de ouro são as instruções LOAD e STORE que requerem mais ciclos de relógio, uma vez que estas fazem acesso à memória. Neste ponto, a regra de ouro tem de ser adaptada. A solução proposta é que a cada ciclo de relógio a execução de uma nova instrução seja iniciada. E nessa característica é que entra o uso da técnica de \textbf{pipelining}.
+%	Portanto, a \textbf{regra de ouro} é que  todas as instruções devem ser executadas em apenas um ciclo de máquina e devem possuir um tamanho fixo. O problema quanto à regra de ouro são as instruções LOAD e STORE que requerem mais ciclos de relógio, uma vez que estas fazem acesso à memória. Neste ponto, a regra de ouro tem de ser adaptada. A solução proposta é que a cada ciclo de relógio a execução de uma nova instrução seja iniciada. E nessa característica é que entra o uso da técnica de \textbf{pipelining}.
+
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=0.7]{figuras/fluxograma-maquinas.jpg}
+		\caption{Fluxograma das máquinas CISC e RISC}
+		\label{FigEstruturaInstrucao}
+	\end{figure}
 	
-	Para o microprocessador desenvolvido neste trabalho as instruções possuem 4 bytes. Este tamanho de instrução foi definido visando uma melhor administração da memória disponível e respeitando a regra de ouro, onde todas as instruções tem o mesmo tamanho. Na figura \ref{FigEstruturaInstrucao} a seguir tem-se a estrutura das instruções aritméticas e lógicas.
+	Para o microprocessador desenvolvido neste trabalho as instruções possuem 4 bytes. Este tamanho de instrução foi definido visando respeitar a \textbf{regra de ouro}, onde todas as instruções tem o mesmo tamanho. Na figura \ref{FigEstruturaInstrucao} a seguir tem-se a estrutura das instruções aritméticas e lógicas e na figura \ref{FigEstruturaInstrucaoMOV} a seguir tem-se a estrutura da instrução MOV.
 	
 	\begin{figure}[ht] \centering
 		\includegraphics[scale=0.15]{figuras/estrutura_instrucao.jpg}
 		\caption{Bytes das Instruções Aritméticas e Lógicas}
 		\label{FigEstruturaInstrucao}
-	\end{figure}
-	
-	Na figura \ref{FigEstruturaInstrucaoMOV} a seguir tem-se a estrutura da instrução MOV.
-	
-	\begin{figure}[ht] \centering
 		\includegraphics[scale=0.15]{figuras/estrutura_instrucao_mov.jpg}
 		\caption{Bytes da Instrução MOV}
 		\label{FigEstruturaInstrucaoMOV}
@@ -200,11 +201,11 @@ arquiteturas RISCs \cite{ComputerOrg}.
 
 \begin{textblock}{5}(6,3.6)
 
-"O design do conjunto de instruções deve ter vários objetivos, sendo o mais óbvio e útil a performance do microprocessador."\cite{ArtigoVLSI}.
+"\textit{O design do conjunto de instruções deve ter vários objetivos, sendo o mais óbvio e útil a performance do microprocessador.}"\cite{ArtigoVLSI}.
 
-	Neste momento a preocupação é desenvolver um microprocessador que tenha um funcionamento básico e muito explí­cito, pois o foco deste trabalho não é desenvolver uma tecnologia nova, porém compreender profundamente o desenvolvimento da arquitetura e dos componentes de um microprocessador e lembrando que, as máquinas RISC só se tornaram viáveis devido aos avanços de software no aparecimento de compiladores otimizados.\cite{riscArtigo}.
+	Neste momento a preocupação é desenvolver um microprocessador que tenha um funcionamento básico e muito explí­cito, pois o foco deste trabalho não é desenvolver uma tecnologia nova, porém compreender profundamente o desenvolvimento da arquitetura e dos componentes de um microprocessador e lembrando que, as máquinas RISC só se tornaram viáveis devido aos avanços de software no aparecimento de compiladores otimizados.\cite{RISCUnicamp}.
 
-	Para o devido gerenciamento de memória, o microprocessador a ser desenvolvido não irá ter em seu conjunto os modos que fazem uso de segmentação, portanto a memória será enxergada como uma memória linear. Como se tivessemos somente um segmento sendo utilizado, tal definição será explicitada mais a diante. Semelhante ao funcionamento do micrprocessador 386 que possui além de um modo de memória segmentada, um modo protegido o qual a memória é vista linearmente.
+	Para o devido gerenciamento de memória, o microprocessador a ser desenvolvido não irá ter em seu conjunto os modos que fazem uso de \textbf{segmentação}, portanto a memória será enxergada como uma memória linear. Como se tivessemos somente um segmento sendo utilizado, tal definição será explicitada mais a diante. Semelhante ao funcionamento do micrprocessador 386 que possui além de um modo de memória segmentada, um modo protegido o qual a memória é vista linearmente.
 
 	Portanto, após todas as considerações tomadas para o desenvolvimento do conjunto de instruções, temos na tabela \ref{tabelaInstrucoes} o conjunto de instruções escolhido para o desenvolvimento deste microprocessador.
 	
@@ -234,10 +235,13 @@ arquiteturas RISCs \cite{ComputerOrg}.
 		    \textbf{MOV Reg16,Imed16} & 00000000 10111 R/M I16L I16H \\
 		    \hline
 		\end{tabular}
-		\label{tabelaInstrucoes}%
+		\label{tabelaInstrucoes}
+		\end{table}
 
-	Para realizar a \textbf{implementação em VHDL} baseou-se nos componentes internos conhecidos do microprocessador Intel® 8086 e buscou-se a maneira de deixar mais nítido e auto-explicativo  o funcionamento de cada componente desenvolvido, a seguir temos todos os componentes desenvolvidos e testados, para que no fim fossem todos unidos e controlados pelo Unidade de Controle do microprocessador.
-	
+\vspace{0.3cm}
+ \LHead{Implementação em VHDL}
+
+\par Para realizar a implementação baseou-se nos componentes internos conhecidos do microprocessador Intel 8086 e buscou-se a maneira mais nítida e auto-explicativa, o funcionamento de cada componente desenvolvido, a seguir temos todos os componentes desenvolvidos que compõem o nosso microprocessador.
 	\begin{itemize}
 		\item \textbf{Registro de Propósito Geral:} O registrador de próposito geral tem como objetivo encapsular os registradores AX, BX, CX, DX, SP, BP, SI e DI, onde cada registro possui seu devido código R/M a ser substituído nas intruções aritméticas e lógicas.
 
@@ -256,12 +260,8 @@ arquiteturas RISCs \cite{ComputerOrg}.
 			\item \textbf{Detector do Flag de Paridade:} É uma estrutura que detecta a paridade do resultado obtido em uma instrução aritmética ou lógica. Caso haja um número par de bits 1 no resultado da operação, o flag de paridade recebe valor 1, caso contrário, recebe valor 0.7
 			\item \textbf{Detector do Zero Flag:} Esta estrutura verifica o resultado obtido em uma operação aritmética ou lógica. Caso o valor final seja 0, o zero flag recebe valor 1, caso contrário, recebe valor 0.
 		\end{itemize}
-		\item \textbf{Registro de Propósito Geral}
-		\item \textbf{Registro de Propósito Geral}
+		\item \textbf{Unidade de Controle de Endereços:} A Unidade de Controle de Endereços possui como objetivo controlar alguns componentes a maneira de realizar a perfeita sincronização entre eles, e que exista um fluxo consistente de dados entre as estruturas para que o cálculo que seja realizado, e que seja correto.
 	\end{itemize}
-	
-		
-\end{table}%
 
 \end{textblock}
 
@@ -271,27 +271,21 @@ arquiteturas RISCs \cite{ComputerOrg}.
 
 \begin{textblock}{5}(11.7,3.6)
 
-  \begin{center}
-  \resizebox{5\TPHorizModule}{!}{
-  \includegraphics{figuras/webService.jpg}}
-  \textit{Figura 3: Funcionamento de um Web Service na implementação de um PACS.}
-  \end{center}
+  \begin{itemize}
+  	\item \textbf{Unidade de Controle:} A Unidade de Controle é uma das principais estruturas do microprocessador. Ela é responsável por 3 funções básicas: busca (fetch), decodificação e execução. Além disso, gera todos os sinais que controlam as unidades \textit{escravas} à ela. A \textit{Unidade de Controle de Endereços} é uma máquina de estados escrava à unidade de controle, portanto há um sinal de habilitação que conecta essas duas unidades que é enviado pela Unidade de Controle, tornando-a uma máquina de estados \textit{master}.
+  \end{itemize}
 
-  \par Como já foi dito anteriormente, SOA não constitu uma tecnologia mas sim um conceito de como desenvolver sistemas que sejam facilmente interligáveis e como interligar sistemas previamente existentes. Com esse objetivo, foram criadas várias tecnologias para que sistemas desenvolvidos utilizando tecnologias diferentes pudessem comunicar-se entre si. Entre essas tecnologias podemos citar CORBA, RMI e Web Services, porém tais tecnologias usadas de forma isolada ainda apresentavam falhas, algumas por não darem suporte a diversas tecnologias, outras por serem difíceis de implementar ou até mesmo por não possuírem uma especificação que fosse seguida sempre. O maior problema dessas tecnologias era que elas só ligavam um sistema a outro, e sempre que fosse necessária a ligação de vários sistemas elas geravam uma arquitetura muito complexa para se manter, e com o surgimento de novos sistemas a arquitetura tenderia a ficar ainda mais complexa, o que as tornaria inviáveis para o sistema proposto.
-  
-  \begin{center}
-  \resizebox{5\TPHorizModule}{!}{
-  \includegraphics{figuras/antesESB.jpg}}
-  \textit{Figura 4: Arquitetura do sistema antes da implantação de um ESB.}
-  \end{center}
-  
-  \par Com esse problema, surge a necessidade de um centralização de requisições para os serviços, e nesse contexto entra o Enterprise Service Bus (ESB), que surge como o cerne de uma Arquitetura Orientada a Serviços, pois ele torna-se o responsável pela parte de segurança do sistema, roteamento de requisições e a publicação dos serviços, tornando uma arquitetura mais ``limpa'', onde todos os serviços são publicados no barramento, o que torna o sistema mais expansível. Desta forma, a cada  surgimento de um novo sistema, só será necessário publicá-lo como novos serviços no barramento, não necessitando a alteração dos outros serviços pra que possam integrar-se com o novo sistema.
-  
-  \begin{center}
-  \resizebox{5\TPHorizModule}{!}{
-  \includegraphics{figuras/aposESB.jpg}}
-  \textit{Figura 5: Arquitetura do sistema após a implantação de um ESB.}
-  \end{center}
+  \begin{figure}[ht] \centering
+		\includegraphics[scale=1]{figuras/DiagramaEstadosEnd.png}
+		\caption{Diagrama de Estados da Unidade de Controle de Endereços}
+		\label{RTLMicro}
+  \end{figure}
+
+  \begin{figure}[ht] \centering
+		\includegraphics[scale=1]{figuras/RTLMicro.png}
+		\caption{Visão RTL do Microprocessador Desenvolvido}
+		\label{RTLMicro}
+  \end{figure}
 
 \vspace{0.3cm}
   \LHead{Conclusão}
@@ -302,11 +296,13 @@ arquiteturas RISCs \cite{ComputerOrg}.
 
 \par Uma boa comparação a ser feita é a análise do código do sistema operacional DOS da Microsoft. Onde as instruções mais utilizadas são as que constam na máquina desenvolvida neste documento.
 
-\bibliographystyle{abnt-alf}	% Este é um estilo que determina como a bibliografia vai aparecer
-															% Existem ainda: abbrv, acm, alpha, amsalpha, amsplain
+\bibliographystyle{abntex2-alf}
 
-\bibliography{biblio}					% o nome do arquivo .bib com as referências
+\bibliography{biblio}             %% REFERÊNCIAS (deve-se possuir o arquivo do tipo bibtex)
 
+\begin{figure}[ht] \centering
+		\includegraphics[scale=1]{figuras/github.png}
+\end{figure}
 
 \end{textblock}
 

@@ -1,0 +1,27 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.2 }
+
+\bibitem[CISC 2013]{CISC}
+\abntrefinfo{CISC}{CISC}{2013}
+{CISC. Cisc. Http://www.laynetworks.com/CISC.htm. 2013.}
+
+\bibitem[Hennessy 1984]{ArtigoVLSI}
+\abntrefinfo{Hennessy}{HENNESSY}{1984}
+{HENNESSY, J.~L. Vlsi processor architecture.
+\emph{IEEE Transactions on Computers}, C-33, p. 1221--1245, 1984.}
+
+\bibitem[Patterson 2005]{ComputerOrg}
+\abntrefinfo{Patterson}{PATTERSON}{2005}
+{PATTERSON, J. L.~H. D.~A. \emph{Computer Organization and Design, The
+  Hardware/Software Interface}. Oxford, Reino Unido: Elsevier, 2005.}
+
+\bibitem[Song 2014]{RISCUnicamp}
+\abntrefinfo{Song}{SONG}{2014}
+{SONG, S.~W. Risc - reduced instruction set computer. MAC 412 - Organização de
+  Computadores - UNICAMP. 2014.}
+
+\end{thebibliography}

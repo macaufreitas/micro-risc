@@ -40,7 +40,7 @@ begin
 	Clock : process
 	variable cont : integer := 0;
 	begin
-		if cont /= 60 then
+		if cont /= 100 then
 			clock_tb <= '0';
 			wait for periodoClock/2;
 			clock_tb <= '1';
@@ -56,9 +56,14 @@ begin
 		
 		------ Reseta o Microprocessador -----
 		reset_tb <= '0';	
-		wait for 60*periodoClock;
+		wait for 40*periodoClock;
 		reset_tb <= '1';
 		--------------------------------------
+		
+		----- Coloca no barramento os primeiro bytes relevantes ao opcode --------
+		data_tb <= X"81C0"; -- Operação ADD Reg,Imed16
+		--------------------------------------------------------------------------
+		
 		wait;
 	end process;
 
