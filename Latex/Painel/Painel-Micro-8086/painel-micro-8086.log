@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.17)  26 APR 2014 19:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.12)  2 MAY 2014 14:10
 entering extended mode
 **painel-micro-8086.tex
 
-(C:\Users\silvadenisaraujo\Desktop\micro-risc\Latex\Painel\Painel-Micro-8086\pa
-inel-micro-8086.tex
+("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\Painel\Painel-Micro-808
+6\painel-micro-8086.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -15,9 +15,7 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-
-(C:\Users\silvadenisaraujo\AppData\Roaming\MiKTeX\2.9\tex\latex\a0poster\a0post
-er.cls
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\a0poster\a0poster.cls"
 Document Class: a0poster 2004/01/31 v1.22b a0poster class (GK, MW)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
@@ -43,8 +41,7 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \tausch=\dimen103
 \Ausgabe=\write3
 
-(C:\Users\silvadenisaraujo\AppData\Roaming\MiKTeX\2.9\tex\latex\a0poster\a0size
-.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\a0poster\a0size.sty"
 File: a0size.sty 2004/01/31 v1.22b a0poster class (GK, MW)
 LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 229.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
@@ -53,13 +50,11 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 229.
 \big@size=\dimen104
 ))
-(C:\Users\silvadenisaraujo\AppData\Roaming\MiKTeX\2.9\tex\latex\textpos\textpos
-.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\textpos\textpos.sty"
 Package: textpos 2014/01/03 v1.7j
 
 Package: textpos 2014/01/03 1.7j, absolute positioning of text on the page
-
-(C:\Users\silvadenisaraujo\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )
 \TP@textbox=\box26
@@ -98,15 +93,15 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count91
 ))
-(C:\Users\silvadenisaraujo\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig
-.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
 \wrapoverhang=\dimen113
 \WF@size=\dimen114
 \c@WF@wrappedlines=\count92
 \WF@box=\box28
 \WF@everypar=\toks15
 Package: wrapfig 2003/01/31  v 3.6
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\times.sty"
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\times.sty"
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
@@ -225,8 +220,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 Grid set 17 x 25 = 133.82838pt x 130.67783pt
 TextBlockOrigin set to 20mm x 20mm
 
-(C:\Users\silvadenisaraujo\Desktop\micro-risc\Latex\Painel\Painel-Micro-8086\pa
-inel-micro-8086.aux
+("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\Painel\Painel-Micro-808
+6\painel-micro-8086.aux"
 
 LaTeX Warning: Label `FigEstruturaInstrucao' multiply defined.
 
@@ -251,8 +246,7 @@ LaTeX Font Info:    Try loading font information for OT1+ptm on input line 79.
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 ABD: EveryShipout initializing macros
-(C:\Users\silvadenisaraujo\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf
-.mkii
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count100
 \scratchdimen=\dimen120
@@ -366,74 +360,86 @@ File: omsptm.fd
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <24.88> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 246.
 
-<figuras/DiagramaEstadosEnd.png, id=7, 530.73282pt x 322.20375pt>
+<figuras/diagrama_estados_unidade_controle.jpg, id=7, 1511.6475pt x 1008.01593p
+t>
+File: figuras/diagrama_estados_unidade_controle.jpg Graphic file (type jpg)
+ <use figuras/diagrama_estados_unidade_controle.jpg>
+Package pdftex.def Info: figuras/diagrama_estados_unidade_controle.jpg used on 
+input line 279.
+(pdftex.def)             Requested size: 755.82191pt x 504.00673pt.
+
+Overfull \hbox (86.68pt too wide) in paragraph at lines 279--280
+ [][] 
+ []
+
+<figuras/DiagramaEstadosEnd.png, id=8, 530.73282pt x 322.20375pt>
 File: figuras/DiagramaEstadosEnd.png Graphic file (type png)
 
 <use figuras/DiagramaEstadosEnd.png>
-Package pdftex.def Info: figuras/DiagramaEstadosEnd.png used on input line 279.
+Package pdftex.def Info: figuras/DiagramaEstadosEnd.png used on input line 285.
 
 (pdftex.def)             Requested size: 530.73152pt x 322.20296pt.
 
-Underfull \hbox (badness 1242) in paragraph at lines 280--280
-[]\OT1/ptm/m/n/24.88 Figura 4: Di-a-grama de Es-ta-dos da Uni-dade de Con-trole
+Underfull \hbox (badness 1242) in paragraph at lines 286--286
+[]\OT1/ptm/m/n/24.88 Figura 5: Di-a-grama de Es-ta-dos da Uni-dade de Con-trole
  de
  []
 
-<figuras/RTLMicro.png, id=8, 763.35187pt x 390.70969pt>
+<figuras/RTLMicro.png, id=9, 763.35187pt x 390.70969pt>
 File: figuras/RTLMicro.png Graphic file (type png)
 
 <use figuras/RTLMicro.png>
-Package pdftex.def Info: figuras/RTLMicro.png used on input line 285.
+Package pdftex.def Info: figuras/RTLMicro.png used on input line 291.
 (pdftex.def)             Requested size: 763.35pt x 390.70872pt.
 
-Overfull \hbox (94.20808pt too wide) in paragraph at lines 285--286
+Overfull \hbox (94.20808pt too wide) in paragraph at lines 291--292
  [][] 
  []
 
 
-Overfull \hbox (5.82051pt too wide) in paragraph at lines 295--296
+Overfull \hbox (5.82051pt too wide) in paragraph at lines 301--302
 \OT1/ptm/m/n/24.88 e de sim-ples programa[][]ao. Est[]ao dis-pon[]veis as prin
 -ci-pais instru[][]oes
  []
 
 
-(C:\Users\silvadenisaraujo\Desktop\micro-risc\Latex\Painel\Painel-Micro-8086\pa
-inel-micro-8086.bbl
+("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\Painel\Painel-Micro-808
+6\painel-micro-8086.bbl"
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <35.83> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
-) <figuras/github.png, id=9, 502.87875pt x 240.9pt>
+) <figuras/github.png, id=10, 502.87875pt x 240.9pt>
 File: figuras/github.png Graphic file (type png)
 
 <use figuras/github.png>
-Package pdftex.def Info: figuras/github.png used on input line 304.
+Package pdftex.def Info: figuras/github.png used on input line 310.
 (pdftex.def)             Requested size: 502.87752pt x 240.8994pt.
- [1{C:/Users/silvadenisaraujo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
-}
-
+ [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 Non-PDF special ignored!
-Non-PDF special ignored! <C:/Users/silvadenisaraujo/Desktop/micro-risc/Latex/Pa
-inel/Painel-Micro-8086/figuras/LogoEFEI.jpg> <C:/Users/silvadenisaraujo/Desktop
-/micro-risc/Latex/Painel/Painel-Micro-8086/figuras/Brasao.png> <C:/Users/silvad
-enisaraujo/Desktop/micro-risc/Latex/Painel/Painel-Micro-8086/figuras/fluxograma
--maquinas.jpg> <C:/Users/silvadenisaraujo/Desktop/micro-risc/Latex/Painel/Paine
-l-Micro-8086/figuras/estrutura_instrucao.jpg> <C:/Users/silvadenisaraujo/Deskto
-p/micro-risc/Latex/Painel/Painel-Micro-8086/figuras/estrutura_instrucao_mov.jpg
-> <C:/Users/silvadenisaraujo/Desktop/micro-risc/Latex/Painel/Painel-Micro-8086/
-figuras/DiagramaEstadosEnd.png> <C:/Users/silvadenisaraujo/Desktop/micro-risc/L
-atex/Painel/Painel-Micro-8086/figuras/RTLMicro.png> <C:/Users/silvadenisaraujo/
-Desktop/micro-risc/Latex/Painel/Painel-Micro-8086/figuras/github.png>]
-(C:\Users\silvadenisaraujo\Desktop\micro-risc\Latex\Painel\Painel-Micro-8086\pa
-inel-micro-8086.aux)
+Non-PDF special ignored! <C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/Latex
+/Painel/Painel-Micro-8086/figuras/LogoEFEI.jpg> <C:/Users/Marcos Aurelio/Deskto
+p/micro-8086-risc/Latex/Painel/Painel-Micro-8086/figuras/Brasao.png> <C:/Users/
+Marcos Aurelio/Desktop/micro-8086-risc/Latex/Painel/Painel-Micro-8086/figuras/f
+luxograma-maquinas.jpg> <C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/Latex/
+Painel/Painel-Micro-8086/figuras/estrutura_instrucao.jpg> <C:/Users/Marcos Aure
+lio/Desktop/micro-8086-risc/Latex/Painel/Painel-Micro-8086/figuras/estrutura_in
+strucao_mov.jpg> <C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/Latex/Painel/
+Painel-Micro-8086/figuras/diagrama_estados_unidade_controle.jpg> <C:/Users/Marc
+os Aurelio/Desktop/micro-8086-risc/Latex/Painel/Painel-Micro-8086/figuras/Diagr
+amaEstadosEnd.png> <C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/Latex/Paine
+l/Painel-Micro-8086/figuras/RTLMicro.png> <C:/Users/Marcos Aurelio/Desktop/micr
+o-8086-risc/Latex/Painel/Painel-Micro-8086/figuras/github.png>]
+("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\Painel\Painel-Micro-808
+6\painel-micro-8086.aux")
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2509 strings out of 493921
- 39060 string characters out of 3144924
- 120302 words of memory out of 3000000
- 5724 multiletter control sequences out of 15000+200000
+ 2515 strings out of 493921
+ 39019 string characters out of 3144849
+ 120310 words of memory out of 3000000
+ 5729 multiletter control sequences out of 15000+200000
  21075 words of font info for 45 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  34i,13n,24p,833b,306s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -443,9 +449,9 @@ Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on painel-micro-8086.pdf (1 page, 688578 bytes).
+Output written on painel-micro-8086.pdf (1 page, 976828 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
+ 40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
