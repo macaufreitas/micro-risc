@@ -69,5 +69,7 @@
 \contentsline {subsection}{\numberline {5.3.11}Mem\'oria ROM}{62}
 \contentsline {subsection}{\numberline {5.3.12}Unidade Aritm\'etica e L\'ogica - ULA}{62}
 \contentsline {subsection}{\numberline {5.3.13}Unidade de Controle}{63}
-\contentsline {chapter}{\numberline {6}Anexo}{64}
-\contentsline {chapter}{Refer\^encias}{68}
+\contentsline {chapter}{\numberline {6}Considera\c c\~oes Finais}{64}
+\contentsline {chapter}{\numberline {7}Trabalhos Futuros}{65}
+\contentsline {chapter}{\numberline {8}Anexo}{66}
+\contentsline {chapter}{Refer\^encias}{70}

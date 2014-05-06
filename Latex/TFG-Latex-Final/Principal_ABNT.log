@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.12)  22 APR 2014 21:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.2.12)  5 MAY 2014 22:29
 entering extended mode
 **Principal_ABNT.tex
 
@@ -328,6 +328,8 @@ LaTeX Warning: Label `diagrama' multiply defined.
 )
 ("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\TFG-Latex-Final\Desenvo
 lvimento.aux")
+("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\TFG-Latex-Final\Conside
+racoesFinais.aux")
 ("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\TFG-Latex-Final\Anexo.a
 ux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
@@ -858,9 +860,21 @@ tector_paridade.jpg> <C:/Users/Marcos Aurelio/Desktop/micro-8086-risc/Latex/TFG
 -Latex-Final/printsImplementacaoVHDL/print_detector_zero_flag.jpg>]) [63 <C:/Us
 ers/Marcos Aurelio/Desktop/micro-8086-risc/Latex/TFG-Latex-Final/printsImplemen
 tacaoVHDL/print_memoria_rom.jpg>]
+("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\TFG-Latex-Final\Conside
+racoesFinais.tex"
+Cap\'{\i }tulo 6.
+[64
+
+
+
+]
+Cap\'{\i }tulo 7.
+) [65
+
+]
 ("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\TFG-Latex-Final\Anexo.t
 ex"
-Cap\'{\i }tulo 6.
+Cap\'{\i }tulo 8.
 
 ("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\TFG-Latex-Final\codigos
 /ler_instrucoes_dos_v4.py"
@@ -868,11 +882,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 1.
- [64
+ [66
 
 
 
-] [65] [66])) [67]
+] [67] [68])) [69]
 ("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\TFG-Latex-Final\Princip
 al_ABNT.bbl"
 Underfull \hbox (badness 1701) in paragraph at lines 10--12
@@ -895,7 +909,7 @@ Underfull \hbox (badness 1205) in paragraph at lines 71--74
 []\T1/aer/m/n/12 SHUSTEK, L. Mi-cro-soft ms-dos early source code. 
  []
 
-[68
+[70
 
 
 ]
@@ -908,7 +922,7 @@ Underfull \hbox (badness 2538) in paragraph at lines 88--90
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[69]
+[71]
 ("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\TFG-Latex-Final\Princip
 al_ABNT.aux"
 ("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\TFG-Latex-Final\capa.au
@@ -923,6 +937,8 @@ o.aux")
 ntacao.aux")
 ("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\TFG-Latex-Final\Desenvo
 lvimento.aux")
+("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\TFG-Latex-Final\Conside
+racoesFinais.aux")
 ("C:\Users\Marcos Aurelio\Desktop\micro-8086-risc\Latex\TFG-Latex-Final\Anexo.a
 ux"))
 
@@ -936,13 +952,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6031 strings out of 493921
- 86873 string characters out of 3144849
+ 6039 strings out of 493921
+ 87472 string characters out of 3144849
  266389 words of memory out of 3000000
- 9084 multiletter control sequences out of 15000+200000
+ 9085 multiletter control sequences out of 15000+200000
  41856 words of font info for 82 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 35i,10n,40p,1182b,1860s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 35i,10n,40p,1182b,1862s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Marcos Aurelio\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
 c\dpi600\ecrb1440.pk> <C:\Users\Marcos Aurelio\AppData\Local\MiKTeX\2.9\fonts\p
 k\ljfour\jknappen\ec\dpi600\ecrb1728.pk> <C:\Users\Marcos Aurelio\AppData\Local
@@ -958,9 +974,9 @@ les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86
 )/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Principal_ABNT.pdf (70 pages, 1943275 bytes).
+Output written on Principal_ABNT.pdf (72 pages, 1950130 bytes).
 PDF statistics:
- 514 PDF objects out of 1000 (max. 8388607)
+ 528 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  191 words of extra memory for PDF output out of 10000 (max. 10000000)
 
