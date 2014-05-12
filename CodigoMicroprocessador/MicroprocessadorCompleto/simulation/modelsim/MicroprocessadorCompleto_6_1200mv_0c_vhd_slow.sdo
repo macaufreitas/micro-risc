@@ -29,7 +29,7 @@
 (DELAYFILE
   (SDFVERSION "2.1")
   (DESIGN "MicroprocessadorCompleto")
-  (DATE "04/28/2014 19:41:47")
+  (DATE "05/06/2014 22:13:59")
   (VENDOR "Altera")
   (PROGRAM "Quartus II 64-Bit")
   (VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition")
@@ -1629,9 +1629,8 @@
     (DELAY
       (ABSOLUTE
         (PORT datab (237:237:237) (306:306:306))
-        (IOPATH datab combout (319:319:319) (324:324:324))
+        (IOPATH datab combout (336:336:336) (337:337:337))
         (IOPATH datab cout (385:385:385) (280:280:280))
-        (IOPATH datad combout (119:119:119) (106:106:106))
       )
     )
   )
@@ -1748,7 +1747,7 @@
       (ABSOLUTE
         (PORT datac (388:388:388) (422:422:422))
         (PORT datad (730:730:730) (735:735:735))
-        (IOPATH datac combout (218:218:218) (216:216:216))
+        (IOPATH datac combout (218:218:218) (215:215:215))
         (IOPATH datad combout (119:119:119) (106:106:106))
       )
     )
@@ -1830,7 +1829,7 @@
   )
   (CELL
     (CELLTYPE "dffeas")
-    (INSTANCE \\Calc\|regReult\[0\]\\)
+    (INSTANCE \\Calc\|regResult\[0\]\\)
     (DELAY
       (ABSOLUTE
         (PORT clk (1146:1146:1146) (1178:1178:1178))
@@ -1998,7 +1997,7 @@
   )
   (CELL
     (CELLTYPE "dffeas")
-    (INSTANCE \\Calc\|regReult\[1\]\\)
+    (INSTANCE \\Calc\|regResult\[1\]\\)
     (DELAY
       (ABSOLUTE
         (PORT clk (1146:1146:1146) (1178:1178:1178))
@@ -2117,7 +2116,7 @@
   )
   (CELL
     (CELLTYPE "dffeas")
-    (INSTANCE \\Calc\|regReult\[2\]\\)
+    (INSTANCE \\Calc\|regResult\[2\]\\)
     (DELAY
       (ABSOLUTE
         (PORT clk (1146:1146:1146) (1178:1178:1178))
@@ -2236,7 +2235,7 @@
   )
   (CELL
     (CELLTYPE "dffeas")
-    (INSTANCE \\Calc\|regReult\[3\]\\)
+    (INSTANCE \\Calc\|regResult\[3\]\\)
     (DELAY
       (ABSOLUTE
         (PORT clk (1146:1146:1146) (1178:1178:1178))
@@ -2385,7 +2384,7 @@
   )
   (CELL
     (CELLTYPE "cycloneiii_lcell_comb")
-    (INSTANCE \\Calc\|regReult\[4\]\~16\\)
+    (INSTANCE \\Calc\|regResult\[4\]\~16\\)
     (DELAY
       (ABSOLUTE
         (PORT dataa (656:656:656) (702:702:702))
@@ -2400,7 +2399,7 @@
   )
   (CELL
     (CELLTYPE "dffeas")
-    (INSTANCE \\Calc\|regReult\[4\]\\)
+    (INSTANCE \\Calc\|regResult\[4\]\\)
     (DELAY
       (ABSOLUTE
         (PORT clk (1124:1124:1124) (1157:1157:1157))
@@ -2549,7 +2548,7 @@
   )
   (CELL
     (CELLTYPE "cycloneiii_lcell_comb")
-    (INSTANCE \\Calc\|regReult\[5\]\~18\\)
+    (INSTANCE \\Calc\|regResult\[5\]\~18\\)
     (DELAY
       (ABSOLUTE
         (PORT dataa (598:598:598) (630:630:630))
@@ -2566,7 +2565,7 @@
   )
   (CELL
     (CELLTYPE "dffeas")
-    (INSTANCE \\Calc\|regReult\[5\]\\)
+    (INSTANCE \\Calc\|regResult\[5\]\\)
     (DELAY
       (ABSOLUTE
         (PORT clk (1140:1140:1140) (1171:1171:1171))
@@ -2715,7 +2714,7 @@
   )
   (CELL
     (CELLTYPE "cycloneiii_lcell_comb")
-    (INSTANCE \\Calc\|regReult\[6\]\~20\\)
+    (INSTANCE \\Calc\|regResult\[6\]\~20\\)
     (DELAY
       (ABSOLUTE
         (PORT dataa (470:470:470) (522:522:522))
@@ -2732,7 +2731,7 @@
   )
   (CELL
     (CELLTYPE "dffeas")
-    (INSTANCE \\Calc\|regReult\[6\]\\)
+    (INSTANCE \\Calc\|regResult\[6\]\\)
     (DELAY
       (ABSOLUTE
         (PORT clk (1124:1124:1124) (1157:1157:1157))
@@ -2881,7 +2880,7 @@
   )
   (CELL
     (CELLTYPE "cycloneiii_lcell_comb")
-    (INSTANCE \\Calc\|regReult\[7\]\~22\\)
+    (INSTANCE \\Calc\|regResult\[7\]\~22\\)
     (DELAY
       (ABSOLUTE
         (PORT dataa (668:668:668) (712:712:712))
@@ -2898,7 +2897,7 @@
   )
   (CELL
     (CELLTYPE "dffeas")
-    (INSTANCE \\Calc\|regReult\[7\]\\)
+    (INSTANCE \\Calc\|regResult\[7\]\\)
     (DELAY
       (ABSOLUTE
         (PORT clk (1124:1124:1124) (1157:1157:1157))
@@ -3047,7 +3046,7 @@
   )
   (CELL
     (CELLTYPE "cycloneiii_lcell_comb")
-    (INSTANCE \\Calc\|regReult\[8\]\~24\\)
+    (INSTANCE \\Calc\|regResult\[8\]\~24\\)
     (DELAY
       (ABSOLUTE
         (PORT dataa (633:633:633) (667:667:667))
@@ -3064,7 +3063,7 @@
   )
   (CELL
     (CELLTYPE "dffeas")
-    (INSTANCE \\Calc\|regReult\[8\]\\)
+    (INSTANCE \\Calc\|regResult\[8\]\\)
     (DELAY
       (ABSOLUTE
         (PORT clk (1124:1124:1124) (1157:1157:1157))
@@ -3213,7 +3212,7 @@
   )
   (CELL
     (CELLTYPE "cycloneiii_lcell_comb")
-    (INSTANCE \\Calc\|regReult\[9\]\~26\\)
+    (INSTANCE \\Calc\|regResult\[9\]\~26\\)
     (DELAY
       (ABSOLUTE
         (PORT dataa (695:695:695) (743:743:743))
@@ -3230,7 +3229,7 @@
   )
   (CELL
     (CELLTYPE "dffeas")
-    (INSTANCE \\Calc\|regReult\[9\]\\)
+    (INSTANCE \\Calc\|regResult\[9\]\\)
     (DELAY
       (ABSOLUTE
         (PORT clk (1124:1124:1124) (1157:1157:1157))
@@ -3379,7 +3378,7 @@
   )
   (CELL
     (CELLTYPE "cycloneiii_lcell_comb")
-    (INSTANCE \\Calc\|regReult\[10\]\~28\\)
+    (INSTANCE \\Calc\|regResult\[10\]\~28\\)
     (DELAY
       (ABSOLUTE
         (PORT dataa (612:612:612) (647:647:647))
@@ -3396,7 +3395,7 @@
   )
   (CELL
     (CELLTYPE "dffeas")
-    (INSTANCE \\Calc\|regReult\[10\]\\)
+    (INSTANCE \\Calc\|regResult\[10\]\\)
     (DELAY
       (ABSOLUTE
         (PORT clk (1124:1124:1124) (1157:1157:1157))
@@ -3545,7 +3544,7 @@
   )
   (CELL
     (CELLTYPE "cycloneiii_lcell_comb")
-    (INSTANCE \\Calc\|regReult\[11\]\~30\\)
+    (INSTANCE \\Calc\|regResult\[11\]\~30\\)
     (DELAY
       (ABSOLUTE
         (PORT dataa (592:592:592) (637:637:637))
@@ -3562,7 +3561,7 @@
   )
   (CELL
     (CELLTYPE "dffeas")
-    (INSTANCE \\Calc\|regReult\[11\]\\)
+    (INSTANCE \\Calc\|regResult\[11\]\\)
     (DELAY
       (ABSOLUTE
         (PORT clk (1124:1124:1124) (1157:1157:1157))
@@ -3721,7 +3720,7 @@
   )
   (CELL
     (CELLTYPE "cycloneiii_lcell_comb")
-    (INSTANCE \\Calc\|regReult\[12\]\~32\\)
+    (INSTANCE \\Calc\|regResult\[12\]\~32\\)
     (DELAY
       (ABSOLUTE
         (PORT dataa (655:655:655) (682:682:682))
@@ -3738,7 +3737,7 @@
   )
   (CELL
     (CELLTYPE "dffeas")
-    (INSTANCE \\Calc\|regReult\[12\]\\)
+    (INSTANCE \\Calc\|regResult\[12\]\\)
     (DELAY
       (ABSOLUTE
         (PORT clk (1140:1140:1140) (1171:1171:1171))
@@ -3897,7 +3896,7 @@
   )
   (CELL
     (CELLTYPE "cycloneiii_lcell_comb")
-    (INSTANCE \\Calc\|regReult\[13\]\~34\\)
+    (INSTANCE \\Calc\|regResult\[13\]\~34\\)
     (DELAY
       (ABSOLUTE
         (PORT dataa (678:678:678) (723:723:723))
@@ -3914,7 +3913,7 @@
   )
   (CELL
     (CELLTYPE "dffeas")
-    (INSTANCE \\Calc\|regReult\[13\]\\)
+    (INSTANCE \\Calc\|regResult\[13\]\\)
     (DELAY
       (ABSOLUTE
         (PORT clk (1124:1124:1124) (1157:1157:1157))
@@ -4073,7 +4072,7 @@
   )
   (CELL
     (CELLTYPE "cycloneiii_lcell_comb")
-    (INSTANCE \\Calc\|regReult\[14\]\~36\\)
+    (INSTANCE \\Calc\|regResult\[14\]\~36\\)
     (DELAY
       (ABSOLUTE
         (PORT dataa (689:689:689) (730:730:730))
@@ -4090,7 +4089,7 @@
   )
   (CELL
     (CELLTYPE "dffeas")
-    (INSTANCE \\Calc\|regReult\[14\]\\)
+    (INSTANCE \\Calc\|regResult\[14\]\\)
     (DELAY
       (ABSOLUTE
         (PORT clk (1124:1124:1124) (1157:1157:1157))
@@ -4236,7 +4235,7 @@
   )
   (CELL
     (CELLTYPE "cycloneiii_lcell_comb")
-    (INSTANCE \\Calc\|regReult\[15\]\~38\\)
+    (INSTANCE \\Calc\|regResult\[15\]\~38\\)
     (DELAY
       (ABSOLUTE
         (PORT dataa (631:631:631) (665:665:665))
@@ -4253,7 +4252,7 @@
   )
   (CELL
     (CELLTYPE "dffeas")
-    (INSTANCE \\Calc\|regReult\[15\]\\)
+    (INSTANCE \\Calc\|regResult\[15\]\\)
     (DELAY
       (ABSOLUTE
         (PORT clk (1140:1140:1140) (1171:1171:1171))
@@ -4312,7 +4311,7 @@
   )
   (CELL
     (CELLTYPE "cycloneiii_lcell_comb")
-    (INSTANCE \\Calc\|regReult\[16\]\~40\\)
+    (INSTANCE \\Calc\|regResult\[16\]\~40\\)
     (DELAY
       (ABSOLUTE
         (PORT dataa (602:602:602) (638:638:638))
@@ -4326,7 +4325,7 @@
   )
   (CELL
     (CELLTYPE "dffeas")
-    (INSTANCE \\Calc\|regReult\[16\]\\)
+    (INSTANCE \\Calc\|regResult\[16\]\\)
     (DELAY
       (ABSOLUTE
         (PORT clk (1136:1136:1136) (1167:1167:1167))
@@ -4386,7 +4385,7 @@
   )
   (CELL
     (CELLTYPE "cycloneiii_lcell_comb")
-    (INSTANCE \\Calc\|regReult\[17\]\~42\\)
+    (INSTANCE \\Calc\|regResult\[17\]\~42\\)
     (DELAY
       (ABSOLUTE
         (PORT dataa (647:647:647) (699:699:699))
@@ -4400,7 +4399,7 @@
   )
   (CELL
     (CELLTYPE "dffeas")
-    (INSTANCE \\Calc\|regReult\[17\]\\)
+    (INSTANCE \\Calc\|regResult\[17\]\\)
     (DELAY
       (ABSOLUTE
         (PORT clk (1124:1124:1124) (1156:1156:1156))
@@ -4470,7 +4469,7 @@
   )
   (CELL
     (CELLTYPE "cycloneiii_lcell_comb")
-    (INSTANCE \\Calc\|regReult\[18\]\~44\\)
+    (INSTANCE \\Calc\|regResult\[18\]\~44\\)
     (DELAY
       (ABSOLUTE
         (PORT datab (1035:1035:1035) (1036:1036:1036))
@@ -4484,7 +4483,7 @@
   )
   (CELL
     (CELLTYPE "dffeas")
-    (INSTANCE \\Calc\|regReult\[18\]\\)
+    (INSTANCE \\Calc\|regResult\[18\]\\)
     (DELAY
       (ABSOLUTE
         (PORT clk (1136:1136:1136) (1167:1167:1167))
@@ -4554,7 +4553,7 @@
   )
   (CELL
     (CELLTYPE "cycloneiii_lcell_comb")
-    (INSTANCE \\Calc\|regReult\[19\]\~46\\)
+    (INSTANCE \\Calc\|regResult\[19\]\~46\\)
     (DELAY
       (ABSOLUTE
         (PORT datad (596:596:596) (623:623:623))
@@ -4565,7 +4564,7 @@
   )
   (CELL
     (CELLTYPE "dffeas")
-    (INSTANCE \\Calc\|regReult\[19\]\\)
+    (INSTANCE \\Calc\|regResult\[19\]\\)
     (DELAY
       (ABSOLUTE
         (PORT clk (1146:1146:1146) (1178:1178:1178))

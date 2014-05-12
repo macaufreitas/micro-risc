@@ -36,7 +36,7 @@ begin
 			CS <= X"0000";
 			SS <= X"0000";
 			DS <= X"0000";
-			IP <= X"0000";
+			IP <= X"0001";
 		elsif (rising_edge (clock) and soma_IP = '1' and habilita = '1') then
 			--Soma o IP em 4 posições 
 			IP <= IP + X"0001";

@@ -1,5 +1,5 @@
 Flow report for memoriaROM
-Fri Apr 18 11:15:16 2014
+Wed May 07 08:31:46 2014
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Flow Summary                                                                    ;
 +------------------------------------+--------------------------------------------+
-; Flow Status                        ; Successful - Fri Apr 18 11:15:16 2014      ;
+; Flow Status                        ; Successful - Wed May 07 08:31:46 2014      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; memoriaROM                                 ;
 ; Top-level Entity Name              ; memoriaROM                                 ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/18/2014 11:14:21 ;
+; Start date & time ; 05/07/2014 08:31:09 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; memoriaROM          ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +--------------------------------------+--------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                          ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+--------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 88750180851854.139783046105816 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 52863701328856.139946226905116 ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                             ; --            ; --          ; memoriaROMTB   ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; memoriaROMTB                   ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Vhdl                           ; --            ; --          ; eda_simulation ;
@@ -96,12 +96,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:06     ; 1.0                     ; 529 MB              ; 00:00:06                           ;
-; Fitter                    ; 00:00:19     ; 1.0                     ; 790 MB              ; 00:00:19                           ;
-; Assembler                 ; 00:00:05     ; 1.0                     ; 459 MB              ; 00:00:05                           ;
-; TimeQuest Timing Analyzer ; 00:00:07     ; 1.0                     ; 494 MB              ; 00:00:07                           ;
-; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 429 MB              ; 00:00:03                           ;
-; Total                     ; 00:00:40     ; --                      ; --                  ; 00:00:40                           ;
+; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 516 MB              ; 00:00:02                           ;
+; Fitter                    ; 00:00:07     ; 1.0                     ; 778 MB              ; 00:00:07                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 447 MB              ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 482 MB              ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 417 MB              ; 00:00:01                           ;
+; Total                     ; 00:00:14     ; --                      ; --                  ; 00:00:14                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

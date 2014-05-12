@@ -20,13 +20,19 @@ ARCHITECTURE arch OF memoriaROM IS
 --                                           |
     TYPE formato_mem IS ARRAY(NATURAL RANGE <>) OF STD_LOGIC_VECTOR(15 DOWNTO 0);
     CONSTANT dados : formato_mem(0 TO 255) :=
-                     (X"81C0", X"00FF", OTHERS => X"FFFF");
+                     (X"81C0",
+							 X"1234",
+							 X"00B8",
+							 X"FF00",
+							 X"81C0",
+							 X"1234",
+							 OTHERS => X"FFFF");
 
 BEGIN
      Registro: PROCESS(clk)
 	  variable j: integer;
      BEGIN
-          IF clk'EVENT AND clk = '1' THEN
+          IF clk'EVENT AND clk = '0' THEN
                    IF chipenable = '1' THEN
                        j := conv_integer(endereco);
 							  saida <= dados(j);

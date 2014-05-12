@@ -19,7 +19,7 @@ end Demultiplexador;
 architecture ArquiteturaDemux of Demultiplexador is
 begin
 	-- Processo que verifica mudanca na chave seletora
-	process (seletor)
+	process (seletor,entrada)
 	begin
 		if (seletor = '0') then
 			saida_01 <= entrada;

@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus II 64-Bit"
 -- VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition"
 
--- DATE "04/28/2014 19:41:47"
+-- DATE "05/06/2014 22:13:59"
 
 -- 
 -- Device: Altera EP3C5F256C6 Package FBGA256
@@ -234,97 +234,97 @@ SIGNAL \RegS|IP[3]~39\ : std_logic;
 SIGNAL \RegS|IP[4]~40_combout\ : std_logic;
 SIGNAL \RegS|Mux5~0_combout\ : std_logic;
 SIGNAL \RegS|saidaDados[4]~reg0_q\ : std_logic;
-SIGNAL \Calc|regReult[4]~16_combout\ : std_logic;
+SIGNAL \Calc|regResult[4]~16_combout\ : std_logic;
 SIGNAL \RegS|IP[4]~41\ : std_logic;
 SIGNAL \RegS|IP[5]~42_combout\ : std_logic;
 SIGNAL \RegS|Mux6~0_combout\ : std_logic;
 SIGNAL \RegS|saidaDados[5]~reg0_q\ : std_logic;
-SIGNAL \Calc|regReult[4]~17\ : std_logic;
-SIGNAL \Calc|regReult[5]~18_combout\ : std_logic;
+SIGNAL \Calc|regResult[4]~17\ : std_logic;
+SIGNAL \Calc|regResult[5]~18_combout\ : std_logic;
 SIGNAL \RegS|IP[5]~43\ : std_logic;
 SIGNAL \RegS|IP[6]~44_combout\ : std_logic;
 SIGNAL \RegS|Mux7~0_combout\ : std_logic;
 SIGNAL \RegS|saidaDados[6]~reg0_q\ : std_logic;
-SIGNAL \Calc|regReult[5]~19\ : std_logic;
-SIGNAL \Calc|regReult[6]~20_combout\ : std_logic;
+SIGNAL \Calc|regResult[5]~19\ : std_logic;
+SIGNAL \Calc|regResult[6]~20_combout\ : std_logic;
 SIGNAL \RegS|IP[6]~45\ : std_logic;
 SIGNAL \RegS|IP[7]~46_combout\ : std_logic;
 SIGNAL \RegS|Mux8~0_combout\ : std_logic;
 SIGNAL \RegS|saidaDados[7]~reg0_q\ : std_logic;
-SIGNAL \Calc|regReult[6]~21\ : std_logic;
-SIGNAL \Calc|regReult[7]~22_combout\ : std_logic;
+SIGNAL \Calc|regResult[6]~21\ : std_logic;
+SIGNAL \Calc|regResult[7]~22_combout\ : std_logic;
 SIGNAL \RegS|IP[7]~47\ : std_logic;
 SIGNAL \RegS|IP[8]~48_combout\ : std_logic;
 SIGNAL \RegS|Mux9~0_combout\ : std_logic;
 SIGNAL \RegS|saidaDados[8]~reg0_q\ : std_logic;
-SIGNAL \Calc|regReult[7]~23\ : std_logic;
-SIGNAL \Calc|regReult[8]~24_combout\ : std_logic;
+SIGNAL \Calc|regResult[7]~23\ : std_logic;
+SIGNAL \Calc|regResult[8]~24_combout\ : std_logic;
 SIGNAL \RegS|IP[8]~49\ : std_logic;
 SIGNAL \RegS|IP[9]~50_combout\ : std_logic;
 SIGNAL \RegS|Mux10~0_combout\ : std_logic;
 SIGNAL \RegS|saidaDados[9]~reg0_q\ : std_logic;
-SIGNAL \Calc|regReult[8]~25\ : std_logic;
-SIGNAL \Calc|regReult[9]~26_combout\ : std_logic;
+SIGNAL \Calc|regResult[8]~25\ : std_logic;
+SIGNAL \Calc|regResult[9]~26_combout\ : std_logic;
 SIGNAL \RegS|IP[9]~51\ : std_logic;
 SIGNAL \RegS|IP[10]~52_combout\ : std_logic;
 SIGNAL \RegS|Mux11~0_combout\ : std_logic;
 SIGNAL \RegS|saidaDados[10]~reg0_q\ : std_logic;
-SIGNAL \Calc|regReult[9]~27\ : std_logic;
-SIGNAL \Calc|regReult[10]~28_combout\ : std_logic;
+SIGNAL \Calc|regResult[9]~27\ : std_logic;
+SIGNAL \Calc|regResult[10]~28_combout\ : std_logic;
 SIGNAL \RegS|IP[10]~53\ : std_logic;
 SIGNAL \RegS|IP[11]~54_combout\ : std_logic;
 SIGNAL \RegS|Mux12~0_combout\ : std_logic;
 SIGNAL \RegS|saidaDados[11]~reg0_q\ : std_logic;
-SIGNAL \Calc|regReult[10]~29\ : std_logic;
-SIGNAL \Calc|regReult[11]~30_combout\ : std_logic;
+SIGNAL \Calc|regResult[10]~29\ : std_logic;
+SIGNAL \Calc|regResult[11]~30_combout\ : std_logic;
 SIGNAL \RegS|IP[11]~55\ : std_logic;
 SIGNAL \RegS|IP[12]~56_combout\ : std_logic;
 SIGNAL \RegS|Mux13~0_combout\ : std_logic;
 SIGNAL \RegS|saidaDados[12]~reg0_q\ : std_logic;
 SIGNAL \Calc|regS[12]~feeder_combout\ : std_logic;
-SIGNAL \Calc|regReult[11]~31\ : std_logic;
-SIGNAL \Calc|regReult[12]~32_combout\ : std_logic;
+SIGNAL \Calc|regResult[11]~31\ : std_logic;
+SIGNAL \Calc|regResult[12]~32_combout\ : std_logic;
 SIGNAL \Calc|regS[13]~feeder_combout\ : std_logic;
 SIGNAL \RegS|IP[12]~57\ : std_logic;
 SIGNAL \RegS|IP[13]~58_combout\ : std_logic;
 SIGNAL \RegS|Mux14~0_combout\ : std_logic;
 SIGNAL \RegS|saidaDados[13]~reg0_q\ : std_logic;
-SIGNAL \Calc|regReult[12]~33\ : std_logic;
-SIGNAL \Calc|regReult[13]~34_combout\ : std_logic;
+SIGNAL \Calc|regResult[12]~33\ : std_logic;
+SIGNAL \Calc|regResult[13]~34_combout\ : std_logic;
 SIGNAL \Calc|regS[14]~feeder_combout\ : std_logic;
 SIGNAL \RegS|IP[13]~59\ : std_logic;
 SIGNAL \RegS|IP[14]~60_combout\ : std_logic;
 SIGNAL \RegS|Mux15~0_combout\ : std_logic;
 SIGNAL \RegS|saidaDados[14]~reg0_q\ : std_logic;
-SIGNAL \Calc|regReult[13]~35\ : std_logic;
-SIGNAL \Calc|regReult[14]~36_combout\ : std_logic;
+SIGNAL \Calc|regResult[13]~35\ : std_logic;
+SIGNAL \Calc|regResult[14]~36_combout\ : std_logic;
 SIGNAL \RegS|IP[14]~61\ : std_logic;
 SIGNAL \RegS|IP[15]~62_combout\ : std_logic;
 SIGNAL \RegS|Mux16~0_combout\ : std_logic;
 SIGNAL \RegS|saidaDados[15]~reg0_q\ : std_logic;
-SIGNAL \Calc|regReult[14]~37\ : std_logic;
-SIGNAL \Calc|regReult[15]~38_combout\ : std_logic;
-SIGNAL \Calc|regReult[15]~39\ : std_logic;
-SIGNAL \Calc|regReult[16]~40_combout\ : std_logic;
-SIGNAL \Calc|regReult[16]~41\ : std_logic;
-SIGNAL \Calc|regReult[17]~42_combout\ : std_logic;
+SIGNAL \Calc|regResult[14]~37\ : std_logic;
+SIGNAL \Calc|regResult[15]~38_combout\ : std_logic;
+SIGNAL \Calc|regResult[15]~39\ : std_logic;
+SIGNAL \Calc|regResult[16]~40_combout\ : std_logic;
+SIGNAL \Calc|regResult[16]~41\ : std_logic;
+SIGNAL \Calc|regResult[17]~42_combout\ : std_logic;
 SIGNAL \Calc|regS[18]~feeder_combout\ : std_logic;
-SIGNAL \Calc|regReult[17]~43\ : std_logic;
-SIGNAL \Calc|regReult[18]~44_combout\ : std_logic;
+SIGNAL \Calc|regResult[17]~43\ : std_logic;
+SIGNAL \Calc|regResult[18]~44_combout\ : std_logic;
 SIGNAL \Calc|regS[19]~feeder_combout\ : std_logic;
-SIGNAL \Calc|regReult[18]~45\ : std_logic;
-SIGNAL \Calc|regReult[19]~46_combout\ : std_logic;
+SIGNAL \Calc|regResult[18]~45\ : std_logic;
+SIGNAL \Calc|regResult[19]~46_combout\ : std_logic;
+SIGNAL \RegS|IP\ : std_logic_vector(15 DOWNTO 0);
+SIGNAL \Calc|resultado\ : std_logic_vector(19 DOWNTO 0);
+SIGNAL \Calc|regS\ : std_logic_vector(19 DOWNTO 0);
+SIGNAL \Calc|regResult\ : std_logic_vector(19 DOWNTO 0);
+SIGNAL \Calc|regI\ : std_logic_vector(19 DOWNTO 0);
 SIGNAL \D2|saida_02\ : std_logic_vector(15 DOWNTO 0);
 SIGNAL \D2|saida_01\ : std_logic_vector(15 DOWNTO 0);
 SIGNAL \UC|opcodeFetch\ : std_logic_vector(15 DOWNTO 0);
 SIGNAL \D1|saida_02\ : std_logic_vector(15 DOWNTO 0);
-SIGNAL \RegS|IP\ : std_logic_vector(15 DOWNTO 0);
-SIGNAL \Calc|resultado\ : std_logic_vector(19 DOWNTO 0);
-SIGNAL \Calc|regS\ : std_logic_vector(19 DOWNTO 0);
-SIGNAL \Calc|regReult\ : std_logic_vector(19 DOWNTO 0);
-SIGNAL \Calc|regI\ : std_logic_vector(19 DOWNTO 0);
-SIGNAL \ALT_INV_clk~inputclkctrl_outclk\ : std_logic;
 SIGNAL \UCE|ALT_INV_habRegSeg~q\ : std_logic;
+SIGNAL \ALT_INV_clk~inputclkctrl_outclk\ : std_logic;
 
 BEGIN
 
@@ -346,8 +346,8 @@ ww_devpor <= devpor;
 \clk~inputclkctrl_INCLK_bus\ <= (vcc & vcc & vcc & \clk~input_o\);
 
 \reset~inputclkctrl_INCLK_bus\ <= (vcc & vcc & vcc & \reset~input_o\);
-\ALT_INV_clk~inputclkctrl_outclk\ <= NOT \clk~inputclkctrl_outclk\;
 \UCE|ALT_INV_habRegSeg~q\ <= NOT \UCE|habRegSeg~q\;
+\ALT_INV_clk~inputclkctrl_outclk\ <= NOT \clk~inputclkctrl_outclk\;
 
 -- Location: IOOBUF_X13_Y24_N16
 \endereco[0]~output\ : cycloneiii_io_obuf
@@ -2086,17 +2086,16 @@ PORT MAP (
 -- Location: LCCOMB_X12_Y17_N0
 \RegS|IP[0]~32\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \RegS|IP[0]~32_combout\ = \RegS|IP\(0) $ (VCC)
--- \RegS|IP[0]~33\ = CARRY(\RegS|IP\(0))
+-- \RegS|IP[0]~32_combout\ = !\RegS|IP\(0)
+-- \RegS|IP[0]~33\ = CARRY(!\RegS|IP\(0))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0011001111001100",
+	lut_mask => "0011001100110011",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
 	datab => \RegS|IP\(0),
-	datad => VCC,
 	combout => \RegS|IP[0]~32_combout\,
 	cout => \RegS|IP[0]~33\);
 
@@ -2213,11 +2212,11 @@ PORT MAP (
 -- Location: LCCOMB_X11_Y17_N24
 \RegS|Mux0~0\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \RegS|Mux0~0_combout\ = (\RegS|IP\(0) & \UCE|ctrlRegSeg[2]~reg0_q\)
+-- \RegS|Mux0~0_combout\ = (!\RegS|IP\(0) & \UCE|ctrlRegSeg[2]~reg0_q\)
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1111000000000000",
+	lut_mask => "0000111100000000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -2304,7 +2303,7 @@ PORT MAP (
 	q => \Calc|regI\(0));
 
 -- Location: FF_X16_Y17_N17
-\Calc|regReult[0]\ : dffeas
+\Calc|regResult[0]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -2317,7 +2316,7 @@ PORT MAP (
 	ena => \UCE|habilitaCalc~reg0_q\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \Calc|regReult\(0));
+	q => \Calc|regResult\(0));
 
 -- Location: LCCOMB_X1_Y17_N18
 \UCE|Selector3~0\ : cycloneiii_lcell_comb
@@ -2380,7 +2379,7 @@ PORT MAP (
 -- Location: LCCOMB_X16_Y17_N16
 \Calc|resultado[0]\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|resultado\(0) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regReult\(0)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(0)))
+-- \Calc|resultado\(0) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regResult\(0)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(0)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -2389,7 +2388,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datab => \Calc|resultado\(0),
-	datac => \Calc|regReult\(0),
+	datac => \Calc|regResult\(0),
 	datad => \UCE|habMemoria~clkctrl_outclk\,
 	combout => \Calc|resultado\(0));
 
@@ -2489,7 +2488,7 @@ PORT MAP (
 	q => \Calc|regI\(1));
 
 -- Location: FF_X16_Y17_N19
-\Calc|regReult[1]\ : dffeas
+\Calc|regResult[1]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -2502,12 +2501,12 @@ PORT MAP (
 	ena => \UCE|habilitaCalc~reg0_q\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \Calc|regReult\(1));
+	q => \Calc|regResult\(1));
 
 -- Location: LCCOMB_X16_Y17_N18
 \Calc|resultado[1]\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|resultado\(1) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regReult\(1)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(1)))
+-- \Calc|resultado\(1) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regResult\(1)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(1)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -2516,7 +2515,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datab => \Calc|resultado\(1),
-	datac => \Calc|regReult\(1),
+	datac => \Calc|regResult\(1),
 	datad => \UCE|habMemoria~clkctrl_outclk\,
 	combout => \Calc|resultado\(1));
 
@@ -2616,7 +2615,7 @@ PORT MAP (
 	q => \Calc|regI\(2));
 
 -- Location: FF_X16_Y17_N9
-\Calc|regReult[2]\ : dffeas
+\Calc|regResult[2]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -2629,12 +2628,12 @@ PORT MAP (
 	ena => \UCE|habilitaCalc~reg0_q\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \Calc|regReult\(2));
+	q => \Calc|regResult\(2));
 
 -- Location: LCCOMB_X16_Y17_N8
 \Calc|resultado[2]\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|resultado\(2) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regReult\(2)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(2)))
+-- \Calc|resultado\(2) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regResult\(2)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(2)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -2643,7 +2642,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \Calc|resultado\(2),
-	datac => \Calc|regReult\(2),
+	datac => \Calc|regResult\(2),
 	datad => \UCE|habMemoria~clkctrl_outclk\,
 	combout => \Calc|resultado\(2));
 
@@ -2743,7 +2742,7 @@ PORT MAP (
 	q => \Calc|regI\(3));
 
 -- Location: FF_X16_Y17_N15
-\Calc|regReult[3]\ : dffeas
+\Calc|regResult[3]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -2756,12 +2755,12 @@ PORT MAP (
 	ena => \UCE|habilitaCalc~reg0_q\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \Calc|regReult\(3));
+	q => \Calc|regResult\(3));
 
 -- Location: LCCOMB_X16_Y17_N14
 \Calc|resultado[3]\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|resultado\(3) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regReult\(3)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(3)))
+-- \Calc|resultado\(3) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regResult\(3)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(3)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -2770,7 +2769,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datab => \Calc|resultado\(3),
-	datac => \Calc|regReult\(3),
+	datac => \Calc|regResult\(3),
 	datad => \UCE|habMemoria~clkctrl_outclk\,
 	combout => \Calc|resultado\(3));
 
@@ -2902,10 +2901,10 @@ PORT MAP (
 	q => \Calc|regS\(4));
 
 -- Location: LCCOMB_X17_Y17_N0
-\Calc|regReult[4]~16\ : cycloneiii_lcell_comb
+\Calc|regResult[4]~16\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|regReult[4]~16_combout\ = (\Calc|regI\(4) & (\Calc|regS\(4) $ (VCC))) # (!\Calc|regI\(4) & (\Calc|regS\(4) & VCC))
--- \Calc|regReult[4]~17\ = CARRY((\Calc|regI\(4) & \Calc|regS\(4)))
+-- \Calc|regResult[4]~16_combout\ = (\Calc|regI\(4) & (\Calc|regS\(4) $ (VCC))) # (!\Calc|regI\(4) & (\Calc|regS\(4) & VCC))
+-- \Calc|regResult[4]~17\ = CARRY((\Calc|regI\(4) & \Calc|regS\(4)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -2916,11 +2915,11 @@ PORT MAP (
 	dataa => \Calc|regI\(4),
 	datab => \Calc|regS\(4),
 	datad => VCC,
-	combout => \Calc|regReult[4]~16_combout\,
-	cout => \Calc|regReult[4]~17\);
+	combout => \Calc|regResult[4]~16_combout\,
+	cout => \Calc|regResult[4]~17\);
 
 -- Location: FF_X19_Y17_N25
-\Calc|regReult[4]\ : dffeas
+\Calc|regResult[4]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -2928,17 +2927,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \clk~inputclkctrl_outclk\,
-	asdata => \Calc|regReult[4]~16_combout\,
+	asdata => \Calc|regResult[4]~16_combout\,
 	sload => VCC,
 	ena => \UCE|habilitaCalc~reg0_q\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \Calc|regReult\(4));
+	q => \Calc|regResult\(4));
 
 -- Location: LCCOMB_X19_Y17_N24
 \Calc|resultado[4]\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|resultado\(4) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regReult\(4)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(4)))
+-- \Calc|resultado\(4) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regResult\(4)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(4)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -2947,7 +2946,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datab => \Calc|resultado\(4),
-	datac => \Calc|regReult\(4),
+	datac => \Calc|regResult\(4),
 	datad => \UCE|habMemoria~clkctrl_outclk\,
 	combout => \Calc|resultado\(4));
 
@@ -3080,11 +3079,11 @@ PORT MAP (
 	q => \Calc|regI\(5));
 
 -- Location: LCCOMB_X17_Y17_N2
-\Calc|regReult[5]~18\ : cycloneiii_lcell_comb
+\Calc|regResult[5]~18\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|regReult[5]~18_combout\ = (\Calc|regS\(5) & ((\Calc|regI\(5) & (\Calc|regReult[4]~17\ & VCC)) # (!\Calc|regI\(5) & (!\Calc|regReult[4]~17\)))) # (!\Calc|regS\(5) & ((\Calc|regI\(5) & (!\Calc|regReult[4]~17\)) # (!\Calc|regI\(5) & 
--- ((\Calc|regReult[4]~17\) # (GND)))))
--- \Calc|regReult[5]~19\ = CARRY((\Calc|regS\(5) & (!\Calc|regI\(5) & !\Calc|regReult[4]~17\)) # (!\Calc|regS\(5) & ((!\Calc|regReult[4]~17\) # (!\Calc|regI\(5)))))
+-- \Calc|regResult[5]~18_combout\ = (\Calc|regS\(5) & ((\Calc|regI\(5) & (\Calc|regResult[4]~17\ & VCC)) # (!\Calc|regI\(5) & (!\Calc|regResult[4]~17\)))) # (!\Calc|regS\(5) & ((\Calc|regI\(5) & (!\Calc|regResult[4]~17\)) # (!\Calc|regI\(5) & 
+-- ((\Calc|regResult[4]~17\) # (GND)))))
+-- \Calc|regResult[5]~19\ = CARRY((\Calc|regS\(5) & (!\Calc|regI\(5) & !\Calc|regResult[4]~17\)) # (!\Calc|regS\(5) & ((!\Calc|regResult[4]~17\) # (!\Calc|regI\(5)))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3095,12 +3094,12 @@ PORT MAP (
 	dataa => \Calc|regS\(5),
 	datab => \Calc|regI\(5),
 	datad => VCC,
-	cin => \Calc|regReult[4]~17\,
-	combout => \Calc|regReult[5]~18_combout\,
-	cout => \Calc|regReult[5]~19\);
+	cin => \Calc|regResult[4]~17\,
+	combout => \Calc|regResult[5]~18_combout\,
+	cout => \Calc|regResult[5]~19\);
 
 -- Location: FF_X14_Y17_N5
-\Calc|regReult[5]\ : dffeas
+\Calc|regResult[5]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -3108,17 +3107,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \clk~inputclkctrl_outclk\,
-	asdata => \Calc|regReult[5]~18_combout\,
+	asdata => \Calc|regResult[5]~18_combout\,
 	sload => VCC,
 	ena => \UCE|habilitaCalc~reg0_q\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \Calc|regReult\(5));
+	q => \Calc|regResult\(5));
 
 -- Location: LCCOMB_X14_Y17_N4
 \Calc|resultado[5]\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|resultado\(5) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regReult\(5)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(5)))
+-- \Calc|resultado\(5) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regResult\(5)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(5)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3127,7 +3126,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datab => \Calc|resultado\(5),
-	datac => \Calc|regReult\(5),
+	datac => \Calc|regResult\(5),
 	datad => \UCE|habMemoria~clkctrl_outclk\,
 	combout => \Calc|resultado\(5));
 
@@ -3259,10 +3258,10 @@ PORT MAP (
 	q => \Calc|regS\(6));
 
 -- Location: LCCOMB_X17_Y17_N4
-\Calc|regReult[6]~20\ : cycloneiii_lcell_comb
+\Calc|regResult[6]~20\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|regReult[6]~20_combout\ = ((\Calc|regI\(6) $ (\Calc|regS\(6) $ (!\Calc|regReult[5]~19\)))) # (GND)
--- \Calc|regReult[6]~21\ = CARRY((\Calc|regI\(6) & ((\Calc|regS\(6)) # (!\Calc|regReult[5]~19\))) # (!\Calc|regI\(6) & (\Calc|regS\(6) & !\Calc|regReult[5]~19\)))
+-- \Calc|regResult[6]~20_combout\ = ((\Calc|regI\(6) $ (\Calc|regS\(6) $ (!\Calc|regResult[5]~19\)))) # (GND)
+-- \Calc|regResult[6]~21\ = CARRY((\Calc|regI\(6) & ((\Calc|regS\(6)) # (!\Calc|regResult[5]~19\))) # (!\Calc|regI\(6) & (\Calc|regS\(6) & !\Calc|regResult[5]~19\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3273,12 +3272,12 @@ PORT MAP (
 	dataa => \Calc|regI\(6),
 	datab => \Calc|regS\(6),
 	datad => VCC,
-	cin => \Calc|regReult[5]~19\,
-	combout => \Calc|regReult[6]~20_combout\,
-	cout => \Calc|regReult[6]~21\);
+	cin => \Calc|regResult[5]~19\,
+	combout => \Calc|regResult[6]~20_combout\,
+	cout => \Calc|regResult[6]~21\);
 
 -- Location: FF_X19_Y17_N11
-\Calc|regReult[6]\ : dffeas
+\Calc|regResult[6]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -3286,17 +3285,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \clk~inputclkctrl_outclk\,
-	asdata => \Calc|regReult[6]~20_combout\,
+	asdata => \Calc|regResult[6]~20_combout\,
 	sload => VCC,
 	ena => \UCE|habilitaCalc~reg0_q\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \Calc|regReult\(6));
+	q => \Calc|regResult\(6));
 
 -- Location: LCCOMB_X19_Y17_N10
 \Calc|resultado[6]\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|resultado\(6) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regReult\(6)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(6)))
+-- \Calc|resultado\(6) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regResult\(6)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(6)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3305,7 +3304,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \Calc|resultado\(6),
-	datac => \Calc|regReult\(6),
+	datac => \Calc|regResult\(6),
 	datad => \UCE|habMemoria~clkctrl_outclk\,
 	combout => \Calc|resultado\(6));
 
@@ -3437,11 +3436,11 @@ PORT MAP (
 	q => \Calc|regS\(7));
 
 -- Location: LCCOMB_X17_Y17_N6
-\Calc|regReult[7]~22\ : cycloneiii_lcell_comb
+\Calc|regResult[7]~22\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|regReult[7]~22_combout\ = (\Calc|regI\(7) & ((\Calc|regS\(7) & (\Calc|regReult[6]~21\ & VCC)) # (!\Calc|regS\(7) & (!\Calc|regReult[6]~21\)))) # (!\Calc|regI\(7) & ((\Calc|regS\(7) & (!\Calc|regReult[6]~21\)) # (!\Calc|regS\(7) & 
--- ((\Calc|regReult[6]~21\) # (GND)))))
--- \Calc|regReult[7]~23\ = CARRY((\Calc|regI\(7) & (!\Calc|regS\(7) & !\Calc|regReult[6]~21\)) # (!\Calc|regI\(7) & ((!\Calc|regReult[6]~21\) # (!\Calc|regS\(7)))))
+-- \Calc|regResult[7]~22_combout\ = (\Calc|regI\(7) & ((\Calc|regS\(7) & (\Calc|regResult[6]~21\ & VCC)) # (!\Calc|regS\(7) & (!\Calc|regResult[6]~21\)))) # (!\Calc|regI\(7) & ((\Calc|regS\(7) & (!\Calc|regResult[6]~21\)) # (!\Calc|regS\(7) & 
+-- ((\Calc|regResult[6]~21\) # (GND)))))
+-- \Calc|regResult[7]~23\ = CARRY((\Calc|regI\(7) & (!\Calc|regS\(7) & !\Calc|regResult[6]~21\)) # (!\Calc|regI\(7) & ((!\Calc|regResult[6]~21\) # (!\Calc|regS\(7)))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3452,12 +3451,12 @@ PORT MAP (
 	dataa => \Calc|regI\(7),
 	datab => \Calc|regS\(7),
 	datad => VCC,
-	cin => \Calc|regReult[6]~21\,
-	combout => \Calc|regReult[7]~22_combout\,
-	cout => \Calc|regReult[7]~23\);
+	cin => \Calc|regResult[6]~21\,
+	combout => \Calc|regResult[7]~22_combout\,
+	cout => \Calc|regResult[7]~23\);
 
 -- Location: FF_X19_Y17_N13
-\Calc|regReult[7]\ : dffeas
+\Calc|regResult[7]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -3465,17 +3464,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \clk~inputclkctrl_outclk\,
-	asdata => \Calc|regReult[7]~22_combout\,
+	asdata => \Calc|regResult[7]~22_combout\,
 	sload => VCC,
 	ena => \UCE|habilitaCalc~reg0_q\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \Calc|regReult\(7));
+	q => \Calc|regResult\(7));
 
 -- Location: LCCOMB_X19_Y17_N12
 \Calc|resultado[7]\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|resultado\(7) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regReult\(7)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(7)))
+-- \Calc|resultado\(7) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regResult\(7)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(7)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3484,7 +3483,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \Calc|resultado\(7),
-	datac => \Calc|regReult\(7),
+	datac => \Calc|regResult\(7),
 	datad => \UCE|habMemoria~clkctrl_outclk\,
 	combout => \Calc|resultado\(7));
 
@@ -3616,10 +3615,10 @@ PORT MAP (
 	q => \Calc|regS\(8));
 
 -- Location: LCCOMB_X17_Y17_N8
-\Calc|regReult[8]~24\ : cycloneiii_lcell_comb
+\Calc|regResult[8]~24\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|regReult[8]~24_combout\ = ((\Calc|regI\(8) $ (\Calc|regS\(8) $ (!\Calc|regReult[7]~23\)))) # (GND)
--- \Calc|regReult[8]~25\ = CARRY((\Calc|regI\(8) & ((\Calc|regS\(8)) # (!\Calc|regReult[7]~23\))) # (!\Calc|regI\(8) & (\Calc|regS\(8) & !\Calc|regReult[7]~23\)))
+-- \Calc|regResult[8]~24_combout\ = ((\Calc|regI\(8) $ (\Calc|regS\(8) $ (!\Calc|regResult[7]~23\)))) # (GND)
+-- \Calc|regResult[8]~25\ = CARRY((\Calc|regI\(8) & ((\Calc|regS\(8)) # (!\Calc|regResult[7]~23\))) # (!\Calc|regI\(8) & (\Calc|regS\(8) & !\Calc|regResult[7]~23\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3630,12 +3629,12 @@ PORT MAP (
 	dataa => \Calc|regI\(8),
 	datab => \Calc|regS\(8),
 	datad => VCC,
-	cin => \Calc|regReult[7]~23\,
-	combout => \Calc|regReult[8]~24_combout\,
-	cout => \Calc|regReult[8]~25\);
+	cin => \Calc|regResult[7]~23\,
+	combout => \Calc|regResult[8]~24_combout\,
+	cout => \Calc|regResult[8]~25\);
 
 -- Location: FF_X19_Y17_N19
-\Calc|regReult[8]\ : dffeas
+\Calc|regResult[8]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -3643,17 +3642,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \clk~inputclkctrl_outclk\,
-	asdata => \Calc|regReult[8]~24_combout\,
+	asdata => \Calc|regResult[8]~24_combout\,
 	sload => VCC,
 	ena => \UCE|habilitaCalc~reg0_q\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \Calc|regReult\(8));
+	q => \Calc|regResult\(8));
 
 -- Location: LCCOMB_X19_Y17_N18
 \Calc|resultado[8]\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|resultado\(8) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regReult\(8)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(8)))
+-- \Calc|resultado\(8) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regResult\(8)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(8)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3662,7 +3661,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datab => \Calc|resultado\(8),
-	datac => \Calc|regReult\(8),
+	datac => \Calc|regResult\(8),
 	datad => \UCE|habMemoria~clkctrl_outclk\,
 	combout => \Calc|resultado\(8));
 
@@ -3794,11 +3793,11 @@ PORT MAP (
 	q => \Calc|regI\(9));
 
 -- Location: LCCOMB_X17_Y17_N10
-\Calc|regReult[9]~26\ : cycloneiii_lcell_comb
+\Calc|regResult[9]~26\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|regReult[9]~26_combout\ = (\Calc|regS\(9) & ((\Calc|regI\(9) & (\Calc|regReult[8]~25\ & VCC)) # (!\Calc|regI\(9) & (!\Calc|regReult[8]~25\)))) # (!\Calc|regS\(9) & ((\Calc|regI\(9) & (!\Calc|regReult[8]~25\)) # (!\Calc|regI\(9) & 
--- ((\Calc|regReult[8]~25\) # (GND)))))
--- \Calc|regReult[9]~27\ = CARRY((\Calc|regS\(9) & (!\Calc|regI\(9) & !\Calc|regReult[8]~25\)) # (!\Calc|regS\(9) & ((!\Calc|regReult[8]~25\) # (!\Calc|regI\(9)))))
+-- \Calc|regResult[9]~26_combout\ = (\Calc|regS\(9) & ((\Calc|regI\(9) & (\Calc|regResult[8]~25\ & VCC)) # (!\Calc|regI\(9) & (!\Calc|regResult[8]~25\)))) # (!\Calc|regS\(9) & ((\Calc|regI\(9) & (!\Calc|regResult[8]~25\)) # (!\Calc|regI\(9) & 
+-- ((\Calc|regResult[8]~25\) # (GND)))))
+-- \Calc|regResult[9]~27\ = CARRY((\Calc|regS\(9) & (!\Calc|regI\(9) & !\Calc|regResult[8]~25\)) # (!\Calc|regS\(9) & ((!\Calc|regResult[8]~25\) # (!\Calc|regI\(9)))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3809,12 +3808,12 @@ PORT MAP (
 	dataa => \Calc|regS\(9),
 	datab => \Calc|regI\(9),
 	datad => VCC,
-	cin => \Calc|regReult[8]~25\,
-	combout => \Calc|regReult[9]~26_combout\,
-	cout => \Calc|regReult[9]~27\);
+	cin => \Calc|regResult[8]~25\,
+	combout => \Calc|regResult[9]~26_combout\,
+	cout => \Calc|regResult[9]~27\);
 
 -- Location: FF_X19_Y17_N1
-\Calc|regReult[9]\ : dffeas
+\Calc|regResult[9]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -3822,17 +3821,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \clk~inputclkctrl_outclk\,
-	asdata => \Calc|regReult[9]~26_combout\,
+	asdata => \Calc|regResult[9]~26_combout\,
 	sload => VCC,
 	ena => \UCE|habilitaCalc~reg0_q\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \Calc|regReult\(9));
+	q => \Calc|regResult\(9));
 
 -- Location: LCCOMB_X19_Y17_N0
 \Calc|resultado[9]\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|resultado\(9) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regReult\(9)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(9)))
+-- \Calc|resultado\(9) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regResult\(9)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(9)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3841,7 +3840,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datab => \Calc|resultado\(9),
-	datac => \Calc|regReult\(9),
+	datac => \Calc|regResult\(9),
 	datad => \UCE|habMemoria~clkctrl_outclk\,
 	combout => \Calc|resultado\(9));
 
@@ -3973,10 +3972,10 @@ PORT MAP (
 	q => \Calc|regS\(10));
 
 -- Location: LCCOMB_X17_Y17_N12
-\Calc|regReult[10]~28\ : cycloneiii_lcell_comb
+\Calc|regResult[10]~28\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|regReult[10]~28_combout\ = ((\Calc|regI\(10) $ (\Calc|regS\(10) $ (!\Calc|regReult[9]~27\)))) # (GND)
--- \Calc|regReult[10]~29\ = CARRY((\Calc|regI\(10) & ((\Calc|regS\(10)) # (!\Calc|regReult[9]~27\))) # (!\Calc|regI\(10) & (\Calc|regS\(10) & !\Calc|regReult[9]~27\)))
+-- \Calc|regResult[10]~28_combout\ = ((\Calc|regI\(10) $ (\Calc|regS\(10) $ (!\Calc|regResult[9]~27\)))) # (GND)
+-- \Calc|regResult[10]~29\ = CARRY((\Calc|regI\(10) & ((\Calc|regS\(10)) # (!\Calc|regResult[9]~27\))) # (!\Calc|regI\(10) & (\Calc|regS\(10) & !\Calc|regResult[9]~27\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -3987,12 +3986,12 @@ PORT MAP (
 	dataa => \Calc|regI\(10),
 	datab => \Calc|regS\(10),
 	datad => VCC,
-	cin => \Calc|regReult[9]~27\,
-	combout => \Calc|regReult[10]~28_combout\,
-	cout => \Calc|regReult[10]~29\);
+	cin => \Calc|regResult[9]~27\,
+	combout => \Calc|regResult[10]~28_combout\,
+	cout => \Calc|regResult[10]~29\);
 
 -- Location: FF_X19_Y17_N3
-\Calc|regReult[10]\ : dffeas
+\Calc|regResult[10]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -4000,17 +3999,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \clk~inputclkctrl_outclk\,
-	asdata => \Calc|regReult[10]~28_combout\,
+	asdata => \Calc|regResult[10]~28_combout\,
 	sload => VCC,
 	ena => \UCE|habilitaCalc~reg0_q\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \Calc|regReult\(10));
+	q => \Calc|regResult\(10));
 
 -- Location: LCCOMB_X19_Y17_N2
 \Calc|resultado[10]\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|resultado\(10) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regReult\(10)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(10)))
+-- \Calc|resultado\(10) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regResult\(10)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(10)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4019,7 +4018,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datab => \Calc|resultado\(10),
-	datac => \Calc|regReult\(10),
+	datac => \Calc|regResult\(10),
 	datad => \UCE|habMemoria~clkctrl_outclk\,
 	combout => \Calc|resultado\(10));
 
@@ -4151,11 +4150,11 @@ PORT MAP (
 	q => \Calc|regS\(11));
 
 -- Location: LCCOMB_X17_Y17_N14
-\Calc|regReult[11]~30\ : cycloneiii_lcell_comb
+\Calc|regResult[11]~30\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|regReult[11]~30_combout\ = (\Calc|regI\(11) & ((\Calc|regS\(11) & (\Calc|regReult[10]~29\ & VCC)) # (!\Calc|regS\(11) & (!\Calc|regReult[10]~29\)))) # (!\Calc|regI\(11) & ((\Calc|regS\(11) & (!\Calc|regReult[10]~29\)) # (!\Calc|regS\(11) & 
--- ((\Calc|regReult[10]~29\) # (GND)))))
--- \Calc|regReult[11]~31\ = CARRY((\Calc|regI\(11) & (!\Calc|regS\(11) & !\Calc|regReult[10]~29\)) # (!\Calc|regI\(11) & ((!\Calc|regReult[10]~29\) # (!\Calc|regS\(11)))))
+-- \Calc|regResult[11]~30_combout\ = (\Calc|regI\(11) & ((\Calc|regS\(11) & (\Calc|regResult[10]~29\ & VCC)) # (!\Calc|regS\(11) & (!\Calc|regResult[10]~29\)))) # (!\Calc|regI\(11) & ((\Calc|regS\(11) & (!\Calc|regResult[10]~29\)) # (!\Calc|regS\(11) & 
+-- ((\Calc|regResult[10]~29\) # (GND)))))
+-- \Calc|regResult[11]~31\ = CARRY((\Calc|regI\(11) & (!\Calc|regS\(11) & !\Calc|regResult[10]~29\)) # (!\Calc|regI\(11) & ((!\Calc|regResult[10]~29\) # (!\Calc|regS\(11)))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4166,12 +4165,12 @@ PORT MAP (
 	dataa => \Calc|regI\(11),
 	datab => \Calc|regS\(11),
 	datad => VCC,
-	cin => \Calc|regReult[10]~29\,
-	combout => \Calc|regReult[11]~30_combout\,
-	cout => \Calc|regReult[11]~31\);
+	cin => \Calc|regResult[10]~29\,
+	combout => \Calc|regResult[11]~30_combout\,
+	cout => \Calc|regResult[11]~31\);
 
 -- Location: FF_X19_Y17_N21
-\Calc|regReult[11]\ : dffeas
+\Calc|regResult[11]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -4179,17 +4178,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \clk~inputclkctrl_outclk\,
-	asdata => \Calc|regReult[11]~30_combout\,
+	asdata => \Calc|regResult[11]~30_combout\,
 	sload => VCC,
 	ena => \UCE|habilitaCalc~reg0_q\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \Calc|regReult\(11));
+	q => \Calc|regResult\(11));
 
 -- Location: LCCOMB_X19_Y17_N20
 \Calc|resultado[11]\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|resultado\(11) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regReult\(11)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(11)))
+-- \Calc|resultado\(11) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regResult\(11)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(11)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4198,7 +4197,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datab => \Calc|resultado\(11),
-	datac => \Calc|regReult\(11),
+	datac => \Calc|regResult\(11),
 	datad => \UCE|habMemoria~clkctrl_outclk\,
 	combout => \Calc|resultado\(11));
 
@@ -4343,10 +4342,10 @@ PORT MAP (
 	q => \Calc|regS\(12));
 
 -- Location: LCCOMB_X17_Y17_N16
-\Calc|regReult[12]~32\ : cycloneiii_lcell_comb
+\Calc|regResult[12]~32\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|regReult[12]~32_combout\ = ((\Calc|regI\(12) $ (\Calc|regS\(12) $ (!\Calc|regReult[11]~31\)))) # (GND)
--- \Calc|regReult[12]~33\ = CARRY((\Calc|regI\(12) & ((\Calc|regS\(12)) # (!\Calc|regReult[11]~31\))) # (!\Calc|regI\(12) & (\Calc|regS\(12) & !\Calc|regReult[11]~31\)))
+-- \Calc|regResult[12]~32_combout\ = ((\Calc|regI\(12) $ (\Calc|regS\(12) $ (!\Calc|regResult[11]~31\)))) # (GND)
+-- \Calc|regResult[12]~33\ = CARRY((\Calc|regI\(12) & ((\Calc|regS\(12)) # (!\Calc|regResult[11]~31\))) # (!\Calc|regI\(12) & (\Calc|regS\(12) & !\Calc|regResult[11]~31\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4357,12 +4356,12 @@ PORT MAP (
 	dataa => \Calc|regI\(12),
 	datab => \Calc|regS\(12),
 	datad => VCC,
-	cin => \Calc|regReult[11]~31\,
-	combout => \Calc|regReult[12]~32_combout\,
-	cout => \Calc|regReult[12]~33\);
+	cin => \Calc|regResult[11]~31\,
+	combout => \Calc|regResult[12]~32_combout\,
+	cout => \Calc|regResult[12]~33\);
 
 -- Location: FF_X14_Y17_N19
-\Calc|regReult[12]\ : dffeas
+\Calc|regResult[12]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -4370,17 +4369,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \clk~inputclkctrl_outclk\,
-	asdata => \Calc|regReult[12]~32_combout\,
+	asdata => \Calc|regResult[12]~32_combout\,
 	sload => VCC,
 	ena => \UCE|habilitaCalc~reg0_q\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \Calc|regReult\(12));
+	q => \Calc|regResult\(12));
 
 -- Location: LCCOMB_X14_Y17_N18
 \Calc|resultado[12]\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|resultado\(12) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regReult\(12)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(12)))
+-- \Calc|resultado\(12) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regResult\(12)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(12)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4389,7 +4388,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datab => \Calc|resultado\(12),
-	datac => \Calc|regReult\(12),
+	datac => \Calc|regResult\(12),
 	datad => \UCE|habMemoria~clkctrl_outclk\,
 	combout => \Calc|resultado\(12));
 
@@ -4535,11 +4534,11 @@ PORT MAP (
 	q => \Calc|regI\(13));
 
 -- Location: LCCOMB_X17_Y17_N18
-\Calc|regReult[13]~34\ : cycloneiii_lcell_comb
+\Calc|regResult[13]~34\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|regReult[13]~34_combout\ = (\Calc|regS\(13) & ((\Calc|regI\(13) & (\Calc|regReult[12]~33\ & VCC)) # (!\Calc|regI\(13) & (!\Calc|regReult[12]~33\)))) # (!\Calc|regS\(13) & ((\Calc|regI\(13) & (!\Calc|regReult[12]~33\)) # (!\Calc|regI\(13) & 
--- ((\Calc|regReult[12]~33\) # (GND)))))
--- \Calc|regReult[13]~35\ = CARRY((\Calc|regS\(13) & (!\Calc|regI\(13) & !\Calc|regReult[12]~33\)) # (!\Calc|regS\(13) & ((!\Calc|regReult[12]~33\) # (!\Calc|regI\(13)))))
+-- \Calc|regResult[13]~34_combout\ = (\Calc|regS\(13) & ((\Calc|regI\(13) & (\Calc|regResult[12]~33\ & VCC)) # (!\Calc|regI\(13) & (!\Calc|regResult[12]~33\)))) # (!\Calc|regS\(13) & ((\Calc|regI\(13) & (!\Calc|regResult[12]~33\)) # (!\Calc|regI\(13) & 
+-- ((\Calc|regResult[12]~33\) # (GND)))))
+-- \Calc|regResult[13]~35\ = CARRY((\Calc|regS\(13) & (!\Calc|regI\(13) & !\Calc|regResult[12]~33\)) # (!\Calc|regS\(13) & ((!\Calc|regResult[12]~33\) # (!\Calc|regI\(13)))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4550,12 +4549,12 @@ PORT MAP (
 	dataa => \Calc|regS\(13),
 	datab => \Calc|regI\(13),
 	datad => VCC,
-	cin => \Calc|regReult[12]~33\,
-	combout => \Calc|regReult[13]~34_combout\,
-	cout => \Calc|regReult[13]~35\);
+	cin => \Calc|regResult[12]~33\,
+	combout => \Calc|regResult[13]~34_combout\,
+	cout => \Calc|regResult[13]~35\);
 
 -- Location: FF_X19_Y17_N7
-\Calc|regReult[13]\ : dffeas
+\Calc|regResult[13]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -4563,17 +4562,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \clk~inputclkctrl_outclk\,
-	asdata => \Calc|regReult[13]~34_combout\,
+	asdata => \Calc|regResult[13]~34_combout\,
 	sload => VCC,
 	ena => \UCE|habilitaCalc~reg0_q\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \Calc|regReult\(13));
+	q => \Calc|regResult\(13));
 
 -- Location: LCCOMB_X19_Y17_N6
 \Calc|resultado[13]\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|resultado\(13) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regReult\(13)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(13)))
+-- \Calc|resultado\(13) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regResult\(13)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(13)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4582,7 +4581,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \Calc|resultado\(13),
-	datac => \Calc|regReult\(13),
+	datac => \Calc|regResult\(13),
 	datad => \UCE|habMemoria~clkctrl_outclk\,
 	combout => \Calc|resultado\(13));
 
@@ -4727,10 +4726,10 @@ PORT MAP (
 	q => \Calc|regI\(14));
 
 -- Location: LCCOMB_X17_Y17_N20
-\Calc|regReult[14]~36\ : cycloneiii_lcell_comb
+\Calc|regResult[14]~36\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|regReult[14]~36_combout\ = ((\Calc|regS\(14) $ (\Calc|regI\(14) $ (!\Calc|regReult[13]~35\)))) # (GND)
--- \Calc|regReult[14]~37\ = CARRY((\Calc|regS\(14) & ((\Calc|regI\(14)) # (!\Calc|regReult[13]~35\))) # (!\Calc|regS\(14) & (\Calc|regI\(14) & !\Calc|regReult[13]~35\)))
+-- \Calc|regResult[14]~36_combout\ = ((\Calc|regS\(14) $ (\Calc|regI\(14) $ (!\Calc|regResult[13]~35\)))) # (GND)
+-- \Calc|regResult[14]~37\ = CARRY((\Calc|regS\(14) & ((\Calc|regI\(14)) # (!\Calc|regResult[13]~35\))) # (!\Calc|regS\(14) & (\Calc|regI\(14) & !\Calc|regResult[13]~35\)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4741,12 +4740,12 @@ PORT MAP (
 	dataa => \Calc|regS\(14),
 	datab => \Calc|regI\(14),
 	datad => VCC,
-	cin => \Calc|regReult[13]~35\,
-	combout => \Calc|regReult[14]~36_combout\,
-	cout => \Calc|regReult[14]~37\);
+	cin => \Calc|regResult[13]~35\,
+	combout => \Calc|regResult[14]~36_combout\,
+	cout => \Calc|regResult[14]~37\);
 
 -- Location: FF_X19_Y17_N29
-\Calc|regReult[14]\ : dffeas
+\Calc|regResult[14]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -4754,17 +4753,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \clk~inputclkctrl_outclk\,
-	asdata => \Calc|regReult[14]~36_combout\,
+	asdata => \Calc|regResult[14]~36_combout\,
 	sload => VCC,
 	ena => \UCE|habilitaCalc~reg0_q\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \Calc|regReult\(14));
+	q => \Calc|regResult\(14));
 
 -- Location: LCCOMB_X19_Y17_N28
 \Calc|resultado[14]\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|resultado\(14) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regReult\(14)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(14)))
+-- \Calc|resultado\(14) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regResult\(14)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(14)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4773,7 +4772,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datab => \Calc|resultado\(14),
-	datac => \Calc|regReult\(14),
+	datac => \Calc|regResult\(14),
 	datad => \UCE|habMemoria~clkctrl_outclk\,
 	combout => \Calc|resultado\(14));
 
@@ -4902,11 +4901,11 @@ PORT MAP (
 	q => \Calc|regS\(15));
 
 -- Location: LCCOMB_X17_Y17_N22
-\Calc|regReult[15]~38\ : cycloneiii_lcell_comb
+\Calc|regResult[15]~38\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|regReult[15]~38_combout\ = (\Calc|regI\(15) & ((\Calc|regS\(15) & (\Calc|regReult[14]~37\ & VCC)) # (!\Calc|regS\(15) & (!\Calc|regReult[14]~37\)))) # (!\Calc|regI\(15) & ((\Calc|regS\(15) & (!\Calc|regReult[14]~37\)) # (!\Calc|regS\(15) & 
--- ((\Calc|regReult[14]~37\) # (GND)))))
--- \Calc|regReult[15]~39\ = CARRY((\Calc|regI\(15) & (!\Calc|regS\(15) & !\Calc|regReult[14]~37\)) # (!\Calc|regI\(15) & ((!\Calc|regReult[14]~37\) # (!\Calc|regS\(15)))))
+-- \Calc|regResult[15]~38_combout\ = (\Calc|regI\(15) & ((\Calc|regS\(15) & (\Calc|regResult[14]~37\ & VCC)) # (!\Calc|regS\(15) & (!\Calc|regResult[14]~37\)))) # (!\Calc|regI\(15) & ((\Calc|regS\(15) & (!\Calc|regResult[14]~37\)) # (!\Calc|regS\(15) & 
+-- ((\Calc|regResult[14]~37\) # (GND)))))
+-- \Calc|regResult[15]~39\ = CARRY((\Calc|regI\(15) & (!\Calc|regS\(15) & !\Calc|regResult[14]~37\)) # (!\Calc|regI\(15) & ((!\Calc|regResult[14]~37\) # (!\Calc|regS\(15)))))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4917,12 +4916,12 @@ PORT MAP (
 	dataa => \Calc|regI\(15),
 	datab => \Calc|regS\(15),
 	datad => VCC,
-	cin => \Calc|regReult[14]~37\,
-	combout => \Calc|regReult[15]~38_combout\,
-	cout => \Calc|regReult[15]~39\);
+	cin => \Calc|regResult[14]~37\,
+	combout => \Calc|regResult[15]~38_combout\,
+	cout => \Calc|regResult[15]~39\);
 
 -- Location: FF_X14_Y17_N25
-\Calc|regReult[15]\ : dffeas
+\Calc|regResult[15]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -4930,17 +4929,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \clk~inputclkctrl_outclk\,
-	asdata => \Calc|regReult[15]~38_combout\,
+	asdata => \Calc|regResult[15]~38_combout\,
 	sload => VCC,
 	ena => \UCE|habilitaCalc~reg0_q\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \Calc|regReult\(15));
+	q => \Calc|regResult\(15));
 
 -- Location: LCCOMB_X14_Y17_N24
 \Calc|resultado[15]\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|resultado\(15) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regReult\(15)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(15)))
+-- \Calc|resultado\(15) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regResult\(15)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(15)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4949,7 +4948,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datab => \Calc|resultado\(15),
-	datac => \Calc|regReult\(15),
+	datac => \Calc|regResult\(15),
 	datad => \UCE|habMemoria~clkctrl_outclk\,
 	combout => \Calc|resultado\(15));
 
@@ -4986,10 +4985,10 @@ PORT MAP (
 	q => \Calc|regS\(16));
 
 -- Location: LCCOMB_X17_Y17_N24
-\Calc|regReult[16]~40\ : cycloneiii_lcell_comb
+\Calc|regResult[16]~40\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|regReult[16]~40_combout\ = (\Calc|regS\(16) & (\Calc|regReult[15]~39\ $ (GND))) # (!\Calc|regS\(16) & (!\Calc|regReult[15]~39\ & VCC))
--- \Calc|regReult[16]~41\ = CARRY((\Calc|regS\(16) & !\Calc|regReult[15]~39\))
+-- \Calc|regResult[16]~40_combout\ = (\Calc|regS\(16) & (\Calc|regResult[15]~39\ $ (GND))) # (!\Calc|regS\(16) & (!\Calc|regResult[15]~39\ & VCC))
+-- \Calc|regResult[16]~41\ = CARRY((\Calc|regS\(16) & !\Calc|regResult[15]~39\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -4999,12 +4998,12 @@ GENERIC MAP (
 PORT MAP (
 	dataa => \Calc|regS\(16),
 	datad => VCC,
-	cin => \Calc|regReult[15]~39\,
-	combout => \Calc|regReult[16]~40_combout\,
-	cout => \Calc|regReult[16]~41\);
+	cin => \Calc|regResult[15]~39\,
+	combout => \Calc|regResult[16]~40_combout\,
+	cout => \Calc|regResult[16]~41\);
 
 -- Location: FF_X17_Y17_N25
-\Calc|regReult[16]\ : dffeas
+\Calc|regResult[16]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -5012,16 +5011,16 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \clk~inputclkctrl_outclk\,
-	d => \Calc|regReult[16]~40_combout\,
+	d => \Calc|regResult[16]~40_combout\,
 	ena => \UCE|habilitaCalc~reg0_q\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \Calc|regReult\(16));
+	q => \Calc|regResult\(16));
 
 -- Location: LCCOMB_X18_Y17_N28
 \Calc|resultado[16]\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|resultado\(16) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regReult\(16)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(16)))
+-- \Calc|resultado\(16) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regResult\(16)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(16)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5031,7 +5030,7 @@ GENERIC MAP (
 PORT MAP (
 	dataa => \Calc|resultado\(16),
 	datab => \UCE|habMemoria~clkctrl_outclk\,
-	datad => \Calc|regReult\(16),
+	datad => \Calc|regResult\(16),
 	combout => \Calc|resultado\(16));
 
 -- Location: LCCOMB_X18_Y17_N8
@@ -5067,10 +5066,10 @@ PORT MAP (
 	q => \Calc|regS\(17));
 
 -- Location: LCCOMB_X17_Y17_N26
-\Calc|regReult[17]~42\ : cycloneiii_lcell_comb
+\Calc|regResult[17]~42\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|regReult[17]~42_combout\ = (\Calc|regS\(17) & (!\Calc|regReult[16]~41\)) # (!\Calc|regS\(17) & ((\Calc|regReult[16]~41\) # (GND)))
--- \Calc|regReult[17]~43\ = CARRY((!\Calc|regReult[16]~41\) # (!\Calc|regS\(17)))
+-- \Calc|regResult[17]~42_combout\ = (\Calc|regS\(17) & (!\Calc|regResult[16]~41\)) # (!\Calc|regS\(17) & ((\Calc|regResult[16]~41\) # (GND)))
+-- \Calc|regResult[17]~43\ = CARRY((!\Calc|regResult[16]~41\) # (!\Calc|regS\(17)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5080,12 +5079,12 @@ GENERIC MAP (
 PORT MAP (
 	dataa => \Calc|regS\(17),
 	datad => VCC,
-	cin => \Calc|regReult[16]~41\,
-	combout => \Calc|regReult[17]~42_combout\,
-	cout => \Calc|regReult[17]~43\);
+	cin => \Calc|regResult[16]~41\,
+	combout => \Calc|regResult[17]~42_combout\,
+	cout => \Calc|regResult[17]~43\);
 
 -- Location: FF_X18_Y17_N29
-\Calc|regReult[17]\ : dffeas
+\Calc|regResult[17]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -5093,17 +5092,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \clk~inputclkctrl_outclk\,
-	asdata => \Calc|regReult[17]~42_combout\,
+	asdata => \Calc|regResult[17]~42_combout\,
 	sload => VCC,
 	ena => \UCE|habilitaCalc~reg0_q\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \Calc|regReult\(17));
+	q => \Calc|regResult\(17));
 
 -- Location: LCCOMB_X18_Y17_N24
 \Calc|resultado[17]\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|resultado\(17) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regReult\(17)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(17)))
+-- \Calc|resultado\(17) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regResult\(17)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(17)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5113,7 +5112,7 @@ GENERIC MAP (
 PORT MAP (
 	dataa => \Calc|resultado\(17),
 	datab => \UCE|habMemoria~clkctrl_outclk\,
-	datad => \Calc|regReult\(17),
+	datad => \Calc|regResult\(17),
 	combout => \Calc|resultado\(17));
 
 -- Location: LCCOMB_X13_Y17_N4
@@ -5162,10 +5161,10 @@ PORT MAP (
 	q => \Calc|regS\(18));
 
 -- Location: LCCOMB_X17_Y17_N28
-\Calc|regReult[18]~44\ : cycloneiii_lcell_comb
+\Calc|regResult[18]~44\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|regReult[18]~44_combout\ = (\Calc|regS\(18) & (\Calc|regReult[17]~43\ $ (GND))) # (!\Calc|regS\(18) & (!\Calc|regReult[17]~43\ & VCC))
--- \Calc|regReult[18]~45\ = CARRY((\Calc|regS\(18) & !\Calc|regReult[17]~43\))
+-- \Calc|regResult[18]~44_combout\ = (\Calc|regS\(18) & (\Calc|regResult[17]~43\ $ (GND))) # (!\Calc|regS\(18) & (!\Calc|regResult[17]~43\ & VCC))
+-- \Calc|regResult[18]~45\ = CARRY((\Calc|regS\(18) & !\Calc|regResult[17]~43\))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5175,12 +5174,12 @@ GENERIC MAP (
 PORT MAP (
 	datab => \Calc|regS\(18),
 	datad => VCC,
-	cin => \Calc|regReult[17]~43\,
-	combout => \Calc|regReult[18]~44_combout\,
-	cout => \Calc|regReult[18]~45\);
+	cin => \Calc|regResult[17]~43\,
+	combout => \Calc|regResult[18]~44_combout\,
+	cout => \Calc|regResult[18]~45\);
 
 -- Location: FF_X17_Y17_N29
-\Calc|regReult[18]\ : dffeas
+\Calc|regResult[18]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -5188,16 +5187,16 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \clk~inputclkctrl_outclk\,
-	d => \Calc|regReult[18]~44_combout\,
+	d => \Calc|regResult[18]~44_combout\,
 	ena => \UCE|habilitaCalc~reg0_q\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \Calc|regReult\(18));
+	q => \Calc|regResult\(18));
 
 -- Location: LCCOMB_X18_Y17_N6
 \Calc|resultado[18]\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|resultado\(18) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regReult\(18)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(18)))
+-- \Calc|resultado\(18) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regResult\(18)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(18)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5207,7 +5206,7 @@ GENERIC MAP (
 PORT MAP (
 	dataa => \Calc|resultado\(18),
 	datab => \UCE|habMemoria~clkctrl_outclk\,
-	datad => \Calc|regReult\(18),
+	datad => \Calc|regResult\(18),
 	combout => \Calc|resultado\(18));
 
 -- Location: LCCOMB_X13_Y17_N26
@@ -5256,9 +5255,9 @@ PORT MAP (
 	q => \Calc|regS\(19));
 
 -- Location: LCCOMB_X17_Y17_N30
-\Calc|regReult[19]~46\ : cycloneiii_lcell_comb
+\Calc|regResult[19]~46\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|regReult[19]~46_combout\ = \Calc|regReult[18]~45\ $ (\Calc|regS\(19))
+-- \Calc|regResult[19]~46_combout\ = \Calc|regResult[18]~45\ $ (\Calc|regS\(19))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5267,11 +5266,11 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	datad => \Calc|regS\(19),
-	cin => \Calc|regReult[18]~45\,
-	combout => \Calc|regReult[19]~46_combout\);
+	cin => \Calc|regResult[18]~45\,
+	combout => \Calc|regResult[19]~46_combout\);
 
 -- Location: FF_X16_Y17_N29
-\Calc|regReult[19]\ : dffeas
+\Calc|regResult[19]\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
 	is_wysiwyg => "true",
@@ -5279,17 +5278,17 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \clk~inputclkctrl_outclk\,
-	asdata => \Calc|regReult[19]~46_combout\,
+	asdata => \Calc|regResult[19]~46_combout\,
 	sload => VCC,
 	ena => \UCE|habilitaCalc~reg0_q\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
-	q => \Calc|regReult\(19));
+	q => \Calc|regResult\(19));
 
 -- Location: LCCOMB_X16_Y17_N12
 \Calc|resultado[19]\ : cycloneiii_lcell_comb
 -- Equation(s):
--- \Calc|resultado\(19) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regReult\(19)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(19)))
+-- \Calc|resultado\(19) = (GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & ((\Calc|regResult\(19)))) # (!GLOBAL(\UCE|habMemoria~clkctrl_outclk\) & (\Calc|resultado\(19)))
 
 -- pragma translate_off
 GENERIC MAP (
@@ -5299,7 +5298,7 @@ GENERIC MAP (
 PORT MAP (
 	dataa => \UCE|habMemoria~clkctrl_outclk\,
 	datab => \Calc|resultado\(19),
-	datad => \Calc|regReult\(19),
+	datad => \Calc|regResult\(19),
 	combout => \Calc|resultado\(19));
 
 -- Location: IOIBUF_X0_Y11_N15

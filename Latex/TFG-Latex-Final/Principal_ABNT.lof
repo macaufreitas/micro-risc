@@ -1,39 +1,49 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces Microcircuito produzido pelo processo fotogr\'afico de multicamadas. Microprocessador com frequ\^encia de 4.8GHz, utilizado para o processamento de imagens do Gyroscan 6,2 Tesla. \cite {MicroInternal}}}{14}
-\contentsline {figure}{\numberline {2}{\ignorespaces Diagrama de blocos de um sistema microprocessado. \cite {IntroductionMicro}}}{15}
-\contentsline {figure}{\numberline {3}{\ignorespaces Organiza\c c\~ao de um programa de computador \cite {IntroductionMicro}}}{16}
-\contentsline {figure}{\numberline {4}{\ignorespaces Organiza\c c\~ao interna de um microprocessador hipot\'etico \cite {ielm}}}{17}
-\contentsline {figure}{\numberline {5}{\ignorespaces Diagrama simplificado de um Microcomputador \cite {ufpbHardware}}}{20}
-\contentsline {figure}{\numberline {6}{\ignorespaces Entidades do Controle Microprogramado \cite {pucMicro}}}{22}
-\contentsline {figure}{\numberline {7}{\ignorespaces Hierarquia de Mem\'orias \cite {memoriacache}}}{24}
-\contentsline {figure}{\numberline {8}{\ignorespaces Dois n\IeC {\'\i }veis de mem\'oria cache L1 e L2 \cite {memoriacache}}}{24}
-\contentsline {figure}{\numberline {9}{\ignorespaces A analogia de uma lavanderia com o pipeline \cite {ComputerOrg}}}{25}
-\contentsline {figure}{\numberline {10}{\ignorespaces Compara\c c\~ao quantitativa da utiliza\c c\~ao de \textit {Pipeline} utilizando a instru\c c\~ao \textit {Load Word} do microprocessador MIPS. \cite {ComputerOrg}}}{26}
-\contentsline {figure}{\numberline {11}{\ignorespaces Trecho de c\'odigo que exemplifica um problema do \textit {pipeline} \cite {ComputerOrg}.}}{26}
-\contentsline {figure}{\numberline {12}{\ignorespaces Fen\^omeno do tipo \textit {bubble} no \textit {pipeline} semelhante ao problema da figura \ref {codigoPipeline} \cite {ComputerOrg}.}}{27}
-\contentsline {figure}{\numberline {13}{\ignorespaces Fen\^omeno do tipo \textit {bubble} no \textit {pipeline} quando ocorre o problema de \textit {branch} \cite {ComputerOrg}.}}{27}
-\contentsline {figure}{\numberline {14}{\ignorespaces Processador com dois n\'ucleos dentro de um \'unico processador \cite {intelMulticore}.}}{28}
-\contentsline {figure}{\numberline {15}{\ignorespaces Exemplo de um processador com a tecnologia \textit {Hyper-Threading} \cite {intelMulticore}.}}{30}
-\contentsline {figure}{\numberline {16}{\ignorespaces Pinagem do IA-PX 86 \cite {micro8086}}}{32}
-\contentsline {figure}{\numberline {17}{\ignorespaces Arquitetura do 8086/8088 \cite {micro8086}}}{33}
-\contentsline {figure}{\numberline {18}{\ignorespaces Etapas de Projeto Usando VHDL}}{45}
-\contentsline {figure}{\numberline {19}{\ignorespaces Estrutura de uma Library \cite {Pedroni}}}{46}
-\contentsline {figure}{\numberline {20}{\ignorespaces Tipos de Entrada e Sa\IeC {\'\i }da \cite {Pedroni}}}{46}
-\contentsline {figure}{\numberline {21}{\ignorespaces Sintaxe de uma Architeture}}{47}
-\contentsline {figure}{\numberline {22}{\ignorespaces Sequ\^encia para Execu\c c\~ao de Instru\c c\~oes CISC}}{50}
-\contentsline {figure}{\numberline {23}{\ignorespaces Sequ\^encia para Execu\c c\~ao de Instru\c c\~oes RISC}}{51}
-\contentsline {figure}{\numberline {24}{\ignorespaces An\'alise quantitativa das instru\c c\~oes do c\'odigo do MS-DOS\cite {MSDOSLink}}}{54}
-\contentsline {figure}{\numberline {25}{\ignorespaces Bytes das Instru\c c\~oes Aritm\'eticas e L\'ogicas}}{55}
-\contentsline {figure}{\numberline {26}{\ignorespaces Bytes da Instru\c c\~ao MOV}}{55}
-\contentsline {figure}{\numberline {27}{\ignorespaces Resultado do \textit {testbench} aplicado ao componente de Registro de Prop\'osito Geral}}{57}
-\contentsline {figure}{\numberline {28}{\ignorespaces Resultado do \textit {testbench} aplicado ao componente de Registro de Segmento}}{58}
-\contentsline {figure}{\numberline {29}{\ignorespaces Resultado do \textit {testbench} aplicado a Calculadora de Endere\c co}}{58}
-\contentsline {figure}{\numberline {30}{\ignorespaces Resultado do \textit {testbench} aplicado ao Demultiplexador}}{59}
-\contentsline {figure}{\numberline {31}{\ignorespaces Resultado do \textit {testbench} aplicado ao Multiplexador}}{59}
-\contentsline {figure}{\numberline {32}{\ignorespaces Resultado do \textit {testbench} aplicado ao Registro de Flags}}{60}
-\contentsline {figure}{\numberline {33}{\ignorespaces Diagrama de Estados da Unidade de Controle de Endere\c cos}}{61}
-\contentsline {figure}{\numberline {34}{\ignorespaces Resultado do \textit {testbench} aplicado a Unidade de Controle de Endere\c cos}}{61}
-\contentsline {figure}{\numberline {35}{\ignorespaces Sa\IeC {\'\i }da Estrutura Detector Auxiliar Flag}}{62}
-\contentsline {figure}{\numberline {36}{\ignorespaces Sa\IeC {\'\i }da Estrutura Detector Flag de Paridade}}{62}
-\contentsline {figure}{\numberline {37}{\ignorespaces Sa\IeC {\'\i }da Estrutura Detector Zero Flag}}{62}
-\contentsline {figure}{\numberline {38}{\ignorespaces Sa\IeC {\'\i }da Mem\'oria ROM}}{63}
+\contentsline {figure}{\numberline {1}{\ignorespaces Microcircuito produzido pelo processo fotogr\'afico de multicamadas. Microprocessador com frequ\^encia de 4.8GHz, utilizado para o processamento de imagens do Gyroscan 6,2 Tesla. \cite {MicroInternal}}}{15}
+\contentsline {figure}{\numberline {2}{\ignorespaces Diagrama de blocos de um sistema microprocessado. \cite {IntroductionMicro}}}{16}
+\contentsline {figure}{\numberline {3}{\ignorespaces Organiza\c c\~ao de um programa de computador \cite {IntroductionMicro}}}{17}
+\contentsline {figure}{\numberline {4}{\ignorespaces Organiza\c c\~ao interna de um microprocessador hipot\'etico \cite {ielm}}}{18}
+\contentsline {figure}{\numberline {5}{\ignorespaces Diagrama simplificado de um Microcomputador \cite {ufpbHardware}}}{21}
+\contentsline {figure}{\numberline {6}{\ignorespaces Entidades do Controle Microprogramado \cite {pucMicro}}}{23}
+\contentsline {figure}{\numberline {7}{\ignorespaces Hierarquia de Mem\'orias \cite {memoriacache}}}{25}
+\contentsline {figure}{\numberline {8}{\ignorespaces Dois n\IeC {\'\i }veis de mem\'oria cache L1 e L2 \cite {memoriacache}}}{25}
+\contentsline {figure}{\numberline {9}{\ignorespaces A analogia de uma lavanderia com o pipeline \cite {ComputerOrg}}}{26}
+\contentsline {figure}{\numberline {10}{\ignorespaces Compara\c c\~ao quantitativa da utiliza\c c\~ao de \textit {Pipeline} utilizando a instru\c c\~ao \textit {Load Word} do microprocessador MIPS. \cite {ComputerOrg}}}{27}
+\contentsline {figure}{\numberline {11}{\ignorespaces Trecho de c\'odigo que exemplifica um problema do \textit {pipeline} \cite {ComputerOrg}.}}{27}
+\contentsline {figure}{\numberline {12}{\ignorespaces Fen\^omeno do tipo \textit {bubble} no \textit {pipeline} semelhante ao problema da figura \ref {codigoPipeline} \cite {ComputerOrg}.}}{28}
+\contentsline {figure}{\numberline {13}{\ignorespaces Fen\^omeno do tipo \textit {bubble} no \textit {pipeline} quando ocorre o problema de \textit {branch} \cite {ComputerOrg}.}}{28}
+\contentsline {figure}{\numberline {14}{\ignorespaces Processador com dois n\'ucleos dentro de um \'unico processador \cite {intelMulticore}.}}{29}
+\contentsline {figure}{\numberline {15}{\ignorespaces Exemplo de um processador com a tecnologia \textit {Hyper-Threading} \cite {intelMulticore}.}}{31}
+\contentsline {figure}{\numberline {16}{\ignorespaces Pinagem do IA-PX 86 \cite {micro8086}}}{33}
+\contentsline {figure}{\numberline {17}{\ignorespaces Arquitetura do 8086/8088 \cite {micro8086}}}{34}
+\contentsline {figure}{\numberline {18}{\ignorespaces Etapas de Projeto Usando VHDL}}{46}
+\contentsline {figure}{\numberline {19}{\ignorespaces Estrutura de uma Library \cite {Pedroni}}}{47}
+\contentsline {figure}{\numberline {20}{\ignorespaces Tipos de Entrada e Sa\IeC {\'\i }da \cite {Pedroni}}}{47}
+\contentsline {figure}{\numberline {21}{\ignorespaces Sintaxe de uma Architeture}}{48}
+\contentsline {figure}{\numberline {22}{\ignorespaces Sequ\^encia para Execu\c c\~ao de Instru\c c\~oes CISC}}{51}
+\contentsline {figure}{\numberline {23}{\ignorespaces Sequ\^encia para Execu\c c\~ao de Instru\c c\~oes RISC}}{52}
+\contentsline {figure}{\numberline {24}{\ignorespaces An\'alise quantitativa das instru\c c\~oes do c\'odigo do MS-DOS\cite {MSDOSLink}}}{55}
+\contentsline {figure}{\numberline {25}{\ignorespaces Bytes das Instru\c c\~oes Aritm\'eticas e L\'ogicas}}{56}
+\contentsline {figure}{\numberline {26}{\ignorespaces Bytes da Instru\c c\~ao MOV}}{56}
+\contentsline {figure}{\numberline {27}{\ignorespaces Resultado do \textit {testbench} aplicado ao componente de Registro de Prop\'osito Geral}}{58}
+\contentsline {figure}{\numberline {28}{\ignorespaces Resultado do \textit {testbench} aplicado ao componente de Registro de Segmento}}{59}
+\contentsline {figure}{\numberline {29}{\ignorespaces Resultado do \textit {testbench} aplicado a Calculadora de Endere\c co}}{59}
+\contentsline {figure}{\numberline {30}{\ignorespaces Resultado do \textit {testbench} aplicado ao Demultiplexador}}{60}
+\contentsline {figure}{\numberline {31}{\ignorespaces Resultado do \textit {testbench} aplicado ao Multiplexador}}{60}
+\contentsline {figure}{\numberline {32}{\ignorespaces Resultado do \textit {testbench} aplicado ao Registro de Flags}}{61}
+\contentsline {figure}{\numberline {33}{\ignorespaces Diagrama de Estados da Unidade de Controle de Endere\c cos}}{62}
+\contentsline {figure}{\numberline {34}{\ignorespaces Sa\IeC {\'\i }da Mem\'oria ROM}}{62}
+\contentsline {figure}{\numberline {35}{\ignorespaces Resultado do \textit {testbench} aplicado a Unidade de Controle de Endere\c cos}}{63}
+\contentsline {figure}{\numberline {36}{\ignorespaces Sa\IeC {\'\i }da Estrutura Detector Auxiliar Flag}}{63}
+\contentsline {figure}{\numberline {37}{\ignorespaces Sa\IeC {\'\i }da Estrutura Detector Flag de Paridade}}{63}
+\contentsline {figure}{\numberline {38}{\ignorespaces Sa\IeC {\'\i }da Estrutura Detector Zero Flag}}{64}
+\contentsline {figure}{\numberline {39}{\ignorespaces Diagrama de Estados da Unidade de Controle}}{65}
+\contentsline {figure}{\numberline {40}{\ignorespaces Sequ\^encia para Execu\c c\~ao de Instru\c c\~oes CISC}}{67}
+\contentsline {figure}{\numberline {41}{\ignorespaces Sequ\^encia para Execu\c c\~ao de Instru\c c\~oes CISC}}{68}
+\contentsline {figure}{\numberline {42}{\ignorespaces Sequ\^encia para Execu\c c\~ao de Instru\c c\~oes CISC}}{69}
+\contentsline {figure}{\numberline {43}{\ignorespaces Sequ\^encia para Execu\c c\~ao de Instru\c c\~oes CISC}}{70}
+\contentsline {figure}{\numberline {44}{\ignorespaces Sequ\^encia para Execu\c c\~ao de Instru\c c\~oes CISC}}{71}
+\contentsline {figure}{\numberline {45}{\ignorespaces Sequ\^encia para Execu\c c\~ao de Instru\c c\~oes CISC}}{72}
+\contentsline {figure}{\numberline {46}{\ignorespaces Sequ\^encia para Execu\c c\~ao de Instru\c c\~oes CISC}}{73}
+\contentsline {figure}{\numberline {47}{\ignorespaces Sequ\^encia para Execu\c c\~ao de Instru\c c\~oes CISC}}{74}
+\contentsline {figure}{\numberline {48}{\ignorespaces Sequ\^encia para Execu\c c\~ao de Instru\c c\~oes CISC}}{75}

@@ -31,6 +31,7 @@ architecture ArquiteturaMicro of MicroprocessadorCompleto is
 	--controles da ALU
 	signal ctrlULASig    : std_logic_vector(2  downto 0);
 	signal habULASig     : std_logic;
+	signal fimCalcSig		: std_logic;
 	
 	--controles do registro de proposito geral
 	signal regDataLeSig  : std_logic;
@@ -39,6 +40,10 @@ architecture ArquiteturaMicro of MicroprocessadorCompleto is
 	
 	--sinal de saida do registro de dados
 	signal regDataOutSig : std_logic_vector(15 downto 0);
+	
+	--sinal do Multiplexador de entrada do Registro de Proposito Geral
+	signal regDataEntradaSig : std_logic_vector(15 downto 0);
+	signal selMovSig			 : std_logic;
 	
 	--sinais do Demultiplexador
 	signal saidaDemuxULA : std_logic_vector(15 downto 0);
@@ -92,7 +97,8 @@ architecture ArquiteturaMicro of MicroprocessadorCompleto is
 		flagSinal        : out std_logic;
 		flagZero			  : out std_logic;
 		flagAuxiliar     : out std_logic;
-		resultado        : out std_logic_vector(15 downto 0));
+		resultado        : out std_logic_vector(15 downto 0);
+		fimCalculo		  : out std_logic);
 	end component;
 	
 	--Unidade de controle
@@ -108,7 +114,9 @@ architecture ArquiteturaMicro of MicroprocessadorCompleto is
 			regDataLe  	   : out std_logic;
 			habRegData	   : out std_logic;
 			ctrlRegData 	: out std_logic_vector(2 downto 0);
-			ctrlDemuxData  : out std_logic);
+			ctrlDemuxData  : out std_logic;
+			fimCalculoULA	: in  std_logic;
+			ctrlMuxMov		: out std_logic);
 	end component;
 	
 	--Registro de Proposito Geral
@@ -132,6 +140,16 @@ architecture ArquiteturaMicro of MicroprocessadorCompleto is
 			saida_02 : out std_logic_vector (15 downto 0);
 			seletor  : in std_logic
 		);
+	end component;
+	
+	--Multiplexador
+	component Multiplexador is
+	port (
+		entrada_01 : in  std_logic_vector (15 downto 0);
+		entrada_02 : in  std_logic_vector (15 downto 0);
+		saida		  : out std_logic_vector (15 downto 0);
+		seletor    : in  std_logic
+	);
 	end component;
 	
 	--Registro de Flags
@@ -206,6 +224,7 @@ begin
 								 saidaDemuxULA,
 								 saidaDemuxUC,
 								 ctrlDemux);
+
 	
 	--Unidade de Controle
 	UC: UnidadeDeControle port map(clk,
@@ -218,7 +237,9 @@ begin
 								   regDataLeSig,
 								   habRegDataSig,
 									ctrlRegDataSig,
-								   ctrlDemux);
+								   ctrlDemux,
+									fimCalcSig,
+									selMovSig);
 	--ULA
 	UnidadeLogicaArit: ULA port map(clk,
 									ctrlULASig,
@@ -232,7 +253,16 @@ begin
 									flagSinalSig,
 									flagZeroSig,
 									flagAuxiliarSig,
-									resultSig);
+									resultSig,
+									fimCalcSig);
+									
+	--Multiplexador que define se a entrada no Registro de dados vem direto do barramento ou da ULA
+	Mux: Multiplexador port map(resultSig,
+										 data,
+										 regDataEntradaSig,
+										 selMovSig);
+										 
+										 
 	
 	--Registro de Dados
 	RegistroDados: RegistroPropositoGeral port map(clk,
@@ -240,7 +270,7 @@ begin
 												   habRegDataSig,
 												   regDataLeSig,
 													ctrlRegDataSig,
-													resultSig,
+													regDataEntradaSig,
 												   regDataOutSig);
 	--Registro de Flags
 	RegFlags:	RegistroFlags port map(reset,

@@ -11,19 +11,19 @@
 # ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/uce_aux.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/uce_aux.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package uce_aux
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package uc_aux
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/ULA/ULA.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/ULA/ULA.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -33,7 +33,7 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity ULA
 # -- Compiling architecture arquiteturaULA of ULA
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/RegistroSegmento/RegistroSegmento.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/RegistroSegmento/RegistroSegmento.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -42,49 +42,49 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity RegistroSegmento
 # -- Compiling architecture ArquiteturaRS of RegistroSegmento
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity RegistroPropositoGeral
 # -- Compiling architecture ArquiteturaRPG of RegistroPropositoGeral
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity RegistroFlags
 # -- Compiling architecture ArquiteturaRF of RegistroFlags
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlag.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlag.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity DetectorZeroFlag
 # -- Compiling architecture ArquiteturaDZF of DetectorZeroFlag
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity DetectorParidade
 # -- Compiling architecture ArquiteturaDP of DetectorParidade
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Subtrator.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Subtrator.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity Subtrator
 # -- Compiling architecture ArquiteturaSubtrator of Subtrator
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Somador.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Somador.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity Somador
 # -- Compiling architecture ArquiteturaSomador of Somador
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -92,14 +92,14 @@
 # -- Loading package std_logic_arith
 # -- Compiling entity DetectorAuxiliarFlag
 # -- Compiling architecture ArquiteturaDAF of DetectorAuxiliarFlag
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity Demultiplexador
 # -- Compiling architecture ArquiteturaDemux of Demultiplexador
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -109,7 +109,7 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity CalculadoraEndereco
 # -- Compiling architecture rtl of CalculadoraEndereco
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/MicroprocessadorCompleto/MicroprocessadorCompleto.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/MicroprocessadorCompleto/MicroprocessadorCompleto.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -117,7 +117,7 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity MicroprocessadorCompleto
 # -- Compiling architecture ArquiteturaMicro of MicroprocessadorCompleto
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -125,7 +125,7 @@
 # -- Loading package uce_aux
 # -- Compiling entity UnidadeDeControleDeEnderecos
 # -- Compiling architecture Arquitetura of UnidadeDeControleDeEnderecos
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -134,7 +134,7 @@
 # -- Compiling entity UnidadeDeControle
 # -- Compiling architecture Arquitetura of UnidadeDeControle
 # 
-# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/MicroprocessadorCompleto/MicroprocessadorCompletoTB.vhd}
+# vcom -93 -work work {C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/MicroprocessadorCompleto/MicroprocessadorCompletoTB.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -175,88 +175,6 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 2175 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/Calc
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 2375 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 2375 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 2425 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 2475 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 2525 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 2575 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 2625 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 2675 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 3775 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 3825 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 3875 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 3925 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 3975 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 4025 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 4075 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-add wave -position insertpoint  \
-sim:/microprocessadorcompletotb/Micro/UC/Estado
-add wave -position insertpoint  \
-sim:/microprocessadorcompletotb/Micro/UC/sitEnd
-add wave -position insertpoint  \
-sim:/microprocessadorcompletotb/Micro/UC/leEnd
-add wave -position insertpoint  \
-sim:/microprocessadorcompletotb/Micro/UCE/habilita
-add wave -position insertpoint  \
-sim:/microprocessadorcompletotb/Micro/UCE/habUnidCtrl
-add wave -position insertpoint  \
-sim:/microprocessadorcompletotb/Micro/UCE/Estado
-restart
-run
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 2175 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/Calc
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 2375 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 2375 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 2425 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 2475 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 2525 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 2575 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 2625 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 2675 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 3775 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 3825 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 3875 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 3925 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 3975 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 4025 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 4075 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/UnidadeLogicaArit
-add wave -position insertpoint  \
-sim:/microprocessadorcompletotb/Micro/RegistroDados/AX
-restart
-run
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 2175 ns  Iteration: 1  Instance: /microprocessadorcompletotb/Micro/Calc
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).

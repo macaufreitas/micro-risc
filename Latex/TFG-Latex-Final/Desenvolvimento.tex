@@ -275,42 +275,6 @@ Temos na figura \ref{figRegPropositoGeralTB} o resultado produzido pela execução
 	
 	O sinal de habilita existe para que exista uma espécie de domínio da Unidade de Controle sobre a Unidade de Controle de Endereços, pois o papel da controladora de endereços é fornecer á memória o endereço correto para que a unidade de controle sempre acesse no barramento de dados, um dado válido para que a máquina não trave e sempre continue processando cíclicamente, temos na figura \ref{figUCETB} o resultado do \textit{testbench} realizado com a unidade.
 	
-	\begin{figure}[ht] \centering
-		\includegraphics[scale=0.5]{printsImplementacaoVHDL/unidadeControleEndTB.png}
-		\caption{Resultado do \textit{testbench} aplicado a Unidade de Controle de Endereços}
-		\label{figUCETB}
-	\end{figure}
-
-\subsection{Detector do Flag Auxiliar}
-	O Detector do Flag Auxiliar é uma estrutura criada para ser utilizada na Unidade Aritmética e Lógica. Esta estrutura detecta a ocorrência de um "vai um" do bit 3 para o bit 4 ou quando há "vem um" do bit 4 para o bit 3, durante a execução de alguma instrução aritmética.
-	A validação da funcionalidade da estrutura através de um \textit{testbench} é apresentada na figura \ref{saidaAuxiliarFlag} a seguir:
-	
-	\begin{figure}[ht] \centering
-		\includegraphics[scale=0.3]{printsImplementacaoVHDL/print_detector_auxiliar_flag.jpg}
-		\caption{Saída Estrutura Detector Auxiliar Flag}
-		\label{saidaAuxiliarFlag}
-	\end{figure}
-	
-\subsection{Detector do Flag de Paridade}
-	O Detector do Flag de Paridade é uma estrutura que detecta a paridade do resultado obtido em uma instrução aritmética ou lógica. É utilizado na Unidade Aritmética e Lógica. Caso haja um número par de bits 1 no resultado da operação, o flag de paridade recebe valor 1, caso contrário, recebe valor 0.
-	Na figura \ref{saidaFlagParidade} a seguir, tem-se a validação da funcionalidade da estrutura:
-	
-	\begin{figure}[ht] \centering
-		\includegraphics[scale=0.3]{printsImplementacaoVHDL/print_detector_paridade.jpg}
-		\caption{Saída Estrutura Detector Flag de Paridade}
-		\label{saidaFlagParidade}
-	\end{figure}
-	
-\subsection{Detector do Zero Flag}
-	Esta estrutura verifica o resultado obtido em uma operação aritmética ou lógica. Caso o valor final seja 0, o zero flag recebe valor 1, caso contrário, recebe valor 0.
-	Na figura \ref{saidaZeroParidade} a seguir se tem a validação da funcionalidade da estrutura:
-	
-	\begin{figure}[ht] \centering
-		\includegraphics[scale=0.3]{printsImplementacaoVHDL/print_detector_zero_flag.jpg}
-		\caption{Saída Estrutura Detector Zero Flag}
-		\label{saidaZeroParidade}
-	\end{figure}
-	
 \subsection{Memória ROM}
 	A memória ROM é utilizada para armazenar os opcodes das instruções. Os valores armazenados na estrutura representam o que seria o resultado da compilação de um software. Desta forma, esta é utilizada para simulação da funcionalidade do microprocessador diante de um código assembly resultante do processo de compilação.
 	
@@ -323,6 +287,51 @@ Temos na figura \ref{figRegPropositoGeralTB} o resultado produzido pela execução
 	\end{figure}
 	
 \subsection{Unidade Aritmética e Lógica - ULA}
-	É a estrutura responsável por executar todas as operações aritméticas e lógicas do microprocessador. É composta por algumas estruturas auxiliares, já descritas neste documento, que implementam funcionalidades necessárias na execução bit a bit de cada instrução. Os dados chegam na ULA através do, a respectiva operação é executada e então o resultado é colocado
+	É a estrutura responsável por executar todas as operações aritméticas e lógicas do microprocessador. É composta por algumas estruturas auxiliares, já descritas neste documento, que implementam funcionalidades necessárias na execução bit a bit de cada instrução. Os dados chegam na ULA através do multiplexador ou direto da unidade de controle, a respectiva operação é executada e então o resultado é colocado no registrador correspondente definido pela unidade de controle.
+
+	
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=0.5]{printsImplementacaoVHDL/unidadeControleEndTB.png}
+		\caption{Resultado do \textit{testbench} aplicado a Unidade de Controle de Endereços}
+		\label{figUCETB}
+	\end{figure}
+
+\subsubsection{Detector do Flag Auxiliar}
+	O Detector do Flag Auxiliar é uma estrutura criada para ser utilizada na Unidade Aritmética e Lógica. Esta estrutura detecta a ocorrência de um "vai um" do bit 3 para o bit 4 ou quando há "vem um" do bit 4 para o bit 3, durante a execução de alguma instrução aritmética.
+	A validação da funcionalidade da estrutura através de um \textit{testbench} é apresentada na figura \ref{saidaAuxiliarFlag} a seguir:
+	
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=0.3]{printsImplementacaoVHDL/print_detector_auxiliar_flag.jpg}
+		\caption{Saída Estrutura Detector Auxiliar Flag}
+		\label{saidaAuxiliarFlag}
+	\end{figure}
+	
+\subsubsection{Detector do Flag de Paridade}
+	O Detector do Flag de Paridade é uma estrutura que detecta a paridade do resultado obtido em uma instrução aritmética ou lógica. É utilizado na Unidade Aritmética e Lógica. Caso haja um número par de bits 1 no resultado da operação, o flag de paridade recebe valor 1, caso contrário, recebe valor 0.
+	Na figura \ref{saidaFlagParidade} a seguir, tem-se a validação da funcionalidade da estrutura:
+	
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=0.3]{printsImplementacaoVHDL/print_detector_paridade.jpg}
+		\caption{Saída Estrutura Detector Flag de Paridade}
+		\label{saidaFlagParidade}
+	\end{figure}
+	
+\subsubsection{Detector do Zero Flag}
+	Esta estrutura verifica o resultado obtido em uma operação aritmética ou lógica. Caso o valor final seja 0, o zero flag recebe valor 1, caso contrário, recebe valor 0.
+	Na figura \ref{saidaZeroParidade} a seguir se tem a validação da funcionalidade da estrutura:
+	
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=0.3]{printsImplementacaoVHDL/print_detector_zero_flag.jpg}
+		\caption{Saída Estrutura Detector Zero Flag}
+		\label{saidaZeroParidade}
+	\end{figure}
+
+	
 \subsection{Unidade de Controle}
-	A Unidade de Controle é uma das principais estruturas do microprocessador. Ela é responsável por 3 funções básicas: busca (fetch), decodificação e execução. Além disso, gera os sinais que controlam as operações no exterior da CPU. É a Unidade de Controle que contém o endereço de memória da instrução que está sendo executada, é ela também que busca na memória o operando e entrega para a ULA para que a instrução seja executada.
+	A Unidade de Controle é uma das principais estruturas do microprocessador. Ela é responsável por 3 funções básicas: busca (fetch), decodificação e execução. Além disso, gera todos os sinais que controlam as unidades \textit{escravas} à ela. A \textit{Unidade de Controle de Endereços} é uma máquina de estados escrava à unidade de controle, portanto há um sinal de habilitação que conecta essas duas unidades que é enviado pela Unidade de Controle, tornando-a uma máquina de estados \textit{master}. Podemos verificar o diagrama de estados implementado na Unidade de Controle, na figura \ref{diagramaUC}.
+	
+	\begin{figure}[ht] \centering
+		\includegraphics[scale=0.25]{diagrama_estados_unidade_controle.jpg}
+		\caption{Diagrama de Estados da Unidade de Controle}
+		\label{diagramaUC}
+	\end{figure}

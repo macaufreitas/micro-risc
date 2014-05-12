@@ -26,19 +26,19 @@ end entity;
 architecture rtl of CalculadoraEndereco is
 
 	--Declaração dos registros
-	signal regS,regI,regReult : std_logic_vector(19 downto 0) := (others => '0');
+	signal regS,regI,regResult : std_logic_vector(19 downto 0) := (others => '0');
 
 begin
 
-	ProcessoCalculo : process(clock)
+	ProcessoCalculo : process(clock,habilita)
 	begin
 		if(rising_edge(clock) and (habilita ='1')) then
 			regI <= ("0000" & entradaIndice);
 			regS <= (entradaSegmen & "0000");
-			regReult <= regS + regI;
+			regResult <= regS + regI;
 		end if;
 	end process;
 
-	resultado <= regReult when habResultado = '1';
+	resultado <= regResult when habResultado = '1';
 	
 end rtl;

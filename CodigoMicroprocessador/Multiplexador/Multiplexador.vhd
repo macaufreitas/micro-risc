@@ -19,7 +19,7 @@ end Multiplexador;
 architecture ArquiteturaMux of Multiplexador is
 begin
 	-- Processo que verifica mudanca na chave seletora
-	process (seletor)
+	process (seletor,entrada_01,entrada_02)
 	begin
 		if (seletor = '0') then
 			saida <= entrada_01;

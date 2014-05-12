@@ -2,25 +2,25 @@ m255
 K3
 13
 cModel Technology
-Z0 dC:\Users\silvadenisaraujo\Desktop\micro-risc\CodigoMicroprocessador\MicroprocessadorCompleto\simulation\modelsim
+Z0 dC:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\CodigoMicroprocessador\MicroprocessadorCompleto\simulation\modelsim
 Ecalculadoraendereco
-Z1 w1398382839
+Z1 w1399425205
 Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
 Z3 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
 Z4 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
 Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
-Z7 dC:\Users\silvadenisaraujo\Desktop\micro-risc\CodigoMicroprocessador\MicroprocessadorCompleto\simulation\modelsim
-Z8 8C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd
-Z9 FC:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd
+Z7 dC:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\CodigoMicroprocessador\MicroprocessadorCompleto\simulation\modelsim
+Z8 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd
+Z9 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd
 l0
 L13
 VX:M]3RaWzYBmF9AM_=jBg0
 Z10 OV;C;10.1d;51
 31
-Z11 !s108 1398725023.709000
-Z12 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd|
-Z13 !s107 C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd|
+Z11 !s108 1399425259.156000
+Z12 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd|
+Z13 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd|
 Z14 o-93 -work work -O0
 Z15 tExplicit 1
 !s100 6i:dYYVZY5N2G5;<4lUhW3
@@ -34,7 +34,7 @@ R6
 DEx4 work 19 calculadoraendereco 0 22 X:M]3RaWzYBmF9AM_=jBg0
 l31
 L26
-VPbMJWk233;DThojTWdS3M1
+VAK8Q<kh>5^ihU8UCk46:20
 R10
 31
 R11
@@ -42,23 +42,23 @@ R12
 R13
 R14
 R15
-!s100 lc95X67G20C:9?[NNjL7G1
+!s100 JzdWh1aF7NaWjHfHdkLo80
 !i10b 1
 Edemultiplexador
-Z16 w1398382841
+Z16 w1398808023
 R5
 R6
 R7
-Z17 8C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd
-Z18 FC:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd
+Z17 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd
+Z18 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd
 l0
 L10
 VB0jD`fB[bLIm>@?lCHT[i2
 R10
 31
-Z19 !s108 1398725023.035000
-Z20 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd|
-Z21 !s107 C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd|
+Z19 !s108 1399425258.813000
+Z20 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd|
+Z21 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd|
 R14
 R15
 !s100 M@FTmWcTj6HF2ZbT_ZanI0
@@ -80,21 +80,21 @@ R15
 !s100 ?_R@hh7YWb3YMXJ>0XMSS0
 !i10b 1
 Edetectorauxiliarflag
-Z22 w1398382843
+Z22 w1398808024
 R4
 R5
 R6
 R7
-Z23 8C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd
-Z24 FC:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd
+Z23 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd
+Z24 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd
 l0
 L16
 VUT`iQIOGQ6E@gioLQDc<b3
 R10
 31
-Z25 !s108 1398725022.537000
-Z26 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd|
-Z27 !s107 C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd|
+Z25 !s108 1399425258.435000
+Z26 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd|
+Z27 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd|
 R14
 R15
 !s100 [AUG6bJ_4gJ4_zCYRlB^53
@@ -117,20 +117,20 @@ R15
 !s100 :Sgg0WUM]J3jgDI]DlHA;0
 !i10b 1
 Edetectorparidade
-Z28 w1398382846
+R22
 R5
 R6
 R7
-Z29 8C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd
-Z30 FC:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd
+Z28 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd
+Z29 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd
 l0
 L10
 VU?ni0TQl79497lH]>S=dn0
 R10
 31
-Z31 !s108 1398725020.617000
-Z32 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd|
-Z33 !s107 C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd|
+Z30 !s108 1399425257.472000
+Z31 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd|
+Z32 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd|
 R14
 R15
 !s100 CQKazSTAd9l;0j8h88Oeh3
@@ -144,28 +144,28 @@ L17
 V;6[WVXEo3`YFbZbeo[7713
 R10
 31
+R30
 R31
 R32
-R33
 R14
 R15
 !s100 m2n=>5]``oKhK5O6B>cBc0
 !i10b 1
 Edetectorzeroflag
-Z34 w1398382848
+Z33 w1398808026
 R5
 R6
 R7
-Z35 8C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlag.vhd
-Z36 FC:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlag.vhd
+Z34 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlag.vhd
+Z35 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlag.vhd
 l0
 L10
 V^hdNW<HCiI>jP>@j`=D5`0
 R10
 31
-Z37 !s108 1398725020.115000
-Z38 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlag.vhd|
-Z39 !s107 C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlag.vhd|
+Z36 !s108 1399425257.086000
+Z37 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlag.vhd|
+Z38 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlag.vhd|
 R14
 R15
 !s100 J:T>EfzJl>]8Qzlhi75=_0
@@ -179,29 +179,29 @@ L17
 VHm9@T^;ZGo1oa]KJ9B9k^1
 R10
 31
+R36
 R37
 R38
-R39
 R14
 R15
 !s100 9W;eRaW1>613CM?[YE0@H1
 !i10b 1
 Emicroprocessadorcompleto
-Z40 w1398382854
+Z39 w1398382854
 R2
 R5
 R6
 R7
-Z41 8C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/MicroprocessadorCompleto/MicroprocessadorCompleto.vhd
-Z42 FC:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/MicroprocessadorCompleto/MicroprocessadorCompleto.vhd
+Z40 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/MicroprocessadorCompleto/MicroprocessadorCompleto.vhd
+Z41 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/MicroprocessadorCompleto/MicroprocessadorCompleto.vhd
 l0
 L11
 V^c2E]3>m5Moz1:ISRk<Gh3
 R10
 31
-Z43 !s108 1398725024.172000
-Z44 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/MicroprocessadorCompleto/MicroprocessadorCompleto.vhd|
-Z45 !s107 C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/MicroprocessadorCompleto/MicroprocessadorCompleto.vhd|
+Z42 !s108 1399425259.495000
+Z43 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/MicroprocessadorCompleto/MicroprocessadorCompleto.vhd|
+Z44 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/MicroprocessadorCompleto/MicroprocessadorCompleto.vhd|
 R14
 R15
 !s100 Q=7dkNT98>djIND`MalT11
@@ -216,21 +216,21 @@ L21
 V64=>cO`5?Y39h352B7ei11
 R10
 31
+R42
 R43
 R44
-R45
 R14
 R15
 !s100 F84@=1MMDn]0nOhNm2ZR:1
 !i10b 1
 Emicroprocessadorcompletotb
-Z46 w1398724763
+Z45 w1398724763
 R2
 R5
 R6
 R7
-Z47 8C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/MicroprocessadorCompleto/MicroprocessadorCompletoTB.vhd
-Z48 FC:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/MicroprocessadorCompleto/MicroprocessadorCompletoTB.vhd
+Z46 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/MicroprocessadorCompleto/MicroprocessadorCompletoTB.vhd
+Z47 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/MicroprocessadorCompleto/MicroprocessadorCompletoTB.vhd
 l0
 L11
 VWSZe^I5:JaT@04LENL9D00
@@ -238,9 +238,9 @@ VWSZe^I5:JaT@04LENL9D00
 R10
 31
 !i10b 1
-Z49 !s108 1398725026.687000
-Z50 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/MicroprocessadorCompleto/MicroprocessadorCompletoTB.vhd|
-Z51 !s107 C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/MicroprocessadorCompleto/MicroprocessadorCompletoTB.vhd|
+Z48 !s108 1399425260.587000
+Z49 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/MicroprocessadorCompleto/MicroprocessadorCompletoTB.vhd|
+Z50 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/MicroprocessadorCompleto/MicroprocessadorCompletoTB.vhd|
 R14
 R15
 Aarquiteturamicrotb
@@ -255,26 +255,26 @@ VPWKeL4kSkJDzmdI2E29N81
 R10
 31
 !i10b 1
+R48
 R49
 R50
-R51
 R14
 R15
 Eregistroflags
-Z52 w1398382867
+Z51 w1398808035
 R5
 R6
 R7
-Z53 8C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd
-Z54 FC:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd
+Z52 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd
+Z53 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd
 l0
 L10
 VCHDoKS5I60Ab@D0mIY>6e3
 R10
 31
-Z55 !s108 1398725019.754000
-Z56 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd|
-Z57 !s107 C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd|
+Z54 !s108 1399425256.708000
+Z55 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd|
+Z56 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd|
 R14
 R15
 !s100 W4Za2KWY1P`IShJnm7ceL0
@@ -288,28 +288,28 @@ L27
 VLNZgWCT6magbM=Y6:j`XT0
 R10
 31
+R54
 R55
 R56
-R57
 R14
 R15
 !s100 E[U;l`Ma`eM:3chDJO]=N2
 !i10b 1
 Eregistropropositogeral
-Z58 w1398382869
+Z57 w1398808036
 R5
 R6
 R7
-Z59 8C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd
-Z60 FC:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd
+Z58 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd
+Z59 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd
 l0
 L10
 VUd887ee4RFajP54716i?C2
 R10
 31
-Z61 !s108 1398725019.330000
-Z62 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd|
-Z63 !s107 C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd|
+Z60 !s108 1399425256.426000
+Z61 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd|
+Z62 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd|
 R14
 R15
 !s100 _K_U0O2`nJUTlfCTljz_D1
@@ -323,30 +323,30 @@ L22
 V<W:MGIzZCCMbfn_8OdH^P0
 R10
 31
+R60
 R61
 R62
-R63
 R14
 R15
 !s100 97EJD@gZ_oRLQ[O`nziVU1
 !i10b 1
 Eregistrosegmento
-Z64 w1398382871
+Z63 w1399425215
 R4
 R3
 R5
 R6
 R7
-Z65 8C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/RegistroSegmento/RegistroSegmento.vhd
-Z66 FC:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/RegistroSegmento/RegistroSegmento.vhd
+Z64 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/RegistroSegmento/RegistroSegmento.vhd
+Z65 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/RegistroSegmento/RegistroSegmento.vhd
 l0
 L11
 V@AGoJBX_JZ4l`d@;E6Njk0
 R10
 31
-Z67 !s108 1398725018.917000
-Z68 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/RegistroSegmento/RegistroSegmento.vhd|
-Z69 !s107 C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/RegistroSegmento/RegistroSegmento.vhd|
+Z66 !s108 1399425256.132000
+Z67 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/RegistroSegmento/RegistroSegmento.vhd|
+Z68 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/RegistroSegmento/RegistroSegmento.vhd|
 R14
 R15
 !s100 `Tmn3o1O?TGHczDHeLYdo0
@@ -359,31 +359,31 @@ R6
 DEx4 work 16 registrosegmento 0 22 @AGoJBX_JZ4l`d@;E6Njk0
 l29
 L24
-V;<S[9Hjb<m9`XT2_ijPoS2
+V5Uzfag5maGkfRZ;W6[F@W2
 R10
 31
+R66
 R67
 R68
-R69
 R14
 R15
-!s100 BiQ>R3QfSozNe?8jTg]011
+!s100 ol_mMVFbz8IFH=Kemn6IP2
 !i10b 1
 Esomador
 R22
 R5
 R6
 R7
-Z70 8C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Somador.vhd
-Z71 FC:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Somador.vhd
+Z69 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Somador.vhd
+Z70 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Somador.vhd
 l0
 L10
 Voh?Qa69GCBFEf`A6mnLk>2
 R10
 31
-Z72 !s108 1398725021.929000
-Z73 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Somador.vhd|
-Z74 !s107 C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Somador.vhd|
+Z71 !s108 1399425258.105000
+Z72 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Somador.vhd|
+Z73 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Somador.vhd|
 R14
 R15
 !s100 Bdnc1`m?G9;MQJnjWG?fk2
@@ -397,9 +397,9 @@ L20
 VE5jIDoR^B?QN_jJGz^P3J1
 R10
 31
+R71
 R72
 R73
-R74
 R14
 R15
 !s100 f3`loaaj<4R0hc_aA>b8]2
@@ -409,16 +409,16 @@ R22
 R5
 R6
 R7
-Z75 8C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Subtrator.vhd
-Z76 FC:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Subtrator.vhd
+Z74 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Subtrator.vhd
+Z75 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Subtrator.vhd
 l0
 L10
 V4QZ[71`WhfAK_Vo>MaGHO1
 R10
 31
-Z77 !s108 1398725021.326000
-Z78 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Subtrator.vhd|
-Z79 !s107 C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Subtrator.vhd|
+Z76 !s108 1399425257.859000
+Z77 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Subtrator.vhd|
+Z78 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Subtrator.vhd|
 R14
 R15
 !s100 Zn@S?PA5RML08Nf5@<6Ad2
@@ -432,9 +432,9 @@ L20
 VN^]dSZQdkVcH=eQ6hJnY82
 R10
 31
+R76
 R77
 R78
-R79
 R14
 R15
 !s100 @N=:4jWDBnII1l@Jgk@TQ1
@@ -442,10 +442,10 @@ R15
 Puc_aux
 R5
 R6
-w1398382880
+Z79 w1398808045
 R7
-8C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd
-FC:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd
+8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd
+FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd
 l0
 L6
 Vzoo40`jFnYXgYXPKKfaRH2
@@ -455,16 +455,16 @@ R14
 R15
 !s100 DzDT=AlFK]W1QM3m@z22E2
 !i10b 1
-!s108 1398725018.186000
-!s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd|
-!s107 C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd|
+!s108 1399425255.685000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd|
+!s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd|
 Puce_aux
 R5
 R6
-w1398382882
+w1398808047
 R7
-8C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/uce_aux.vhd
-FC:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/uce_aux.vhd
+8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/uce_aux.vhd
+FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/uce_aux.vhd
 l0
 L6
 Vi3RLlGbdLOcFRNeeXl:PS1
@@ -474,27 +474,27 @@ R14
 R15
 !s100 33`8Za17E;GZ@]o_ZDG>g0
 !i10b 1
-!s108 1398725017.543000
-!s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/uce_aux.vhd|
-!s107 C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/uce_aux.vhd|
+!s108 1399425255.488000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/uce_aux.vhd|
+!s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/uce_aux.vhd|
 Eula
-Z80 w1398382872
+Z80 w1398808042
 R2
 R3
 R4
 R5
 R6
 R7
-Z81 8C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/ULA/ULA.vhd
-Z82 FC:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/ULA/ULA.vhd
+Z81 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/ULA/ULA.vhd
+Z82 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/ULA/ULA.vhd
 l0
 L14
 VZ@1?^R??mCDE2czzC=mWA3
 R10
 31
-Z83 !s108 1398725018.467000
-Z84 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/ULA/ULA.vhd|
-Z85 !s107 C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/ULA/ULA.vhd|
+Z83 !s108 1399425255.915000
+Z84 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/ULA/ULA.vhd|
+Z85 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/ULA/ULA.vhd|
 R14
 R15
 !s100 ?_155e[WRc9dW4WzEBQPI1
@@ -519,21 +519,21 @@ R15
 !s100 CmZcd19hXHE8g@gg<L>mN3
 !i10b 1
 Eunidadedecontrole
-Z86 w1398382876
+Z86 w1398808043
 Z87 DPx4 work 6 uc_aux 0 22 zoo40`jFnYXgYXPKKfaRH2
 R5
 R6
 R7
-Z88 8C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd
-Z89 FC:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd
+Z88 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd
+Z89 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd
 l0
 L11
 VnK:R1OS>h?Oo5Pa=VY<TA2
 R10
 31
-Z90 !s108 1398725026.172000
-Z91 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd|
-Z92 !s107 C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd|
+Z90 !s108 1399425260.333000
+Z91 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd|
+Z92 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd|
 R14
 R15
 !s100 kLn7=c[RXzhGOe:BQ0QMb1
@@ -556,27 +556,27 @@ R15
 !s100 9^Bzhh]jb5Y0a1EkN7U>E1
 !i10b 1
 Eunidadedecontroledeenderecos
-Z93 w1398382881
-Z94 DPx4 work 7 uce_aux 0 22 i3RLlGbdLOcFRNeeXl:PS1
+R79
+Z93 DPx4 work 7 uce_aux 0 22 i3RLlGbdLOcFRNeeXl:PS1
 R5
 R6
 R7
-Z95 8C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd
-Z96 FC:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd
+Z94 8C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd
+Z95 FC:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd
 l0
 L12
 VHa;6^3QR:KzzndLRG;jh;2
 R10
 31
-Z97 !s108 1398725025.638000
-Z98 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd|
-Z99 !s107 C:/Users/silvadenisaraujo/Desktop/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd|
+Z96 !s108 1399425259.895000
+Z97 !s90 -reportprogress|300|-93|-work|work|C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd|
+Z98 !s107 C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd|
 R14
 R15
 !s100 7oQCZh<JQdc];mo;]k?<[3
 !i10b 1
 Aarquitetura
-R94
+R93
 R5
 R6
 DEx4 work 28 unidadedecontroledeenderecos 0 22 Ha;6^3QR:KzzndLRG;jh;2
@@ -585,9 +585,9 @@ L29
 VBcDYfCU6D8db_]=Z?HPYY0
 R10
 31
+R96
 R97
 R98
-R99
 R14
 R15
 !s100 VC5FO59C0hACT]bVIA8`]0

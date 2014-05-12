@@ -25,21 +25,22 @@ entity ULA is
 		flagSinal        : out std_logic;
 		flagZero			  : out std_logic;
 		flagAuxiliar     : out std_logic;
-		resultado        : out std_logic_vector(15 downto 0)
+		resultado        : out std_logic_vector(15 downto 0);
+		fimCalculo		  : out std_logic
 	);
 end ULA;
 
 architecture arquiteturaULA of ULA is
 
 	-- tipos possíveis de operações
-	type op_type is (op_add,op_a_or_b,op_addCarry,op_subCarry,
+	type op_type is (op_add,op_a_or_b,op_a_and_b,op_addCarry,op_subCarry,
 						  op_sub,op_a_xor_b,op_nop, op_a_comp_b);
 						  
 	signal enum_op : op_type;
 	signal op : std_logic_vector(2 downto 0);
 	
 	--sinais de registro dos valores de entrada e calculado
-   signal reg, regEntradaTesteFlags : std_logic_vector(16 downto 0);
+   signal reg, regEntradaTesteFlags, regEntradaTesteFlagsComp : std_logic_vector(16 downto 0);
 	signal regA,regB : std_logic_vector(15 downto 0);
 	
 	component DetectorZeroFlag
@@ -79,7 +80,8 @@ begin
 				when "011"  => enum_op <= op_subCarry;
 				when "100"  => enum_op <= op_sub;
 				when "101"  => enum_op <= op_a_xor_b;
-				when "110"  => enum_op <= op_a_comp_b;				
+				when "110"  => enum_op <= op_a_and_b;
+				when "111"  => enum_op <= op_a_comp_b;
 				when others => enum_op <= op_nop;
 			end case;
 		end if;
@@ -89,6 +91,7 @@ begin
    ProcessoCalcula : process(clock)
    begin
       if (rising_edge(clock) and (habilitaULA = '1')) then
+			fimCalculo <= '0';
 			regA <= entradaA;
 			regB <= entradaB;
          case enum_op is
@@ -99,7 +102,6 @@ begin
 										  regEntradaTesteFlags(15)) ;
 					flagSinal <= regEntradaTesteFlags(15);
 					op <= "000";
-					resultado <= regEntradaTesteFlags(15 downto 0);
 				when op_sub => 
 					regEntradaTesteFlags <= ('0' & regA) - regB;
 					flagCarry <= regEntradaTesteFlags(16);
@@ -107,21 +109,18 @@ begin
 										 (regA(15) and (not regB(15)) and (not regEntradaTesteFlags(15)));
 					flagSinal <= regEntradaTesteFlags(15);
 					op <= "001";
-					resultado <= regEntradaTesteFlags(15 downto 0);
 				when op_a_or_b => 
 					regEntradaTesteFlags <= '0' & (regA or regB);
 					flagCarry <= '0';
 					flagOverflow <= '0';
 					flagSinal <= regEntradaTesteFlags(15);
 					op <= "010";
-					resultado <= regEntradaTesteFlags(15 downto 0);
 				when op_addCarry => 
 					regEntradaTesteFlags <= ('0' & regA) + regB + carryIn;
 					flagCarry <= regEntradaTesteFlags(16);
 					flagOverflow <= regEntradaTesteFlags(16) xor regA(15) xor regB(15) xor regEntradaTesteFlags(15);
 					flagSinal <= regEntradaTesteFlags(15);
 					op <= "000";
-					resultado <= regEntradaTesteFlags(15 downto 0);
 				when op_subCarry => 
 					regEntradaTesteFlags <= ('0' & regA) - regB - carryIn;
 					flagCarry <= regEntradaTesteFlags(16);
@@ -129,28 +128,36 @@ begin
 										 (regA(15) and (not regB(15)) and (not regEntradaTesteFlags(15)));
 					flagSinal <= regEntradaTesteFlags(15);
 					op <= "001";
-					resultado <= regEntradaTesteFlags(15 downto 0);
 				when op_a_xor_b =>
 					regEntradaTesteFlags <= '0' & (regA xor regB);
 					flagCarry <= '0';
 					flagOverflow <= '0';
 					flagSinal <= regEntradaTesteFlags(15);
 					op <= "011";
-					resultado <= regEntradaTesteFlags(15 downto 0);
 				when op_nop => 
 					reg(15) <= '0';
 				when op_a_comp_b =>
-					regEntradaTesteFlags <= ('0' & regA) - regB;
-					flagCarry <= regEntradaTesteFlags(16);
-					flagOverflow <= ((not regA(15)) and regB(15) and regEntradaTesteFlags(15)) or 
-										 (regA(15) and (not regB(15)) and (not regEntradaTesteFlags(15)));
-					flagSinal <= regEntradaTesteFlags(15);
+					regEntradaTesteFlagsComp <= ('0' & regA) - regB;
+					flagCarry <= regEntradaTesteFlagsComp(16);
+					flagOverflow <= ((not regA(15)) and regB(15) and regEntradaTesteFlagsComp(15)) or 
+										 (regA(15) and (not regB(15)) and (not regEntradaTesteFlagsComp(15)));
+					flagSinal <= regEntradaTesteFlagsComp(15);
 					op <= "100";
+				when op_a_and_b => 
+					regEntradaTesteFlags <= '0' & (regA and regB);
+					flagCarry <= '0';
+					flagOverflow <= '0';
+					flagSinal <= regEntradaTesteFlags(15);
+					op <= "010";
 				when others => 
 					reg <= (others => 'Z');
 			end case;
+			fimCalculo <= '1';
       end if;
-   end process;	
+   end process;
+	
+	--atribuicao do resultado
+	resultado <= regEntradaTesteFlags(15 downto 0);
 
 	--atribuicao dos resultados finais
 	dParidade : DetectorParidade port map (regEntradaTesteFlags(15 downto 0), flagParidade);

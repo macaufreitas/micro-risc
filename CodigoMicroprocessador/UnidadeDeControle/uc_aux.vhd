@@ -10,6 +10,6 @@ package uc_aux is
 								 Add_regImed_16, Sub_regImed_16, Erro,
 								 Or_regImed_16,Adc_regImed_16,Sbb_regImed_16,
 								 And_regImed_16,Xor_regImed_16,
-								 FimInstrucao,ResultRegImed, Compara_Reg_16, Move_To_Reg);
+								 FimInstrucao,ResultRegImed, Compara_Reg_16, Move_To_Reg, Fim_Move_To_Reg);
 end uc_aux;
 
