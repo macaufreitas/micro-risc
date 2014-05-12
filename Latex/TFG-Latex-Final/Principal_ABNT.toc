@@ -79,5 +79,7 @@
 \contentsline {section}{\numberline {6.7}XOR Reg16,Imed16}{71}
 \contentsline {section}{\numberline {6.8}CMP Reg16,Imed16}{72}
 \contentsline {section}{\numberline {6.9}MOV Reg16,Imed16}{72}
-\contentsline {chapter}{\numberline {7}Anexo}{76}
-\contentsline {chapter}{Refer\^encias}{80}
+\contentsline {chapter}{\numberline {7}Considera\c c\~oes Finais}{76}
+\contentsline {chapter}{\numberline {8}Trabalhos Futuros}{77}
+\contentsline {chapter}{\numberline {9}Anexo}{78}
+\contentsline {chapter}{Refer\^encias}{82}
