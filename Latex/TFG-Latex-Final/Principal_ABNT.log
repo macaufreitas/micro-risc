@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.17)  12 MAY 2014 22:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.17)  14 MAY 2014 19:16
 entering extended mode
 **Principal_ABNT.tex
 
@@ -910,74 +910,166 @@ Overfull \hbox (66.86244pt too wide) in paragraph at lines 18--19
  [][] 
  []
 
-<imagensResultados/resultadoOpOr.png, id=272, 108.405pt x 1644.89531pt>
-File: imagensResultados/resultadoOpOr.png Graphic file (type png)
+<imagensResultados/OperacaoAdd.png, id=272, 1204.5pt x 301.125pt>
+File: imagensResultados/OperacaoAdd.png Graphic file (type png)
 
-<use imagensResultados/resultadoOpOr.png>
-Package pdftex.def Info: imagensResultados/resultadoOpOr.png used on input line
- 27.
-(pdftex.def)             Requested size: 32.52174pt x 493.47241pt.
-File: fluxograma-maquina-cisc.jpg Graphic file (type jpg)
- <use fluxograma-maquina-cisc.jpg>
-Package pdftex.def Info: fluxograma-maquina-cisc.jpg used on input line 36.
-(pdftex.def)             Requested size: 226.2437pt x 286.66904pt.
+<use imagensResultados/OperacaoAdd.png>
+Package pdftex.def Info: imagensResultados/OperacaoAdd.png used on input line 2
+6.
+(pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
+
+Overfull \hbox (183.99486pt too wide) in paragraph at lines 26--27
+[][] 
+ []
 
 [67 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
-/imagensResultados/resultadoOpAdd.png>]
-File: fluxograma-maquina-cisc.jpg Graphic file (type jpg)
- <use fluxograma-maquina-cisc.jpg>
-Package pdftex.def Info: fluxograma-maquina-cisc.jpg used on input line 45.
-(pdftex.def)             Requested size: 226.2437pt x 286.66904pt.
+/imagensResultados/resultadoOpAdd.png> <C:/Users/silvadenisaraujo/Desktop/TFG80
+86/micro-risc/Latex/TFG-Latex-Final/imagensResultados/OperacaoAdd.png>]
+[68] <imagensResultados/OperacaoOr.png, id=279, 1204.5pt x 301.125pt>
+File: imagensResultados/OperacaoOr.png Graphic file (type png)
 
-<imagensResultados/resultadoOpAnd.png, id=276, 106.14656pt x 1696.08656pt>
-File: imagensResultados/resultadoOpAnd.png Graphic file (type png)
+<use imagensResultados/OperacaoOr.png>
+Package pdftex.def Info: imagensResultados/OperacaoOr.png used on input line 36
+.
+(pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
 
-<use imagensResultados/resultadoOpAnd.png>
-Package pdftex.def Info: imagensResultados/resultadoOpAnd.png used on input lin
-e 54.
-(pdftex.def)             Requested size: 31.84421pt x 508.8299pt.
-File: fluxograma-maquina-cisc.jpg Graphic file (type jpg)
- <use fluxograma-maquina-cisc.jpg>
-Package pdftex.def Info: fluxograma-maquina-cisc.jpg used on input line 63.
-(pdftex.def)             Requested size: 226.2437pt x 286.66904pt.
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 36--37
+[][] 
+ []
 
-[68]
-<imagensResultados/resultadoOpXor.png, id=280, 106.14656pt x 1693.07532pt>
-File: imagensResultados/resultadoOpXor.png Graphic file (type png)
+[69 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
+/imagensResultados/OperacaoOr.png>] [70
 
-<use imagensResultados/resultadoOpXor.png>
-Package pdftex.def Info: imagensResultados/resultadoOpXor.png used on input lin
-e 72.
-(pdftex.def)             Requested size: 31.84421pt x 507.92651pt.
-File: fluxograma-maquina-cisc.jpg Graphic file (type jpg)
- <use fluxograma-maquina-cisc.jpg>
-Package pdftex.def Info: fluxograma-maquina-cisc.jpg used on input line 81.
-(pdftex.def)             Requested size: 226.2437pt x 286.66904pt.
 
-<imagensResultados/resultadoOpMov.png, id=281, 107.65219pt x 1694.58093pt>
-File: imagensResultados/resultadoOpMov.png Graphic file (type png)
+]
+<imagensResultados/OperacaoAdc.png, id=286, 1204.5pt x 301.125pt>
+File: imagensResultados/OperacaoAdc.png Graphic file (type png)
 
-<use imagensResultados/resultadoOpMov.png>
-Package pdftex.def Info: imagensResultados/resultadoOpMov.png used on input lin
-e 90.
-(pdftex.def)             Requested size: 32.2959pt x 508.3782pt.
-) [69] [70 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Late
-x-Final/imagensResultados/resultadoOpOr.png>] [71] [72] [73 <C:/Users/silvadeni
-saraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final/imagensResultados/resu
-ltadoOpAnd.png>] [74] [75 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc
-/Latex/TFG-Latex-Final/imagensResultados/resultadoOpXor.png>] [76] [77 <C:/User
-s/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final/imagensResu
-ltados/resultadoOpMov.png>]
+<use imagensResultados/OperacaoAdc.png>
+Package pdftex.def Info: imagensResultados/OperacaoAdc.png used on input line 4
+7.
+(pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
+
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 47--48
+[][] 
+ []
+
+[71 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
+/imagensResultados/OperacaoAdc.png>] [72
+
+
+]
+<imagensResultados/OperacaoSbb.png, id=294, 1204.5pt x 301.125pt>
+File: imagensResultados/OperacaoSbb.png Graphic file (type png)
+
+<use imagensResultados/OperacaoSbb.png>
+Package pdftex.def Info: imagensResultados/OperacaoSbb.png used on input line 5
+8.
+(pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
+
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 58--59
+[][] 
+ []
+
+[73 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
+/imagensResultados/OperacaoSbb.png>] [74
+
+
+]
+<imagensResultados/OperacaoAnd.png, id=301, 1204.5pt x 301.125pt>
+File: imagensResultados/OperacaoAnd.png Graphic file (type png)
+
+<use imagensResultados/OperacaoAnd.png>
+Package pdftex.def Info: imagensResultados/OperacaoAnd.png used on input line 6
+9.
+(pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
+
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 69--70
+[][] 
+ []
+
+[75 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
+/imagensResultados/OperacaoAnd.png>] [76
+
+
+]
+<imagensResultados/OperacaoSub.png, id=308, 1204.5pt x 301.125pt>
+File: imagensResultados/OperacaoSub.png Graphic file (type png)
+
+<use imagensResultados/OperacaoSub.png>
+Package pdftex.def Info: imagensResultados/OperacaoSub.png used on input line 8
+0.
+(pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
+
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 80--81
+[][] 
+ []
+
+[77 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
+/imagensResultados/OperacaoSub.png>] [78
+
+
+]
+<imagensResultados/OperacaoXor.png, id=316, 1204.5pt x 301.125pt>
+File: imagensResultados/OperacaoXor.png Graphic file (type png)
+
+<use imagensResultados/OperacaoXor.png>
+Package pdftex.def Info: imagensResultados/OperacaoXor.png used on input line 9
+1.
+(pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
+
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 91--92
+[][] 
+ []
+
+[79 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
+/imagensResultados/OperacaoXor.png>] [80
+
+
+]
+<imagensResultados/OperacaoCmp.png, id=323, 1204.5pt x 526.96875pt>
+File: imagensResultados/OperacaoCmp.png Graphic file (type png)
+
+<use imagensResultados/OperacaoCmp.png>
+Package pdftex.def Info: imagensResultados/OperacaoCmp.png used on input line 1
+02.
+(pdftex.def)             Requested size: 602.24854pt x 263.48372pt.
+
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 102--103
+[][] 
+ []
+
+[81 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
+/imagensResultados/OperacaoCmp.png>] [82
+
+
+]
+<imagensResultados/OperacaoMov.png, id=330, 1204.5pt x 301.125pt>
+File: imagensResultados/OperacaoMov.png Graphic file (type png)
+
+<use imagensResultados/OperacaoMov.png>
+Package pdftex.def Info: imagensResultados/OperacaoMov.png used on input line 1
+13.
+(pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
+
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 113--114
+[][] 
+ []
+
+[83 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
+/imagensResultados/OperacaoMov.png>])
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Con
 sideracoesFinais.tex
 Cap\'{\i }tulo 7.
-[78
+[84
+
+
 
 
 
 ]
 Cap\'{\i }tulo 8.
-) [79
+) [85
 
 ]
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Ane
@@ -990,11 +1082,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 1.
- [80
+ [86
 
 
 
-] [81] [82])) [83]
+] [87] [88])) [89]
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Pri
 ncipal_ABNT.bbl
 Underfull \hbox (badness 1701) in paragraph at lines 10--12
@@ -1017,7 +1109,7 @@ Underfull \hbox (badness 1205) in paragraph at lines 71--74
 []\T1/aer/m/n/12 SHUSTEK, L. Mi-cro-soft ms-dos early source code. 
  []
 
-[84
+[90
 
 
 ]
@@ -1030,7 +1122,7 @@ Underfull \hbox (badness 2538) in paragraph at lines 88--90
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[85]
+[91]
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Pri
 ncipal_ABNT.aux
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\cap
@@ -1062,10 +1154,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6098 strings out of 493921
- 90504 string characters out of 3144924
+ 6123 strings out of 493921
+ 91274 string characters out of 3144924
  266389 words of memory out of 3000000
- 9129 multiletter control sequences out of 15000+200000
+ 9149 multiletter control sequences out of 15000+200000
  41856 words of font info for 82 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  35i,10n,40p,1182b,1862s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1084,9 +1176,9 @@ ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Principal_ABNT.pdf (86 pages, 2374933 bytes).
+Output written on Principal_ABNT.pdf (92 pages, 2603221 bytes).
 PDF statistics:
- 594 PDF objects out of 1000 (max. 8388607)
+ 618 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 226 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 251 words of extra memory for PDF output out of 10000 (max. 10000000)
 

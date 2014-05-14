@@ -17,77 +17,101 @@ Esta instrução adiciona ao valor do registro um valor imediato de 16 bits, a ins
 	\begin{figure} \centering
 		\includegraphics[scale=0.3]{imagensResultados/resultadoOpAdd.png}
 		\caption{Sequência para Execução de Instruções CISC}
+	\end{figure}
+		
+\section{ADD Reg16,Imed16}
+Esta instrução adiciona ao valor do registro um valor imediato de 16 bits, a instrução de teste em hexadecimal é definida como \textbf{81C0 123F} onde 81C0h é o opcode da instrução e 123Fh é o valor imediato a ser somado no registro AX, por utilizar R/M igual a 000 como vimos anteriormente. Temos na figura \ref{FigResultAdd} o resultado da simulação.
+
+	\begin{figure}
+		\includegraphics[scale=0.5]{imagensResultados/OperacaoAdd.png}
+		\caption{Resultado Teste Operação ADD}
 		\label{FigResultAdd}
 	\end{figure}
 
 \section{OR Reg16,Imed16}
 Esta instrução realiza a operação "OU" bit a bit do valor do registro com um valor imediato de 16 bits, a instrução de teste em hexadecimal é definida como \textbf{81C8 123F} onde 81C8h é o opcode da instrução e 123Fh é o valor imediato a ser realizado a operação "OU" no registro AX, por utilizar R/M igual a 000 como vimos anteriormente. Temos na figura \ref{FigResultOr} o resultado da simulação.
 
-	\begin{figure}[ht] \centering
-		\includegraphics[scale=0.3]{imagensResultados/resultadoOpOr.png}
-		\caption{Sequência para Execução de Instruções CISC}
+\begin{landscape}
+	\begin{figure}
+		\includegraphics[scale=0.5]{imagensResultados/OperacaoOr.png}
+		\caption{Resultado Teste Operação OR}
 		\label{FigResultOr}
 	\end{figure}
+\end{landscape}
 
 \section{ADC Reg16,Imed16}
 Esta instrução adiciona, com carry, ao valor do registro um valor imediato de 16 bits, a instrução de teste em hexadecimal é definida como \textbf{81D0 123F} onde 81D0h é o opcode da instrução e 123Fh é o valor imediato a ser somado com carry no registro AX, por utilizar R/M igual a 000 como vimos anteriormente. Temos na figura \ref{FigResultAdc} o resultado da simulação.
 
-	\begin{figure}[ht] \centering
-		\includegraphics[scale=0.7]{fluxograma-maquina-cisc.jpg}
-		\caption{Sequência para Execução de Instruções CISC}
+\begin{landscape}
+	\begin{figure}
+		\includegraphics[scale=0.5]{imagensResultados/OperacaoAdc.png}
+		\caption{Resultado Teste Operação ADC}
 		\label{FigResultAdc}
 	\end{figure}
+\end{landscape}
 
 \section{SBB Reg16,Imed16}
 Esta instrução subtrai, com borrow, ao valor do registro um valor imediato de 16 bits, a instrução de teste em hexadecimal é definida como \textbf{81D8 123F} onde 81D8h é o opcode da instrução e 123Fh é o valor imediato a ser subtraído com borrow no registro AX, por utilizar R/M igual a 000 como vimos anteriormente. Temos na figura \ref{FigResultSbb} o resultado da simulação.
 
-	\begin{figure}[ht] \centering
-		\includegraphics[scale=0.7]{fluxograma-maquina-cisc.jpg}
-		\caption{Sequência para Execução de Instruções CISC}
+\begin{landscape}
+	\begin{figure}
+		\includegraphics[scale=0.5]{imagensResultados/OperacaoSbb.png}
+		\caption{Resultado Teste Operação SBB}
 		\label{FigResultSbb}
 	\end{figure}
+\end{landscape}
 
 \section{AND Reg16,Imed16}
 Esta instrução realiza a operação "AND" bit a bit do valor do registro com um valor imediato de 16 bits, a instrução de teste em hexadecimal é definida como \textbf{81E0 123F} onde 81E0h é o opcode da instrução e 123Fh é o valor imediato a ser realizado a operação "OU" com o registro AX, por utilizar R/M igual a 000 como vimos anteriormente. Temos na figura \ref{FigResultAnd} o resultado da simulação.
 
-	\begin{figure}[ht] \centering
-		\includegraphics[scale=0.3]{imagensResultados/resultadoOpAnd.png}
-		\caption{Sequência para Execução de Instruções CISC}
+\begin{landscape}
+	\begin{figure}
+		\includegraphics[scale=0.5]{imagensResultados/OperacaoAnd.png}
+		\caption{Resultado Teste Operação AND}
 		\label{FigResultAnd}
 	\end{figure}
+\end{landscape}
 
 \section{SUB Reg16,Imed16}
 Esta instrução subtrai ao valor do registro um valor imediato de 16 bits, a instrução de teste em hexadecimal é definida como \textbf{81E8 123F} onde 81E8h é o opcode da instrução e 123Fh é o valor imediato a ser subtraído no registro AX, por utilizar R/M igual a 000 como vimos anteriormente. Temos na figura \ref{FigResultSub} o resultado da simulação.
 
-	\begin{figure}[ht] \centering
-		\includegraphics[scale=0.7]{fluxograma-maquina-cisc.jpg}
-		\caption{Sequência para Execução de Instruções CISC}
+\begin{landscape}
+	\begin{figure}
+		\includegraphics[scale=0.5]{imagensResultados/OperacaoSub.png}
+		\caption{Resultado Teste Operação SUB}
 		\label{FigResultSub}
 	\end{figure}
+\end{landscape}
 
 \section{XOR Reg16,Imed16}
 Esta instrução realiza a operação "XOR" bit a bit do valor do registro com um valor imediato de 16 bits, a instrução de teste em hexadecimal é definida como \textbf{81E8 123F} onde 81E8h é o opcode da instrução e 123Fh é o valor imediato a ser realizado a operação "XOR" com o registro AX, por utilizar R/M igual a 000 como vimos anteriormente. Temos na figura \ref{FigResultXor} o resultado da simulação.
 
-	\begin{figure}[ht] \centering
-		\includegraphics[scale=0.3]{imagensResultados/resultadoOpXor.png}
-		\caption{Sequência para Execução de Instruções CISC}
+\begin{landscape}
+	\begin{figure}
+		\includegraphics[scale=0.5]{imagensResultados/OperacaoXor.png}
+		\caption{Resultado Teste Operação XOR}
 		\label{FigResultXor}
 	\end{figure}
+\end{landscape}
 
 \section{CMP Reg16,Imed16}
 Esta instrução realiza a comparação ao valor do registro um valor imediato de 16 bits, a instrução de teste em hexadecimal é definida como \textbf{81F8 123F} onde 81F8h é o opcode da instrução e 123Fh é o valor imediato a ser comparado com o registro AX, por utilizar R/M igual a 000 como vimos anteriormente. Temos na figura \ref{FigResultComp} o resultado da simulação.
 
-	\begin{figure}[ht] \centering
-		\includegraphics[scale=0.7]{fluxograma-maquina-cisc.jpg}
-		\caption{Sequência para Execução de Instruções CISC}
+\begin{landscape}
+	\begin{figure}
+		\includegraphics[scale=0.5]{imagensResultados/OperacaoCmp.png}
+		\caption{Resultado Teste Operação CMP}
 		\label{FigResultComp}
 	\end{figure}
+\end{landscape}
 
 \section{MOV Reg16,Imed16}
 Esta instrução move um valor imediato de 16 bits para um determinador registrador, a instrução de teste em hexadecimal é definida como \textbf{00B8 123F} onde 00B8h é o opcode da instrução e 123Fh é o valor imediato a ser movido para o registro AX, por utilizar R/M igual a 000 como vimos anteriormente. Temos na figura \ref{FigResultMov} o resultado da simulação.
 
-	\begin{figure}[ht] \centering
-		\includegraphics[scale=0.3]{imagensResultados/resultadoOpMov.png}
-		\caption{Sequência para Execução de Instruções CISC}
+\begin{landscape}
+	\begin{figure}
+		\includegraphics[scale=0.5]{imagensResultados/OperacaoMov.png}
+		\caption{Resultado Teste Operação MOV}
 		\label{FigResultMov}
 	\end{figure}
+\end{landscape}
