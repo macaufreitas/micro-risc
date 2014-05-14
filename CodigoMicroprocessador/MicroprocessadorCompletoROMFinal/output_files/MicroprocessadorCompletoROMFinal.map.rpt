@@ -1,5 +1,5 @@
 Analysis & Synthesis report for MicroprocessadorCompletoROMFinal
-Thu May 08 16:32:18 2014
+Tue May 13 22:49:57 2014
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -18,25 +18,21 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
  10. Registers Removed During Synthesis
  11. Removed Registers Triggering Further Register Optimizations
  12. General Register Statistics
- 13. Registers Packed Into Inferred Megafunctions
- 14. Multiplexer Restructuring Statistics (Restructuring Performed)
- 15. Source assignments for memoriaROM:ROM|altsyncram:Mux0_rtl_0|altsyncram_gk51:auto_generated
- 16. Parameter Settings for Inferred Entity Instance: memoriaROM:ROM|altsyncram:Mux0_rtl_0
- 17. altsyncram Parameter Settings by Entity Instance
- 18. Port Connectivity Checks: "MicroprocessadorCompleto:Micro|RegistroSegmento:RegS"
- 19. Port Connectivity Checks: "MicroprocessadorCompleto:Micro|RegistroFlags:RegFlags"
- 20. Port Connectivity Checks: "MicroprocessadorCompleto:Micro|ULA:UnidadeLogicaArit|DetectorAuxiliarFlag:dAuxiliarFlag|Subtrator:Sub4"
- 21. Port Connectivity Checks: "MicroprocessadorCompleto:Micro|ULA:UnidadeLogicaArit|DetectorAuxiliarFlag:dAuxiliarFlag|Subtrator:Sub3"
- 22. Port Connectivity Checks: "MicroprocessadorCompleto:Micro|ULA:UnidadeLogicaArit|DetectorAuxiliarFlag:dAuxiliarFlag|Subtrator:Sub2"
- 23. Port Connectivity Checks: "MicroprocessadorCompleto:Micro|ULA:UnidadeLogicaArit|DetectorAuxiliarFlag:dAuxiliarFlag|Subtrator:Sub1"
- 24. Port Connectivity Checks: "MicroprocessadorCompleto:Micro|ULA:UnidadeLogicaArit|DetectorAuxiliarFlag:dAuxiliarFlag|Subtrator:Sub0"
- 25. Port Connectivity Checks: "MicroprocessadorCompleto:Micro|ULA:UnidadeLogicaArit|DetectorAuxiliarFlag:dAuxiliarFlag|Somador:Add4"
- 26. Port Connectivity Checks: "MicroprocessadorCompleto:Micro|ULA:UnidadeLogicaArit|DetectorAuxiliarFlag:dAuxiliarFlag|Somador:Add3"
- 27. Port Connectivity Checks: "MicroprocessadorCompleto:Micro|ULA:UnidadeLogicaArit|DetectorAuxiliarFlag:dAuxiliarFlag|Somador:Add2"
- 28. Port Connectivity Checks: "MicroprocessadorCompleto:Micro|ULA:UnidadeLogicaArit|DetectorAuxiliarFlag:dAuxiliarFlag|Somador:Add1"
- 29. Port Connectivity Checks: "MicroprocessadorCompleto:Micro|ULA:UnidadeLogicaArit|DetectorAuxiliarFlag:dAuxiliarFlag|Somador:Add0"
- 30. Elapsed Time Per Partition
- 31. Analysis & Synthesis Messages
+ 13. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 14. Port Connectivity Checks: "MicroprocessadorCompleto:Micro|RegistroSegmento:RegS"
+ 15. Port Connectivity Checks: "MicroprocessadorCompleto:Micro|RegistroFlags:RegFlags"
+ 16. Port Connectivity Checks: "MicroprocessadorCompleto:Micro|ULA:UnidadeLogicaArit|DetectorAuxiliarFlag:dAuxiliarFlag|Subtrator:Sub4"
+ 17. Port Connectivity Checks: "MicroprocessadorCompleto:Micro|ULA:UnidadeLogicaArit|DetectorAuxiliarFlag:dAuxiliarFlag|Subtrator:Sub3"
+ 18. Port Connectivity Checks: "MicroprocessadorCompleto:Micro|ULA:UnidadeLogicaArit|DetectorAuxiliarFlag:dAuxiliarFlag|Subtrator:Sub2"
+ 19. Port Connectivity Checks: "MicroprocessadorCompleto:Micro|ULA:UnidadeLogicaArit|DetectorAuxiliarFlag:dAuxiliarFlag|Subtrator:Sub1"
+ 20. Port Connectivity Checks: "MicroprocessadorCompleto:Micro|ULA:UnidadeLogicaArit|DetectorAuxiliarFlag:dAuxiliarFlag|Subtrator:Sub0"
+ 21. Port Connectivity Checks: "MicroprocessadorCompleto:Micro|ULA:UnidadeLogicaArit|DetectorAuxiliarFlag:dAuxiliarFlag|Somador:Add4"
+ 22. Port Connectivity Checks: "MicroprocessadorCompleto:Micro|ULA:UnidadeLogicaArit|DetectorAuxiliarFlag:dAuxiliarFlag|Somador:Add3"
+ 23. Port Connectivity Checks: "MicroprocessadorCompleto:Micro|ULA:UnidadeLogicaArit|DetectorAuxiliarFlag:dAuxiliarFlag|Somador:Add2"
+ 24. Port Connectivity Checks: "MicroprocessadorCompleto:Micro|ULA:UnidadeLogicaArit|DetectorAuxiliarFlag:dAuxiliarFlag|Somador:Add1"
+ 25. Port Connectivity Checks: "MicroprocessadorCompleto:Micro|ULA:UnidadeLogicaArit|DetectorAuxiliarFlag:dAuxiliarFlag|Somador:Add0"
+ 26. Elapsed Time Per Partition
+ 27. Analysis & Synthesis Messages
 
 
 
@@ -62,7 +58,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu May 08 16:32:18 2014      ;
+; Analysis & Synthesis Status        ; Successful - Tue May 13 22:49:57 2014      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; MicroprocessadorCompletoROMFinal           ;
 ; Top-level Entity Name              ; MicroprocessadorCompletoROMFinal           ;
@@ -182,41 +178,31 @@ applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                                          ;
-+------------------------------------------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path                                 ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                                                                      ; Library ;
-+------------------------------------------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-; ../Multiplexador/Multiplexador.vhd                               ; yes             ; User VHDL File               ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/Multiplexador/Multiplexador.vhd                                       ;         ;
-; ../DetectorAuxiliarFlag/Subtrator.vhd                            ; yes             ; User VHDL File               ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Subtrator.vhd                                    ;         ;
-; ../DetectorAuxiliarFlag/Somador.vhd                              ; yes             ; User VHDL File               ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Somador.vhd                                      ;         ;
-; ../UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd ; yes             ; User VHDL File               ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd         ;         ;
-; ../UnidadeDeControleDeEnderecos/uce_aux.vhd                      ; yes             ; User VHDL File               ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/uce_aux.vhd                              ;         ;
-; ../UnidadeDeControle/uc_aux.vhd                                  ; yes             ; User VHDL File               ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd                                          ;         ;
-; ../UnidadeDeControle/UnidadeDeControle.vhd                       ; yes             ; User VHDL File               ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd                               ;         ;
-; ../ULA/ULA.vhd                                                   ; yes             ; User VHDL File               ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/ULA/ULA.vhd                                                           ;         ;
-; ../RegistroSegmento/RegistroSegmento.vhd                         ; yes             ; User VHDL File               ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/RegistroSegmento/RegistroSegmento.vhd                                 ;         ;
-; ../RegistroPropositoGeral/RegistroPropositoGeral.vhd             ; yes             ; User VHDL File               ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd                     ;         ;
-; ../RegistroFlags/RegistroFlags.vhd                               ; yes             ; User VHDL File               ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd                                       ;         ;
-; ../DetectorZeroFlag/DetectorZeroFlag.vhd                         ; yes             ; User VHDL File               ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlag.vhd                                 ;         ;
-; ../DetectorParidade/DetectorParidade.vhd                         ; yes             ; User VHDL File               ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd                                 ;         ;
-; ../DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd                 ; yes             ; User VHDL File               ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd                         ;         ;
-; ../Demultiplexador/Demultiplexador.vhd                           ; yes             ; User VHDL File               ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd                                   ;         ;
-; ../CalculadoraEndereco/CalculadoraEndereco.vhd                   ; yes             ; User VHDL File               ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd                           ;         ;
-; ../MicroprocessadorCompleto/MicroprocessadorCompleto.vhd         ; yes             ; User VHDL File               ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/MicroprocessadorCompleto/MicroprocessadorCompleto.vhd                 ;         ;
-; ../ROM/memoriaROM.vhd                                            ; yes             ; User VHDL File               ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/ROM/memoriaROM.vhd                                                    ;         ;
-; MicroprocessadorCompletoROMFinal.vhd                             ; yes             ; User VHDL File               ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/MicroprocessadorCompletoROMFinal/MicroprocessadorCompletoROMFinal.vhd ;         ;
-; altsyncram.tdf                                                   ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/altsyncram.tdf                                                                                     ;         ;
-; stratix_ram_block.inc                                            ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/stratix_ram_block.inc                                                                              ;         ;
-; lpm_mux.inc                                                      ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_mux.inc                                                                                        ;         ;
-; lpm_decode.inc                                                   ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_decode.inc                                                                                     ;         ;
-; aglobal131.inc                                                   ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/aglobal131.inc                                                                                     ;         ;
-; a_rdenreg.inc                                                    ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/a_rdenreg.inc                                                                                      ;         ;
-; altrom.inc                                                       ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/altrom.inc                                                                                         ;         ;
-; altram.inc                                                       ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/altram.inc                                                                                         ;         ;
-; altdpram.inc                                                     ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/altdpram.inc                                                                                       ;         ;
-; db/altsyncram_gk51.tdf                                           ; yes             ; Auto-Generated Megafunction  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/MicroprocessadorCompletoROMFinal/db/altsyncram_gk51.tdf               ;         ;
-+------------------------------------------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                             ;
++------------------------------------------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                                 ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                                                      ; Library ;
++------------------------------------------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; ../Multiplexador/Multiplexador.vhd                               ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/Multiplexador/Multiplexador.vhd                                       ;         ;
+; ../DetectorAuxiliarFlag/Subtrator.vhd                            ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Subtrator.vhd                                    ;         ;
+; ../DetectorAuxiliarFlag/Somador.vhd                              ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Somador.vhd                                      ;         ;
+; ../UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd         ;         ;
+; ../UnidadeDeControleDeEnderecos/uce_aux.vhd                      ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/uce_aux.vhd                              ;         ;
+; ../UnidadeDeControle/uc_aux.vhd                                  ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd                                          ;         ;
+; ../UnidadeDeControle/UnidadeDeControle.vhd                       ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd                               ;         ;
+; ../ULA/ULA.vhd                                                   ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/ULA/ULA.vhd                                                           ;         ;
+; ../RegistroSegmento/RegistroSegmento.vhd                         ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/RegistroSegmento/RegistroSegmento.vhd                                 ;         ;
+; ../RegistroPropositoGeral/RegistroPropositoGeral.vhd             ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd                     ;         ;
+; ../RegistroFlags/RegistroFlags.vhd                               ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd                                       ;         ;
+; ../DetectorZeroFlag/DetectorZeroFlag.vhd                         ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlag.vhd                                 ;         ;
+; ../DetectorParidade/DetectorParidade.vhd                         ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd                                 ;         ;
+; ../DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd                 ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd                         ;         ;
+; ../Demultiplexador/Demultiplexador.vhd                           ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd                                   ;         ;
+; ../CalculadoraEndereco/CalculadoraEndereco.vhd                   ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd                           ;         ;
+; ../MicroprocessadorCompleto/MicroprocessadorCompleto.vhd         ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/MicroprocessadorCompleto/MicroprocessadorCompleto.vhd                 ;         ;
+; ../ROM/memoriaROM.vhd                                            ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/ROM/memoriaROM.vhd                                                    ;         ;
+; MicroprocessadorCompletoROMFinal.vhd                             ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/MicroprocessadorCompletoROMFinal/MicroprocessadorCompletoROMFinal.vhd ;         ;
++------------------------------------------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------+
@@ -463,26 +449,23 @@ Encoding Type:  One-Hot
 ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[15]~reg0                        ; Lost fanout                                                                                    ;
 ; memoriaROM:ROM|saida[8]                                                                         ; Merged with memoriaROM:ROM|saida[15]                                                           ;
 ; memoriaROM:ROM|saida[11,13,14]                                                                  ; Merged with memoriaROM:ROM|saida[10]                                                           ;
+; memoriaROM:ROM|saida[9]                                                                         ; Merged with memoriaROM:ROM|saida[12]                                                           ;
 ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|habSaidaEnd                     ; Merged with MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|habMemoria         ;
 ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|selecSeg~reg0                   ; Merged with MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0 ;
-; memoriaROM:ROM|saida[9]                                                                         ; Merged with memoriaROM:ROM|saida[12]                                                           ;
-; memoriaROM:ROM|saida[5]                                                                         ; Merged with memoriaROM:ROM|saida[4]                                                            ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Add_regImed_16                       ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Sub_regImed_16                       ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Or_regImed_16                        ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Adc_regImed_16                       ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Sbb_regImed_16                       ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.And_regImed_16                       ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Xor_regImed_16                       ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Compara_Reg_16                       ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[8..15]                                  ; Lost fanout                                                                                    ;
+; memoriaROM:ROM|saida[6,7]                                                                       ; Merged with memoriaROM:ROM|saida[3]                                                            ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|leEnd                                       ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|habUnidCtrl                     ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[0..31]             ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|opcodeFetch[3..7]                           ; Lost fanout                                                                                    ;
+; memoriaROM:ROM|saida[15]                                                                        ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|ctrlDemuxData                               ; Lost fanout                                                                                    ;
+; memoriaROM:ROM|saida[10,12]                                                                     ; Lost fanout                                                                                    ;
 ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|habMemoria                      ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regResult[0..3]                         ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|Estado.TerminaCalculo           ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|Estado.ColocaEndBarramentoIncIP ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regI[0]                                 ; Lost fanout                                                                                    ;
+; memoriaROM:ROM|saida[3..5]                                                                      ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regResult[0..7]                         ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regI[1]                                 ; Lost fanout                                                                                    ;
 ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|habilitaCalc~reg0               ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regI[1..4]                              ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regI[0,2..4]                            ; Lost fanout                                                                                    ;
 ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[4]                                 ; Lost fanout                                                                                    ;
 ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regI[5]                                 ; Lost fanout                                                                                    ;
 ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[5]                                 ; Lost fanout                                                                                    ;
@@ -490,188 +473,168 @@ Encoding Type:  One-Hot
 ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[6]                                 ; Lost fanout                                                                                    ;
 ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regI[7]                                 ; Lost fanout                                                                                    ;
 ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[7]                                 ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|Estado.CalculoEndereco          ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|Estado.HabilitaSegmento         ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|Estado.HabilitaIP               ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[0]~reg0                         ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0              ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|leEnd                                       ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|Estado.Espera                   ; Lost fanout                                                                                    ;
 ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[1]~reg0                         ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0              ; Lost fanout                                                                                    ;
 ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[2]~reg0                         ; Lost fanout                                                                                    ;
 ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[3]~reg0                         ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[0]~reg0                         ; Lost fanout                                                                                    ;
 ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[4]~reg0                         ; Lost fanout                                                                                    ;
 ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[5]~reg0                         ; Lost fanout                                                                                    ;
 ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[6]~reg0                         ; Lost fanout                                                                                    ;
 ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[7]~reg0                         ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[1]                                      ; Lost fanout                                                                                    ;
 ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[2]~reg0              ; Lost fanout                                                                                    ;
 ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|habRegSeg                       ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[0,2..15]                                ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|incIP~reg0                      ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|Estado.Espera                   ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|Estado.HabilitaSegmento         ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|Estado.HabilitaIP               ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|Estado.CalculoEndereco          ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|Estado.ColocaEndBarramentoIncIP ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|Estado.TerminaCalculo           ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Busca                                ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Fetch                                ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.OpRegImed16                          ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Add_regImed_16                       ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Sub_regImed_16                       ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Erro                                 ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Or_regImed_16                        ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Adc_regImed_16                       ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Sbb_regImed_16                       ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.And_regImed_16                       ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Xor_regImed_16                       ; Lost fanout                                                                                    ;
 ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.FimInstrucao                         ; Lost fanout                                                                                    ;
 ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.ResultRegImed                        ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Fim_Move_To_Reg                      ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Busca                                ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.OpRegImed16                          ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|incIP~reg0                      ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Fetch                                ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Erro                                 ; Lost fanout                                                                                    ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Compara_Reg_16                       ; Lost fanout                                                                                    ;
 ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Move_To_Reg                          ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[0..31]             ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|habUnidCtrl                     ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|opcodeFetch[3..7]                           ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|ctrlDemuxData                               ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regResult[4..7]                         ; Lost fanout                                                                                    ;
-; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[0..7]                                   ; Lost fanout                                                                                    ;
-; Total Number of Removed Registers = 325                                                         ;                                                                                                ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Fim_Move_To_Reg                      ; Lost fanout                                                                                    ;
+; Total Number of Removed Registers = 332                                                         ;                                                                                                ;
 +-------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                                                                                                       ;
-+------------------------------------------------------------------------------------+---------------------------+--------------------------------------------------------------------------------------------------+
-; Register name                                                                      ; Reason for Removal        ; Registers Removed due to This Register                                                           ;
-+------------------------------------------------------------------------------------+---------------------------+--------------------------------------------------------------------------------------------------+
-; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|leRegSeg~reg0      ; Stuck at VCC              ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|incIP~en,                        ;
-;                                                                                    ; due to stuck port data_in ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|leRegSeg~en,                     ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[15],                                     ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[14],                                     ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[13],                                     ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[12],                                     ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[11],                                     ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[10],                                     ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[9],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[8],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[7],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[6],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[5],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[4],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[3],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[2],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[1],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[0],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[15],                                     ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[14],                                     ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[13],                                     ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[12],                                     ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[11],                                     ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[10],                                     ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[9],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[8],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[7],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[6],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[5],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[4],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[3],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[2],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[1],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[0],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[8],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[9],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[10],                                     ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[11],                                     ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[12],                                     ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[13],                                     ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[14],                                     ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[15],                                     ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|leEnd,                                       ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|habRegSeg,                       ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.FimInstrucao,                         ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.ResultRegImed,                        ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Fim_Move_To_Reg,                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Busca,                                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.OpRegImed16,                          ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|incIP~reg0,                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Fetch,                                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Erro,                                 ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Move_To_Reg,                          ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[31],                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[30],                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[29],                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[28],                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[27],                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[26],                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[25],                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[24],                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[23],                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[22],                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[21],                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[20],                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[19],                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[18],                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[17],                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[16],                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[15],                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[14],                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[13],                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[12],                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[11],                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[10],                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[9],                 ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[8],                 ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[7],                 ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[6],                 ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[5],                 ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[4],                 ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[3],                 ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[2],                 ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[1],                 ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[0],                 ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|habUnidCtrl,                     ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|opcodeFetch[7],                              ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|opcodeFetch[3],                              ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|opcodeFetch[4],                              ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|opcodeFetch[5],                              ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|opcodeFetch[6],                              ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|ctrlDemuxData,                               ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[0],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[1],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[2],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[3],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[4],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[5],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[6],                                      ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[7]                                       ;
-; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[0]                    ; Stuck at GND              ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|habilitaCalc~en,                 ;
-;                                                                                    ; due to stuck port data_in ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[12],                                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[13],                                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[14],                                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[15],                                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[16],                                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[17],                                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[18],                                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[19],                                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[8]~reg0,                         ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[9]~reg0,                         ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[10]~reg0,                        ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[11]~reg0,                        ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[12]~reg0,                        ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[13]~reg0,                        ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[14]~reg0,                        ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[15]~reg0,                        ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|habilitaCalc~reg0,               ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|Estado.HabilitaSegmento,         ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|Estado.Espera                    ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[1]~reg0 ; Stuck at GND              ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~en,                ;
-;                                                                                    ; due to stuck port data_in ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[1]~en,                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[2]~en,                ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0,              ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[2]~reg0               ;
-; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|habMemoria         ; Lost Fanouts              ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|Estado.TerminaCalculo,           ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|Estado.ColocaEndBarramentoIncIP, ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|Estado.CalculoEndereco,          ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|Estado.HabilitaIP                ;
-; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regResult[0]               ; Lost Fanouts              ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regI[0],                                 ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[0]~reg0                          ;
-; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regResult[1]               ; Lost Fanouts              ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regI[1],                                 ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[1]~reg0                          ;
-; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regResult[2]               ; Lost Fanouts              ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regI[2],                                 ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[2]~reg0                          ;
-; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regResult[3]               ; Lost Fanouts              ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regI[3],                                 ;
-;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[3]~reg0                          ;
-; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[8]                    ; Lost Fanouts              ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[4]~reg0                          ;
-; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[9]                    ; Lost Fanouts              ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[5]~reg0                          ;
-; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[10]                   ; Lost Fanouts              ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[6]~reg0                          ;
-; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[11]                   ; Lost Fanouts              ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[7]~reg0                          ;
-+------------------------------------------------------------------------------------+---------------------------+--------------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                                                                                                      ;
++------------------------------------------------------------------------------------+---------------------------+-------------------------------------------------------------------------------------------------+
+; Register name                                                                      ; Reason for Removal        ; Registers Removed due to This Register                                                          ;
++------------------------------------------------------------------------------------+---------------------------+-------------------------------------------------------------------------------------------------+
+; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|leRegSeg~reg0      ; Stuck at VCC              ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|incIP~en,                       ;
+;                                                                                    ; due to stuck port data_in ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|leRegSeg~en,                    ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[15],                                    ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[14],                                    ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[13],                                    ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[12],                                    ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[11],                                    ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[10],                                    ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[9],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[8],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[7],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[6],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[5],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[4],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[3],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[2],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[1],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|ES[0],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[15],                                    ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[14],                                    ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[13],                                    ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[12],                                    ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[11],                                    ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[10],                                    ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[9],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[8],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[7],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[6],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[5],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[4],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[3],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[2],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[1],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|CS[0],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|leEnd,                                      ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[1],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|habRegSeg,                      ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[2],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[3],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[0],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[4],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[5],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[6],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[7],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[15],                                    ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[14],                                    ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[13],                                    ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[12],                                    ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[11],                                    ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[10],                                    ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[9],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|IP[8],                                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|incIP~reg0,                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Busca,                               ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.OpRegImed16,                         ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.FimInstrucao,                        ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.ResultRegImed,                       ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Fim_Move_To_Reg                      ;
+; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[0]                    ; Stuck at GND              ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|habilitaCalc~en,                ;
+;                                                                                    ; due to stuck port data_in ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[12],                               ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[13],                               ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[14],                               ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[15],                               ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[16],                               ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[17],                               ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[18],                               ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[19],                               ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[8]~reg0,                        ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[9]~reg0,                        ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[10]~reg0,                       ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[11]~reg0,                       ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[12]~reg0,                       ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[13]~reg0,                       ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[14]~reg0,                       ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[15]~reg0,                       ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|habilitaCalc~reg0,              ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|Estado.HabilitaSegmento         ;
+; memoriaROM:ROM|saida[15]                                                           ; Lost Fanouts              ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|habMemoria,                     ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regResult[1],                           ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regResult[2],                           ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regResult[3],                           ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regResult[4],                           ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regResult[5],                           ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regResult[6],                           ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regResult[7],                           ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regResult[0],                           ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regI[1],                                ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regI[2],                                ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regI[3],                                ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regI[0],                                ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regI[4],                                ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[1]~reg0,                        ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[2]~reg0,                        ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[3]~reg0,                        ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[0]~reg0,                        ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|Estado.TerminaCalculo           ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[1]~reg0 ; Stuck at GND              ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~en,               ;
+;                                                                                    ; due to stuck port data_in ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[1]~en,               ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[2]~en,               ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0,             ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[2]~reg0,             ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|Estado.HabilitaIP               ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[31]   ; Lost Fanouts              ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Fetch,                               ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Erro,                                ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|Estado.Move_To_Reg                          ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|habUnidCtrl        ; Lost Fanouts              ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|Estado.Espera,                  ;
+;                                                                                    ;                           ; MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|Estado.ColocaEndBarramentoIncIP ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|opcodeFetch[7]                 ; Lost Fanouts              ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|ctrlDemuxData,                              ;
+;                                                                                    ;                           ; memoriaROM:ROM|saida[3]                                                                         ;
+; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[8]                    ; Lost Fanouts              ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[4]~reg0                         ;
+; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[9]                    ; Lost Fanouts              ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[5]~reg0                         ;
+; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[10]                   ; Lost Fanouts              ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[6]~reg0                         ;
+; MicroprocessadorCompleto:Micro|CalculadoraEndereco:Calc|regS[11]                   ; Lost Fanouts              ; MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[7]~reg0                         ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[1]    ; Lost Fanouts              ; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[0]                 ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|opcodeFetch[5]                 ; Lost Fanouts              ; memoriaROM:ROM|saida[5]                                                                         ;
+; MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|opcodeFetch[4]                 ; Lost Fanouts              ; memoriaROM:ROM|saida[4]                                                                         ;
++------------------------------------------------------------------------------------+---------------------------+-------------------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -689,15 +652,6 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 
 
-+---------------------------------------------------------------------------+
-; Registers Packed Into Inferred Megafunctions                              ;
-+----------------------------------------+---------------------------+------+
-; Register Name                          ; Megafunction              ; Type ;
-+----------------------------------------+---------------------------+------+
-; memoriaROM:ROM|saida[3,4,6,7,10,12,15] ; memoriaROM:ROM|Mux0_rtl_0 ; ROM  ;
-+----------------------------------------+---------------------------+------+
-
-
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                                                   ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------------------------------------------+
@@ -706,96 +660,6 @@ Encoding Type:  One-Hot
 ; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MicroprocessadorCompletoROMFinal|MicroprocessadorCompleto:Micro|UnidadeDeControle:UC|\borda_descida:contClock[27] ;
 ; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |MicroprocessadorCompletoROMFinal|MicroprocessadorCompleto:Micro|RegistroSegmento:RegS|saidaDados[1]~reg0          ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------------------------------------------+
-
-
-+--------------------------------------------------------------------------------------------+
-; Source assignments for memoriaROM:ROM|altsyncram:Mux0_rtl_0|altsyncram_gk51:auto_generated ;
-+---------------------------------+--------------------+------+------------------------------+
-; Assignment                      ; Value              ; From ; To                           ;
-+---------------------------------+--------------------+------+------------------------------+
-; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                            ;
-+---------------------------------+--------------------+------+------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: memoriaROM:ROM|altsyncram:Mux0_rtl_0                                            ;
-+------------------------------------+----------------------------------------------------------------------------+----------------+
-; Parameter Name                     ; Value                                                                      ; Type           ;
-+------------------------------------+----------------------------------------------------------------------------+----------------+
-; BYTE_SIZE_BLOCK                    ; 8                                                                          ; Untyped        ;
-; AUTO_CARRY_CHAINS                  ; ON                                                                         ; AUTO_CARRY     ;
-; IGNORE_CARRY_BUFFERS               ; OFF                                                                        ; IGNORE_CARRY   ;
-; AUTO_CASCADE_CHAINS                ; ON                                                                         ; AUTO_CASCADE   ;
-; IGNORE_CASCADE_BUFFERS             ; OFF                                                                        ; IGNORE_CASCADE ;
-; WIDTH_BYTEENA                      ; 1                                                                          ; Untyped        ;
-; OPERATION_MODE                     ; ROM                                                                        ; Untyped        ;
-; WIDTH_A                            ; 7                                                                          ; Untyped        ;
-; WIDTHAD_A                          ; 8                                                                          ; Untyped        ;
-; NUMWORDS_A                         ; 256                                                                        ; Untyped        ;
-; OUTDATA_REG_A                      ; UNREGISTERED                                                               ; Untyped        ;
-; ADDRESS_ACLR_A                     ; NONE                                                                       ; Untyped        ;
-; OUTDATA_ACLR_A                     ; NONE                                                                       ; Untyped        ;
-; WRCONTROL_ACLR_A                   ; NONE                                                                       ; Untyped        ;
-; INDATA_ACLR_A                      ; NONE                                                                       ; Untyped        ;
-; BYTEENA_ACLR_A                     ; NONE                                                                       ; Untyped        ;
-; WIDTH_B                            ; 1                                                                          ; Untyped        ;
-; WIDTHAD_B                          ; 1                                                                          ; Untyped        ;
-; NUMWORDS_B                         ; 1                                                                          ; Untyped        ;
-; INDATA_REG_B                       ; CLOCK1                                                                     ; Untyped        ;
-; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1                                                                     ; Untyped        ;
-; RDCONTROL_REG_B                    ; CLOCK1                                                                     ; Untyped        ;
-; ADDRESS_REG_B                      ; CLOCK1                                                                     ; Untyped        ;
-; OUTDATA_REG_B                      ; UNREGISTERED                                                               ; Untyped        ;
-; BYTEENA_REG_B                      ; CLOCK1                                                                     ; Untyped        ;
-; INDATA_ACLR_B                      ; NONE                                                                       ; Untyped        ;
-; WRCONTROL_ACLR_B                   ; NONE                                                                       ; Untyped        ;
-; ADDRESS_ACLR_B                     ; NONE                                                                       ; Untyped        ;
-; OUTDATA_ACLR_B                     ; NONE                                                                       ; Untyped        ;
-; RDCONTROL_ACLR_B                   ; NONE                                                                       ; Untyped        ;
-; BYTEENA_ACLR_B                     ; NONE                                                                       ; Untyped        ;
-; WIDTH_BYTEENA_A                    ; 1                                                                          ; Untyped        ;
-; WIDTH_BYTEENA_B                    ; 1                                                                          ; Untyped        ;
-; RAM_BLOCK_TYPE                     ; AUTO                                                                       ; Untyped        ;
-; BYTE_SIZE                          ; 8                                                                          ; Untyped        ;
-; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                                                  ; Untyped        ;
-; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ                                                       ; Untyped        ;
-; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ                                                       ; Untyped        ;
-; INIT_FILE                          ; MicroprocessadorCompletoROMFinal.MicroprocessadorCompletoROMFinal0.rtl.mif ; Untyped        ;
-; INIT_FILE_LAYOUT                   ; PORT_A                                                                     ; Untyped        ;
-; MAXIMUM_DEPTH                      ; 0                                                                          ; Untyped        ;
-; CLOCK_ENABLE_INPUT_A               ; NORMAL                                                                     ; Untyped        ;
-; CLOCK_ENABLE_INPUT_B               ; NORMAL                                                                     ; Untyped        ;
-; CLOCK_ENABLE_OUTPUT_A              ; NORMAL                                                                     ; Untyped        ;
-; CLOCK_ENABLE_OUTPUT_B              ; NORMAL                                                                     ; Untyped        ;
-; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN                                                            ; Untyped        ;
-; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN                                                            ; Untyped        ;
-; ENABLE_ECC                         ; FALSE                                                                      ; Untyped        ;
-; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                                                                      ; Untyped        ;
-; WIDTH_ECCSTATUS                    ; 3                                                                          ; Untyped        ;
-; DEVICE_FAMILY                      ; Cyclone III                                                                ; Untyped        ;
-; CBXI_PARAMETER                     ; altsyncram_gk51                                                            ; Untyped        ;
-+------------------------------------+----------------------------------------------------------------------------+----------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------------------------------+
-; altsyncram Parameter Settings by Entity Instance                                 ;
-+-------------------------------------------+--------------------------------------+
-; Name                                      ; Value                                ;
-+-------------------------------------------+--------------------------------------+
-; Number of entity instances                ; 1                                    ;
-; Entity Instance                           ; memoriaROM:ROM|altsyncram:Mux0_rtl_0 ;
-;     -- OPERATION_MODE                     ; ROM                                  ;
-;     -- WIDTH_A                            ; 7                                    ;
-;     -- NUMWORDS_A                         ; 256                                  ;
-;     -- OUTDATA_REG_A                      ; UNREGISTERED                         ;
-;     -- WIDTH_B                            ; 1                                    ;
-;     -- NUMWORDS_B                         ; 1                                    ;
-;     -- ADDRESS_REG_B                      ; CLOCK1                               ;
-;     -- OUTDATA_REG_B                      ; UNREGISTERED                         ;
-;     -- RAM_BLOCK_TYPE                     ; AUTO                                 ;
-;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                            ;
-+-------------------------------------------+--------------------------------------+
 
 
 +----------------------------------------------------------------------------------+
@@ -926,7 +790,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Thu May 08 16:32:15 2014
+    Info: Processing started: Tue May 13 22:49:54 2014
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MicroprocessadorCompletoROMFinal -c MicroprocessadorCompletoROMFinal
 Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
 Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/tfg8086/micro-risc/codigomicroprocessador/multiplexador/multiplexador.vhd
@@ -1027,18 +891,20 @@ Info (10041): Inferred latch for "saida_01[15]" at Demultiplexador.vhd(22)
 Info (12128): Elaborating entity "UnidadeDeControle" for hierarchy "MicroprocessadorCompleto:Micro|UnidadeDeControle:UC"
 Info (12128): Elaborating entity "ULA" for hierarchy "MicroprocessadorCompleto:Micro|ULA:UnidadeLogicaArit"
 Warning (10036): Verilog HDL or VHDL warning at ULA.vhd(43): object "reg" assigned a value but never read
-Warning (10492): VHDL Process Statement warning at ULA.vhd(75): signal "habilitaULA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10631): VHDL Process Statement warning at ULA.vhd(73): inferring latch(es) for signal or variable "enum_op", which holds its previous value in one or more paths through the process
-Warning (10492): VHDL Process Statement warning at ULA.vhd(93): signal "habilitaULA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Info (10041): Inferred latch for "enum_op.op_a_comp_b" at ULA.vhd(73)
-Info (10041): Inferred latch for "enum_op.op_nop" at ULA.vhd(73)
-Info (10041): Inferred latch for "enum_op.op_a_xor_b" at ULA.vhd(73)
-Info (10041): Inferred latch for "enum_op.op_sub" at ULA.vhd(73)
-Info (10041): Inferred latch for "enum_op.op_subCarry" at ULA.vhd(73)
-Info (10041): Inferred latch for "enum_op.op_addCarry" at ULA.vhd(73)
-Info (10041): Inferred latch for "enum_op.op_a_and_b" at ULA.vhd(73)
-Info (10041): Inferred latch for "enum_op.op_a_or_b" at ULA.vhd(73)
-Info (10041): Inferred latch for "enum_op.op_add" at ULA.vhd(73)
+Warning (10492): VHDL Process Statement warning at ULA.vhd(76): signal "habilitaULA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10631): VHDL Process Statement warning at ULA.vhd(74): inferring latch(es) for signal or variable "regCarryIn", which holds its previous value in one or more paths through the process
+Warning (10631): VHDL Process Statement warning at ULA.vhd(74): inferring latch(es) for signal or variable "enum_op", which holds its previous value in one or more paths through the process
+Warning (10492): VHDL Process Statement warning at ULA.vhd(95): signal "habilitaULA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Info (10041): Inferred latch for "enum_op.op_a_comp_b" at ULA.vhd(74)
+Info (10041): Inferred latch for "enum_op.op_nop" at ULA.vhd(74)
+Info (10041): Inferred latch for "enum_op.op_a_xor_b" at ULA.vhd(74)
+Info (10041): Inferred latch for "enum_op.op_sub" at ULA.vhd(74)
+Info (10041): Inferred latch for "enum_op.op_subCarry" at ULA.vhd(74)
+Info (10041): Inferred latch for "enum_op.op_addCarry" at ULA.vhd(74)
+Info (10041): Inferred latch for "enum_op.op_a_and_b" at ULA.vhd(74)
+Info (10041): Inferred latch for "enum_op.op_a_or_b" at ULA.vhd(74)
+Info (10041): Inferred latch for "enum_op.op_add" at ULA.vhd(74)
+Info (10041): Inferred latch for "regCarryIn" at ULA.vhd(74)
 Info (12128): Elaborating entity "DetectorParidade" for hierarchy "MicroprocessadorCompleto:Micro|ULA:UnidadeLogicaArit|DetectorParidade:dParidade"
 Info (12128): Elaborating entity "DetectorAuxiliarFlag" for hierarchy "MicroprocessadorCompleto:Micro|ULA:UnidadeLogicaArit|DetectorAuxiliarFlag:dAuxiliarFlag"
 Warning (10036): Verilog HDL or VHDL warning at DetectorAuxiliarFlag.vhd(51): object "c4" assigned a value but never read
@@ -1205,36 +1071,7 @@ Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
     Warning (13049): Converted tri-state buffer "MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[2]" feeding internal logic into a wire
     Warning (13049): Converted tri-state buffer "MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|leRegSeg" feeding internal logic into a wire
     Warning (13049): Converted tri-state buffer "MicroprocessadorCompleto:Micro|UnidadeDeControleDeEnderecos:UCE|habilitaCalc" feeding internal logic into a wire
-Info (19000): Inferred 1 megafunctions from design logic
-    Info (276031): Inferred altsyncram megafunction from the following design logic: "memoriaROM:ROM|Mux0_rtl_0"
-        Info (286033): Parameter OPERATION_MODE set to ROM
-        Info (286033): Parameter WIDTH_A set to 7
-        Info (286033): Parameter WIDTHAD_A set to 8
-        Info (286033): Parameter NUMWORDS_A set to 256
-        Info (286033): Parameter OUTDATA_REG_A set to UNREGISTERED
-        Info (286033): Parameter RAM_BLOCK_TYPE set to AUTO
-        Info (286033): Parameter INIT_FILE set to MicroprocessadorCompletoROMFinal.MicroprocessadorCompletoROMFinal0.rtl.mif
-Info (12130): Elaborated megafunction instantiation "memoriaROM:ROM|altsyncram:Mux0_rtl_0"
-Info (12133): Instantiated megafunction "memoriaROM:ROM|altsyncram:Mux0_rtl_0" with the following parameter:
-    Info (12134): Parameter "OPERATION_MODE" = "ROM"
-    Info (12134): Parameter "WIDTH_A" = "7"
-    Info (12134): Parameter "WIDTHAD_A" = "8"
-    Info (12134): Parameter "NUMWORDS_A" = "256"
-    Info (12134): Parameter "OUTDATA_REG_A" = "UNREGISTERED"
-    Info (12134): Parameter "RAM_BLOCK_TYPE" = "AUTO"
-    Info (12134): Parameter "INIT_FILE" = "MicroprocessadorCompletoROMFinal.MicroprocessadorCompletoROMFinal0.rtl.mif"
-Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_gk51.tdf
-    Info (12023): Found entity 1: altsyncram_gk51
-Warning (14284): Synthesized away the following node(s):
-    Warning (14285): Synthesized away the following RAM node(s):
-        Warning (14320): Synthesized away node "memoriaROM:ROM|altsyncram:Mux0_rtl_0|altsyncram_gk51:auto_generated|ram_block1a0"
-        Warning (14320): Synthesized away node "memoriaROM:ROM|altsyncram:Mux0_rtl_0|altsyncram_gk51:auto_generated|ram_block1a1"
-        Warning (14320): Synthesized away node "memoriaROM:ROM|altsyncram:Mux0_rtl_0|altsyncram_gk51:auto_generated|ram_block1a2"
-        Warning (14320): Synthesized away node "memoriaROM:ROM|altsyncram:Mux0_rtl_0|altsyncram_gk51:auto_generated|ram_block1a3"
-        Warning (14320): Synthesized away node "memoriaROM:ROM|altsyncram:Mux0_rtl_0|altsyncram_gk51:auto_generated|ram_block1a4"
-        Warning (14320): Synthesized away node "memoriaROM:ROM|altsyncram:Mux0_rtl_0|altsyncram_gk51:auto_generated|ram_block1a5"
-        Warning (14320): Synthesized away node "memoriaROM:ROM|altsyncram:Mux0_rtl_0|altsyncram_gk51:auto_generated|ram_block1a6"
-Info (17049): 275 registers lost all their fanouts during netlist optimizations.
+Info (17049): 281 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 2 input pin(s) that do not drive logic
@@ -1243,9 +1080,9 @@ Warning (21074): Design contains 2 input pin(s) that do not drive logic
 Info (21057): Implemented 2 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 0 output pins
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 144 warnings
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 136 warnings
     Info: Peak virtual memory: 536 megabytes
-    Info: Processing ended: Thu May 08 16:32:18 2014
+    Info: Processing ended: Tue May 13 22:49:57 2014
     Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:02
 

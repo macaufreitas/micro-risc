@@ -20,12 +20,10 @@ ARCHITECTURE arch OF memoriaROM IS
 --                                           |
     TYPE formato_mem IS ARRAY(NATURAL RANGE <>) OF STD_LOGIC_VECTOR(15 DOWNTO 0);
     CONSTANT dados : formato_mem(0 TO 255) :=
-                     (X"81C0",
+                     (X"81D8",
 							 X"1234",
-							 X"00B8",
+							 X"81F8",
 							 X"FF00",
-							 X"81C0",
-							 X"1234",
 							 OTHERS => X"FFFF");
 
 BEGIN

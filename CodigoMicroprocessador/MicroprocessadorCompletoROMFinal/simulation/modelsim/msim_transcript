@@ -206,7 +206,16 @@
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 2625 ns  Iteration: 1  Instance: /microprocessadorcompletoromfinaltb/Micro/Micro/UnidadeLogicaArit
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2625 ns  Iteration: 1  Instance: /microprocessadorcompletoromfinaltb/Micro/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2625 ns  Iteration: 1  Instance: /microprocessadorcompletoromfinaltb/Micro/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 2675 ns  Iteration: 1  Instance: /microprocessadorcompletoromfinaltb/Micro/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2675 ns  Iteration: 1  Instance: /microprocessadorcompletoromfinaltb/Micro/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2675 ns  Iteration: 1  Instance: /microprocessadorcompletoromfinaltb/Micro/Micro/UnidadeLogicaArit
+restart
 add wave -position insertpoint  \
 sim:/microprocessadorcompletoromfinaltb/Micro/Micro/UC/Estado
 add wave -position insertpoint  \
@@ -215,12 +224,23 @@ add wave -position insertpoint  \
 sim:/microprocessadorcompletoromfinaltb/Micro/ROM/endereco \
 sim:/microprocessadorcompletoromfinaltb/Micro/ROM/saida
 add wave -position insertpoint  \
+sim:/microprocessadorcompletoromfinaltb/Micro/Micro/UnidadeLogicaArit/enum_op
+add wave -position insertpoint  \
+sim:/microprocessadorcompletoromfinaltb/Micro/Micro/UnidadeLogicaArit/regCarryIn
+add wave -position insertpoint  \
 sim:/microprocessadorcompletoromfinaltb/Micro/Micro/RegistroDados/AX
-restart
 run
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 2625 ns  Iteration: 1  Instance: /microprocessadorcompletoromfinaltb/Micro/Micro/UnidadeLogicaArit
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 2625 ns  Iteration: 1  Instance: /microprocessadorcompletoromfinaltb/Micro/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2625 ns  Iteration: 1  Instance: /microprocessadorcompletoromfinaltb/Micro/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2625 ns  Iteration: 1  Instance: /microprocessadorcompletoromfinaltb/Micro/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2675 ns  Iteration: 1  Instance: /microprocessadorcompletoromfinaltb/Micro/Micro/UnidadeLogicaArit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2675 ns  Iteration: 1  Instance: /microprocessadorcompletoromfinaltb/Micro/Micro/UnidadeLogicaArit
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 2675 ns  Iteration: 1  Instance: /microprocessadorcompletoromfinaltb/Micro/Micro/UnidadeLogicaArit

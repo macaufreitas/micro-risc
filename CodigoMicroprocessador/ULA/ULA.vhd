@@ -42,6 +42,7 @@ architecture arquiteturaULA of ULA is
 	--sinais de registro dos valores de entrada e calculado
    signal reg, regEntradaTesteFlags, regEntradaTesteFlagsComp : std_logic_vector(16 downto 0);
 	signal regA,regB : std_logic_vector(15 downto 0);
+	signal regCarryIn : std_logic;
 	
 	component DetectorZeroFlag
 		port(
@@ -73,6 +74,7 @@ begin
 	ProcessoDetermina : process(seletor)
    begin
 		if(habilitaULA = '1') then
+			regCarryIn <= '1'; -- Inicializacao do registro de carry
 			case seletor is
 				when "000"  => enum_op <= op_add;
 				when "001"  => enum_op <= op_a_or_b;
@@ -103,7 +105,7 @@ begin
 					flagSinal <= regEntradaTesteFlags(15);
 					op <= "000";
 				when op_sub => 
-					regEntradaTesteFlags <= ('0' & regA) - regB;
+					regEntradaTesteFlags <= ('0' & regB) - regA;
 					flagCarry <= regEntradaTesteFlags(16);
 					flagOverflow <= ((not regA(15)) and regB(15) and regEntradaTesteFlags(15)) or 
 										 (regA(15) and (not regB(15)) and (not regEntradaTesteFlags(15)));
@@ -116,13 +118,13 @@ begin
 					flagSinal <= regEntradaTesteFlags(15);
 					op <= "010";
 				when op_addCarry => 
-					regEntradaTesteFlags <= ('0' & regA) + regB + carryIn;
+					regEntradaTesteFlags <= ('0' & regA) + regB + regCarryIn; --Denis
 					flagCarry <= regEntradaTesteFlags(16);
 					flagOverflow <= regEntradaTesteFlags(16) xor regA(15) xor regB(15) xor regEntradaTesteFlags(15);
 					flagSinal <= regEntradaTesteFlags(15);
 					op <= "000";
-				when op_subCarry => 
-					regEntradaTesteFlags <= ('0' & regA) - regB - carryIn;
+				when op_subCarry =>
+					regEntradaTesteFlags <= ('0' & regB) - regA - regCarryIn;
 					flagCarry <= regEntradaTesteFlags(16);
 					flagOverflow <= ((not regA(15)) and regB(15) and regEntradaTesteFlags(15)) or 
 										 (regA(15) and (not regB(15)) and (not regEntradaTesteFlags(15)));
@@ -137,12 +139,13 @@ begin
 				when op_nop => 
 					reg(15) <= '0';
 				when op_a_comp_b =>
-					regEntradaTesteFlagsComp <= ('0' & regA) - regB;
+					regEntradaTesteFlagsComp <= ('0' & regB) - regA;
 					flagCarry <= regEntradaTesteFlagsComp(16);
 					flagOverflow <= ((not regA(15)) and regB(15) and regEntradaTesteFlagsComp(15)) or 
 										 (regA(15) and (not regB(15)) and (not regEntradaTesteFlagsComp(15)));
 					flagSinal <= regEntradaTesteFlagsComp(15);
 					op <= "100";
+					regEntradaTesteFlags <= '0' & regB; --Denis
 				when op_a_and_b => 
 					regEntradaTesteFlags <= '0' & (regA and regB);
 					flagCarry <= '0';

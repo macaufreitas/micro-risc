@@ -203,7 +203,6 @@ begin
 				ctrlULA     <= (others => '0');
 				ctrlRegData <= (others => '0');
 				ctrlMuxMov  <= '0';
-				-- habRegData  <= '0'; Denis
 				
 			when Fim_Move_To_Reg =>
 				habRegData <= '0';
