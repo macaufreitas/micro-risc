@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.17)  14 MAY 2014 19:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.17)  20 MAY 2014 20:24
 entering extended mode
 **Principal_ABNT.tex
 
@@ -340,18 +340,18 @@ ultados.aux)
 sideracoesFinais.aux)
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Ane
 xo.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
 
 (C:\Users\silvadenisaraujo\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf
 .mkii
@@ -897,171 +897,161 @@ nput line 8.
 
 
  <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final/im
-agensResultados/estruturaTesteMicroROM.png>]
-<imagensResultados/resultadoOpAdd.png, id=271, 1617.04124pt x 105.39375pt>
-File: imagensResultados/resultadoOpAdd.png Graphic file (type png)
-
-<use imagensResultados/resultadoOpAdd.png>
-Package pdftex.def Info: imagensResultados/resultadoOpAdd.png used on input lin
-e 18.
-(pdftex.def)             Requested size: 485.11612pt x 31.61836pt.
-
-Overfull \hbox (66.86244pt too wide) in paragraph at lines 18--19
- [][] 
- []
-
-<imagensResultados/OperacaoAdd.png, id=272, 1204.5pt x 301.125pt>
+agensResultados/estruturaTesteMicroROM.png>] [67]
+<imagensResultados/OperacaoAdd.png, id=274, 1204.5pt x 301.125pt>
 File: imagensResultados/OperacaoAdd.png Graphic file (type png)
 
 <use imagensResultados/OperacaoAdd.png>
-Package pdftex.def Info: imagensResultados/OperacaoAdd.png used on input line 2
-6.
+Package pdftex.def Info: imagensResultados/OperacaoAdd.png used on input line 1
+8.
 (pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
 
-Overfull \hbox (183.99486pt too wide) in paragraph at lines 26--27
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 18--19
 [][] 
  []
 
-[67 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
-/imagensResultados/resultadoOpAdd.png> <C:/Users/silvadenisaraujo/Desktop/TFG80
-86/micro-risc/Latex/TFG-Latex-Final/imagensResultados/OperacaoAdd.png>]
-[68] <imagensResultados/OperacaoOr.png, id=279, 1204.5pt x 301.125pt>
-File: imagensResultados/OperacaoOr.png Graphic file (type png)
-
-<use imagensResultados/OperacaoOr.png>
-Package pdftex.def Info: imagensResultados/OperacaoOr.png used on input line 36
-.
-(pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
-
-Overfull \hbox (10.71834pt too wide) in paragraph at lines 36--37
-[][] 
- []
-
-[69 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
-/imagensResultados/OperacaoOr.png>] [70
+[68 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
+/imagensResultados/OperacaoAdd.png>] [69
 
 
 ]
-<imagensResultados/OperacaoAdc.png, id=286, 1204.5pt x 301.125pt>
+<imagensResultados/OperacaoOr.png, id=281, 1204.5pt x 301.125pt>
+File: imagensResultados/OperacaoOr.png Graphic file (type png)
+
+<use imagensResultados/OperacaoOr.png>
+Package pdftex.def Info: imagensResultados/OperacaoOr.png used on input line 29
+.
+(pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
+
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 29--30
+[][] 
+ []
+
+[70 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
+/imagensResultados/OperacaoOr.png>] [71
+
+
+]
+<imagensResultados/OperacaoAdc.png, id=288, 1204.5pt x 301.125pt>
 File: imagensResultados/OperacaoAdc.png Graphic file (type png)
 
 <use imagensResultados/OperacaoAdc.png>
 Package pdftex.def Info: imagensResultados/OperacaoAdc.png used on input line 4
-7.
+0.
 (pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
 
-Overfull \hbox (10.71834pt too wide) in paragraph at lines 47--48
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 40--41
 [][] 
  []
 
-[71 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
-/imagensResultados/OperacaoAdc.png>] [72
+[72 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
+/imagensResultados/OperacaoAdc.png>] [73
 
 
 ]
-<imagensResultados/OperacaoSbb.png, id=294, 1204.5pt x 301.125pt>
+<imagensResultados/OperacaoSbb.png, id=296, 1204.5pt x 301.125pt>
 File: imagensResultados/OperacaoSbb.png Graphic file (type png)
 
 <use imagensResultados/OperacaoSbb.png>
 Package pdftex.def Info: imagensResultados/OperacaoSbb.png used on input line 5
-8.
+1.
 (pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
 
-Overfull \hbox (10.71834pt too wide) in paragraph at lines 58--59
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 51--52
 [][] 
  []
 
-[73 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
-/imagensResultados/OperacaoSbb.png>] [74
+[74 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
+/imagensResultados/OperacaoSbb.png>] [75
 
 
 ]
-<imagensResultados/OperacaoAnd.png, id=301, 1204.5pt x 301.125pt>
+<imagensResultados/OperacaoAnd.png, id=303, 1204.5pt x 301.125pt>
 File: imagensResultados/OperacaoAnd.png Graphic file (type png)
 
 <use imagensResultados/OperacaoAnd.png>
 Package pdftex.def Info: imagensResultados/OperacaoAnd.png used on input line 6
-9.
+2.
 (pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
 
-Overfull \hbox (10.71834pt too wide) in paragraph at lines 69--70
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 62--63
 [][] 
  []
 
-[75 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
-/imagensResultados/OperacaoAnd.png>] [76
+[76 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
+/imagensResultados/OperacaoAnd.png>] [77
 
 
 ]
-<imagensResultados/OperacaoSub.png, id=308, 1204.5pt x 301.125pt>
+<imagensResultados/OperacaoSub.png, id=310, 1204.5pt x 301.125pt>
 File: imagensResultados/OperacaoSub.png Graphic file (type png)
 
 <use imagensResultados/OperacaoSub.png>
-Package pdftex.def Info: imagensResultados/OperacaoSub.png used on input line 8
-0.
+Package pdftex.def Info: imagensResultados/OperacaoSub.png used on input line 7
+3.
 (pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
 
-Overfull \hbox (10.71834pt too wide) in paragraph at lines 80--81
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 73--74
 [][] 
  []
 
-[77 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
-/imagensResultados/OperacaoSub.png>] [78
+[78 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
+/imagensResultados/OperacaoSub.png>] [79
 
 
 ]
-<imagensResultados/OperacaoXor.png, id=316, 1204.5pt x 301.125pt>
+<imagensResultados/OperacaoXor.png, id=318, 1204.5pt x 301.125pt>
 File: imagensResultados/OperacaoXor.png Graphic file (type png)
 
 <use imagensResultados/OperacaoXor.png>
-Package pdftex.def Info: imagensResultados/OperacaoXor.png used on input line 9
-1.
+Package pdftex.def Info: imagensResultados/OperacaoXor.png used on input line 8
+4.
 (pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
 
-Overfull \hbox (10.71834pt too wide) in paragraph at lines 91--92
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 84--85
 [][] 
  []
 
-[79 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
-/imagensResultados/OperacaoXor.png>] [80
+[80 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
+/imagensResultados/OperacaoXor.png>] [81
 
 
 ]
-<imagensResultados/OperacaoCmp.png, id=323, 1204.5pt x 526.96875pt>
+<imagensResultados/OperacaoCmp.png, id=325, 1204.5pt x 526.96875pt>
 File: imagensResultados/OperacaoCmp.png Graphic file (type png)
 
 <use imagensResultados/OperacaoCmp.png>
-Package pdftex.def Info: imagensResultados/OperacaoCmp.png used on input line 1
-02.
+Package pdftex.def Info: imagensResultados/OperacaoCmp.png used on input line 9
+5.
 (pdftex.def)             Requested size: 602.24854pt x 263.48372pt.
 
-Overfull \hbox (10.71834pt too wide) in paragraph at lines 102--103
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 95--96
 [][] 
  []
 
-[81 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
-/imagensResultados/OperacaoCmp.png>] [82
+[82 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
+/imagensResultados/OperacaoCmp.png>] [83
 
 
 ]
-<imagensResultados/OperacaoMov.png, id=330, 1204.5pt x 301.125pt>
+<imagensResultados/OperacaoMov.png, id=332, 1204.5pt x 301.125pt>
 File: imagensResultados/OperacaoMov.png Graphic file (type png)
 
 <use imagensResultados/OperacaoMov.png>
 Package pdftex.def Info: imagensResultados/OperacaoMov.png used on input line 1
-13.
+06.
 (pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
 
-Overfull \hbox (10.71834pt too wide) in paragraph at lines 113--114
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 106--107
 [][] 
  []
 
-[83 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
+[84 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
 /imagensResultados/OperacaoMov.png>])
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Con
 sideracoesFinais.tex
 Cap\'{\i }tulo 7.
-[84
+[85
 
 
 
@@ -1069,7 +1059,7 @@ Cap\'{\i }tulo 7.
 
 ]
 Cap\'{\i }tulo 8.
-) [85
+) [86
 
 ]
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Ane
@@ -1077,16 +1067,67 @@ xo.tex
 Cap\'{\i }tulo 9.
 
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\cod
-igos/ler_instrucoes_dos_v4.py
+igos/Multiplexador.vhd
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 1.
- [86
+ [87
 
 
 
-] [87] [88])) [89]
+])
+(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\cod
+igos/Demultiplexador.vhd) [88]
+(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\cod
+igos/RegistroSegmento.vhd [89] [90])
+(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\cod
+igos/RegistroPropositoGeral.vhd [91] [92])
+(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\cod
+igos/RegistroFlags.vhd [93] [94])
+(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\cod
+igos/CalculadoraEndereco.vhd [95])
+(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\cod
+igos/DetectorAuxiliarFlag.vhd [96] [97])
+(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\cod
+igos/DetectorParidade.vhd [98])
+(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\cod
+igos/DetectorZeroFlag.vhd [99])
+(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\cod
+igos/ULA.vhd [100] [101] [102] [103] [104])
+(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\cod
+igos/uce_aux.vhd [105]
+LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
+)
+(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\cod
+igos/UnidadeDeControleDeEnderecos.vhd
+Overfull \hbox (105.75145pt too wide) in paragraph at lines 1--2
+[][][][] 
+ []
+
+
+Overfull \hbox (105.75145pt too wide) in paragraph at lines 9--11
+[][][][] 
+ []
+
+[106] [107] [108] [109] [110])
+(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\cod
+igos/uc_aux.vhd [111])
+(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\cod
+igos/UnidadeDeControle.vhd
+Overfull \hbox (105.75145pt too wide) in paragraph at lines 1--2
+[][][][] 
+ []
+
+
+Overfull \hbox (105.75145pt too wide) in paragraph at lines 9--11
+[][][][] 
+ []
+
+[112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122])
+(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\cod
+igos/ler_instrucoes_dos_v4.py [123] [124] [125] [126])) [127]
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Pri
 ncipal_ABNT.bbl
 Underfull \hbox (badness 1701) in paragraph at lines 10--12
@@ -1109,7 +1150,7 @@ Underfull \hbox (badness 1205) in paragraph at lines 71--74
 []\T1/aer/m/n/12 SHUSTEK, L. Mi-cro-soft ms-dos early source code. 
  []
 
-[90
+[128
 
 
 ]
@@ -1122,7 +1163,7 @@ Underfull \hbox (badness 2538) in paragraph at lines 88--90
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[91]
+[129]
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Pri
 ncipal_ABNT.aux
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\cap
@@ -1154,13 +1195,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6123 strings out of 493921
- 91274 string characters out of 3144924
- 266389 words of memory out of 3000000
- 9149 multiletter control sequences out of 15000+200000
- 41856 words of font info for 82 fonts, out of 3000000 for 9000
+ 6472 strings out of 493921
+ 98079 string characters out of 3144924
+ 301389 words of memory out of 3000000
+ 9453 multiletter control sequences out of 15000+200000
+ 44011 words of font info for 85 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 35i,10n,40p,1182b,1862s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,10n,40p,1182b,1834s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\silvadenisaraujo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
 \ec\dpi600\ecrb1440.pk> <C:\Users\silvadenisaraujo\AppData\Local\MiKTeX\2.9\fon
 ts\pk\ljfour\jknappen\ec\dpi600\ecrb1728.pk> <C:\Users\silvadenisaraujo\AppData
@@ -1170,15 +1211,18 @@ vadenisaraujo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrb2
 0.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Principal_ABNT.pdf (92 pages, 2603221 bytes).
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmu10.pfb>
+Output written on Principal_ABNT.pdf (130 pages, 2752635 bytes).
 PDF statistics:
- 618 PDF objects out of 1000 (max. 8388607)
+ 750 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 251 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 246 words of extra memory for PDF output out of 10000 (max. 10000000)
 

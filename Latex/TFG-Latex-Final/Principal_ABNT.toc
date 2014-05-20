@@ -71,16 +71,15 @@
 \contentsline {subsection}{\numberline {5.3.10}Unidade de Controle}{64}
 \contentsline {chapter}{\numberline {6}Resultados}{66}
 \contentsline {section}{\numberline {6.1}ADD Reg16,Imed16}{67}
-\contentsline {section}{\numberline {6.2}ADD Reg16,Imed16}{67}
-\contentsline {section}{\numberline {6.3}OR Reg16,Imed16}{68}
-\contentsline {section}{\numberline {6.4}ADC Reg16,Imed16}{70}
-\contentsline {section}{\numberline {6.5}SBB Reg16,Imed16}{72}
-\contentsline {section}{\numberline {6.6}AND Reg16,Imed16}{74}
-\contentsline {section}{\numberline {6.7}SUB Reg16,Imed16}{76}
-\contentsline {section}{\numberline {6.8}XOR Reg16,Imed16}{78}
-\contentsline {section}{\numberline {6.9}CMP Reg16,Imed16}{80}
-\contentsline {section}{\numberline {6.10}MOV Reg16,Imed16}{82}
-\contentsline {chapter}{\numberline {7}Considera\c c\~oes Finais}{84}
-\contentsline {chapter}{\numberline {8}Trabalhos Futuros}{85}
-\contentsline {chapter}{\numberline {9}Anexo}{86}
-\contentsline {chapter}{Refer\^encias}{90}
+\contentsline {section}{\numberline {6.2}OR Reg16,Imed16}{69}
+\contentsline {section}{\numberline {6.3}ADC Reg16,Imed16}{71}
+\contentsline {section}{\numberline {6.4}SBB Reg16,Imed16}{73}
+\contentsline {section}{\numberline {6.5}AND Reg16,Imed16}{75}
+\contentsline {section}{\numberline {6.6}SUB Reg16,Imed16}{77}
+\contentsline {section}{\numberline {6.7}XOR Reg16,Imed16}{79}
+\contentsline {section}{\numberline {6.8}CMP Reg16,Imed16}{81}
+\contentsline {section}{\numberline {6.9}MOV Reg16,Imed16}{83}
+\contentsline {chapter}{\numberline {7}Considera\c c\~oes Finais}{85}
+\contentsline {chapter}{\numberline {8}Trabalhos Futuros}{86}
+\contentsline {chapter}{\numberline {9}Anexo}{87}
+\contentsline {chapter}{Refer\^encias}{128}

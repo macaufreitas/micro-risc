@@ -10,23 +10,16 @@ Temos na Figura \ref{FigTestes}, a visão RTL da estrutura de simulação que é a c
 		\label{FigTestes}
 	\end{figure}
 
+
 \section{ADD Reg16,Imed16}
 Esta instrução adiciona ao valor do registro um valor imediato de 16 bits, a instrução de teste em hexadecimal é definida como \textbf{81C0 123F} onde 81C0h é o opcode da instrução e 123Fh é o valor imediato a ser somado no registro AX, por utilizar R/M igual a 000 como vimos anteriormente. Temos na figura \ref{FigResultAdd} o resultado da simulação.
-
-
-	\begin{figure} \centering
-		\includegraphics[scale=0.3]{imagensResultados/resultadoOpAdd.png}
-		\caption{Sequência para Execução de Instruções CISC}
-	\end{figure}
-		
-\section{ADD Reg16,Imed16}
-Esta instrução adiciona ao valor do registro um valor imediato de 16 bits, a instrução de teste em hexadecimal é definida como \textbf{81C0 123F} onde 81C0h é o opcode da instrução e 123Fh é o valor imediato a ser somado no registro AX, por utilizar R/M igual a 000 como vimos anteriormente. Temos na figura \ref{FigResultAdd} o resultado da simulação.
-
+\begin{landscape}
 	\begin{figure}
 		\includegraphics[scale=0.5]{imagensResultados/OperacaoAdd.png}
 		\caption{Resultado Teste Operação ADD}
 		\label{FigResultAdd}
 	\end{figure}
+\end{landscape}
 
 \section{OR Reg16,Imed16}
 Esta instrução realiza a operação "OU" bit a bit do valor do registro com um valor imediato de 16 bits, a instrução de teste em hexadecimal é definida como \textbf{81C8 123F} onde 81C8h é o opcode da instrução e 123Fh é o valor imediato a ser realizado a operação "OU" no registro AX, por utilizar R/M igual a 000 como vimos anteriormente. Temos na figura \ref{FigResultOr} o resultado da simulação.
