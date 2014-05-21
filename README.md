@@ -6,10 +6,13 @@ Orientador: Maurilio Pereira Coutinho
 Co-Orientador: Robson Luiz Moreno
 Tema: Desenvolvimento de um microprocessador RISC a partir do iAPX8086
 =============================================================================================================================
+Introdução:
+	Este projeto tem como finalidade implementar um microprocessador RISC baseado no microprocessador 8086 da Intel®, tal
+implementação tem como finalidade a facilidade de compreensão para que possa servir de base como uma arquitetura open-source
+para futuros estudos em diversas áreas em que se necessita de um microprocessador simulado.
 
 =============================================================================================================================
-Pasta Anexos: Contém todos os arquivos da seção Anexos da dissertação. Como código do MS-DOS e scripts Python para cálculos 
-métricos.
+Pasta Anexos: Contém todos os arquivos da seção Anexos da dissertação. Como código do MS-DOS e scripts Python para cálculos métricos.
 =============================================================================================================================
 
 =============================================================================================================================
@@ -26,5 +29,5 @@ Pasta Cronogramas e Normas: Possui o cronograma seguido para desenvolver o traba
 =============================================================================================================================
 
 =============================================================================================================================
-Pasta Latex: Contém os arquivos da dissertação. Esta foi escrita em formato tex.
+Pasta Latex: Contém os arquivos da dissertação, completamente escrita em formato tex.
 =============================================================================================================================
