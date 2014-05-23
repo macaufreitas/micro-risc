@@ -1,5 +1,7 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Principal_ABNT.aux
 A level-1 auxiliary file: capa.aux
+A level-1 auxiliary file: Dedicatoria.aux
+A level-1 auxiliary file: Agradecimentos.aux
 A level-1 auxiliary file: Resumo.aux
 A level-1 auxiliary file: Introducao.aux
 A level-1 auxiliary file: Objetivo.aux
@@ -7,8 +9,8 @@ A level-1 auxiliary file: Fundamentacao.aux
 A level-1 auxiliary file: Desenvolvimento.aux
 A level-1 auxiliary file: Resultados.aux
 A level-1 auxiliary file: ConsideracoesFinais.aux
-A level-1 auxiliary file: Anexo.aux
 The style file: abntex2-alf.bst
+A level-1 auxiliary file: Anexo.aux
 Database file #1: abntex2-options.bib
 Database file #2: biblio.bib
 Warning--I didn't find a database entry for "riscArtigo"
