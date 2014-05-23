@@ -17,7 +17,7 @@ O coração de um microcomputador é sua unidade de processamento (MPU). A MPU de u
 \label{microinternal}
 \end{figure}
 
-Como visto acima sabemos que o microprocessador é o coração de um sistema microprocessado, na figura \ref{sistemamicro}, defini-se as quatro partes básicas de um sistema microprocessado, que incluem um microprocessador, memória e entrada/saída que são interligados por um sistema de \textit{buses}, que será explicado mais a frente. Um \textit{bus} é um conjunto de fios que transmitem informação entre dois ou mais dispositivos\cite{IntroductionMicro}.
+Como visto acima sabemos que o microprocessador é o coração de um sistema microprocessado, na figura \ref{sistemamicro}, defini-se as quatro partes básicas de um sistema microprocessado, que incluem um microprocessador, memória e entrada/saída que são interligados por um sistema de \textit{buses}, que será explicado mais a frente. Um \textit{bus} é um conjunto de fios que transmite informação entre dois ou mais dispositivos\cite{IntroductionMicro}.
 
 \begin{figure}[h] \centering
 \includegraphics[scale=0.6]{sistemaMicro.png}
@@ -28,7 +28,7 @@ Como visto acima sabemos que o microprocessador é o coração de um sistema microp
 \subsection{Funcionamento}
 Os microprocessadores funcionam a partir de um relógio interno, feito de quartz que quando sujeito a uma corrente elétrica, emite pulsos, chamados de "top". Tais pulsos fazem com que o microprocessador execute uma ação, ou seja, uma instrução, seja a mesma executada de forma parcial ou total. Estes pulsos também definem a potência do microprocessador, sendo esta potência definida como o número de instruções executadas por segundo e tem como unidade utilizada o MIPS (Milhões de Instruções Por Segundo) \cite{Microprocessadores}.
 
-Existem dispositivos de entrada e saída que permite a importação de dados para armazenamento ou processamento, a exportação dos resultados e acessos aos dados armazenados.
+Existem dispositivos de entrada e saída que permitem a importação de dados para armazenamento ou processamento, a exportação dos resultados e acessos aos dados armazenados.
 Outros sinais importantes para o funcionamento do microprocessador é o sinal de \textit{reset}, que faz com que a CPU volte a um estado inicial que é definido e conhecido, voltando a este estado o microprocessador pode começar a executar programas. O sinal de interrupção faz com que o microprocessador pare sua execução e comece a executar uma rotina pré-definida \cite{Microprocessadores}
 
 \subsection{Programa de Computador}
@@ -160,7 +160,7 @@ Cache, foi o nome escolhido para representar o nível na hierarquia de memória en
 
 \subsection{Pipeline}
 \subsubsection{Definição}
-De acordo com \cite{ComputerOrg},\textit{Pipelining} é uma técnica de implementação no qual multiplas  instruções são sobrepostas durante a execução, como visto na figura \ref{pipeline}. Hoje em dia, \textit{pipelining} é a chave para fazer processadores rápidos \cite{ComputerOrg}.
+De acordo com \cite{ComputerOrg}, \textit{Pipelining} é uma técnica de implementação no qual multiplas  instruções são sobrepostas durante a execução, como visto na figura \ref{pipeline}. Hoje em dia, \textit{pipelining} é a chave para fazer processadores rápidos \cite{ComputerOrg}.
 
 \begin{figure}[ht] \centering
 \includegraphics[scale=0.6]{pipeline.png}
@@ -177,7 +177,7 @@ Como podemos ver, a utilização de \textit{pipeline} torna a execução muito mais 
 \end{figure}
 
 \subsubsection{Desenvolvimento de um conjunto de instrução para o \textit{Pipeline}}
-Primeiramente, todas as instruções do MIPS possuem o mesmo comprimento, esta restrição faz com que fique mais fácil decodificar as instruções no primeiro e no segundo estágio  do \textit{pipeline}. Em um conjunto de instruções, como o do IA-32, onde instruções variam de 1 até 17 bytes, o \textit{pipelining} é considerávelmente mais complicado \cite{ComputerOrg}. Atualmente a arquitetura do IA-32 transforma as instruções em microinstruções, sendo essas utilizadas para a realização do \textit{pipeline} com uma arquitetura \textit{CISC}.
+Primeiramente, todas as instruções do MIPS possuem o mesmo comprimento, esta restrição faz com que fique mais fácil decodificar as instruções no primeiro e no segundo estágio  do \textit{pipeline}. Em um conjunto de instruções, como o do IA-32, onde instruções variam de 1 até 17 bytes, o \textit{pipelining} é consideravelmente mais complicado \cite{ComputerOrg}. Atualmente a arquitetura do IA-32 transforma as instruções em microinstruções, sendo essas utilizadas para a realização do \textit{pipeline} com uma arquitetura \textit{CISC}.
 
 \subsubsection{Problemas do \textit{Pipeline}}
 O \textbf{primeiro} tipo de problema do \textit{pipeline}, é o problema estrutural, que significa que o hardware não suporta a combinação de instruções ao qual desejamos que sejam executadas em um único ciclo de clock. Ao caso de termos somente uma única memória, no segundo e quarto passo, são necessários acessos a memória que não podem ser executadas de uma única vez \cite{ComputerOrg}.
@@ -224,7 +224,7 @@ De acordo com \cite{intelMulticore}, basicamente, multi-core é um design ao qual
 
 Programas são executados, à partir de threads, essas threads são sequências de instruções relacionadas. Nos primórdios do PC, a maioria dos programas consistia de uma única thread, o sistema operacional naquela época  era capaz de executar somente um programa por vez, tendo como resultado uma sensação dolorosa que seu PC congelava enquanto imprimia um documento ou uma folha de trabalho, o sistema era incapaz de realizar duas tarefas simultaneamente. Inovações no sistema operacional introduziram os sistemas multitarefa, no qual um programa pode ser brevemente suspendido enquanto executa outro, de uma maneira que o usuário não perceba. Realizando esta troca rapidamente, o sistema tem a aparência de estar executando os programas simultaneamente, contudo o processador estava de fato, executando uma única thread.
 
-No início dos anos 2000, o design de processadores ganhou recursos adicionais, como uma lógica dedicada para operações com ponto flutuante, para suportar a execução de múltiplas instruções em paralelo. A Intel\textregistered, definiu que o melhor uso desses recursos empregando-as para executar duas threads simultaneamente no mesmo núcleo de processamento, figura \ref{hyperthreading}. A Intel\textregistered nomeou este procedimento simultâneo como \textit{Hyper-Threading Technology}\textregistered e lançou-a nos processadores \textbf{Intel Xeon \textregistered} em 2003. De acordo com medidores da Intel\textregistered, aplicações que eram escritas utilizando múltiplas threads realizaram suas tarefas 30\% mais rápido do que se for executado utilizando a tecnologia \textbf{HT}. Para induzir o sistema operacional a reconhecer um processador como duas possibilidades de execução de \textit{pipeline}, \textit{chips} foram feitos para aparentar ser dois processadores lógicos.
+No início dos anos 2000, o design de processadores ganhou recursos adicionais, como uma lógica dedicada para operações com ponto flutuante, para suportar a execução de múltiplas instruções em paralelo. A Intel\textregistered, definiu que o melhor uso desses recursos empregando-as para executar duas threads simultaneamente no mesmo núcleo de processamento, figura \ref{hyperthreading}. A Intel\textregistered  nomeou este procedimento simultâneo como \textit{Hyper-Threading Technology}\textregistered e lançou-a nos processadores \textbf{Intel Xeon \textregistered} em 2003. De acordo com medidores da Intel\textregistered, aplicações que eram escritas utilizando múltiplas threads realizaram suas tarefas 30\% mais rápido do que se for executado utilizando a tecnologia \textbf{HT}. Para induzir o sistema operacional a reconhecer um processador como duas possibilidades de execução de \textit{pipeline}, \textit{chips} foram feitos para aparentar ser dois processadores lógicos.
 
 \begin{figure}[ht] \centering
 \includegraphics[scale=1]{Hyperthreading.png}
@@ -244,7 +244,7 @@ O 4004 foi usado apenas para cálculos poucos complexos (4 operações), ele era um
 
 	Surgiu em 1972 o 8008, primeiro processador de 8 bits, com capacidade de memória de 16 Kbytes (16.384 bytes), enquanto o 4004 possuía apenas 640 bytes.
 	
-	Em 1974 é lançado o 8080, com desempenho seis vezes maior que o anterior com um clock de 2MHz, rodava um programa da Microsoft chamado Basic, possuía apenas led's. Além de 16Kb de memória Rom onde ficava o sistema, possuía 4Kb de memória Ram, seus controles eram através de botões, possuía drive de disquete 8"    com capacidade de 250 Kb.
+	Em 1974 é lançado o 8080, com desempenho seis vezes maior que o anterior com um clock de 2 MHz, rodava um programa da Microsoft chamado Basic, possuía apenas led's. Além de 16KB de memória ROM onde ficava o sistema, possuía 4KB de memória RAM, seus controles eram através de botões, possuía drive de disquete 8"    com capacidade de 250 KB.
 	
 	O 8086 foi o primeiro processador feito pela Intel para ser usado com os PC's. Ele contava com um barramento de dados interno e externo de 16 bits. E foi este  o motivo de não ter sido o processador mais utilizado. Inicialmente ele foi distribuído em versões de 4,77 MHz. Posteriormente vieram versões turbinadas de 8 e 10 MHz. 
 	
@@ -265,7 +265,7 @@ O 4004 foi usado apenas para cálculos poucos complexos (4 operações), ele era um
 		\label{diagrama}
 	\end{figure}
 
-A parte do endereço e todas as vias de dados são multiplexados em 16 pinos (os 16 pinos do barramento de dados é o que o classifica como um microprocessador de 16 bits). Os 4 bits restantes são implementados por quatro pinos adicionais de endereço, que também são utilizados para status (como mostra a figura 16). É requerido um clock externo á pastilha e é utilizado um controlador de via externo à pastilha para demultiplexar a via de dados e de endereço.
+A parte do endereço e todas as vias de dados são multiplexados em 16 pinos (os 16 pinos do barramento de dados é o que o classifica como um microprocessador de 16 bits). Os 4 bits restantes são implementados por quatro pinos adicionais de endereço, que também são utilizados para status (como mostra a figura 16). É requerido um clock externo à pastilha e é utilizado um controlador de via externo à pastilha para demultiplexar a via de dados e de endereço.
 
 \begin{figure}[h!] \centering
 		\includegraphics[scale=0.5]{intern_diagram.png}
