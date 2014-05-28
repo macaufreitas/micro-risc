@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.17)  25 MAY 2014 20:13
 entering extended mode
 **Principal_ABNT.tex
 
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Pri
 ncipal_ABNT.tex
+=======
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.19)  25 MAY 2014 14:11
+entering extended mode
+**Principal_ABNT.tex
+
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Principal_ABNT.t
+ex"
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -316,6 +325,7 @@ File: lstlang1.sty 2014/03/04 1.5c listings language file
 g1.sty
 File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
+<<<<<<< HEAD
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Pri
 ncipal_ABNT.aux
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\cap
@@ -332,10 +342,24 @@ roducao.aux)
 etivo.aux)
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Fun
 damentacao.aux
+=======
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Principal_ABNT.a
+ux" ("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\capa.aux")
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Dedicatoria.aux"
+)
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Agradecimentos.a
+ux") ("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Resumo.aux"
+) ("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Introducao.aux
+") ("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Objetivo.aux"
+)
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Fundamentacao.au
+x"
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 
 LaTeX Warning: Label `diagrama' multiply defined.
 
 )
+<<<<<<< HEAD
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Des
 envolvimento.aux)
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Res
@@ -344,6 +368,15 @@ ultados.aux)
 sideracoesFinais.aux)
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Ane
 xo.aux))
+=======
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Desenvolvimento.
+aux")
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Resultados.aux")
+
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\ConsideracoesFin
+ais.aux")
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Anexo.aux"))
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
 LaTeX Font Info:    ... okay on input line 79.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
@@ -357,8 +390,12 @@ LaTeX Font Info:    ... okay on input line 79.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
 LaTeX Font Info:    ... okay on input line 79.
 
+<<<<<<< HEAD
 (C:\Users\silvadenisaraujo\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf
 .mkii
+=======
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count119
 \scratchdimen=\dimen142
@@ -406,9 +443,13 @@ LaTeX Font Info:    ... okay on input line 79.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count125
+<<<<<<< HEAD
 
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\cap
 a.tex
+=======
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\capa.tex"
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -421,15 +462,25 @@ Non-PDF special ignored!
 
 {C:/Users/silvadenisaraujo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] 
 [1])
+<<<<<<< HEAD
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Pri
 ncipal_ABNT.toc [2
+=======
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Principal_ABNT.t
+oc" [2
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 
 
 ] [3] [4] [5])
 \tf@toc=\write3
  [6]
+<<<<<<< HEAD
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Pri
 ncipal_ABNT.lof [7
+=======
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Principal_ABNT.l
+of" [7
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 
 
 ]
@@ -441,53 +492,74 @@ S-DOS(SHUSTEK,
 [8])
 \tf@lof=\write4
  [9] [10]
+<<<<<<< HEAD
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Pri
 ncipal_ABNT.lot)
+=======
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Principal_ABNT.l
+ot")
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 \tf@lot=\write5
  [11
 
 ]
+<<<<<<< HEAD
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Ded
 icatoria.tex
+=======
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Dedicatoria.tex"
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 Cap\'{\i }tulo 1.
 ) [12
 
 
 ]
+<<<<<<< HEAD
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Agr
 adecimentos.tex
+=======
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Agradecimentos.t
+ex"
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 Cap\'{\i }tulo 2.
 ) [13
 
 
 
+<<<<<<< HEAD
 ]
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Res
 umo.tex
+=======
+] ("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Resumo.tex"
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 Cap\'{\i }tulo 3.
 ) [14
 
 
 
 ]
+<<<<<<< HEAD
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Int
 roducao.tex
+=======
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Introducao.tex"
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 Cap\'{\i }tulo 4.
 ) [15
 
 
 
 ]
-(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Obj
-etivo.tex
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Objetivo.tex"
 Cap\'{\i }tulo 5.
 ) [16
 
 
 
 ]
-(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Fun
-damentacao.tex
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Fundamentacao.te
+x"
 Cap\'{\i }tulo 6.
 <681px-InternalIntegratedCircuit2.jpg, id=63, 512.66531pt x 450.9347pt>
 File: 681px-InternalIntegratedCircuit2.jpg Graphic file (type jpg)
@@ -513,47 +585,82 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
+<<<<<<< HEAD
 ] [18 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Fin
 al/681px-InternalIntegratedCircuit2.jpg>]
+=======
+] [18 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/681px-Inter
+nalIntegratedCircuit2.jpg>]
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 <programa.png, id=74, 344.78813pt x 341.02406pt>
 File: programa.png Graphic file (type png)
  <use programa.png>
 Package pdftex.def Info: programa.png used on input line 39.
 (pdftex.def)             Requested size: 206.87447pt x 204.61601pt.
+<<<<<<< HEAD
  [19 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Fina
 l/sistemaMicro.png>] <internalOrg.png, id=78, 460.72125pt x 332.74312pt>
+=======
+ [19 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/sistemaMicro
+.png>]
+<internalOrg.png, id=78, 460.72125pt x 332.74312pt>
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 File: internalOrg.png Graphic file (type png)
 
 <use internalOrg.png>
 Package pdftex.def Info: internalOrg.png used on input line 66.
 (pdftex.def)             Requested size: 276.43488pt x 199.6474pt.
+<<<<<<< HEAD
  [20 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Fina
 l/programa.png>]
 LaTeX Font Info:    Try loading font information for OMS+aer on input line 78.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ae\omsaer.fd"
+=======
+
+[20 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/programa.png>
+]
+LaTeX Font Info:    Try loading font information for OMS+aer on input line 78.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ae\omsaer.fd"
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 File: omsaer.fd 1999/12/27
 )
 LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
+<<<<<<< HEAD
  [21 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Fina
 l/internalOrg.png>] [22] [23] <arqBarramento.jpg, id=92, 148.6353pt x 71.7882pt
 >
+=======
+ [21 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/internalOrg.
+png>] [22]
+[23] <arqBarramento.jpg, id=92, 148.6353pt x 71.7882pt>
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 File: arqBarramento.jpg Graphic file (type jpg)
 
 <use arqBarramento.jpg>
 Package pdftex.def Info: arqBarramento.jpg used on input line 104.
 (pdftex.def)             Requested size: 371.58733pt x 179.46999pt.
+<<<<<<< HEAD
  [24 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Fina
 l/arqBarramento.jpg>]
+=======
+ [24 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/arqBarrament
+o.jpg>]
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 <microcodigo.png, id=97, 354.57469pt x 265.74281pt>
 File: microcodigo.png Graphic file (type png)
  <use microcodigo.png>
 Package pdftex.def Info: microcodigo.png used on input line 125.
 (pdftex.def)             Requested size: 354.57382pt x 265.74216pt.
 
+<<<<<<< HEAD
 [25] [26 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-
 Final/microcodigo.png>] <memoriacache.png, id=104, 472.01344pt x 275.52937pt>
+=======
+[25] [26 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/microcod
+igo.png>] <memoriacache.png, id=104, 472.01344pt x 275.52937pt>
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 File: memoriacache.png Graphic file (type png)
 
 <use memoriacache.png>
@@ -571,9 +678,15 @@ File: pipeline.png Graphic file (type png)
 <use pipeline.png>
 Package pdftex.def Info: pipeline.png used on input line 166.
 (pdftex.def)             Requested size: 245.7199pt x 199.19571pt.
+<<<<<<< HEAD
  [28 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Fina
 l/memoriacache.png> <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex
 /TFG-Latex-Final/cacheniveis.png>]
+=======
+ [28 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/memoriacache
+.png> <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/cacheniveis
+.png>]
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 <calculoPipeline.png, id=113, 432.11438pt x 299.61937pt>
 File: calculoPipeline.png Graphic file (type png)
 
@@ -585,13 +698,19 @@ Package pdftex.def Info: calculoPipeline.png used on input line 174.
 LaTeX Font Warning: Font shape `T1/cmr/b/it' undefined
 (Font)              using `T1/cmr/b/n' instead on input line 179.
 
+<<<<<<< HEAD
 [29 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
 /pipeline.png>] <codigo.png, id=117, 147.55125pt x 33.12375pt>
+=======
+[29 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/pipeline.png>
+] <codigo.png, id=117, 147.55125pt x 33.12375pt>
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 File: codigo.png Graphic file (type png)
 
 <use codigo.png>
 Package pdftex.def Info: codigo.png used on input line 187.
 (pdftex.def)             Requested size: 118.04114pt x 26.49902pt.
+<<<<<<< HEAD
  <bubble.png, id=118, 437.38406pt x 169.38281pt>
 File: bubble.png Graphic file (type png)
 
@@ -601,22 +720,45 @@ Package pdftex.def Info: bubble.png used on input line 195.
  [30 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Fina
 l/calculoPipeline.png> <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/La
 tex/TFG-Latex-Final/codigo.png>]
+=======
+
+<bubble.png, id=118, 437.38406pt x 169.38281pt>
+File: bubble.png Graphic file (type png)
+ <use bubble.png>
+Package pdftex.def Info: bubble.png used on input line 195.
+(pdftex.def)             Requested size: 262.43245pt x 101.63046pt.
+ [30 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/calculoPipel
+ine.png> <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/codigo.p
+ng>]
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 <branchproblema.png, id=123, 395.97937pt x 160.34906pt>
 File: branchproblema.png Graphic file (type png)
 
 <use branchproblema.png>
 Package pdftex.def Info: branchproblema.png used on input line 207.
 (pdftex.def)             Requested size: 237.58945pt x 96.21017pt.
+<<<<<<< HEAD
  [31 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Fina
 l/bubble.png> <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-L
 atex-Final/branchproblema.png>]
 <multicore.png, id=127, 225.84375pt x 222.8325pt>
+=======
+ [31 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/bubble.png> 
+<C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/branchproblema.pn
+g>] <multicore.png, id=127, 225.84375pt x 222.8325pt>
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 File: multicore.png Graphic file (type png)
- <use multicore.png>
+
+<use multicore.png>
 Package pdftex.def Info: multicore.png used on input line 219.
 (pdftex.def)             Requested size: 225.84319pt x 222.83195pt.
+<<<<<<< HEAD
  [32 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Fina
 l/multicore.png>]
+=======
+ [32 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/multicore.pn
+g>]
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 LaTeX Font Info:    Font shape `OMS/aer/bx/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 227.
  <Hyperthreading.png, id=131, 319.1925pt x 229.60782pt>
@@ -625,8 +767,13 @@ File: Hyperthreading.png Graphic file (type png)
 <use Hyperthreading.png>
 Package pdftex.def Info: Hyperthreading.png used on input line 230.
 (pdftex.def)             Requested size: 319.19171pt x 229.60725pt.
+<<<<<<< HEAD
  [33] [34 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex
 -Final/Hyperthreading.png>] [35]
+=======
+ [33] [34 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/Hyperth
+reading.png>] [35]
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 <pinagem.png, id=143, 320.19624pt x 510.90875pt>
 File: pinagem.png Graphic file (type png)
  <use pinagem.png>
@@ -642,9 +789,15 @@ Package pdftex.def Info: intern_diagram.png used on input line 271.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<<<<<<< HEAD
 [36 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
 /pinagem.png>] [37 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/
 TFG-Latex-Final/intern_diagram.png>] [38] [39] [40] [41] [42]
+=======
+[36 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/pinagem.png>]
+[37 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/intern_diagra
+m.png>] [38] [39] [40] [41] [42]
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 Underfull \hbox (badness 10000) in paragraph at lines 361--365
 
  []
@@ -674,26 +827,36 @@ Package pdftex.def Info: library.png used on input line 469.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<<<<<<< HEAD
 [49 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
 /etapa_projeto_vhdl.png>] <entity.png, id=195, 338.4645pt x 142.73325pt>
+=======
+[49 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/etapa_projeto
+_vhdl.png>] <entity.png, id=195, 338.4645pt x 142.73325pt>
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 File: entity.png Graphic file (type png)
-
-<use entity.png>
+ <use entity.png>
 Package pdftex.def Info: entity.png used on input line 485.
 (pdftex.def)             Requested size: 169.23183pt x 71.36644pt.
+<<<<<<< HEAD
  [50 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Fina
 l/library.png> <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-
 Latex-Final/entity.png>]
+=======
+
+[50 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/library.png> 
+<C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/entity.png>]
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 <architeture.png, id=199, 454.69875pt x 124.21407pt>
 File: architeture.png Graphic file (type png)
  <use architeture.png>
 Package pdftex.def Info: architeture.png used on input line 499.
 (pdftex.def)             Requested size: 227.34882pt x 62.10687pt.
 )
-[51 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
-/architeture.png>]
-(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Des
-envolvimento.tex
+[51 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/architeture.p
+ng>]
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Desenvolvimento.
+tex"
 Cap\'{\i }tulo 7.
 [52
 
@@ -712,9 +875,15 @@ File: fluxograma-maquina-risc.jpg Graphic file (type jpg)
 <use fluxograma-maquina-risc.jpg>
 Package pdftex.def Info: fluxograma-maquina-risc.jpg used on input line 63.
 (pdftex.def)             Requested size: 209.38081pt x 279.64284pt.
+<<<<<<< HEAD
  [54 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Fina
 l/fluxograma-maquina-cisc.jpg>] [55 <C:/Users/silvadenisaraujo/Desktop/TFG8086/
 micro-risc/Latex/TFG-Latex-Final/fluxograma-maquina-risc.jpg>]
+=======
+ [54 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/fluxograma-m
+aquina-cisc.jpg>] [55 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-F
+inal/fluxograma-maquina-risc.jpg>]
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 
 LaTeX Warning: Citation `riscArtigo' on page 56 undefined on input line 83.
 
@@ -733,8 +902,13 @@ Overfull \hbox (6.33315pt too wide) in paragraph at lines 123--124
 
 LaTeX Warning: Citation `riscArtigo' on page 58 undefined on input line 128.
 
+<<<<<<< HEAD
 [58 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
 /instrucoesMSDOS.png>] <estrutura_instrucao.jpg, id=228, 2665.96pt x 385.44pt>
+=======
+[58 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/instrucoesMSD
+OS.png>] <estrutura_instrucao.jpg, id=228, 2665.96pt x 385.44pt>
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 File: estrutura_instrucao.jpg Graphic file (type jpg)
 
 <use estrutura_instrucao.jpg>
@@ -747,9 +921,15 @@ File: estrutura_instrucao_mov.jpg Graphic file (type jpg)
 <use estrutura_instrucao_mov.jpg>
 Package pdftex.def Info: estrutura_instrucao_mov.jpg used on input line 148.
 (pdftex.def)             Requested size: 399.87675pt x 57.81349pt.
+<<<<<<< HEAD
  [59 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Fina
 l/estrutura_instrucao.jpg> <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-ris
 c/Latex/TFG-Latex-Final/estrutura_instrucao_mov.jpg>]
+=======
+ [59 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/estrutura_in
+strucao.jpg> <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/estr
+utura_instrucao_mov.jpg>]
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 <printsImplementacaoVHDL/regPropositoGeralTB.png, id=233, 979.40906pt x 138.517
 5pt>
 File: printsImplementacaoVHDL/regPropositoGeralTB.png Graphic file (type png)
@@ -775,8 +955,13 @@ Overfull \hbox (23.34312pt too wide) in paragraph at lines 223--224
  [][] 
  []
 
+<<<<<<< HEAD
 [61 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
 /printsImplementacaoVHDL/regPropositoGeralTB.png>]
+=======
+[61 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/printsImpleme
+ntacaoVHDL/regPropositoGeralTB.png>]
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 <printsImplementacaoVHDL/calcEndTB.png, id=242, 785.18344pt x 106.89937pt>
 File: printsImplementacaoVHDL/calcEndTB.png Graphic file (type png)
 
@@ -797,10 +982,17 @@ Overfull \hbox (14.61244pt too wide) in paragraph at lines 242--243
  [][] 
  []
 
+<<<<<<< HEAD
 [62 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
 /printsImplementacaoVHDL/regSegmentoTB.png> <C:/Users/silvadenisaraujo/Desktop/
 TFG8086/micro-risc/Latex/TFG-Latex-Final/printsImplementacaoVHDL/calcEndTB.png>
 ] <printsImplementacaoVHDL/muxTB.png, id=247, 386.19281pt x 78.2925pt>
+=======
+[62 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/printsImpleme
+ntacaoVHDL/regSegmentoTB.png> <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG
+-Latex-Final/printsImplementacaoVHDL/calcEndTB.png>]
+<printsImplementacaoVHDL/muxTB.png, id=247, 386.19281pt x 78.2925pt>
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 File: printsImplementacaoVHDL/muxTB.png Graphic file (type png)
 
 <use printsImplementacaoVHDL/muxTB.png>
@@ -820,9 +1012,15 @@ Overfull \hbox (62.33855pt too wide) in paragraph at lines 260--261
  [][] 
  []
 
+<<<<<<< HEAD
 [63 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
 /printsImplementacaoVHDL/demuxTB.png> <C:/Users/silvadenisaraujo/Desktop/TFG808
 6/micro-risc/Latex/TFG-Latex-Final/printsImplementacaoVHDL/muxTB.png>]
+=======
+[63 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/printsImpleme
+ntacaoVHDL/demuxTB.png> <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex
+-Final/printsImplementacaoVHDL/muxTB.png>]
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 <DiagramaEstadosEnd.png, id=252, 530.73282pt x 322.20375pt>
 File: DiagramaEstadosEnd.png Graphic file (type png)
 
@@ -842,8 +1040,13 @@ File: printsImplementacaoVHDL/print_memoria_rom.jpg Graphic file (type jpg)
 Package pdftex.def Info: printsImplementacaoVHDL/print_memoria_rom.jpg used on 
 input line 284.
 (pdftex.def)             Requested size: 411.33992pt x 41.25444pt.
+<<<<<<< HEAD
  [64 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Fina
 l/printsImplementacaoVHDL/registroFlagsTB.png>]
+=======
+ [64 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/printsImplem
+entacaoVHDL/registroFlagsTB.png>]
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 <printsImplementacaoVHDL/unidadeControleEndTB.png, id=257, 989.94844pt x 133.24
 782pt>
 File: printsImplementacaoVHDL/unidadeControleEndTB.png Graphic file (type png)
@@ -856,9 +1059,15 @@ Overfull \hbox (76.71933pt too wide) in paragraph at lines 294--295
  [][] 
  []
 
+<<<<<<< HEAD
 [65 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
 /DiagramaEstadosEnd.png> <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/
 Latex/TFG-Latex-Final/printsImplementacaoVHDL/print_memoria_rom.jpg>]
+=======
+[65 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/DiagramaEstad
+osEnd.png> <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/prints
+ImplementacaoVHDL/print_memoria_rom.jpg>]
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 <printsImplementacaoVHDL/print_detector_auxiliar_flag.jpg, id=262, 1371.1225pt 
 x 143.53625pt>
 File: printsImplementacaoVHDL/print_detector_auxiliar_flag.jpg Graphic file (ty
@@ -876,11 +1085,19 @@ g)
 Package pdftex.def Info: printsImplementacaoVHDL/print_detector_paridade.jpg us
 ed on input line 314.
 (pdftex.def)             Requested size: 411.33992pt x 30.71498pt.
+<<<<<<< HEAD
  [66 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Fina
 l/printsImplementacaoVHDL/unidadeControleEndTB.png> <C:/Users/silvadenisaraujo/
 Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final/printsImplementacaoVHDL/print_
 detector_auxiliar_flag.jpg> <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-ri
 sc/Latex/TFG-Latex-Final/printsImplementacaoVHDL/print_detector_paridade.jpg>]
+=======
+ [66 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/printsImplem
+entacaoVHDL/unidadeControleEndTB.png> <C:/Users/Marcos Aurelio/Desktop/master/L
+atex/TFG-Latex-Final/printsImplementacaoVHDL/print_detector_auxiliar_flag.jpg> 
+<C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/printsImplementac
+aoVHDL/print_detector_paridade.jpg>]
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 <printsImplementacaoVHDL/print_detector_zero_flag.jpg, id=268, 1371.1225pt x 93
 .34875pt>
 File: printsImplementacaoVHDL/print_detector_zero_flag.jpg Graphic file (type j
@@ -897,12 +1114,19 @@ File: diagrama_estados_unidade_controle.jpg Graphic file (type jpg)
 Package pdftex.def Info: diagrama_estados_unidade_controle.jpg used on input li
 ne 334.
 (pdftex.def)             Requested size: 377.91095pt x 252.00336pt.
+<<<<<<< HEAD
 ) [67 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Fin
 al/printsImplementacaoVHDL/print_detector_zero_flag.jpg>] [68 <C:/Users/silvade
 nisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final/diagrama_estados_uni
 dade_controle.jpg>]
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Res
 ultados.tex
+=======
+) [67 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/printsImple
+mentacaoVHDL/print_detector_zero_flag.jpg>] [68 <C:/Users/Marcos Aurelio/Deskto
+p/master/Latex/TFG-Latex-Final/diagrama_estados_unidade_controle.jpg>]
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Resultados.tex"
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 Cap\'{\i }tulo 8.
 
 <imagensResultados/estruturaTesteMicroROM.png, id=276, 953.06062pt x 364.36125p
@@ -927,23 +1151,35 @@ LaTeX Warning: Float too large for page by 84.07814pt on input line 19.
 
 
 
+<<<<<<< HEAD
  <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final/im
 agensResultados/estruturaTesteMicroROM.png>] [70 <C:/Users/silvadenisaraujo/Des
 ktop/TFG8086/micro-risc/Latex/TFG-Latex-Final/imagensResultados/RTLFinal.png>] 
 [71] <imagensResultados/OperacaoAdd.png, id=287, 1204.5pt x 301.125pt>
+=======
+ <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/imagensResultado
+s/estruturaTesteMicroROM.png>] [70 <C:/Users/Marcos Aurelio/Desktop/master/Late
+x/TFG-Latex-Final/imagensResultados/RTLFinal.png>] [71]
+<imagensResultados/OperacaoAdd.png, id=287, 1204.5pt x 301.125pt>
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 File: imagensResultados/OperacaoAdd.png Graphic file (type png)
 
 <use imagensResultados/OperacaoAdd.png>
 Package pdftex.def Info: imagensResultados/OperacaoAdd.png used on input line 2
-6.
+5.
 (pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
 
-Overfull \hbox (10.71834pt too wide) in paragraph at lines 26--27
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 25--26
 [][] 
  []
 
+<<<<<<< HEAD
 [72 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
 /imagensResultados/OperacaoAdd.png>] [73
+=======
+[72 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/imagensResult
+ados/OperacaoAdd.png>] [73
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 
 
 ]
@@ -951,16 +1187,21 @@ Overfull \hbox (10.71834pt too wide) in paragraph at lines 26--27
 File: imagensResultados/OperacaoOr.png Graphic file (type png)
 
 <use imagensResultados/OperacaoOr.png>
-Package pdftex.def Info: imagensResultados/OperacaoOr.png used on input line 37
+Package pdftex.def Info: imagensResultados/OperacaoOr.png used on input line 36
 .
 (pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
 
-Overfull \hbox (10.71834pt too wide) in paragraph at lines 37--38
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 36--37
 [][] 
  []
 
+<<<<<<< HEAD
 [74 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
 /imagensResultados/OperacaoOr.png>] [75
+=======
+[74 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/imagensResult
+ados/OperacaoOr.png>] [75
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 
 
 ]
@@ -969,15 +1210,20 @@ File: imagensResultados/OperacaoAdc.png Graphic file (type png)
 
 <use imagensResultados/OperacaoAdc.png>
 Package pdftex.def Info: imagensResultados/OperacaoAdc.png used on input line 4
-8.
+7.
 (pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
 
-Overfull \hbox (10.71834pt too wide) in paragraph at lines 48--49
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 47--48
 [][] 
  []
 
+<<<<<<< HEAD
 [76 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
 /imagensResultados/OperacaoAdc.png>] [77
+=======
+[76 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/imagensResult
+ados/OperacaoAdc.png>] [77
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 
 
 ]
@@ -986,15 +1232,20 @@ File: imagensResultados/OperacaoSbb.png Graphic file (type png)
 
 <use imagensResultados/OperacaoSbb.png>
 Package pdftex.def Info: imagensResultados/OperacaoSbb.png used on input line 5
-9.
+8.
 (pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
 
-Overfull \hbox (10.71834pt too wide) in paragraph at lines 59--60
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 58--59
 [][] 
  []
 
+<<<<<<< HEAD
 [78 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
 /imagensResultados/OperacaoSbb.png>] [79
+=======
+[78 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/imagensResult
+ados/OperacaoSbb.png>] [79
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 
 
 ]
@@ -1002,16 +1253,21 @@ Overfull \hbox (10.71834pt too wide) in paragraph at lines 59--60
 File: imagensResultados/OperacaoAnd.png Graphic file (type png)
 
 <use imagensResultados/OperacaoAnd.png>
-Package pdftex.def Info: imagensResultados/OperacaoAnd.png used on input line 7
-0.
+Package pdftex.def Info: imagensResultados/OperacaoAnd.png used on input line 6
+9.
 (pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
 
-Overfull \hbox (10.71834pt too wide) in paragraph at lines 70--71
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 69--70
 [][] 
  []
 
+<<<<<<< HEAD
 [80 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
 /imagensResultados/OperacaoAnd.png>] [81
+=======
+[80 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/imagensResult
+ados/OperacaoAnd.png>] [81
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 
 
 ]
@@ -1020,15 +1276,20 @@ File: imagensResultados/OperacaoSub.png Graphic file (type png)
 
 <use imagensResultados/OperacaoSub.png>
 Package pdftex.def Info: imagensResultados/OperacaoSub.png used on input line 8
-1.
+0.
 (pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
 
-Overfull \hbox (10.71834pt too wide) in paragraph at lines 81--82
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 80--81
 [][] 
  []
 
+<<<<<<< HEAD
 [82 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
 /imagensResultados/OperacaoSub.png>] [83
+=======
+[82 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/imagensResult
+ados/OperacaoSub.png>] [83
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 
 
 ]
@@ -1037,15 +1298,20 @@ File: imagensResultados/OperacaoXor.png Graphic file (type png)
 
 <use imagensResultados/OperacaoXor.png>
 Package pdftex.def Info: imagensResultados/OperacaoXor.png used on input line 9
-2.
+1.
 (pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
 
-Overfull \hbox (10.71834pt too wide) in paragraph at lines 92--93
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 91--92
 [][] 
  []
 
+<<<<<<< HEAD
 [84 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
 /imagensResultados/OperacaoXor.png>] [85
+=======
+[84 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/imagensResult
+ados/OperacaoXor.png>] [85
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 
 
 ]
@@ -1054,15 +1320,20 @@ File: imagensResultados/OperacaoCmp.png Graphic file (type png)
 
 <use imagensResultados/OperacaoCmp.png>
 Package pdftex.def Info: imagensResultados/OperacaoCmp.png used on input line 1
-03.
+02.
 (pdftex.def)             Requested size: 602.24854pt x 263.48372pt.
 
-Overfull \hbox (10.71834pt too wide) in paragraph at lines 103--104
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 102--103
 [][] 
  []
 
+<<<<<<< HEAD
 [86 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
 /imagensResultados/OperacaoCmp.png>] [87
+=======
+[86 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/imagensResult
+ados/OperacaoCmp.png>] [87
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 
 
 ]
@@ -1071,17 +1342,24 @@ File: imagensResultados/OperacaoMov.png Graphic file (type png)
 
 <use imagensResultados/OperacaoMov.png>
 Package pdftex.def Info: imagensResultados/OperacaoMov.png used on input line 1
-14.
+13.
 (pdftex.def)             Requested size: 602.24854pt x 150.56212pt.
 
-Overfull \hbox (10.71834pt too wide) in paragraph at lines 114--115
+Overfull \hbox (10.71834pt too wide) in paragraph at lines 113--114
 [][] 
  []
 
+<<<<<<< HEAD
 [88 <C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/Latex/TFG-Latex-Final
 /imagensResultados/OperacaoMov.png>])
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Con
 sideracoesFinais.tex
+=======
+[88 <C:/Users/Marcos Aurelio/Desktop/master/Latex/TFG-Latex-Final/imagensResult
+ados/OperacaoMov.png>])
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\ConsideracoesFin
+ais.tex"
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 Cap\'{\i }tulo 9.
 [89
 
@@ -1094,8 +1372,13 @@ Cap\'{\i }tulo 10.
 ) [90
 
 ]
+<<<<<<< HEAD
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Pri
 ncipal_ABNT.bbl
+=======
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Principal_ABNT.b
+bl"
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 Underfull \hbox (badness 1701) in paragraph at lines 10--12
 []\T1/aer/m/n/12 ANGELOLEITHOLD. In-ter-nal in-te-gra-ted cir-cuit. 
  []
@@ -1124,13 +1407,17 @@ Underfull \hbox (badness 2538) in paragraph at lines 88--90
 []\T1/aer/m/n/12 TECHOPEDIA. Arith-me-tic lo-gic unit (alu). 
  []
 
-) [92]
-(C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Ane
-xo.tex
+) [92] ("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Anexo.tex
+"
 Cap\'{\i }tulo 11.
 
+<<<<<<< HEAD
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\cod
 igos/Multiplexador.vhd
+=======
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\codigos/Multiple
+xador.vhd"
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1138,6 +1425,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ) [93
 
 
+<<<<<<< HEAD
 ]
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\cod
 igos/Demultiplexador.vhd)
@@ -1171,11 +1459,66 @@ igos/UnidadeDeControle.vhd [115] [116] [117] [118] [119] [120] [121] [122]
 [123] [124] [125] [126])
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\cod
 igos/ler_instrucoes_dos_v4.py [127] [128] [129])) [130]
+=======
+])
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\codigos/Demultip
+lexador.vhd") [94]
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\codigos/Registro
+Segmento.vhd" [95] [96])
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\codigos/Registro
+PropositoGeral.vhd" [97] [98])
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\codigos/Registro
+Flags.vhd" [99] [100])
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\codigos/Calculad
+oraEndereco.vhd" [101])
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\codigos/Detector
+AuxiliarFlag.vhd" [102] [103])
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\codigos/Detector
+Paridade.vhd" [104])
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\codigos/Detector
+ZeroFlag.vhd" [105])
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\codigos/ULA.vhd"
+[106] [107] [108] [109] [110])
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\codigos/uce_aux.
+vhd" [111]
+LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
+)
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\codigos/UnidadeD
+eControleDeEnderecos.vhd"
+Overfull \hbox (105.75145pt too wide) in paragraph at lines 1--2
+[][][][] 
+ []
+
+
+Overfull \hbox (105.75145pt too wide) in paragraph at lines 9--11
+[][][][] 
+ []
+
+[112] [113] [114] [115] [116])
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\codigos/uc_aux.v
+hd" [117])
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\codigos/UnidadeD
+eControle.vhd"
+Overfull \hbox (105.75145pt too wide) in paragraph at lines 1--2
+[][][][] 
+ []
+
+
+Overfull \hbox (105.75145pt too wide) in paragraph at lines 9--11
+[][][][] 
+ []
+
+[118] [119] [120] [121] [122] [123] [124] [125] [126] [127] [128])
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\codigos/ler_inst
+rucoes_dos_v4.py" [129] [130] [131] [132])) [133]
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
 
+<<<<<<< HEAD
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Pri
 ncipal_ABNT.aux
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\cap
@@ -1200,6 +1543,26 @@ ultados.aux)
 sideracoesFinais.aux)
 (C:\Users\silvadenisaraujo\Desktop\TFG8086\micro-risc\Latex\TFG-Latex-Final\Ane
 xo.aux))
+=======
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Principal_ABNT.a
+ux" ("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\capa.aux")
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Dedicatoria.aux"
+)
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Agradecimentos.a
+ux") ("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Resumo.aux"
+) ("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Introducao.aux
+") ("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Objetivo.aux"
+)
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Fundamentacao.au
+x")
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Desenvolvimento.
+aux")
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Resultados.aux")
+
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\ConsideracoesFin
+ais.aux")
+("C:\Users\Marcos Aurelio\Desktop\master\Latex\TFG-Latex-Final\Anexo.aux"))
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1211,6 +1574,7 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  6489 strings out of 493921
  99355 string characters out of 3144924
  310389 words of memory out of 3000000
@@ -1236,6 +1600,34 @@ s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmu10.pfb>
 Output written on Principal_ABNT.pdf (131 pages, 2768879 bytes).
+=======
+ 6494 strings out of 493921
+ 97242 string characters out of 3144849
+ 301389 words of memory out of 3000000
+ 9460 multiletter control sequences out of 15000+200000
+ 44011 words of font info for 85 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 36i,10n,40p,1182b,1834s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Marcos Aurelio\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
+c\dpi600\ecrb1440.pk> <C:\Users\Marcos Aurelio\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecrb1728.pk> <C:\Users\Marcos Aurelio\AppData\Local
+\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrb1200.pk> <C:\Users\Marcos Au
+relio\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrb2488.pk><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmu10.pfb>
+Output written on Principal_ABNT.pdf (134 pages, 2788883 bytes).
+>>>>>>> de6a4b8795b5427a9f75d20165a13866b405c479
 PDF statistics:
  753 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
