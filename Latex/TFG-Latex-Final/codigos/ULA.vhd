@@ -1,7 +1,3 @@
-------
------- Codigo que implementa a Unidade Aritmetica e Logica do Microprocessador
-------
-
 -------- Bibliotecas e Pacotes -------
 library ieee;
 library work;

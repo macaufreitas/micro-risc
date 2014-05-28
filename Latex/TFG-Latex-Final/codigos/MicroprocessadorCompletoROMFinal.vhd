@@ -1,13 +1,3 @@
---------------------------------------------------------------------------------------
--- Codigo que implementa a logica do Microprocessador com a ROM de Testes ------------
--- Desenvolvido por:
--- Dênis Araújo da Silva - 18698
--- Marcos Aurélio Freitas de Almeida Costa - 18726
--- Trabalho Final de Graduação
--- Engenharia de Computação
--- Universidade Federal de Itajubá
---------------------------------------------------------------------------------------
-
 -------- Bibliotecas e Pacotes -------
 library IEEE;
 use IEEE.std_logic_1164.all;

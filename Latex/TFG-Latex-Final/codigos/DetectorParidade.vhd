@@ -1,7 +1,3 @@
---------
--------- Codigo que implementa o Detector de Paridade do Microprocessador
---------
-
 -------- Bibliotecas e Pacotes -------
 library ieee;
 use ieee.std_logic_1164.all;
