@@ -13,10 +13,8 @@ The style file: abntex2-alf.bst
 A level-1 auxiliary file: Anexo.aux
 Database file #1: abntex2-options.bib
 Database file #2: biblio.bib
-Warning--I didn't find a database entry for "riscArtigo"
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.2           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-(There was 1 warning)
