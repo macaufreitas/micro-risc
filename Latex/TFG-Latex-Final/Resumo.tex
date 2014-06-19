@@ -1,5 +1,7 @@
 	\chapter*{Resumo}	
 	
-		Este documento descreve o Trabalho Final de Graduação do curso de Engenharia da Computação da Universidade 			Federal de Itajubá.
-	
-		O projeto visa desenvolver um microprocessador iAPX86 de arquitetura RISC implementado em linguagem VHDL.
+		Este documento descreve o Trabalho Final de Graduação do curso de Engenharia da Computação da Universidade Federal de Itajubá. O projeto visa desenvolver um microprocessador iAPX86 de arquitetura RISC implementado em linguagem VHDL.
+		
+		Originalmente o iAPX86 possui 255 operações em seu conjunto de instruções. Para adaptá-lo à filosofia RISC, foram feitas modificações no formato das instruções e escolheu-se as de objetivo básico para integrar o processador RISC aqui desenvolvido.
+		
+		Assim, chegou-se em instruções de tamanho fixo, 4 bytes cada uma, e nas seguintes nove operações: ADD, ADC, SUB, SBB, AND, OR, XOR, CMP e MOV. Onde a instrução MOV é a única capaz de acessar à memória, seguindo assim a filosofia RISC de máquinas LOAD/STORE.

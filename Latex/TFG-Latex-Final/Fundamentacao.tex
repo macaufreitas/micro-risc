@@ -7,7 +7,7 @@
 
 \subsection{Definição}
 
-Segundo \cite{praticasMicro}, um microprocessador é um circuito eletrônico muito complexo composto de milhares de transistores microscópicos num único circuito integrado contendo até cerca de 40 terminais. Os milhares de transistores que compõem o microprocessador são arranjados para formar diferentes circuitos dentro do chip. Entre estes circuitos pode-se destacar registradores, decodificadores, contadores, etc.
+Segundo \cite{praticasMicro}, um microprocessador é um circuito eletrônico composto de inúmeros transistores microscópicos num único circuito integrado. Os transistores que compõem o microprocessador são arranjados para formar diferentes circuitos dentro do chip. Entre estes circuitos pode-se destacar registradores, decodificadores, contadores, etc.
 
 O coração de um microcomputador é sua unidade de processamento (MPU). A MPU de um microcomputador é implementada com um dispositivo VLSI (\textit{Very Large Scale Integration}) conhecido como microprocessador, ou somente processador, sendo mais direto. Um microprocessador é uma unidade de processamento de propósito geral construído em um único circuito integrado (CI), \cite{Avtar}.
 
@@ -17,7 +17,7 @@ O coração de um microcomputador é sua unidade de processamento (MPU). A MPU de u
 \label{microinternal}
 \end{figure}
 
-Como visto acima sabemos que o microprocessador é o coração de um sistema microprocessado, na figura \ref{sistemamicro}, defini-se as quatro partes básicas de um sistema microprocessado, que incluem um microprocessador, memória e entrada/saída que são interligados por um sistema de \textit{buses}, que será explicado mais a frente. Um \textit{bus} é um conjunto de fios que transmite informação entre dois ou mais dispositivos\cite{IntroductionMicro}.
+Como visto acima, o microprocessador é o coração de um sistema microprocessado, na Figura \ref{sistemamicro}, defini-se as quatro partes básicas de um sistema microprocessado, que incluem um microprocessador, memória e entrada/saída que são interligados por um sistema de \textit{buses}, que será explicado mais a frente. Um \textit{bus} é um conjunto de fios que transmite informação entre dois ou mais dispositivos\cite{IntroductionMicro}.
 
 \begin{figure}[h] \centering
 \includegraphics[scale=0.6]{sistemaMicro.png}
@@ -26,13 +26,17 @@ Como visto acima sabemos que o microprocessador é o coração de um sistema microp
 \end{figure}
 
 \subsection{Funcionamento}
-Os microprocessadores funcionam a partir de um relógio interno, feito de quartz que quando sujeito a uma corrente elétrica, emite pulsos, chamados de "top". Tais pulsos fazem com que o microprocessador execute uma ação, ou seja, uma instrução, seja a mesma executada de forma parcial ou total. Estes pulsos também definem a potência do microprocessador, sendo esta potência definida como o número de instruções executadas por segundo e tem como unidade utilizada o MIPS (Milhões de Instruções Por Segundo) \cite{Microprocessadores}.
+Os microprocessadores funcionam a partir de um relógio interno, feito de quartz que quando sujeito a uma corrente elétrica, emite pulsos, chamados de ``top''. Tais pulsos fazem com que o microprocessador execute uma ação, ou seja, uma instrução, seja a mesma executada de forma parcial ou total. Estes pulsos também definem a potência do microprocessador, sendo esta potência definida como o número de instruções executadas por segundo e tem como unidade utilizada o MIPS (Milhões de Instruções Por Segundo) \cite{Microprocessadores}.
 
 Existem dispositivos de entrada e saída que permitem a importação de dados para armazenamento ou processamento, a exportação dos resultados e acessos aos dados armazenados.
+<<<<<<< HEAD
 Outros sinais importantes para o funcionamento do microprocessador é o sinal de \textit{reset}, que faz com que a CPU volte a um estado inicial que é definido e conhecido. Voltando a este estado o microprocessador pode começar a executar programas. O sinal de interrupção faz com que o microprocessador pare sua execução e comece a executar uma rotina pré-definida \cite{Microprocessadores}
+=======
+Outros sinais importantes para o funcionamento do microprocessador é o sinal de \textit{reset}, que faz com que a CPU volte a um estado inicial que é definido e conhecido, voltando a este estado o microprocessador pode começar a executar programas. O sinal de interrupção faz com que o microprocessador pare sua execução e comece a executar uma rotina pré-definida \cite{Microprocessadores}.
+>>>>>>> 112ec0c236781d61b6269aa294dbe38dbed68a9f
 
 \subsection{Programa de Computador}
-A figura \ref{programaPC} é uma representação visual de um programa de computador, onde ter-se o código não é o suficiente. Para realizar a tarefa especificada pelo programa, o computador (microprocessador) necessita ler as instruções do programa, interpretá-las e executá-las. \cite{IntroductionMicro}.
+A Figura \ref{programaPC} é uma representação visual de um programa de computador, onde ter-se o código não é o suficiente. Para realizar a tarefa especificada pelo programa, o computador (microprocessador) necessita ler as instruções do programa, interpretá-las e executá-las. \cite{IntroductionMicro}.
 
 
 \begin{figure}[ht] \centering
@@ -60,7 +64,7 @@ O \textbf{acumulador} é um registro primário associado a \textit{ALU} (Unidade L
 O \textbf{registro de instrução} guarda o código binário da instrução que está sendo executada.
 O \textbf{contador de programa} contém o endereço de memória da próxima instrução que deve ser tomada.
 
-Todos estes registradores podem ser visualizados na figura \ref{internalorg}.
+Todos estes registradores podem ser visualizados na Figura \ref{internalorg}.
 
 \begin{figure}[ht] \centering
 \includegraphics[scale=0.6]{internalOrg.png}
@@ -107,9 +111,15 @@ De acordo com \cite{ufpbHardware}, os barramentos são implementados como linhas 
 \end{figure}
 
 \subsection{Dispositivos de Entrada/Saída}
+<<<<<<< HEAD
 Os dispositivos de entrada/saída (E/S) ou \textit{input/output (I/O)}, também denominados periféricos, permitem a interação do processador com o homem, possibilitando a entrada e/ou saída de dados.
 Porém, é necessário o módulo mais a direita da figura \ref{diagramasimp}, que são os controladores de periféricos. Tais controladores possuem a tarefa de combinar as velocidades entre os dispositivos, pois a maioria dos periféricos são consideravelmente mais lentos que a unidade de processamento na conversão de dados de um formato em outro \cite{ufpbHardware}.
 Alguns exemplos de periféricos de entrada: teclado, mouse, scanner, etc. Dispositivos de saída: monitor, impressora, etc.
+=======
+Os dispositivos de entrada/saída (E/S) ou \textit{input/output (I/O)}, são também denominados periféricos, eles permitem a interação do processador com o homem, possibilitando a entrada e/ou saída de dados.
+Porém, é necessário o módulo mais a direita da Figura \ref{diagramasimp}, que são os controladores de periféricos. Tais controladores possuem a tarefa de combinar as velocidades entre os dispositivos, pois a maioria dos periféricos são consideravelmente mais lentos que a unidade de processamento, convertem dados de um formato em outro \cite{ufpbHardware}.
+Exemplos de periféricos de entrada: teclado, mouse, scanner, etc. Dispositivos de saída: monitor, impressora, etc.
+>>>>>>> 112ec0c236781d61b6269aa294dbe38dbed68a9f
 
 \subsection{Arquiteturas}
 De acordo com \cite{ComputerOrg}, uma das mais importantes abstrações é a interface entre o hardware e o software de baixo nível. Por causa de sua importância, é dado uma nomenclatura especial: \textbf{arquitetura do conjunto de instruções} (ISA), ou simplesmente arquitetura de uma máquina. O conjunto de instruções, inclui qualquer coisa que programadores necessitam para saber como programar em linguagem de máquina corretamente, incluindo instruções, dispositivos E/S, entre outros. Tipicamente o sistema operacional irá encapsular os detalhes da realização da E/S, alocação de memória, e outras funcionalidades de baixo nível do sistema. Portanto, programadores não precisam se preocupar com estes detalhes. Dois tipos de conjuntos de instruções existentes serão explicados a diante.
@@ -119,7 +129,11 @@ CISC é uma arquitetura de processador, que teve como princípio o uso eficiente d
 
 Os primeiros processadores utilizados para decodificar e executar instruções, principalmente para trabalhos simples, com poucos registros, funcionaram. Porém não para sistemas complexos. Assim, seus criadores construíram uma lógica simples para controlar os caminhos de dados entre os vários elementos do processador, e usou um conjunto simplificado de instruções de microcódigo para controlar a lógica do caminho de dados.
 
+<<<<<<< HEAD
 A microprogramação é uma representação simbólica do controle em forma de instruções, chamadas microinstruções, que são executadas em uma micromáquina simples \cite{ComputerOrg}. Podemos ver na figura \ref{microcodigo} o exemplo de um microcódigo.
+=======
+A microprogramação é uma representação simbólica do controle em forma de instruções, chamadas microinstruções, que são executadas em uma micromáquina simples \cite{ComputerOrg}, é possível ver na Figura \ref{microcodigo} o exemplo de um microcódigo.
+>>>>>>> 112ec0c236781d61b6269aa294dbe38dbed68a9f
 
 \begin{figure}[ht] \centering
 \includegraphics[scale=1]{microcodigo.png}
@@ -136,7 +150,11 @@ operações limitadas. ARM, Hitachi SH, IBM PowerPC, MIPS e Sun SPARC são todos ex
 arquiteturas RISCs \cite{ComputerOrg}.
 
 \subsubsection{Comparação entre RISC e CISC}
+<<<<<<< HEAD
 Como visto anteriormente, a arquitetura CISC apresenta instruções complexas executadas em vários ciclos de relógio, enquanto a arquitetura RISC possui somente instruções que são executadas em apenas um ciclo. No quesito de acesso a memória, o conjunto complexo possui vários tipos de modos de endereçamento de memória, facilitando o trabalho do programador. Já os microprocessadores RISC são considerados máquinas \textit{load/store}, o que é possível devido uma grande quantidade de registradores dos mais variados tipos. A clara vantagem da arquitetura RISC é em questão de velocidade. Por possuir um conjunto de instruções com todas instruções com formato fixo, ocorre um uso intenso de \textit{pipeline}. No desenvolvimento de um  microprocessador CISC, a complexidade do sistema se encontra no microprograma, como visto um exemplo na figura \ref{microcodigo}, e na arquitetura RISC a complexidade se encontra no compilador. Ambas arquiteturas são muito bem aceitas no mercado e cada uma possui suas vantagens e desvantagens para serem aplicados em diversos tipos de projetos.
+=======
+Como visto anteriormente, a arquitetura CISC apresenta instruções complexas executadas em vários ciclos de clock, enquanto a arquitetura RISC possui somente instruções que são executadas em apenas um ciclo. No quesito de acesso a memória, o conjunto complexo possui vários tipos de modos de endereçamento de memória, facilitando o trabalho do programador. Os microprocessadores RISC são considerados máquinas \textit{load/store}, o que é possível pois ele possui uma grande quantidade de registradores dos mais variados tipos. A clara vantagem da arquitetura RISC é em questão de velocidade, pois por possuir um conjunto de instruções, com todas instruções com formato fixo, ocorre um uso intenso de \textit{pipeline}. No desenvolvimento de um  microprocessador CISC, a complexidade do sistema se encontra no microprograma, como visto um exemplo na Figura \ref{microcodigo}, e na arquitetura RISC a complexidade se encontra no compilador. Ambas arquiteturas são muito bem aceitas no mercado e cada uma possui suas vantagens e desvantagens para serem aplicados em diversos tipos de projetos.
+>>>>>>> 112ec0c236781d61b6269aa294dbe38dbed68a9f
 
 
 \subsection{Memória Cache}
@@ -150,7 +168,7 @@ De acordo com \cite{memoriacache}, a memória cache consegue realizar a ponte ent
 
 Cache, foi o nome escolhido para representar o nível na hierarquia de memória entre o processador e a memória do primeiro computador comercial a ter este nível extra, como pode ser visto na Figura \ref{memcache} item (b). A razão da cache (\textit{SRAM}) ser menor é devido a maiores decodificadores de endereço, pois são mais lentos do que menores decodificadores de endereço. Quanto maior a memória é, mais complexo é seu decodificador de endereço, e mais tempo leva para identificar o valor da posição de memória do endereço desejado \cite{memoriacache}.
 
-É possível utilizar este conceito e dar um passo a diante introduzindo uma \textit{SRAM} menor entre o cache o e processador, dentro do próprio envólucro do processador, criando dois níveis de memória cache L1 e L2, como podemos ver na figura \ref{niveiscache} \cite{memoriacache}.
+É possível utilizar este conceito e dar um passo a diante introduzindo uma \textit{SRAM} menor entre o cache o e processador, dentro do próprio envólucro do processador, criando dois níveis de memória cache L1 e L2, como se nota na Figura \ref{niveiscache} \cite{memoriacache}.
 
 \begin{figure}[ht] \centering
 \includegraphics[scale=1]{cacheniveis.png}
@@ -160,7 +178,7 @@ Cache, foi o nome escolhido para representar o nível na hierarquia de memória en
 
 \subsection{Pipeline}
 \subsubsection{Definição}
-De acordo com \cite{ComputerOrg}, \textit{Pipelining} é uma técnica de implementação no qual multiplas  instruções são sobrepostas durante a execução, como visto na figura \ref{pipeline}. Hoje em dia, \textit{pipelining} é a chave para fazer processadores rápidos \cite{ComputerOrg}.
+De acordo com \cite{ComputerOrg}, \textit{Pipelining} é uma técnica de implementação no qual multiplas  instruções são sobrepostas durante a execução, como visto na Figura \ref{pipeline}. Hoje em dia, \textit{pipelining} é a chave para fazer processadores rápidos \cite{ComputerOrg}.
 
 \begin{figure}[ht] \centering
 \includegraphics[scale=0.6]{pipeline.png}
@@ -168,7 +186,11 @@ De acordo com \cite{ComputerOrg}, \textit{Pipelining} é uma técnica de implement
 \label{pipeline}
 \end{figure}
 
+<<<<<<< HEAD
 Como podemos ver, a utilização de \textit{pipeline} torna a execução muito mais rápida do que se as tarefas fossem executadas sequencialmente. Como exemplo utilizaremos o microprocessador MIPS, que possui 5 estágios de execução de uma instrução: Decodificação da Instrução (\textit{Instruction Fetch)}, Leitura dos Registros (\textit{Reg}),Operação de ULA (\textit{ALU}) , Acesso ao dado e Escrita no Registro. Na figura \ref{calculoPipeline} podemos ver quantitativamente a diferença do processo com utilização de \textit{pipeline}.
+=======
+Como é possível perceber, a utilização de \textit{pipeline} torna a execução muito mais rápida do que se as tarefas fossem executadas sequencialmente. Como exemplo será utilizado o microprocessador MIPS, que possui 5 estágios de execução de uma instrução, sendo elas: Decodificação da Instrução (\textit{Instruction Fetch)}, Leitura dos Registros (\textit{Reg}),Operação de ULA (\textit{ALU}) , Acesso ao dado e Escrita no Registro. Na Figura \ref{calculoPipeline} podemos ver quantitativamente a diferença do processo com utilização de \textit{pipeline}.
+>>>>>>> 112ec0c236781d61b6269aa294dbe38dbed68a9f
 
 \begin{figure}[ht] \centering
 \includegraphics[scale=0.6]{calculoPipeline.png}
@@ -177,11 +199,16 @@ Como podemos ver, a utilização de \textit{pipeline} torna a execução muito mais 
 \end{figure}
 
 \subsubsection{Desenvolvimento de um conjunto de instrução para o \textit{Pipeline}}
-Primeiramente, todas as instruções do MIPS possuem o mesmo comprimento, esta restrição faz com que fique mais fácil decodificar as instruções no primeiro e no segundo estágio  do \textit{pipeline}. Em um conjunto de instruções, como o do IA-32, onde instruções variam de 1 até 17 bytes, o \textit{pipelining} é consideravelmente mais complicado \cite{ComputerOrg}. Atualmente a arquitetura do IA-32 transforma as instruções em microinstruções, sendo essas utilizadas para a realização do \textit{pipeline} com uma arquitetura \textit{CISC}.
+Primeiramente, todas as instruções do MIPS possuem o mesmo comprimento, esta restrição faz com que fique mais fácil decodificar as instruções no primeiro e no segundo estágio  do \textit{pipeline}. Em um conjunto de instruções, como o do IA-32, instruções variam de 1 até 17 bytes, o \textit{pipelining} é consideravelmente mais complicado \cite{ComputerOrg}. Atualmente a arquitetura do IA-32 transforma as instruções em microinstruções, sendo essas utilizadas para a realização do \textit{pipeline} com uma arquitetura \textit{CISC}.
 
 \subsubsection{Problemas do \textit{Pipeline}}
+<<<<<<< HEAD
 O \textbf{primeiro} tipo de problema do \textit{pipeline} é o problema estrutural, que significa que o hardware não suporta a combinação de instruções que desejamos que sejam executadas em um único ciclo de relógio. Ao caso de termos somente uma única memória, no segundo e quarto passo, são necessários acessos a memória que não podem ser executadas de uma única vez \cite{ComputerOrg}.
 O \textbf{segundo} tipo de problema é devido ao acesso aos dados, quando uma etapa necessita de utilizar o dado que uma outra etapa está modificando o \textit{pipeline} fica travado, pois temos uma indefinição quanto a resultado deste dado, por exemplo, no trecho de código á seguir do MIPS, na figura \ref{codigoPipeline}.
+=======
+O \textbf{primeiro} tipo de problema do \textit{pipeline}, é o problema estrutural, que significa que o hardware não suporta a combinação de instruções ao qual desejamos que sejam executadas em um único ciclo de clock. Ao caso de termos somente uma única memória, no segundo e quarto passo, são necessários acessos a memória que não podem ser executadas de uma única vez \cite{ComputerOrg}.
+O \textbf{segundo} tipo de problema , quanto a acesso aos dados, ocorre quando o \textit{pipeline} fica travado no momento em que ocorre uma etapa deve esperar outra etapa completar para continuar, por exemplo no seguinte trecho de código do MIPS, na Figura \ref{codigoPipeline}.
+>>>>>>> 112ec0c236781d61b6269aa294dbe38dbed68a9f
 
 \begin{figure}[ht] \centering
 \includegraphics[scale=0.8]{codigo.png}
@@ -189,7 +216,7 @@ O \textbf{segundo} tipo de problema é devido ao acesso aos dados, quando uma eta
 \label{codigoPipeline}
 \end{figure}
 
-Quando este tipo de problema ocorre, um fato chamado \textit{bubble} aparece no meio do \textit{pipeline}, como se fosse uma linha vazia entre dois processos do \textit{pipeline}, podendo ser notado na figura \ref{bubble}.
+Quando este tipo de problema ocorre, um fato chamado \textit{bubble} aparece no meio do \textit{pipeline}, como se fosse uma linha vazia entre dois processos do \textit{pipeline}, podendo ser notado na Figura \ref{bubble}.
 
 \begin{figure}[ht] \centering
 \includegraphics[scale=0.6]{bubble.png}
@@ -201,7 +228,11 @@ Para resolver este tipo de problema, o código pode ser reescrito de uma forma qu
 
 O terceiro tipo de problema, é chamado de problema de controle, também chamado de problema de \textit{branch}, surge da necessidade de tomar uma decisão baseada nos resultados de uma instrução enquanto outras estão em execução \cite{ComputerOrg}.
 
+<<<<<<< HEAD
 As instruções de \textit{branch} são instruções de desvios condicionais no código, portanto a execução da próxima instrução depende se o \textit{branch} causará desvio ou não. Caso o desvio ocorra, o fenômeno de \textit{bubble} ocorre novamente, pois o \textit{pipeline} necessita ficar um tempo parado esperando a tomada de decisão, semelhante a figura \ref{branchproblema}.
+=======
+As instruções de \textit{branch} são instruções de desvios condicionais no código, portanto a execução da próxima instrução depende se o \textit{branch} causará desvio ou não, caso o desvio ocorra, o fenômeno de \textit{bubble} ocorre novamente, pois o \textit{pipeline} necessita ficar um tempo parado esperando a tomada de decisão, semelhante a Figura \ref{branchproblema}.
+>>>>>>> 112ec0c236781d61b6269aa294dbe38dbed68a9f
 
 \begin{figure}[ht] \centering
 \includegraphics[scale=0.6]{branchproblema.png}
@@ -213,7 +244,7 @@ Para solucionar este problema, desenvolveu-se uma estrutura dentro do próprio mi
 
 
 \subsection{Processadores Multi-Core e Hyper-Threading}
-De acordo com \cite{intelMulticore}, basicamente, multi-core é um design ao qual um único processador físico, contém o núcleo lógico de mais de um processador, como pode ser visto na figura \ref{multicore}. O objetivo deste design é habilitar o sistema a executar mais tarefas simultaneamente e desse modo alcançar um maior desempenho do sistema.
+De acordo com \cite{intelMulticore}, basicamente, multi-core é um design ao qual um único processador físico, contém o núcleo lógico de mais de um processador, como pode ser visto na Figura \ref{multicore}. O objetivo deste design é habilitar o sistema a executar mais tarefas simultaneamente e desse modo alcançar um maior desempenho do sistema.
 
 \begin{figure}[ht] \centering
 \includegraphics[scale=1]{multicore.png}
@@ -224,7 +255,11 @@ De acordo com \cite{intelMulticore}, basicamente, multi-core é um design ao qual
 
 Programas são executados, à partir de threads, essas threads são sequências de instruções relacionadas. Nos primórdios do PC, a maioria dos programas consistia de uma única thread, o sistema operacional naquela época  era capaz de executar somente um programa por vez, tendo como resultado uma sensação dolorosa que seu PC congelava enquanto imprimia um documento ou uma folha de trabalho, o sistema era incapaz de realizar duas tarefas simultaneamente. Inovações no sistema operacional introduziram os sistemas multitarefa, no qual um programa pode ser brevemente suspendido enquanto executa outro, de uma maneira que o usuário não perceba. Realizando esta troca rapidamente, o sistema tem a aparência de estar executando os programas simultaneamente. Contudo o processador estava, de fato, executando uma única thread.
 
+<<<<<<< HEAD
 No início dos anos 2000, o design de processadores ganhou recursos adicionais, como uma lógica dedicada para operações com ponto flutuante, para suportar a execução de múltiplas instruções em paralelo. A Intel\textregistered definiu o melhor uso desses recursos empregando-as para executar duas threads simultaneamente no mesmo núcleo de processamento, figura \ref{hyperthreading}. A Intel\textregistered  nomeou este procedimento simultâneo como \textit{Hyper-Threading Technology}\textregistered e lançou-a nos processadores \textbf{Intel Xeon \textregistered} em 2003. De acordo com medidores da Intel\textregistered, aplicações que eram escritas utilizando múltiplas threads realizaram suas tarefas 30\% mais rápido do que se fossem executadas utilizando a tecnologia \textbf{HT}. Para induzir o sistema operacional a reconhecer um processador como duas possibilidades de execução de \textit{pipeline}, \textit{chips} foram feitos para aparentar serem dois processadores lógicos.
+=======
+No início dos anos 2000, o design de processadores ganhou recursos adicionais, como uma lógica dedicada para operações com ponto flutuante, para suportar a execução de múltiplas instruções em paralelo. A Intel\textregistered, definiu que o melhor uso desses recursos empregando-as para executar duas threads simultaneamente no mesmo núcleo de processamento, Figura \ref{hyperthreading}. A Intel\textregistered  nomeou este procedimento simultâneo como \textit{Hyper-Threading Technology}\textregistered e lançou-a nos processadores \textbf{Intel Xeon \textregistered} em 2003. De acordo com medidores da Intel\textregistered, aplicações que eram escritas utilizando múltiplas threads realizaram suas tarefas 30\% mais rápido do que se for executado utilizando a tecnologia \textbf{HT}. Para induzir o sistema operacional a reconhecer um processador como duas possibilidades de execução de \textit{pipeline}, \textit{chips} foram feitos para aparentar ser dois processadores lógicos.
+>>>>>>> 112ec0c236781d61b6269aa294dbe38dbed68a9f
 
 \begin{figure}[ht] \centering
 \includegraphics[scale=1]{Hyperthreading.png}
@@ -265,7 +300,11 @@ O 4004 foi usado apenas para cálculos poucos complexos (4 operações). Ele era um
 		\label{diagrama}
 	\end{figure}
 
+<<<<<<< HEAD
 A parte do endereço e todas as vias de dados são multiplexados em 16 pinos (os 16 pinos do barramento de dados é o que o classifica como um microprocessador de 16 bits). Os 4 bits restantes são implementados por quatro pinos adicionais de endereço, que também são utilizados para status (como mostra a figura 16). É requerido um relógio externo à pastilha e é utilizado um controlador de via externo à pastilha para demultiplexar a via de dados e de endereço.
+=======
+A parte do endereço e todas as vias de dados são multiplexados em 16 pinos (os 16 pinos do barramento de dados é o que o classifica como um microprocessador de 16 bits). Os 4 bits restantes são implementados por quatro pinos adicionais de endereço, que também são utilizados para status (como mostra a Figura 16). É requerido um clock externo à pastilha e é utilizado um controlador de via externo à pastilha para demultiplexar a via de dados e de endereço.
+>>>>>>> 112ec0c236781d61b6269aa294dbe38dbed68a9f
 
 \begin{figure}[h!] \centering
 		\includegraphics[scale=0.5]{intern_diagram.png}
@@ -273,12 +312,12 @@ A parte do endereço e todas as vias de dados são multiplexados em 16 pinos (os 1
 		\label{diagrama}
 	\end{figure}
 	
-	O 8086 tem uma estrutura de interrupção poderosa. Quase todos os microprocessadores de 8 bits requerem pastilhas externas adicionais para permitir operações de interrupção adequadas. No 8086, cerca de 1000 bytes são colocados de lado para conter até 265 apontadores de vetores (lembrando que cada apontador é um endereço contendo seletor:offset, ou seja, 4 bytes). O 8086 executa operações de E/S (ou I/O) em um espaço separado da memória denominado espaço de E/S. Tem um total de 64 KBytes. Para ser utilizado pelos co-processadores é fornecido um pino de entrada TEST especial (pino 23, figura 16) para permitir ao 8086 saber quando é que o co-processador completou a tarefa. Quando uma instrução WAIT é acionada, o 8086 pára e aguarda do co-processador externo, ou qualquer outro hardware, um sinal para que continue pela alteração do pino TEST.
+	O 8086 tem uma estrutura de interrupção poderosa. Quase todos os microprocessadores de 8 bits requerem pastilhas externas adicionais para permitir operações de interrupção adequadas. No 8086, cerca de 1000 bytes são colocados de lado para conter até 265 apontadores de vetores (lembrando que cada apontador é um endereço contendo seletor:offset, ou seja, 4 bytes). O 8086 executa operações de E/S (ou I/O) em um espaço separado da memória denominado espaço de E/S. Tem um total de 64 KBytes. Para ser utilizado pelos co-processadores é fornecido um pino de entrada TEST especial (pino 23, Figura 16) para permitir ao 8086 saber quando é que o co-processador completou a tarefa. Quando uma instrução WAIT é acionada, o 8086 pára e aguarda do co-processador externo, ou qualquer outro hardware, um sinal para que continue pela alteração do pino TEST.
 	
 \subsection{Memória}
-\quad A largura de memória "vista" por um microprocessador é determinada pela quantidade de bits que o microprocessador pode acessar por vez. Esta quantidade é determinada pela largura do seu barramento de dados externo. O microprocessador 8086 possui um barramento de dados de 16  bits o que permite acessar dois bytes da memória consecutivamente (cada referência à memória acessa 2 bytes), enquanto, o 8088 possui um barramento de dados de 8 bits, ou seja, uma referência à memória acessa 1 byte.
+\quad A largura de memória ``vista'' por um microprocessador é determinada pela quantidade de bits que o microprocessador pode acessar por vez. Esta quantidade é determinada pela largura do seu barramento de dados externo. O microprocessador 8086 possui um barramento de dados de 16  bits o que permite acessar dois bytes da memória consecutivamente (cada referência à memória acessa 2 bytes), enquanto, o 8088 possui um barramento de dados de 8 bits, ou seja, uma referência à memória acessa 1 byte.
 
-	Os microprocessadores 8086/8088 podem acessar (ler ou escrever) bytes ou palavras (2 bytes) que se localizam tanto em endereços pares como em endereços ímpares da memória. No entanto, dependendo do microprocessador e do tamanho do dado a ser acessado, pode ser necessário que o microprocessador efetue uma ou duas referências para a memória. A tabela 1 resume o número de referências necessárias para os microprocessadores 8086/8088 acessarem dados de 8 e 16 bits em endereços pares e ímpares da memória.
+	Os microprocessadores 8086/8088 podem acessar (ler ou escrever) bytes ou palavras (2 bytes) que se localizam tanto em endereços pares como em endereços ímpares da memória. No entanto, dependendo do microprocessador e do tamanho do dado a ser acessado, pode ser necessário que o microprocessador efetue uma ou duas referências para a memória. A Tabela 1 resume o número de referências necessárias para os microprocessadores 8086/8088 acessarem dados de 8 e 16 bits em endereços pares e ímpares da memória.
 \begin{center}
 \begin{table}[htbp]
   \centering
@@ -305,13 +344,13 @@ O espaço de endereçamento da memória do microprocessador 8088 é organizado como 
 
 \subsection{Arquitetura do microprocessador}
 
-\quad A unidade de execução (EU) executa as operações aritméticas e lógicas, além de controlar a maioria dos registros internos e manipular os dados. Em contraste, a unidade de interface de barramento (BIU representado por um símbolo de somatória na figura 17) executa as operações de barramento, incluindo a transferência de dados, e controla os registros restantes do microprocessador.
+\quad A unidade de execução (EU) executa as operações aritméticas e lógicas, além de controlar a maioria dos registros internos e manipular os dados. Em contraste, a unidade de interface de barramento (BIU representado por um símbolo de somatória na Figura 17) executa as operações de barramento, incluindo a transferência de dados, e controla os registros restantes do microprocessador.
 
 	As duas unidades de processamento são capazes de executar suas operações de forma independente, isto é, cada unidade pode fazer suas tarefas sem a assistência da outra unidade.
 	
 	Embora a unidade de execução EU esteja isolada do barramento do sistema, pela unidade de interface de barramento (BIU), ela ainda pode acessar o barramento para certas operações. A EU ganha o acesso do barramento requisitando que a BIU temporariamente suspenda suas atividade. A EU então assume o controle da BIU de modo a poder usar o barramento para enviar ou receber informações.
 	
-	Da figura 17 nota-se que a EU consiste de duas seções principais que são os registros de propósitos gerais e a unidade aritmética e lógica - ALU. Os registros de propósito geral do 8086/8088 presentes na EU são áreas de armazenamento com capacidade de manter dados binários que foram ou serão usados pelo microprocessador. A grande vantagem destes registros se deve ao fato de se poder acessá-los com maior facilidade e de forma muito mais rápida do que uma determinada localização da memória.
+	Da Figura 17 nota-se que a EU consiste de duas seções principais que são os registros de propósitos gerais e a unidade aritmética e lógica - ALU. Os registros de propósito geral do 8086/8088 presentes na EU são áreas de armazenamento com capacidade de manter dados binários que foram ou serão usados pelo microprocessador. A grande vantagem destes registros se deve ao fato de se poder acessá-los com maior facilidade e de forma muito mais rápida do que uma determinada localização da memória.
 	
 	Todos os registros de propósito geral possuem capacidade aritmética e lógica. Dados podem ser armazenados através da BIU ou transferidos para memória. Os registros de propósito geral são todos de 16 bits. Entretanto os bytes menos e mais significativos podem ser usados separadamente como registros de 1 byte. Dessa forma tem-se os seguintes registros: AH, AL, BH, BL, CH, CL, DH e DL.
 	
@@ -321,7 +360,7 @@ O espaço de endereçamento da memória do microprocessador 8088 é organizado como 
 	
 	A seção de lógica de controle de barramento é responsável por todas as operações de barramento do microprocessador como, por exemplo, a busca de dados para a unidade aritmética e lógica (ALU). Quando necessário a seção de lógica de controle de barramento acessa localizações particulares na memória, de modo que a EU possa enviar ou receber informações para ou destas localizações.
 	
-	A seção de lógica de controle de barramento também controla o sentido do fluxo de informação no barramento. Quando uma informação tiver que ser enviada à memória, esta seção assegura que os sinais de controle sejam os apropriados para a transmissão. O mesmo ocorre quando for necessário receber uma informação. A fila de instruções age como um "encanamento" onde os bytes das instruções trazidos da memória são armazenados antes do seu uso pela EU. No 8086 esta fila é composta de 6 localizações de 8 bits cada, enquanto no 8088 a fila de instruções é composta de 4 localizações de 8 bits. Pode-se dizer que estas localizações servem como áreas para o armazenamento temporário (buffer) das instruções trazidas da memória.
+	A seção de lógica de controle de barramento também controla o sentido do fluxo de informação no barramento. Quando uma informação tiver que ser enviada à memória, esta seção assegura que os sinais de controle sejam os apropriados para a transmissão. O mesmo ocorre quando for necessário receber uma informação. A fila de instruções age como um ``encanamento'' onde os bytes das instruções trazidos da memória são armazenados antes do seu uso pela EU. No 8086 esta fila é composta de 6 localizações de 8 bits cada, enquanto no 8088 a fila de instruções é composta de 4 localizações de 8 bits. Pode-se dizer que estas localizações servem como áreas para o armazenamento temporário (buffer) das instruções trazidas da memória.
 	
 	No microprocessador 8086/8088 é a seção lógica de controle de barramento BIU, que busca os bytes das instruções do programa na memória e os coloca na fila de instruções. Esta fila mantém estes bytes até que a EU esteja pronta para aceitá-las.
 	
