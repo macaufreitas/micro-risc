@@ -1,87 +1,87 @@
 \select@language {brazil}
 \contentsline {chapter}{Lista de Figuras}{}
 \contentsline {chapter}{Lista de Tabelas}{}
-\contentsline {chapter}{\numberline {1}Dedicat\'oria}{12}
-\contentsline {chapter}{\numberline {2}Agradecimentos}{13}
-\contentsline {chapter}{\numberline {3}Resumo}{14}
-\contentsline {chapter}{\numberline {4}Introdu\c c\~ao}{15}
-\contentsline {chapter}{\numberline {5}Objetivo}{16}
-\contentsline {chapter}{\numberline {6}Fundamenta\c c\~ao Te\'orica}{17}
-\contentsline {section}{\numberline {6.1}Microprocessadores}{17}
-\contentsline {subsection}{\numberline {6.1.1}Defini\c c\~ao}{17}
-\contentsline {subsection}{\numberline {6.1.2}Funcionamento}{18}
-\contentsline {subsection}{\numberline {6.1.3}Programa de Computador}{19}
-\contentsline {subsection}{\numberline {6.1.4}Registradores}{20}
-\contentsline {subsection}{\numberline {6.1.5}Unidade L\'ogica Aritm\'etica}{21}
-\contentsline {subsection}{\numberline {6.1.6}Unidade de Controle}{22}
-\contentsline {subsubsection}{\numberline {6.1.6.1}Sinais de Controle}{22}
-\contentsline {subsection}{\numberline {6.1.7}Sistema de Barramentos}{23}
-\contentsline {subsection}{\numberline {6.1.8}Dispositivos de Entrada/Sa\IeC {\'\i }da}{24}
-\contentsline {subsection}{\numberline {6.1.9}Arquiteturas}{25}
-\contentsline {subsubsection}{\numberline {6.1.9.1}CISC - Complex Instruction Set Computer}{25}
-\contentsline {subsubsection}{\numberline {6.1.9.2}RISC - Reduced Instruction Set Computer}{26}
-\contentsline {subsubsection}{\numberline {6.1.9.3}Compara\c c\~ao entre RISC e CISC}{27}
-\contentsline {subsection}{\numberline {6.1.10}Mem\'oria Cache}{27}
-\contentsline {subsection}{\numberline {6.1.11}Pipeline}{28}
-\contentsline {subsubsection}{\numberline {6.1.11.1}Defini\c c\~ao}{28}
-\contentsline {subsubsection}{\numberline {6.1.11.2}Desenvolvimento de um conjunto de instru\c c\~ao para o \textit {Pipeline}}{29}
-\contentsline {subsubsection}{\numberline {6.1.11.3}Problemas do \textit {Pipeline}}{30}
-\contentsline {subsection}{\numberline {6.1.12}Processadores Multi-Core e Hyper-Threading}{32}
-\contentsline {section}{\numberline {6.2}Microprocessador 8086/8088}{33}
-\contentsline {subsection}{\numberline {6.2.1}Hist\'oria}{33}
-\contentsline {subsection}{\numberline {6.2.2}Vis\~ao preliminar}{35}
-\contentsline {subsection}{\numberline {6.2.3}Mem\'oria}{37}
-\contentsline {subsection}{\numberline {6.2.4}Arquitetura do microprocessador}{39}
-\contentsline {subsection}{\numberline {6.2.5}Endere\c camento da mem\'oria}{41}
-\contentsline {subsection}{\numberline {6.2.6}Conjunto de registros}{43}
-\contentsline {subsection}{\numberline {6.2.7}Instru\c c\~oes}{45}
-\contentsline {subsubsection}{\numberline {6.2.7.1}Endere\c camento por registro}{46}
-\contentsline {subsubsection}{\numberline {6.2.7.2}Endere\c camento imediato}{46}
-\contentsline {subsubsection}{\numberline {6.2.7.3}Endere\c camento Direto}{46}
-\contentsline {subsubsection}{\numberline {6.2.7.4}Endere\c camento indireto por registro}{47}
-\contentsline {subsubsection}{\numberline {6.2.7.5}Endere\c camento por base}{47}
-\contentsline {subsubsection}{\numberline {6.2.7.6}Endere\c camento Indexado}{47}
-\contentsline {subsubsection}{\numberline {6.2.7.7}Endere\c camento por base indexado}{48}
-\contentsline {section}{\numberline {6.3}VHDL}{48}
-\contentsline {subsection}{\numberline {6.3.1}Biblioteca}{49}
-\contentsline {subsection}{\numberline {6.3.2}Entidade}{49}
-\contentsline {subsection}{\numberline {6.3.3}Arquitetura}{50}
-\contentsline {chapter}{\numberline {7}Desenvolvimento}{52}
-\contentsline {section}{\numberline {7.1}Requisitos de Funcionamento}{52}
-\contentsline {subsection}{\numberline {7.1.1}Software}{52}
-\contentsline {subsection}{\numberline {7.1.2}Hardware}{52}
-\contentsline {subsection}{\numberline {7.1.3}Ferramentas Utilizadas no Projeto}{52}
-\contentsline {section}{\numberline {7.2}Defini\c c\~ao do Conjunto de Instru\c c\~oes}{53}
-\contentsline {subsection}{\numberline {7.2.1}Conjunto de Instru\c c\~oes CISC}{53}
-\contentsline {subsection}{\numberline {7.2.2}Conjunto de Instru\c c\~oes RISC}{54}
-\contentsline {subsection}{\numberline {7.2.3}Instru\c c\~oes Escolhidas}{55}
-\contentsline {subsection}{\numberline {7.2.4}Defini\c c\~ao do Tamanho das Instru\c c\~oes}{58}
-\contentsline {section}{\numberline {7.3}Implementa\c c\~ao em VHDL}{60}
-\contentsline {subsection}{\numberline {7.3.1}Registro de Prop\'osito Geral}{60}
-\contentsline {subsection}{\numberline {7.3.2}Registro de Segmento}{61}
-\contentsline {subsection}{\numberline {7.3.3}Calculadora de Endere\c co}{62}
-\contentsline {subsection}{\numberline {7.3.4}Demultiplexador}{62}
-\contentsline {subsection}{\numberline {7.3.5}Multiplexador}{63}
-\contentsline {subsection}{\numberline {7.3.6}Registro de Flags}{63}
-\contentsline {subsection}{\numberline {7.3.7}Unidade de Controle de Endere\c cos}{63}
-\contentsline {subsubsection}{\numberline {7.3.7.1}Diagrama de Estados}{64}
-\contentsline {subsection}{\numberline {7.3.8}Mem\'oria ROM}{64}
-\contentsline {subsection}{\numberline {7.3.9}Unidade Aritm\'etica e L\'ogica - ULA}{65}
-\contentsline {subsubsection}{\numberline {7.3.9.1}Detector do Flag Auxiliar}{66}
-\contentsline {subsubsection}{\numberline {7.3.9.2}Detector do Flag de Paridade}{66}
-\contentsline {subsubsection}{\numberline {7.3.9.3}Detector do Zero Flag}{67}
-\contentsline {subsection}{\numberline {7.3.10}Unidade de Controle}{67}
-\contentsline {chapter}{\numberline {8}Resultados}{69}
-\contentsline {section}{\numberline {8.1}ADD Reg16,Imed16}{71}
-\contentsline {section}{\numberline {8.2}OR Reg16,Imed16}{73}
-\contentsline {section}{\numberline {8.3}ADC Reg16,Imed16}{75}
-\contentsline {section}{\numberline {8.4}SBB Reg16,Imed16}{77}
-\contentsline {section}{\numberline {8.5}AND Reg16,Imed16}{79}
-\contentsline {section}{\numberline {8.6}SUB Reg16,Imed16}{81}
-\contentsline {section}{\numberline {8.7}XOR Reg16,Imed16}{83}
-\contentsline {section}{\numberline {8.8}CMP Reg16,Imed16}{85}
-\contentsline {section}{\numberline {8.9}MOV Reg16,Imed16}{87}
-\contentsline {chapter}{\numberline {9}Considera\c c\~oes Finais}{89}
-\contentsline {chapter}{\numberline {10}Trabalhos Futuros}{90}
-\contentsline {chapter}{Refer\^encias}{91}
-\contentsline {chapter}{\numberline {11}Anexo - C\'odigos}{93}
+\contentsline {chapter}{Dedicat\'oria}{12}
+\contentsline {chapter}{Agradecimentos}{13}
+\contentsline {chapter}{Resumo}{14}
+\contentsline {chapter}{\numberline {1}Introdu\c c\~ao}{15}
+\contentsline {chapter}{\numberline {2}Objetivo}{16}
+\contentsline {chapter}{\numberline {3}Fundamenta\c c\~ao Te\'orica}{17}
+\contentsline {section}{\numberline {3.1}Microprocessadores}{17}
+\contentsline {subsection}{\numberline {3.1.1}Defini\c c\~ao}{17}
+\contentsline {subsection}{\numberline {3.1.2}Funcionamento}{18}
+\contentsline {subsection}{\numberline {3.1.3}Programa de Computador}{19}
+\contentsline {subsection}{\numberline {3.1.4}Registradores}{20}
+\contentsline {subsection}{\numberline {3.1.5}Unidade L\'ogica Aritm\'etica}{21}
+\contentsline {subsection}{\numberline {3.1.6}Unidade de Controle}{22}
+\contentsline {subsubsection}{\numberline {3.1.6.1}Sinais de Controle}{22}
+\contentsline {subsection}{\numberline {3.1.7}Sistema de Barramentos}{23}
+\contentsline {subsection}{\numberline {3.1.8}Dispositivos de Entrada/Sa\IeC {\'\i }da}{24}
+\contentsline {subsection}{\numberline {3.1.9}Arquiteturas}{25}
+\contentsline {subsubsection}{\numberline {3.1.9.1}CISC - Complex Instruction Set Computer}{25}
+\contentsline {subsubsection}{\numberline {3.1.9.2}RISC - Reduced Instruction Set Computer}{26}
+\contentsline {subsubsection}{\numberline {3.1.9.3}Compara\c c\~ao entre RISC e CISC}{27}
+\contentsline {subsection}{\numberline {3.1.10}Mem\'oria Cache}{27}
+\contentsline {subsection}{\numberline {3.1.11}Pipeline}{28}
+\contentsline {subsubsection}{\numberline {3.1.11.1}Defini\c c\~ao}{28}
+\contentsline {subsubsection}{\numberline {3.1.11.2}Desenvolvimento de um conjunto de instru\c c\~ao para o \textit {Pipeline}}{29}
+\contentsline {subsubsection}{\numberline {3.1.11.3}Problemas do \textit {Pipeline}}{30}
+\contentsline {subsection}{\numberline {3.1.12}Processadores Multi-Core e Hyper-Threading}{32}
+\contentsline {section}{\numberline {3.2}Microprocessador 8086/8088}{33}
+\contentsline {subsection}{\numberline {3.2.1}Hist\'oria}{33}
+\contentsline {subsection}{\numberline {3.2.2}Vis\~ao preliminar}{35}
+\contentsline {subsection}{\numberline {3.2.3}Mem\'oria}{37}
+\contentsline {subsection}{\numberline {3.2.4}Arquitetura do microprocessador}{39}
+\contentsline {subsection}{\numberline {3.2.5}Endere\c camento da mem\'oria}{41}
+\contentsline {subsection}{\numberline {3.2.6}Conjunto de registros}{43}
+\contentsline {subsection}{\numberline {3.2.7}Instru\c c\~oes}{45}
+\contentsline {subsubsection}{\numberline {3.2.7.1}Endere\c camento por registro}{46}
+\contentsline {subsubsection}{\numberline {3.2.7.2}Endere\c camento imediato}{46}
+\contentsline {subsubsection}{\numberline {3.2.7.3}Endere\c camento Direto}{46}
+\contentsline {subsubsection}{\numberline {3.2.7.4}Endere\c camento indireto por registro}{47}
+\contentsline {subsubsection}{\numberline {3.2.7.5}Endere\c camento por base}{47}
+\contentsline {subsubsection}{\numberline {3.2.7.6}Endere\c camento Indexado}{47}
+\contentsline {subsubsection}{\numberline {3.2.7.7}Endere\c camento por base indexado}{48}
+\contentsline {section}{\numberline {3.3}VHDL}{48}
+\contentsline {subsection}{\numberline {3.3.1}Biblioteca}{49}
+\contentsline {subsection}{\numberline {3.3.2}Entidade}{49}
+\contentsline {subsection}{\numberline {3.3.3}Arquitetura}{50}
+\contentsline {chapter}{\numberline {4}Desenvolvimento}{52}
+\contentsline {section}{\numberline {4.1}Requisitos de Funcionamento}{52}
+\contentsline {subsection}{\numberline {4.1.1}Software}{52}
+\contentsline {subsection}{\numberline {4.1.2}Hardware}{52}
+\contentsline {subsection}{\numberline {4.1.3}Ferramentas Utilizadas no Projeto}{52}
+\contentsline {section}{\numberline {4.2}Defini\c c\~ao do Conjunto de Instru\c c\~oes}{53}
+\contentsline {subsection}{\numberline {4.2.1}Conjunto de Instru\c c\~oes CISC}{53}
+\contentsline {subsection}{\numberline {4.2.2}Conjunto de Instru\c c\~oes RISC}{54}
+\contentsline {subsection}{\numberline {4.2.3}Instru\c c\~oes Escolhidas}{55}
+\contentsline {subsection}{\numberline {4.2.4}Defini\c c\~ao do Tamanho das Instru\c c\~oes}{58}
+\contentsline {section}{\numberline {4.3}Implementa\c c\~ao em VHDL}{59}
+\contentsline {subsection}{\numberline {4.3.1}Registro de Prop\'osito Geral}{60}
+\contentsline {subsection}{\numberline {4.3.2}Registro de Segmento}{61}
+\contentsline {subsection}{\numberline {4.3.3}Calculadora de Endere\c co}{61}
+\contentsline {subsection}{\numberline {4.3.4}Demultiplexador}{62}
+\contentsline {subsection}{\numberline {4.3.5}Multiplexador}{63}
+\contentsline {subsection}{\numberline {4.3.6}Registro de Flags}{63}
+\contentsline {subsection}{\numberline {4.3.7}Unidade de Controle de Endere\c cos}{64}
+\contentsline {subsubsection}{\numberline {4.3.7.1}Diagrama de Estados}{64}
+\contentsline {subsection}{\numberline {4.3.8}Mem\'oria ROM}{65}
+\contentsline {subsection}{\numberline {4.3.9}Unidade Aritm\'etica e L\'ogica - ULA}{65}
+\contentsline {subsubsection}{\numberline {4.3.9.1}Detector do Flag Auxiliar}{65}
+\contentsline {subsubsection}{\numberline {4.3.9.2}Detector do Flag de Paridade}{66}
+\contentsline {subsubsection}{\numberline {4.3.9.3}Detector do Zero Flag}{66}
+\contentsline {subsection}{\numberline {4.3.10}Unidade de Controle}{67}
+\contentsline {chapter}{\numberline {5}Resultados}{69}
+\contentsline {section}{\numberline {5.1}ADD Reg16,Imed16}{69}
+\contentsline {section}{\numberline {5.2}OR Reg16,Imed16}{78}
+\contentsline {section}{\numberline {5.3}ADC Reg16,Imed16}{80}
+\contentsline {section}{\numberline {5.4}SBB Reg16,Imed16}{82}
+\contentsline {section}{\numberline {5.5}AND Reg16,Imed16}{84}
+\contentsline {section}{\numberline {5.6}SUB Reg16,Imed16}{86}
+\contentsline {section}{\numberline {5.7}XOR Reg16,Imed16}{88}
+\contentsline {section}{\numberline {5.8}CMP Reg16,Imed16}{90}
+\contentsline {section}{\numberline {5.9}MOV Reg16,Imed16}{92}
+\contentsline {chapter}{\numberline {6}Considera\c c\~oes Finais}{94}
+\contentsline {chapter}{\numberline {7}Trabalhos Futuros}{95}
+\contentsline {chapter}{Refer\^encias}{96}
+\contentsline {chapter}{\numberline {8}Anexo - C\'odigos}{98}

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for MicroprocessadorCompleto
-Tue May 06 22:13:40 2014
+Thu Jun 19 11:45:28 2014
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -60,15 +60,15 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue May 06 22:13:40 2014      ;
+; Analysis & Synthesis Status        ; Successful - Thu Jun 19 11:45:28 2014      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; MicroprocessadorCompleto                   ;
 ; Top-level Entity Name              ; MicroprocessadorCompleto                   ;
 ; Family                             ; Cyclone III                                ;
-; Total logic elements               ; 156                                        ;
-;     Total combinational functions  ; 146                                        ;
-;     Dedicated logic registers      ; 125                                        ;
-; Total registers                    ; 125                                        ;
+; Total logic elements               ; 199                                        ;
+;     Total combinational functions  ; 189                                        ;
+;     Dedicated logic registers      ; 144                                        ;
+; Total registers                    ; 144                                        ;
 ; Total pins                         ; 39                                         ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 0                                          ;
@@ -172,37 +172,37 @@ applicable agreement for further details.
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 2           ;
+; Maximum used               ; 1           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ; < 0.1%      ;
-;     Processors 3-8         ;   0.0%      ;
+;     Processors 2-8         ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                     ;
-+------------------------------------------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path                                 ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                                              ; Library ;
-+------------------------------------------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------------------------------------------------------------+---------+
-; ../UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd ;         ;
-; ../UnidadeDeControleDeEnderecos/uce_aux.vhd                      ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/uce_aux.vhd                      ;         ;
-; ../UnidadeDeControle/UnidadeDeControle.vhd                       ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd                       ;         ;
-; ../UnidadeDeControle/uc_aux.vhd                                  ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd                                  ;         ;
-; ../ULA/ULA.vhd                                                   ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/ULA/ULA.vhd                                                   ;         ;
-; ../RegistroSegmento/RegistroSegmento.vhd                         ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/RegistroSegmento/RegistroSegmento.vhd                         ;         ;
-; ../RegistroPropositoGeral/RegistroPropositoGeral.vhd             ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd             ;         ;
-; ../RegistroFlags/RegistroFlags.vhd                               ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd                               ;         ;
-; ../DetectorZeroFlag/DetectorZeroFlag.vhd                         ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlag.vhd                         ;         ;
-; ../DetectorParidade/DetectorParidade.vhd                         ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd                         ;         ;
-; ../DetectorAuxiliarFlag/Subtrator.vhd                            ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Subtrator.vhd                            ;         ;
-; ../DetectorAuxiliarFlag/Somador.vhd                              ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Somador.vhd                              ;         ;
-; ../DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd                 ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd                 ;         ;
-; ../Demultiplexador/Demultiplexador.vhd                           ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd                           ;         ;
-; ../CalculadoraEndereco/CalculadoraEndereco.vhd                   ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd                   ;         ;
-; MicroprocessadorCompleto.vhd                                     ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/TFG8086/micro-risc/CodigoMicroprocessador/MicroprocessadorCompleto/MicroprocessadorCompleto.vhd         ;         ;
-+------------------------------------------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                              ;
++------------------------------------------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                                 ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                                                       ; Library ;
++------------------------------------------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; ../Multiplexador/Multiplexador.vhd                               ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/AjustesFinaisTFG/micro-risc/CodigoMicroprocessador/Multiplexador/Multiplexador.vhd                               ;         ;
+; ../UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/AjustesFinaisTFG/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/UnidadeDeControleDeEnderecos.vhd ;         ;
+; ../UnidadeDeControleDeEnderecos/uce_aux.vhd                      ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/AjustesFinaisTFG/micro-risc/CodigoMicroprocessador/UnidadeDeControleDeEnderecos/uce_aux.vhd                      ;         ;
+; ../UnidadeDeControle/UnidadeDeControle.vhd                       ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/AjustesFinaisTFG/micro-risc/CodigoMicroprocessador/UnidadeDeControle/UnidadeDeControle.vhd                       ;         ;
+; ../UnidadeDeControle/uc_aux.vhd                                  ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/AjustesFinaisTFG/micro-risc/CodigoMicroprocessador/UnidadeDeControle/uc_aux.vhd                                  ;         ;
+; ../ULA/ULA.vhd                                                   ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/AjustesFinaisTFG/micro-risc/CodigoMicroprocessador/ULA/ULA.vhd                                                   ;         ;
+; ../RegistroSegmento/RegistroSegmento.vhd                         ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/AjustesFinaisTFG/micro-risc/CodigoMicroprocessador/RegistroSegmento/RegistroSegmento.vhd                         ;         ;
+; ../RegistroPropositoGeral/RegistroPropositoGeral.vhd             ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/AjustesFinaisTFG/micro-risc/CodigoMicroprocessador/RegistroPropositoGeral/RegistroPropositoGeral.vhd             ;         ;
+; ../RegistroFlags/RegistroFlags.vhd                               ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/AjustesFinaisTFG/micro-risc/CodigoMicroprocessador/RegistroFlags/RegistroFlags.vhd                               ;         ;
+; ../DetectorZeroFlag/DetectorZeroFlag.vhd                         ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/AjustesFinaisTFG/micro-risc/CodigoMicroprocessador/DetectorZeroFlag/DetectorZeroFlag.vhd                         ;         ;
+; ../DetectorParidade/DetectorParidade.vhd                         ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/AjustesFinaisTFG/micro-risc/CodigoMicroprocessador/DetectorParidade/DetectorParidade.vhd                         ;         ;
+; ../DetectorAuxiliarFlag/Subtrator.vhd                            ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/AjustesFinaisTFG/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Subtrator.vhd                            ;         ;
+; ../DetectorAuxiliarFlag/Somador.vhd                              ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/AjustesFinaisTFG/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/Somador.vhd                              ;         ;
+; ../DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd                 ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/AjustesFinaisTFG/micro-risc/CodigoMicroprocessador/DetectorAuxiliarFlag/DetectorAuxiliarFlag.vhd                 ;         ;
+; ../Demultiplexador/Demultiplexador.vhd                           ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/AjustesFinaisTFG/micro-risc/CodigoMicroprocessador/Demultiplexador/Demultiplexador.vhd                           ;         ;
+; ../CalculadoraEndereco/CalculadoraEndereco.vhd                   ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/AjustesFinaisTFG/micro-risc/CodigoMicroprocessador/CalculadoraEndereco/CalculadoraEndereco.vhd                   ;         ;
+; MicroprocessadorCompleto.vhd                                     ; yes             ; User VHDL File  ; C:/Users/silvadenisaraujo/Desktop/AjustesFinaisTFG/micro-risc/CodigoMicroprocessador/MicroprocessadorCompleto/MicroprocessadorCompleto.vhd         ;         ;
++------------------------------------------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -210,28 +210,28 @@ applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 156       ;
+; Estimated Total logic elements              ; 199       ;
 ;                                             ;           ;
-; Total combinational functions               ; 146       ;
+; Total combinational functions               ; 189       ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 18        ;
-;     -- 3 input functions                    ; 84        ;
-;     -- <=2 input functions                  ; 44        ;
+;     -- 4 input functions                    ; 22        ;
+;     -- 3 input functions                    ; 85        ;
+;     -- <=2 input functions                  ; 82        ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 116       ;
-;     -- arithmetic mode                      ; 30        ;
+;     -- normal mode                          ; 128       ;
+;     -- arithmetic mode                      ; 61        ;
 ;                                             ;           ;
-; Total registers                             ; 125       ;
-;     -- Dedicated logic registers            ; 125       ;
+; Total registers                             ; 144       ;
+;     -- Dedicated logic registers            ; 144       ;
 ;     -- I/O registers                        ; 0         ;
 ;                                             ;           ;
 ; I/O pins                                    ; 39        ;
 ; Embedded Multiplier 9-bit elements          ; 0         ;
 ; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 125       ;
-; Total fan-out                               ; 862       ;
-; Average fan-out                             ; 2.47      ;
+; Maximum fan-out                             ; 144       ;
+; Total fan-out                               ; 1013      ;
+; Average fan-out                             ; 2.46      ;
 +---------------------------------------------+-----------+
 
 
@@ -240,12 +240,12 @@ applicable agreement for further details.
 +---------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node            ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                        ; Library Name ;
 +---------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------+--------------+
-; |MicroprocessadorCompleto             ; 146 (0)           ; 125 (0)      ; 0           ; 0            ; 0       ; 0         ; 39   ; 0            ; |MicroprocessadorCompleto                                  ; work         ;
+; |MicroprocessadorCompleto             ; 189 (0)           ; 144 (0)      ; 0           ; 0            ; 0       ; 0         ; 39   ; 0            ; |MicroprocessadorCompleto                                  ; work         ;
 ;    |CalculadoraEndereco:Calc|         ; 36 (36)           ; 52 (52)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MicroprocessadorCompleto|CalculadoraEndereco:Calc         ; work         ;
 ;    |Demultiplexador:D1|               ; 13 (13)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MicroprocessadorCompleto|Demultiplexador:D1               ; work         ;
 ;    |Demultiplexador:D2|               ; 32 (32)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MicroprocessadorCompleto|Demultiplexador:D2               ; work         ;
 ;    |RegistroSegmento:RegS|            ; 33 (33)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MicroprocessadorCompleto|RegistroSegmento:RegS            ; work         ;
-;    |UnidadeDeControle:UC|             ; 23 (23)           ; 28 (28)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MicroprocessadorCompleto|UnidadeDeControle:UC             ; work         ;
+;    |UnidadeDeControle:UC|             ; 66 (66)           ; 47 (47)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MicroprocessadorCompleto|UnidadeDeControle:UC             ; work         ;
 ;    |UnidadeDeControleDeEnderecos:UCE| ; 9 (9)             ; 13 (13)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MicroprocessadorCompleto|UnidadeDeControleDeEnderecos:UCE ; work         ;
 +---------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
@@ -267,27 +267,28 @@ Encoding Type:  One-Hot
 
 
 Encoding Type:  One-Hot
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; State Machine - |MicroprocessadorCompleto|UnidadeDeControle:UC|Estado                                                                                                                                                                                                                                                                                   ;
-+-----------------------+--------------------+-----------------------+----------------------+---------------------+-----------------------+-----------------------+-----------------------+-----------------------+----------------------+-------------+-----------------------+-----------------------+--------------------+--------------+--------------+
-; Name                  ; Estado.Move_To_Reg ; Estado.Compara_Reg_16 ; Estado.ResultRegImed ; Estado.FimInstrucao ; Estado.Xor_regImed_16 ; Estado.And_regImed_16 ; Estado.Sbb_regImed_16 ; Estado.Adc_regImed_16 ; Estado.Or_regImed_16 ; Estado.Erro ; Estado.Sub_regImed_16 ; Estado.Add_regImed_16 ; Estado.OpRegImed16 ; Estado.Fetch ; Estado.Busca ;
-+-----------------------+--------------------+-----------------------+----------------------+---------------------+-----------------------+-----------------------+-----------------------+-----------------------+----------------------+-------------+-----------------------+-----------------------+--------------------+--------------+--------------+
-; Estado.Busca          ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 0            ;
-; Estado.Fetch          ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 1            ; 1            ;
-; Estado.OpRegImed16    ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 1                  ; 0            ; 1            ;
-; Estado.Add_regImed_16 ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 1                     ; 0                  ; 0            ; 1            ;
-; Estado.Sub_regImed_16 ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 1                     ; 0                     ; 0                  ; 0            ; 1            ;
-; Estado.Erro           ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 1           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
-; Estado.Or_regImed_16  ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 1                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
-; Estado.Adc_regImed_16 ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 1                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
-; Estado.Sbb_regImed_16 ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 1                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
-; Estado.And_regImed_16 ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 1                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
-; Estado.Xor_regImed_16 ; 0                  ; 0                     ; 0                    ; 0                   ; 1                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
-; Estado.FimInstrucao   ; 0                  ; 0                     ; 0                    ; 1                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
-; Estado.ResultRegImed  ; 0                  ; 0                     ; 1                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
-; Estado.Compara_Reg_16 ; 0                  ; 1                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
-; Estado.Move_To_Reg    ; 1                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
-+-----------------------+--------------------+-----------------------+----------------------+---------------------+-----------------------+-----------------------+-----------------------+-----------------------+----------------------+-------------+-----------------------+-----------------------+--------------------+--------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |MicroprocessadorCompleto|UnidadeDeControle:UC|Estado                                                                                                                                                                                                                                                                                                             ;
++------------------------+------------------------+--------------------+-----------------------+----------------------+---------------------+-----------------------+-----------------------+-----------------------+-----------------------+----------------------+-------------+-----------------------+-----------------------+--------------------+--------------+--------------+
+; Name                   ; Estado.Fim_Move_To_Reg ; Estado.Move_To_Reg ; Estado.Compara_Reg_16 ; Estado.ResultRegImed ; Estado.FimInstrucao ; Estado.Xor_regImed_16 ; Estado.And_regImed_16 ; Estado.Sbb_regImed_16 ; Estado.Adc_regImed_16 ; Estado.Or_regImed_16 ; Estado.Erro ; Estado.Sub_regImed_16 ; Estado.Add_regImed_16 ; Estado.OpRegImed16 ; Estado.Fetch ; Estado.Busca ;
++------------------------+------------------------+--------------------+-----------------------+----------------------+---------------------+-----------------------+-----------------------+-----------------------+-----------------------+----------------------+-------------+-----------------------+-----------------------+--------------------+--------------+--------------+
+; Estado.Busca           ; 0                      ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 0            ;
+; Estado.Fetch           ; 0                      ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 1            ; 1            ;
+; Estado.OpRegImed16     ; 0                      ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 1                  ; 0            ; 1            ;
+; Estado.Add_regImed_16  ; 0                      ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 1                     ; 0                  ; 0            ; 1            ;
+; Estado.Sub_regImed_16  ; 0                      ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 1                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.Erro            ; 0                      ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 1           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.Or_regImed_16   ; 0                      ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 1                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.Adc_regImed_16  ; 0                      ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 1                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.Sbb_regImed_16  ; 0                      ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 1                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.And_regImed_16  ; 0                      ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 1                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.Xor_regImed_16  ; 0                      ; 0                  ; 0                     ; 0                    ; 0                   ; 1                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.FimInstrucao    ; 0                      ; 0                  ; 0                     ; 0                    ; 1                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.ResultRegImed   ; 0                      ; 0                  ; 0                     ; 1                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.Compara_Reg_16  ; 0                      ; 0                  ; 1                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.Move_To_Reg     ; 0                      ; 1                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
+; Estado.Fim_Move_To_Reg ; 1                      ; 0                  ; 0                     ; 0                    ; 0                   ; 0                     ; 0                     ; 0                     ; 0                     ; 0                    ; 0           ; 0                     ; 0                     ; 0                  ; 0            ; 1            ;
++------------------------+------------------------+--------------------+-----------------------+----------------------+---------------------+-----------------------+-----------------------+-----------------------+-----------------------+----------------------+-------------+-----------------------+-----------------------+--------------------+--------------+--------------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------+
@@ -347,19 +348,19 @@ Encoding Type:  One-Hot
 ; Demultiplexador:D2|saida_01[13]                     ; UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0 ; yes                    ;
 ; Demultiplexador:D2|saida_01[14]                     ; UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0 ; yes                    ;
 ; Demultiplexador:D2|saida_01[15]                     ; UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0 ; yes                    ;
-; Demultiplexador:D1|saida_02[15]                     ; UnidadeDeControle:UC|ctrlDemuxData                  ; yes                    ;
-; Demultiplexador:D1|saida_02[14]                     ; UnidadeDeControle:UC|ctrlDemuxData                  ; yes                    ;
-; Demultiplexador:D1|saida_02[13]                     ; UnidadeDeControle:UC|ctrlDemuxData                  ; yes                    ;
-; Demultiplexador:D1|saida_02[12]                     ; UnidadeDeControle:UC|ctrlDemuxData                  ; yes                    ;
 ; Demultiplexador:D1|saida_02[11]                     ; UnidadeDeControle:UC|ctrlDemuxData                  ; yes                    ;
-; Demultiplexador:D1|saida_02[10]                     ; UnidadeDeControle:UC|ctrlDemuxData                  ; yes                    ;
-; Demultiplexador:D1|saida_02[9]                      ; UnidadeDeControle:UC|ctrlDemuxData                  ; yes                    ;
+; Demultiplexador:D1|saida_02[12]                     ; UnidadeDeControle:UC|ctrlDemuxData                  ; yes                    ;
+; Demultiplexador:D1|saida_02[13]                     ; UnidadeDeControle:UC|ctrlDemuxData                  ; yes                    ;
+; Demultiplexador:D1|saida_02[14]                     ; UnidadeDeControle:UC|ctrlDemuxData                  ; yes                    ;
 ; Demultiplexador:D1|saida_02[8]                      ; UnidadeDeControle:UC|ctrlDemuxData                  ; yes                    ;
+; Demultiplexador:D1|saida_02[9]                      ; UnidadeDeControle:UC|ctrlDemuxData                  ; yes                    ;
+; Demultiplexador:D1|saida_02[10]                     ; UnidadeDeControle:UC|ctrlDemuxData                  ; yes                    ;
+; Demultiplexador:D1|saida_02[15]                     ; UnidadeDeControle:UC|ctrlDemuxData                  ; yes                    ;
 ; Demultiplexador:D1|saida_02[7]                      ; UnidadeDeControle:UC|ctrlDemuxData                  ; yes                    ;
-; Demultiplexador:D1|saida_02[6]                      ; UnidadeDeControle:UC|ctrlDemuxData                  ; yes                    ;
-; Demultiplexador:D1|saida_02[5]                      ; UnidadeDeControle:UC|ctrlDemuxData                  ; yes                    ;
-; Demultiplexador:D1|saida_02[4]                      ; UnidadeDeControle:UC|ctrlDemuxData                  ; yes                    ;
 ; Demultiplexador:D1|saida_02[3]                      ; UnidadeDeControle:UC|ctrlDemuxData                  ; yes                    ;
+; Demultiplexador:D1|saida_02[4]                      ; UnidadeDeControle:UC|ctrlDemuxData                  ; yes                    ;
+; Demultiplexador:D1|saida_02[5]                      ; UnidadeDeControle:UC|ctrlDemuxData                  ; yes                    ;
+; Demultiplexador:D1|saida_02[6]                      ; UnidadeDeControle:UC|ctrlDemuxData                  ; yes                    ;
 ; Number of user-specified and inferred latches = 65  ;                                                     ;                        ;
 +-----------------------------------------------------+-----------------------------------------------------+------------------------+
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
@@ -513,9 +514,15 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; RegistroSegmento:RegS|CS[0..15]                     ; Stuck at GND due to stuck port clock_enable                     ;
 ; UnidadeDeControleDeEnderecos:UCE|habSaidaEnd        ; Merged with UnidadeDeControleDeEnderecos:UCE|habMemoria         ;
 ; UnidadeDeControleDeEnderecos:UCE|selecSeg~reg0      ; Merged with UnidadeDeControleDeEnderecos:UCE|ctrlRegSeg[0]~reg0 ;
-; UnidadeDeControle:UC|Estado.Move_To_Reg             ; Merged with UnidadeDeControle:UC|Estado.Compara_Reg_16          ;
-; UnidadeDeControle:UC|Estado.Compara_Reg_16          ; Stuck at GND due to stuck port data_in                          ;
-; Total Number of Removed Registers = 181             ;                                                                 ;
+; UnidadeDeControle:UC|Estado.Add_regImed_16          ; Lost fanout                                                     ;
+; UnidadeDeControle:UC|Estado.Sub_regImed_16          ; Lost fanout                                                     ;
+; UnidadeDeControle:UC|Estado.Or_regImed_16           ; Lost fanout                                                     ;
+; UnidadeDeControle:UC|Estado.Adc_regImed_16          ; Lost fanout                                                     ;
+; UnidadeDeControle:UC|Estado.Sbb_regImed_16          ; Lost fanout                                                     ;
+; UnidadeDeControle:UC|Estado.And_regImed_16          ; Lost fanout                                                     ;
+; UnidadeDeControle:UC|Estado.Xor_regImed_16          ; Lost fanout                                                     ;
+; UnidadeDeControle:UC|Estado.Compara_Reg_16          ; Lost fanout                                                     ;
+; Total Number of Removed Registers = 187             ;                                                                 ;
 +-----------------------------------------------------+-----------------------------------------------------------------+
 
 
@@ -555,12 +562,12 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 125   ;
+; Total registers                              ; 144   ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 44    ;
+; Number of registers using Asynchronous Clear ; 39    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 99    ;
+; Number of registers using Clock Enable       ; 123   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -576,13 +583,14 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------------------------------+---------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                   ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                         ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------+
-; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |MicroprocessadorCompleto|RegistroSegmento:RegS|saidaDados[0]~reg0 ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                            ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                  ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------+
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |MicroprocessadorCompleto|UnidadeDeControle:UC|\borda_descida:contClock[25] ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |MicroprocessadorCompleto|RegistroSegmento:RegS|saidaDados[14]~reg0         ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------+
 
 
 +---------------------------------------------------+
@@ -703,7 +711,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -713,50 +721,53 @@ Note: All latches listed above may not be present at the end of synthesis due to
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Tue May 06 22:13:38 2014
+    Info: Processing started: Thu Jun 19 11:45:17 2014
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MicroprocessadorCompleto -c MicroprocessadorCompleto
 Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
-Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/tfg8086/micro-risc/codigomicroprocessador/unidadedecontroledeenderecos/unidadedecontroledeenderecos.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/ajustesfinaistfg/micro-risc/codigomicroprocessador/multiplexador/multiplexador.vhd
+    Info (12022): Found design unit 1: Multiplexador-ArquiteturaMux
+    Info (12023): Found entity 1: Multiplexador
+Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/ajustesfinaistfg/micro-risc/codigomicroprocessador/unidadedecontroledeenderecos/unidadedecontroledeenderecos.vhd
     Info (12022): Found design unit 1: UnidadeDeControleDeEnderecos-Arquitetura
     Info (12023): Found entity 1: UnidadeDeControleDeEnderecos
-Info (12021): Found 1 design units, including 0 entities, in source file /users/silvadenisaraujo/desktop/tfg8086/micro-risc/codigomicroprocessador/unidadedecontroledeenderecos/uce_aux.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/silvadenisaraujo/desktop/ajustesfinaistfg/micro-risc/codigomicroprocessador/unidadedecontroledeenderecos/uce_aux.vhd
     Info (12022): Found design unit 1: uce_aux
-Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/tfg8086/micro-risc/codigomicroprocessador/unidadedecontrole/unidadedecontrole.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/ajustesfinaistfg/micro-risc/codigomicroprocessador/unidadedecontrole/unidadedecontrole.vhd
     Info (12022): Found design unit 1: UnidadeDeControle-Arquitetura
     Info (12023): Found entity 1: UnidadeDeControle
-Info (12021): Found 1 design units, including 0 entities, in source file /users/silvadenisaraujo/desktop/tfg8086/micro-risc/codigomicroprocessador/unidadedecontrole/uc_aux.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/silvadenisaraujo/desktop/ajustesfinaistfg/micro-risc/codigomicroprocessador/unidadedecontrole/uc_aux.vhd
     Info (12022): Found design unit 1: uc_aux
-Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/tfg8086/micro-risc/codigomicroprocessador/ula/ula.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/ajustesfinaistfg/micro-risc/codigomicroprocessador/ula/ula.vhd
     Info (12022): Found design unit 1: ULA-arquiteturaULA
     Info (12023): Found entity 1: ULA
-Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/tfg8086/micro-risc/codigomicroprocessador/registrosegmento/registrosegmento.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/ajustesfinaistfg/micro-risc/codigomicroprocessador/registrosegmento/registrosegmento.vhd
     Info (12022): Found design unit 1: RegistroSegmento-ArquiteturaRS
     Info (12023): Found entity 1: RegistroSegmento
-Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/tfg8086/micro-risc/codigomicroprocessador/registropropositogeral/registropropositogeral.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/ajustesfinaistfg/micro-risc/codigomicroprocessador/registropropositogeral/registropropositogeral.vhd
     Info (12022): Found design unit 1: RegistroPropositoGeral-ArquiteturaRPG
     Info (12023): Found entity 1: RegistroPropositoGeral
-Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/tfg8086/micro-risc/codigomicroprocessador/registroflags/registroflags.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/ajustesfinaistfg/micro-risc/codigomicroprocessador/registroflags/registroflags.vhd
     Info (12022): Found design unit 1: RegistroFlags-ArquiteturaRF
     Info (12023): Found entity 1: RegistroFlags
-Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/tfg8086/micro-risc/codigomicroprocessador/detectorzeroflag/detectorzeroflag.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/ajustesfinaistfg/micro-risc/codigomicroprocessador/detectorzeroflag/detectorzeroflag.vhd
     Info (12022): Found design unit 1: DetectorZeroFlag-ArquiteturaDZF
     Info (12023): Found entity 1: DetectorZeroFlag
-Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/tfg8086/micro-risc/codigomicroprocessador/detectorparidade/detectorparidade.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/ajustesfinaistfg/micro-risc/codigomicroprocessador/detectorparidade/detectorparidade.vhd
     Info (12022): Found design unit 1: DetectorParidade-ArquiteturaDP
     Info (12023): Found entity 1: DetectorParidade
-Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/tfg8086/micro-risc/codigomicroprocessador/detectorauxiliarflag/subtrator.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/ajustesfinaistfg/micro-risc/codigomicroprocessador/detectorauxiliarflag/subtrator.vhd
     Info (12022): Found design unit 1: Subtrator-ArquiteturaSubtrator
     Info (12023): Found entity 1: Subtrator
-Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/tfg8086/micro-risc/codigomicroprocessador/detectorauxiliarflag/somador.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/ajustesfinaistfg/micro-risc/codigomicroprocessador/detectorauxiliarflag/somador.vhd
     Info (12022): Found design unit 1: Somador-ArquiteturaSomador
     Info (12023): Found entity 1: Somador
-Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/tfg8086/micro-risc/codigomicroprocessador/detectorauxiliarflag/detectorauxiliarflag.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/ajustesfinaistfg/micro-risc/codigomicroprocessador/detectorauxiliarflag/detectorauxiliarflag.vhd
     Info (12022): Found design unit 1: DetectorAuxiliarFlag-ArquiteturaDAF
     Info (12023): Found entity 1: DetectorAuxiliarFlag
-Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/tfg8086/micro-risc/codigomicroprocessador/demultiplexador/demultiplexador.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/ajustesfinaistfg/micro-risc/codigomicroprocessador/demultiplexador/demultiplexador.vhd
     Info (12022): Found design unit 1: Demultiplexador-ArquiteturaDemux
     Info (12023): Found entity 1: Demultiplexador
-Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/tfg8086/micro-risc/codigomicroprocessador/calculadoraendereco/calculadoraendereco.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /users/silvadenisaraujo/desktop/ajustesfinaistfg/micro-risc/codigomicroprocessador/calculadoraendereco/calculadoraendereco.vhd
     Info (12022): Found design unit 1: CalculadoraEndereco-rtl
     Info (12023): Found entity 1: CalculadoraEndereco
 Info (12021): Found 2 design units, including 1 entities, in source file microprocessadorcompleto.vhd
@@ -767,8 +778,6 @@ Info (12021): Found 2 design units, including 1 entities, in source file micropr
     Info (12023): Found entity 1: MicroprocessadorCompletoTB
 Info (12127): Elaborating entity "MicroprocessadorCompleto" for the top level hierarchy
 Info (12128): Elaborating entity "Demultiplexador" for hierarchy "Demultiplexador:D1"
-Warning (10492): VHDL Process Statement warning at Demultiplexador.vhd(25): signal "entrada" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at Demultiplexador.vhd(27): signal "entrada" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Warning (10631): VHDL Process Statement warning at Demultiplexador.vhd(22): inferring latch(es) for signal or variable "saida_01", which holds its previous value in one or more paths through the process
 Warning (10631): VHDL Process Statement warning at Demultiplexador.vhd(22): inferring latch(es) for signal or variable "saida_02", which holds its previous value in one or more paths through the process
 Info (10041): Inferred latch for "saida_02[0]" at Demultiplexador.vhd(22)
@@ -805,18 +814,21 @@ Info (10041): Inferred latch for "saida_01[14]" at Demultiplexador.vhd(22)
 Info (10041): Inferred latch for "saida_01[15]" at Demultiplexador.vhd(22)
 Info (12128): Elaborating entity "UnidadeDeControle" for hierarchy "UnidadeDeControle:UC"
 Info (12128): Elaborating entity "ULA" for hierarchy "ULA:UnidadeLogicaArit"
-Warning (10036): Verilog HDL or VHDL warning at ULA.vhd(42): object "reg" assigned a value but never read
-Warning (10492): VHDL Process Statement warning at ULA.vhd(74): signal "habilitaULA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10631): VHDL Process Statement warning at ULA.vhd(72): inferring latch(es) for signal or variable "enum_op", which holds its previous value in one or more paths through the process
-Warning (10492): VHDL Process Statement warning at ULA.vhd(91): signal "habilitaULA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Info (10041): Inferred latch for "enum_op.op_a_comp_b" at ULA.vhd(72)
-Info (10041): Inferred latch for "enum_op.op_nop" at ULA.vhd(72)
-Info (10041): Inferred latch for "enum_op.op_a_xor_b" at ULA.vhd(72)
-Info (10041): Inferred latch for "enum_op.op_sub" at ULA.vhd(72)
-Info (10041): Inferred latch for "enum_op.op_subCarry" at ULA.vhd(72)
-Info (10041): Inferred latch for "enum_op.op_addCarry" at ULA.vhd(72)
-Info (10041): Inferred latch for "enum_op.op_a_or_b" at ULA.vhd(72)
-Info (10041): Inferred latch for "enum_op.op_add" at ULA.vhd(72)
+Warning (10036): Verilog HDL or VHDL warning at ULA.vhd(43): object "reg" assigned a value but never read
+Warning (10492): VHDL Process Statement warning at ULA.vhd(76): signal "habilitaULA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10631): VHDL Process Statement warning at ULA.vhd(74): inferring latch(es) for signal or variable "regCarryIn", which holds its previous value in one or more paths through the process
+Warning (10631): VHDL Process Statement warning at ULA.vhd(74): inferring latch(es) for signal or variable "enum_op", which holds its previous value in one or more paths through the process
+Warning (10492): VHDL Process Statement warning at ULA.vhd(95): signal "habilitaULA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Info (10041): Inferred latch for "enum_op.op_a_comp_b" at ULA.vhd(74)
+Info (10041): Inferred latch for "enum_op.op_nop" at ULA.vhd(74)
+Info (10041): Inferred latch for "enum_op.op_a_xor_b" at ULA.vhd(74)
+Info (10041): Inferred latch for "enum_op.op_sub" at ULA.vhd(74)
+Info (10041): Inferred latch for "enum_op.op_subCarry" at ULA.vhd(74)
+Info (10041): Inferred latch for "enum_op.op_addCarry" at ULA.vhd(74)
+Info (10041): Inferred latch for "enum_op.op_a_and_b" at ULA.vhd(74)
+Info (10041): Inferred latch for "enum_op.op_a_or_b" at ULA.vhd(74)
+Info (10041): Inferred latch for "enum_op.op_add" at ULA.vhd(74)
+Info (10041): Inferred latch for "regCarryIn" at ULA.vhd(74)
 Info (12128): Elaborating entity "DetectorParidade" for hierarchy "ULA:UnidadeLogicaArit|DetectorParidade:dParidade"
 Info (12128): Elaborating entity "DetectorAuxiliarFlag" for hierarchy "ULA:UnidadeLogicaArit|DetectorAuxiliarFlag:dAuxiliarFlag"
 Warning (10036): Verilog HDL or VHDL warning at DetectorAuxiliarFlag.vhd(51): object "c4" assigned a value but never read
@@ -834,6 +846,7 @@ Warning (10036): Verilog HDL or VHDL warning at DetectorAuxiliarFlag.vhd(54): ob
 Info (12128): Elaborating entity "Somador" for hierarchy "ULA:UnidadeLogicaArit|DetectorAuxiliarFlag:dAuxiliarFlag|Somador:Add0"
 Info (12128): Elaborating entity "Subtrator" for hierarchy "ULA:UnidadeLogicaArit|DetectorAuxiliarFlag:dAuxiliarFlag|Subtrator:Sub0"
 Info (12128): Elaborating entity "DetectorZeroFlag" for hierarchy "ULA:UnidadeLogicaArit|DetectorZeroFlag:dZeroFlag"
+Info (12128): Elaborating entity "Multiplexador" for hierarchy "Multiplexador:Mux"
 Info (12128): Elaborating entity "RegistroPropositoGeral" for hierarchy "RegistroPropositoGeral:RegistroDados"
 Warning (10492): VHDL Process Statement warning at RegistroPropositoGeral.vhd(41): signal "leitura_Escrita" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Warning (10492): VHDL Process Statement warning at RegistroPropositoGeral.vhd(41): signal "habilita" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
@@ -984,21 +997,21 @@ Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
 Info (13000): Registers with preset signals will power-up high
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Info (286030): Timing-Driven Synthesis is running
-Info (17049): 135 registers lost all their fanouts during netlist optimizations.
+Info (17049): 143 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 3 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "data[0]"
     Warning (15610): No output dependent on input pin "data[1]"
     Warning (15610): No output dependent on input pin "data[2]"
-Info (21057): Implemented 240 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 276 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 18 input pins
     Info (21059): Implemented 21 output pins
-    Info (21061): Implemented 201 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 138 warnings
-    Info: Peak virtual memory: 540 megabytes
-    Info: Processing ended: Tue May 06 22:13:40 2014
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:03
+    Info (21061): Implemented 237 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 137 warnings
+    Info: Peak virtual memory: 535 megabytes
+    Info: Processing ended: Thu Jun 19 11:45:28 2014
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:09
 
 

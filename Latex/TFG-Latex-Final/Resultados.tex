@@ -3,9 +3,8 @@ O processador implementado foi testado da seguinte maneira, foi criado um arquiv
 Nas próximas seções, serão detalhadas todas as instruções implementadas, uma a uma com o seu devido resultado do \textit{testbench}.
 
 Temos na Figura \ref{FigTestes}, a visão RTL da estrutura de simulação que é a conexão de uma memória ROM que possui o código a ser executado e o microprocessador.
-
 	\begin{figure} \centering
-		\includegraphics[scale=0.4]{imagensResultados/estruturaTesteMicroROM.png}
+		\includegraphics[scale=0.35]{imagensResultados/estruturaTesteMicroROM.png}
 		\caption{Visão RTL da estrutura de testes}
 		\label{FigTestes}
 	\end{figure}
@@ -13,10 +12,57 @@ Temos na Figura \ref{FigTestes}, a visão RTL da estrutura de simulação que é a c
 Temos na Figura \ref{FigMicroFinal}, a visão RTL da estrutura do microprocessador completo, com todas as estruturas e ligações necessárias para o perfeito funcionamento.
 
 \begin{figure} \centering
-		\includegraphics[scale=0.65]{imagensResultados/RTLFinal.png}
+		\includegraphics[scale=0.65]{imagensResultados/microRISCFinalRTL.png}
 		\caption{Visão RTL do microprocessador com todas estruturas corretas e funcionais}
 		\label{FigMicroFinal}
 	\end{figure}
+\begin{figure} \centering
+		\includegraphics[scale=0.65]{imagensResultados/focoMux.png}
+		\caption{Visão RTL do microprocessador com foco no Multiplexador}
+		\label{FigMicroFinal}
+	\end{figure}
+\begin{figure} \centering
+		\includegraphics[scale=0.65]{imagensResultados/focoDemux.png}
+		\caption{Visão RTL do microprocessador com foco no Demultiplexador}
+		\label{FigMicroFinal}
+	\end{figure}
+\begin{figure} \centering
+		\includegraphics[scale=0.65]{imagensResultados/focoRegDados.png}
+		\caption{Visão RTL do microprocessador com foco no Registro de Dados}
+		\label{FigMicroFinal}
+	\end{figure}
+\begin{figure} \centering
+		\includegraphics[scale=0.65]{imagensResultados/focoULA.png}
+		\caption{Visão RTL do microprocessador com foco na Unidade Lógica Aritmética}
+		\label{FigMicroFinal}
+	\end{figure}
+\begin{figure} \centering
+		\includegraphics[scale=0.65]{imagensResultados/focoFlags.png}
+		\caption{Visão RTL do microprocessador com foco no Registro de Flags}
+		\label{FigMicroFinal}
+	\end{figure}
+\begin{figure} \centering
+		\includegraphics[scale=0.65]{imagensResultados/focoUC.png}
+		\caption{Visão RTL do microprocessador com foco na Unidade de Controle}
+		\label{FigMicroFinal}
+	\end{figure}
+\begin{figure} \centering
+		\includegraphics[scale=0.65]{imagensResultados/focoUCE.png}
+		\caption{Visão RTL do microprocessador com foco na Unidade de Controle de Endereço}
+		\label{FigMicroFinal}
+	\end{figure}
+\begin{figure} \centering
+		\includegraphics[scale=0.65]{imagensResultados/focoRegSeg.png}
+		\caption{Visão RTL do microprocessador com foco no Registro de Segmento}
+		\label{FigMicroFinal}
+	\end{figure}
+\begin{figure} \centering
+		\includegraphics[scale=0.65]{imagensResultados/focoCalc.png}
+		\caption{Visão RTL do microprocessador com foco na Calculadora de Endereço}
+		\label{FigMicroFinal}
+	\end{figure}
+	
+
 
 \section{ADD Reg16,Imed16}
 Esta instrução adiciona ao valor do registro um valor imediato de 16 bits, a instrução de teste em hexadecimal é definida como \textbf{81C0 00FF} onde 81C0h é o opcode da instrução e 00FFh é o valor imediato a ser somado no registro AX, por utilizar R/M igual a 000 como vimos anteriormente. Temos na figura \ref{FigResultAdd} o resultado da simulação.

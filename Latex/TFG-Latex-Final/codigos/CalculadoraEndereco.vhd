@@ -21,7 +21,7 @@ end entity;
 
 architecture rtl of CalculadoraEndereco is
 
-	--Declaração dos registros
+	--Declaracao dos registros
 	signal regS,regI,regResult : std_logic_vector(19 downto 0) := (others => '0');
 
 begin

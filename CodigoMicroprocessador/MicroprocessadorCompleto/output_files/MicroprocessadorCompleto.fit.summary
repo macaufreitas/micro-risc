@@ -1,14 +1,14 @@
-Fitter Status : Successful - Tue May 06 22:13:49 2014
+Fitter Status : Successful - Thu Jun 19 11:46:03 2014
 Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Web Edition
 Revision Name : MicroprocessadorCompleto
 Top-level Entity Name : MicroprocessadorCompleto
 Family : Cyclone III
 Device : EP3C5F256C6
 Timing Models : Final
-Total logic elements : 156 / 5,136 ( 3 % )
-    Total combinational functions : 146 / 5,136 ( 3 % )
-    Dedicated logic registers : 125 / 5,136 ( 2 % )
-Total registers : 125
+Total logic elements : 204 / 5,136 ( 4 % )
+    Total combinational functions : 189 / 5,136 ( 4 % )
+    Dedicated logic registers : 144 / 5,136 ( 3 % )
+Total registers : 144
 Total pins : 39 / 183 ( 21 % )
 Total virtual pins : 0
 Total memory bits : 0 / 423,936 ( 0 % )
