@@ -78,15 +78,9 @@
 
 	Realizando um pararelo entre os dois tipos possíveis de conjunto de instruções, o microprocessador em desenvolvimento implementará instruções semelhantes ao conjunto do Microprocessador MIPS, que possui um conjunto de instruções bem reduzido, somente com 50 instruções e todos opcodes com o tamanho fixo de 6 bits. Essas instruções elas subdividas em somente 3 tipos, que são: I,J e R. Sendo o tipo I, as operações de registro - imediato, as instruções J, que são os jumps e as instruções R, que são as instruções registro-registro.
 
-<<<<<<< HEAD
-	"O design do conjunto de instruções deve ter vários objetivos, sendo o mais óbvio e útil o desempenho do microprocessador."\cite{ArtigoVLSI}.
-
-	Neste momento a preocupação é desenvolver um microprocessador que tenha um funcionamento básico e muito explí­cito, pois o foco deste trabalho não é desenvolver uma tecnologia nova, porém compreender profundamente o desenvolvimento da arquitetura e dos componentes de um microprocessador.
-=======
-	``O design do conjunto de instruções deve ter vários objetivos, sendo o mais óbvio e útil a performance do microprocessador.'' \cite{ArtigoVLSI}.
+	"O design do conjunto de instruções deve ter vários objetivos, sendo o mais óbvio e útil a performance do microprocessador." \cite{ArtigoVLSI}.
 
 	Neste momento a preocupação é desenvolver um microprocessador que tenha um funcionamento básico e muito explí­cito, pois o foco deste trabalho não é desenvolver uma tecnologia nova, porém compreender profundamente o desenvolvimento da arquitetura e dos componentes de um microprocessador e lembrando que, as máquinas RISC só se tornaram viáveis devido aos avanços de software no aparecimento de compiladores otimizados. \cite{ArtigoRisc}.
->>>>>>> 112ec0c236781d61b6269aa294dbe38dbed68a9f
 
 	Para adequar o 8086 a filosofia RISC, somente o modo de endereçamento imediato é possí­vel, pois torna o microprocessador uma máquina \textit{Load/Store}. Nenhuma operação memória-memória se adequa a filosofia. Além do conjunto de instruções caracterí­stico, os microprocessadores RISC possuem normalmente uma grande quantidade de registradores, devidamente pela impossibilidade de realizar operações memória-memória, porém o microprocessador a ser desenvolvido, por seguir as caracterí­sticas de um 8086, possuirá somente os mesmos registradores existentes no microprocessador 8086 CISC, em busca de facilitar o desenvolvimento. Além disso, com o foco de que o mesmo código gerado para um microprocessador 8086 CISC possa ser utilizado, respeitando as mesmas instruções, em sua versão RISC.
 
@@ -123,11 +117,9 @@
 		\label{tabelaInstrucoes}%
 \end{table}%
 
-<<<<<<< HEAD
 	Para realizar uma verificação das instruções escolhidas e determinar a sua finalidade, aproveitamos da liberação que a Microsoft realizou nos últimos dias, abrindo o código fonte do sistema MS-DOS para o Museu da História da Computação, o qual foi disponibilizado pela internet \cite{MSDOSLink}. Neste arquivo existem duas versões do MS-DOS. Como base utilizamos a versão 1.1 do MS-DOS, com os arquivos fontes escritos em Asembly. Baseado históricamente, este sistema  era executado em um processador Intel®. Portanto, desenvolveu-se um código na linguagem Python, que encontra-se em anexo, para realizar uma varredura em todos os arquivos .asm para checar a quantidade de instruções semelhantes as que foram definidas como instruções do microprocessador a ser implementado. Com os resultados, obtivemos a figura \ref{FigInstrucoes}.
-=======
+
 	Para realizar uma verificação das instruções escolhidas e determinar a sua finalidade, utilizou-se da liberação que a Microsoft realizou nos últimos dias, que foi, abrir o código fonte do sistema MS-DOS para o Museu da História da Computação, o qual foi disponibilizado pela internet \cite{MSDOSLink}, neste arquivo que pode ser feito realizado o download livremente, existem duas versões do MS-DOS, como base utilizamos a versão 1.1 do MS-DOS, com os arquivos fontes escritos em Asembly. Baseado históricamente, este sistema  era executado em um processador Intel®. Portanto, desenvolveu-se um código na linguagem Python, que encontra-se em anexo, para realizar uma varredura em todos os arquivos .asm para checar a quantidade de instruções semelhantes as que foram definidas como instruções do microprocessador a ser implementado, com os resultados, se tem a Figura \ref{FigInstrucoes}.
->>>>>>> 112ec0c236781d61b6269aa294dbe38dbed68a9f
 
 	\begin{figure}[ht] \centering
 		\includegraphics[scale=0.8]{instrucoesMSDOS.png}
@@ -135,11 +127,9 @@
 		\label{FigInstrucoes}
 	\end{figure}
 
-<<<<<<< HEAD
 	Assim como em um projeto de pesquisa da IBM identificou que a maioria das instruções eram usadas com pouca freqüência. Cerca de 20\% delas eram usadas 80\% das vezes. Os próprios desenvolvedores de sistemas operacionais habituaram-se a determinados subconjuntos de instruções, tendendo a ignorar as demais, principalmente as mais complexas\cite{riscArtigo}. No gráfico podemos ver claramente a alta utilização de instruções MOV, independente do seu tipo de endereçamento, o torna a instrução mais importante do código.
-=======
+
 	Assim como em um projeto de pesquisa da IBM identificou que a maioria das instruções eram usadas com pouca freqüência. Cerca de 20\% delas eram usadas 80\% das vezes. Os próprios desenvolvedores de sistemas operacionais habituaram-se a determinados subconjuntos de instruções, tendendo a ignorar as demais, principalmente as mais complexas \cite{ArtigoRisc}, no gráfico se vê claramente a alta utilização de instruções MOV, independente do seu tipo de endereçamento, o que a torna essencial ao processador aqui desenvolvido.
->>>>>>> 112ec0c236781d61b6269aa294dbe38dbed68a9f
 
 \subsection{Definição do Tamanho das Instruções}
 	Na arquitetura CISC há instruções de diversos tamanhos. Um exemplo é o iAPX8086, que contém instruções que variam de 1 até 6 bytes. Desta forma, cada uma destas instruções requer uma quantidade diferente de ciclos de máquina para serem executadas.
@@ -197,7 +187,7 @@
 	\label{tabelaRegPropGeral}%
 \end{table}%
 	
-Temos na Figura \ref{figRegPropositoGeralTB} o resultado produzido pela execução do \textit{testbench}, que também se encontra em anexos.
+	Temos na Figura \ref{figRegPropositoGeralTB} o resultado produzido pela execução do \textit{testbench}, podemos verificar que o dado passado no barramento de entrada de dados, denominado \textit{entradaDados\_tb}, é salvo dentro do registrador AX ou DX, dependendo do sinal do seletor. Além de verificar o funcionamento dos sinais de  habilitação e de leitura e escrita, onde o "0" determina a escrita e "1" determina a leitura, sendo que o funcionamento é controlado pelos sinais de relógio e \textit{reset}. Além do barramento de entrada de dados podemos verificar o funcionamento do barramento de saída quando o sinal de leitura está em "0".
 	
 	\begin{figure}[ht] \centering
 		\includegraphics[scale=0.5]{printsImplementacaoVHDL/regPropositoGeralTB.png}
@@ -206,11 +196,7 @@ Temos na Figura \ref{figRegPropositoGeralTB} o resultado produzido pela execução
 	\end{figure}
 	
 \subsection{Registro de Segmento}
-<<<<<<< HEAD
 	Com funcionamento semelhante do Registro de Propósito Geral, possui o objetivo de implementar os registradores que possuem o funcionamento de manipulação de memória que são, CS, ES, DS, SS, além do contador de índice IP. Diferentemente do Registro de Popósito Geral, o registro de Segmento possui uma linha de entrada denominada incrementa\_IP, tal linha foi implementada a fim de facilitar o comando de incremento de IP para se caminhar continuamente na memória, sendo que o registro possui acesso direto ao registrador IP, em vez de se desenvolver uma estrutura própria para este cálculo. Tal registro também possui seu devido barramento de controle de 3 bits, que está descrito na tabela \ref{tabelaRegSeg}, porém como descrito anteriormente este barramento será fixado em "001" para que somente seja utilizado o segmento de código para o funcionamento deste microprocessador.
-=======
-	Com funcionamento semelhante do Registro de Propósito Geral, possui o objetivo de encaplusar os registradores que possuem o funcionamento de manipulação de memória que são, CS, ES, DS, SS, além do contador de índice IP. Diferentemente, do Registro de Popósito Geral, o registro de Segmento, possui uma linha de entrada denominada incrementa\_IP, tal linha foi implementada a fim de facilitar o comando de incremento de IP para se caminhar continuamente na memória, sendo que o registro possui acesso direto ao registrador IP, em vez de se desenvolver uma estrutura própria para este cálculo. Tal registro também possui seu devido barramento de controle de 3 bits, que está descrito na Tabela \ref{tabelaRegSeg}, porém como descrito anteriormente este barramento será fixado em "001" para que somente seja utilizado o segmento de código para o funcionamento deste microprocessador.
->>>>>>> 112ec0c236781d61b6269aa294dbe38dbed68a9f
 	
 \begin{table}[htbp]
   \centering
@@ -235,7 +221,7 @@ Temos na Figura \ref{figRegPropositoGeralTB} o resultado produzido pela execução
   \label{tabelaRegSeg}%
 \end{table}%
 
-	Temos na Figura \ref{figRegSegmentoTB} o resultado produzido pela execução do \textit{testbench}, que também se encontra em anexos.
+	Temos na Figura \ref{figRegSegmentoTB} o resultado produzido pela execução do \textit{testbench}, semelhante ao registro de Propósito Geral, podemos verificar que o dado passado no barramento de entrada de dados, denominado \textit{entradaDados\_tb}, é salvo dentro dos registradore ES,CS,SS,DS ou IP dependendo do sinal do seletor. Além de verificar o funcionamento dos sinais de  habilitação e de leitura e escrita, onde o "0" determina a escrita e "1" determina a leitura, sendo que o funcionamento é controlado pelos sinais de relógio e \textit{reset}. Além do barramento de entrada de dados podemos verificar o funcionamento do barramento de saída quando o sinal de leitura está em "0". E diferentemente do Registro de Propósito Geral, este registro possui um sinal de incrementa\_IP o qual podemos verificar seu funcionamento quando está em nível alto, incrementando em 1 o valor do registro de índice.
 	
 	\begin{figure}[ht] \centering
 		\includegraphics[scale=0.7]{printsImplementacaoVHDL/regSegmentoTB.png}
@@ -248,7 +234,7 @@ Temos na Figura \ref{figRegPropositoGeralTB} o resultado produzido pela execução
 	Foi desenvolvido uma calculadora de endereço para realizar o cálculo do endereço relativo para o endereço físico, por exemplo, temos o seguinte endereço lógico CS:IP, sendo CS com 1200h e IP com 3450h, então, a calculado tem o papel de converter este endereço lógico, realizando a seguinte operação: 12000h + 3405h = 15405h, um endereço físico de 16 bits que é colocado no barramento de endereço do microprocessador, a fim de apontar um endereço na memória. Assim foi desenvolvido um componente simples, com duas entradas de 16 bits e uma saída de 20 bits, temos na Figura \ref{figCalcEndTB} a execução do exemplo dado logo a cima.	 
 
 	\begin{figure}[ht] \centering
-		\includegraphics[scale=0.5]{printsImplementacaoVHDL/calcEndTB.png}
+		\includegraphics[scale=0.6]{printsImplementacaoVHDL/calcEndTB.png}
 		\caption{Resultado do \textit{testbench} aplicado a Calculadora de Endereço}
 		\label{figCalcEndTB}
 	\end{figure}
@@ -299,7 +285,7 @@ Temos na Figura \ref{figRegPropositoGeralTB} o resultado produzido pela execução
 	Na Figura \ref{saidaMemoriaROM} abaixo tem-se a simulação da funcionalidade desta estrutura:
 	
 	\begin{figure}[ht] \centering
-		\includegraphics[scale=0.3]{printsImplementacaoVHDL/print_memoria_rom.jpg}
+		\includegraphics[scale=0.35]{printsImplementacaoVHDL/print_memoria_rom.jpg}
 		\caption{Saída Memória ROM}
 		\label{saidaMemoriaROM}
 	\end{figure}
@@ -309,7 +295,7 @@ Temos na Figura \ref{figRegPropositoGeralTB} o resultado produzido pela execução
 
 	
 	\begin{figure}[ht] \centering
-		\includegraphics[scale=0.5]{printsImplementacaoVHDL/unidadeControleEndTB.png}
+		\includegraphics[scale=0.35]{printsImplementacaoVHDL/unidadeControleEndTB.png}
 		\caption{Resultado do \textit{testbench} aplicado a Unidade de Controle de Endereços}
 		\label{figUCETB}
 	\end{figure}
@@ -319,7 +305,7 @@ Temos na Figura \ref{figRegPropositoGeralTB} o resultado produzido pela execução
 	A validação da funcionalidade da estrutura através de um \textit{testbench} é apresentada na Figura \ref{saidaAuxiliarFlag} a seguir:
 	
 	\begin{figure}[ht] \centering
-		\includegraphics[scale=0.3]{printsImplementacaoVHDL/print_detector_auxiliar_flag.jpg}
+		\includegraphics[scale=0.35]{printsImplementacaoVHDL/print_detector_auxiliar_flag.jpg}
 		\caption{Saída Estrutura Detector Auxiliar Flag}
 		\label{saidaAuxiliarFlag}
 	\end{figure}
@@ -329,7 +315,7 @@ Temos na Figura \ref{figRegPropositoGeralTB} o resultado produzido pela execução
 	Na Figura \ref{saidaFlagParidade} a seguir, tem-se a validação da funcionalidade da estrutura:
 	
 	\begin{figure}[ht] \centering
-		\includegraphics[scale=0.3]{printsImplementacaoVHDL/print_detector_paridade.jpg}
+		\includegraphics[scale=0.35]{printsImplementacaoVHDL/print_detector_paridade.jpg}
 		\caption{Saída Estrutura Detector Flag de Paridade}
 		\label{saidaFlagParidade}
 	\end{figure}
@@ -339,21 +325,16 @@ Temos na Figura \ref{figRegPropositoGeralTB} o resultado produzido pela execução
 	Na Figura \ref{saidaZeroParidade} a seguir se tem a validação da funcionalidade da estrutura:
 	
 	\begin{figure}[ht] \centering
-		\includegraphics[scale=0.3]{printsImplementacaoVHDL/print_detector_zero_flag.jpg}
+		\includegraphics[scale=0.35]{printsImplementacaoVHDL/print_detector_zero_flag.jpg}
 		\caption{Saída Estrutura Detector Zero Flag}
 		\label{saidaZeroParidade}
 	\end{figure}
 
 	
 \subsection{Unidade de Controle}
-<<<<<<< HEAD
 	A Unidade de Controle é uma das principais estruturas do microprocessador. Ela é responsável por 3 funções básicas: busca (fetch), decodificação e execução. Além disso, gera todos os sinais que controlam as unidades \textit{escravas} à ela. A \textit{Unidade de Controle de Endereços} é uma máquina de estados escrava à unidade de controle, portanto há um sinal de habilitação que conecta essas duas unidades que é enviado pela Unidade de Controle, tornando-a uma máquina de estados \textit{master}. Podemos verificar o diagrama de estados implementado na Unidade de Controle, na figura \ref{diagramaUC}.
 
 \begin{landscape}	
-=======
-	A Unidade de Controle é uma das principais estruturas do microprocessador. Ela é responsável por 3 funções básicas: busca (fetch), decodificação e execução. Além disso, gera todos os sinais que controlam as unidades \textit{escravas} à ela. A \textit{Unidade de Controle de Endereços} é uma máquina de estados escrava à unidade de controle, portanto há um sinal de habilitação que conecta essas duas unidades que é enviado pela Unidade de Controle, tornando-a uma máquina de estados \textit{master}. Podemos verificar o diagrama de estados implementado na Unidade de Controle, na Figura \ref{diagramaUC}.
-	
->>>>>>> 112ec0c236781d61b6269aa294dbe38dbed68a9f
 	\begin{figure}[ht] \centering
 		\includegraphics[scale=0.4]{diagrama_estados_unidade_controle.jpg}
 		\caption{Diagrama de Estados da Unidade de Controle}

@@ -55,33 +55,33 @@
 \contentsline {subsection}{\numberline {4.2.1}Conjunto de Instru\c c\~oes CISC}{53}
 \contentsline {subsection}{\numberline {4.2.2}Conjunto de Instru\c c\~oes RISC}{54}
 \contentsline {subsection}{\numberline {4.2.3}Instru\c c\~oes Escolhidas}{55}
-\contentsline {subsection}{\numberline {4.2.4}Defini\c c\~ao do Tamanho das Instru\c c\~oes}{58}
-\contentsline {section}{\numberline {4.3}Implementa\c c\~ao em VHDL}{59}
+\contentsline {subsection}{\numberline {4.2.4}Defini\c c\~ao do Tamanho das Instru\c c\~oes}{59}
+\contentsline {section}{\numberline {4.3}Implementa\c c\~ao em VHDL}{60}
 \contentsline {subsection}{\numberline {4.3.1}Registro de Prop\'osito Geral}{60}
-\contentsline {subsection}{\numberline {4.3.2}Registro de Segmento}{61}
-\contentsline {subsection}{\numberline {4.3.3}Calculadora de Endere\c co}{61}
-\contentsline {subsection}{\numberline {4.3.4}Demultiplexador}{62}
-\contentsline {subsection}{\numberline {4.3.5}Multiplexador}{63}
-\contentsline {subsection}{\numberline {4.3.6}Registro de Flags}{63}
-\contentsline {subsection}{\numberline {4.3.7}Unidade de Controle de Endere\c cos}{64}
-\contentsline {subsubsection}{\numberline {4.3.7.1}Diagrama de Estados}{64}
-\contentsline {subsection}{\numberline {4.3.8}Mem\'oria ROM}{65}
-\contentsline {subsection}{\numberline {4.3.9}Unidade Aritm\'etica e L\'ogica - ULA}{65}
-\contentsline {subsubsection}{\numberline {4.3.9.1}Detector do Flag Auxiliar}{65}
-\contentsline {subsubsection}{\numberline {4.3.9.2}Detector do Flag de Paridade}{66}
-\contentsline {subsubsection}{\numberline {4.3.9.3}Detector do Zero Flag}{66}
-\contentsline {subsection}{\numberline {4.3.10}Unidade de Controle}{67}
-\contentsline {chapter}{\numberline {5}Resultados}{69}
-\contentsline {section}{\numberline {5.1}ADD Reg16,Imed16}{69}
-\contentsline {section}{\numberline {5.2}OR Reg16,Imed16}{78}
-\contentsline {section}{\numberline {5.3}ADC Reg16,Imed16}{80}
-\contentsline {section}{\numberline {5.4}SBB Reg16,Imed16}{82}
-\contentsline {section}{\numberline {5.5}AND Reg16,Imed16}{84}
-\contentsline {section}{\numberline {5.6}SUB Reg16,Imed16}{86}
-\contentsline {section}{\numberline {5.7}XOR Reg16,Imed16}{88}
-\contentsline {section}{\numberline {5.8}CMP Reg16,Imed16}{90}
-\contentsline {section}{\numberline {5.9}MOV Reg16,Imed16}{92}
-\contentsline {chapter}{\numberline {6}Considera\c c\~oes Finais}{94}
-\contentsline {chapter}{\numberline {7}Trabalhos Futuros}{95}
-\contentsline {chapter}{Refer\^encias}{96}
-\contentsline {chapter}{\numberline {8}Anexo - C\'odigos}{98}
+\contentsline {subsection}{\numberline {4.3.2}Registro de Segmento}{62}
+\contentsline {subsection}{\numberline {4.3.3}Calculadora de Endere\c co}{63}
+\contentsline {subsection}{\numberline {4.3.4}Demultiplexador}{64}
+\contentsline {subsection}{\numberline {4.3.5}Multiplexador}{64}
+\contentsline {subsection}{\numberline {4.3.6}Registro de Flags}{64}
+\contentsline {subsection}{\numberline {4.3.7}Unidade de Controle de Endere\c cos}{65}
+\contentsline {subsubsection}{\numberline {4.3.7.1}Diagrama de Estados}{65}
+\contentsline {subsection}{\numberline {4.3.8}Mem\'oria ROM}{66}
+\contentsline {subsection}{\numberline {4.3.9}Unidade Aritm\'etica e L\'ogica - ULA}{67}
+\contentsline {subsubsection}{\numberline {4.3.9.1}Detector do Flag Auxiliar}{67}
+\contentsline {subsubsection}{\numberline {4.3.9.2}Detector do Flag de Paridade}{67}
+\contentsline {subsubsection}{\numberline {4.3.9.3}Detector do Zero Flag}{68}
+\contentsline {subsection}{\numberline {4.3.10}Unidade de Controle}{68}
+\contentsline {chapter}{\numberline {5}Resultados}{70}
+\contentsline {section}{\numberline {5.1}ADD Reg16,Imed16}{70}
+\contentsline {section}{\numberline {5.2}OR Reg16,Imed16}{79}
+\contentsline {section}{\numberline {5.3}ADC Reg16,Imed16}{81}
+\contentsline {section}{\numberline {5.4}SBB Reg16,Imed16}{83}
+\contentsline {section}{\numberline {5.5}AND Reg16,Imed16}{85}
+\contentsline {section}{\numberline {5.6}SUB Reg16,Imed16}{87}
+\contentsline {section}{\numberline {5.7}XOR Reg16,Imed16}{89}
+\contentsline {section}{\numberline {5.8}CMP Reg16,Imed16}{91}
+\contentsline {section}{\numberline {5.9}MOV Reg16,Imed16}{93}
+\contentsline {chapter}{\numberline {6}Considera\c c\~oes Finais}{95}
+\contentsline {chapter}{\numberline {7}Trabalhos Futuros}{96}
+\contentsline {chapter}{Refer\^encias}{97}
+\contentsline {chapter}{\numberline {8}Anexo - C\'odigos}{99}
